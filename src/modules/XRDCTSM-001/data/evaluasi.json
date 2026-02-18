@@ -4,34 +4,334 @@
     "questions": [
       {
         "id": 1,
-        "question": "Tujuan utama penerapan K3 di bengkel sepeda motor adalah…",
+        "question": "Keselamatan dan Kesehatan Kerja (K3) bertujuan untuk …",
         "options": [
-          "Mempercepat kerusakan peralatan",
-          "Melindungi pekerja, peralatan, dan lingkungan dari risiko kerja",
-          "Meningkatkan jumlah kecelakaan kerja",
-          "Mengabaikan prosedur darurat"
+          "Meningkatkan keuntungan perusahaan",
+          "Mengurangi waktu kerja",
+          "Melindungi pekerja dari kecelakaan dan penyakit akibat kerja",
+          "Mengurangi jumlah pekerja"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 2,
+        "question": "Undang-Undang yang mengatur tentang Keselamatan Kerja adalah …",
+        "options": [
+          "UU No. 13 Tahun 2003",
+          "UU No. 1 Tahun 1970",
+          "UU No. 22 Tahun 2009",
+          "UU No. 20 Tahun 2003"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 3,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
         ],
         "correctAnswer": 1
       },
       {
-        "id": 2,
-        "question": "Contoh bahaya mekanis di bengkel adalah…",
+        "id": 4,
+        "question": "",
         "options": [
-          "Kebisingan dari mesin",
-          "Permukaan kerja licin",
-          "Bagian mesin berputar terbuka",
-          "Paparan asap knalpot"
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 9,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 12,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 14,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 16,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 17,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 18,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 21,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 23,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 24,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 25,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 26,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 29,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
         ],
         "correctAnswer": 2
       }
-    ]
-  },
-  "praktek": {
-    "tasks": [
+      ,
       {
-        "id": 1,
-        "question": "Temukan dan klik area kerja yang tidak aman pada layout bengkel 3D (mis. oli tumpah, alat berserakan).",
-        "targetMeshName": "unsafe_area_1"
+        "id": 30,
+        "question": "",
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAnswer": 3
       }
     ]
   }

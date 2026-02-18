@@ -3,37 +3,138 @@
   "items": [
     {
       "id": "apd-helm",
-      "name": "Helm kerja/ safety helmet",
+      "name": "Helm Kerja",
       "description": "Melindungi kepala dari benturan, benda jatuh, atau risiko lain di area bengkel.",
-      "image": "/images/global/default.svg",
+      "function": "Melindungi kepala dari benturan dan benda jatuh; memastikan keselamatan di area kerja berisiko.",
+      "image": "/images/XRDCTSM-001/STUDSON_FB_C_HI-VisYellow-quarter.webp",
       "modelType": "box"
     },
     {
       "id": "apd-kacamata",
-      "name": "Kacamata pelindung",
-      "description": "Melindungi mata dari serpihan logam, debu, dan percikan cairan.",
-      "image": "/images/global/default.svg",
+      "name": "Kacamata Pelindung",
+      "description": "Kacamata pelindung adalah alat pelindung diri yang digunakan untuk melindungi mata dari debu, percikan, asap, dan partikel berbahaya saat bekerja di bengkel.",
+      "function": "Melindungi mata dari debu, percikan, dan partikel berbahaya saat proses kerja.",
+      "image": "/images/XRDCTSM-001/Kaca mata pelindung.webp",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-alat-penutup-telinga",
+      "name": "Alat Penutup Telinga",
+      "description": "Melindungi pendengaran dari kebisingan tinggi di bengkel; gunakan earplug atau earmuff sesuai tingkat kebisingan.",
+      "function": "Mereduksi kebisingan tinggi agar tidak merusak pendengaran saat bekerja.",
+      "image": "/images/XRDCTSM-001/Earmuff.png",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-masker",
+      "name": "Masker Kerja",
+      "description": "Melindungi saluran pernapasan dari debu, asap, uap pelarut, dan partikel halus saat bekerja di bengkel.",
+      "function": "Menyaring debu, asap, dan uap kimia ringan agar tidak terhirup.",
+      "image": "/images/XRDCTSM-001/Safety_Mask.jpg",
       "modelType": "box"
     },
     {
       "id": "apd-sarung-tangan",
-      "name": "Sarung tangan kerja",
-      "description": "Melindungi tangan dari panas, bahan kimia ringan, dan permukaan tajam.",
-      "image": "/images/global/default.svg",
+      "name": "Sarung Tangan",
+      "description": "Melindungi tangan dari goresan, potongan, panas, dan kontak bahan kimia; pilih jenis sarung tangan sesuai pekerjaan.",
+      "function": "Melindungi tangan dari tepi tajam dan paparan bahan kimia ringan.",
+      "image": "/images/XRDCTSM-001/Work_Gloves.webp",
       "modelType": "box"
     },
     {
-      "id": "apd-sepatu",
-      "name": "Sepatu safety",
-      "description": "Melindungi kaki dari kejatuhan benda berat, tumpahan oli, dan lantai licin.",
-      "image": "/images/global/default.svg",
+      "id": "apd-sepatu-kerja",
+      "name": "Sepatu Kerja",
+      "description": "Sepatu keselamatan dengan toe-cap dan sol anti selip untuk melindungi kaki dari benda jatuh, tusukan, dan permukaan licin.",
+      "function": "Mencegah cedera kaki dari benda tajam, licin, jatuh, dan percikan panas.",
+      "image": "/images/XRDCTSM-001/safety-boots.jpg",
       "modelType": "box"
     },
     {
-      "id": "apd-earplug",
-      "name": "Earplug/Earmuff",
-      "description": "Mengurangi paparan kebisingan saat bekerja dengan mesin bising dalam waktu lama.",
-      "image": "/images/global/default.svg",
+      "id": "apd-krim-pelindung-kulit",
+      "name": "Krim Pelindung Kulit",
+      "description": "Krim barrier untuk mengurangi iritasi kulit akibat oli, pelarut, dan kotoran; tidak menggantikan sarung tangan.",
+      "function": "Mengurangi iritasi kulit akibat kotoran dan paparan bahan kimia ringan.",
+      "image": "/images/XRDCTSM-001/hand_cream.webp",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-wearpack",
+      "name": "Wearpack",
+      "description": "Pakaian kerja tertutup yang tahan sobek dan percikan ringan untuk melindungi tubuh saat aktivitas bengkel.",
+      "function": "Melindungi tubuh dari percikan, tepi tajam, dan kontak bahan kimia ringan.",
+      "image": "/images/XRDCTSM-001/wearpack.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-pelindung-kepala",
+      "name": "Simbol Pelindung Kepala",
+      "description": "Tanda kewajiban memakai pelindung kepala di area tertentu demi keselamatan.",
+      "function": "Memberi instruksi visual agar pekerja memakai pelindung kepala di area tertentu.",
+      "image": "/images/XRDCTSM-001/head-safety-protection-sign.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-pelindung-mata",
+      "name": "Simbol Pelindung Mata",
+      "description": "Tanda kewajiban memakai pelindung mata sesuai bahaya partikel atau percikan.",
+      "function": "Memberi instruksi visual agar pekerja memakai pelindung mata sesuai risiko.",
+      "image": "/images/XRDCTSM-001/rambu-pelindung-mata.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-pelindung-telinga",
+      "name": "Simbol Pelindung Telinga",
+      "description": "Tanda kewajiban memakai pelindung telinga pada area dengan kebisingan tinggi.",
+      "function": "Memberi instruksi visual agar pekerja memakai pelindung telinga saat kebisingan tinggi.",
+      "image": "/images/XRDCTSM-001/rambu-pelindung-telinga.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-pelindung-pernapasan",
+      "name": "Simbol Pelindung Pernapasan",
+      "description": "Tanda kewajiban memakai pelindung pernapasan saat ada debu, asap, atau uap berbahaya.",
+      "function": "Memberi instruksi visual agar pekerja memakai pelindung pernapasan sesuai bahaya.",
+      "image": "/images/XRDCTSM-001/rambu-pelindung-pernapasan.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-pelindung-tangan",
+      "name": "Simbol Pelindung Tangan",
+      "description": "Tanda kewajiban memakai pelindung tangan saat menangani material tajam atau bahan kimia.",
+      "function": "Memberi instruksi visual agar pekerja memakai pelindung tangan sesuai pekerjaan.",
+      "image": "/images/XRDCTSM-001/rambu-pelindung-tangan.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-pelindung-kaki",
+      "name": "Simbol Pelindung Kaki",
+      "description": "Tanda kewajiban memakai pelindung kaki di area dengan risiko tusukan atau kejatuhan benda.",
+      "function": "Memberi instruksi visual agar pekerja memakai pelindung kaki di area risiko.",
+      "image": "/images/XRDCTSM-001/rambu-pelindung-kaki.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-simbol-waspada-terhadap-bahaya",
+      "name": "Simbol Simbol Waspada Terhadap Bahaya",
+      "description": "Simbol peringatan bahaya untuk meningkatkan kewaspadaan terhadap risiko di area kerja.",
+      "function": "Memberi peringatan visual terhadap bahaya agar pekerja meningkatkan kewaspadaan.",
+      "image": "/images/XRDCTSM-001/rambu-waspada.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-simbol-larangan",
+      "name": "Simbol Simbol Larangan",
+      "description": "Simbol larangan terhadap tindakan berbahaya atau tidak diperbolehkan demi keselamatan.",
+      "function": "Memberi larangan visual terhadap tindakan yang berisiko atau tidak diperbolehkan.",
+      "image": "/images/XRDCTSM-001/rambu-rambu-larangan.png",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-simbol-simbol-petunjuk-p3k",
+      "name": "Simbol Simbol Petunjuk P3K",
+      "description": "Simbol petunjuk lokasi fasilitas P3K dan prosedur penanganan darurat.",
+      "function": "Memberi petunjuk visual lokasi dan prosedur P3K untuk penanganan darurat.",
+      "image": "/images/XRDCTSM-001/simbol-simbol-petunjuk-p3k.png",
       "modelType": "box"
     }
   ]

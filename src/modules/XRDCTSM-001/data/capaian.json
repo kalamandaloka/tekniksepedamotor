@@ -1,14 +1,22 @@
 {
   "title": "K3 Bengkel Sepeda Motor",
-  "description": "Modul ini membahas prinsip keselamatan dan kesehatan kerja di bengkel sepeda motor: identifikasi bahaya, APD, prosedur kerja aman, penanganan bahan berbahaya, dan penataan area kerja.",
+  "description": "Modul K3 Bengkel Sepeda Motor membahas penerapan prinsip keselamatan dan kesehatan kerja (K3) di lingkungan bengkel sepeda motor sesuai Capaian Pembelajaran SMK Program Keahlian Teknik Otomotif Fase E dan SKKNI Sektor Otomotif Sub Sektor Sepeda Motor. Materi meliputi identifikasi potensi bahaya kerja, analisis risiko, penggunaan alat pelindung diri (APD), penerapan prosedur kerja aman, penanganan bahan berbahaya dan limbah bengkel, serta penataan area kerja berdasarkan prinsip 5R (Ringkas, Rapi, Resik, Rawat, Rajin) untuk menciptakan lingkungan kerja yang aman dan sesuai standar industri.",
   "skkni": [
-    "Unit K3 bengkel sepeda motor (isi sesuai skema yang digunakan sekolah)."
+    "Unit Kompetensi: Menerapkan Prosedur Keselamatan dan Kesehatan Kerja (K3) di Bengkel Sepeda Motor.",
+    "Elemen Kompetensi: Mengidentifikasi potensi bahaya di tempat kerja.",
+    "Elemen Kompetensi: Menerapkan prosedur keselamatan dan kesehatan kerja sesuai SOP.",
+    "Elemen Kompetensi: Menggunakan alat pelindung diri (APD) sesuai standar kerja.",
+    "Elemen Kompetensi: Menangani bahan berbahaya dan limbah bengkel sesuai prosedur keselamatan."
   ],
   "kurikulum": [
-    "CP-K3: Menerapkan prosedur K3 di lingkungan kerja bengkel otomotif."
+    "Capaian Pembelajaran Fase E (Program Keahlian Teknik Otomotif): Peserta didik mampu menerapkan prosedur keselamatan dan kesehatan kerja (K3), serta menggunakan peralatan dan bahan sesuai standar kerja bengkel otomotif."
   ],
   "tujuan": [
-    "Mampu mengidentifikasi potensi bahaya di bengkel sepeda motor.",
-    "Mampu menerapkan prosedur K3, penggunaan APD, dan penataan bengkel yang aman."
+    "Mengidentifikasi potensi bahaya kerja di bengkel sepeda motor berdasarkan jenis pekerjaan servis dan perawatan.",
+    "Menganalisis risiko kerja yang dapat menimbulkan kecelakaan atau gangguan kesehatan.",
+    "Menerapkan prosedur keselamatan dan kesehatan kerja sesuai standar operasional bengkel otomotif.",
+    "Menggunakan alat pelindung diri (APD) secara tepat sesuai jenis pekerjaan.",
+    "Menata area kerja bengkel sesuai prinsip 5R untuk menciptakan lingkungan kerja yang aman dan efisien.",
+    "Menangani bahan berbahaya dan limbah bengkel sesuai prosedur keselamatan kerja."
   ]
 }

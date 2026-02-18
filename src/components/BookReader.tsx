@@ -76,6 +76,29 @@ const BookReader = ({ title, pages, references }: BookReaderProps) => {
   const [currentPage, setCurrentPage] = useState(0);
   const [dimensions, setDimensions] = useState({ width: 500, height: 650 });
   const [inputPage, setInputPage] = useState("1");
+  const joinContent = (page: any) => {
+    const parts = [
+      page.contentL1,
+      page.contentL2,
+      page.contentL3,
+      page.contentL4,
+      page.contentL5,
+      page.contentL6,
+      page.contentL7,
+      page.contentL8,
+      page.contentL9,
+    ].filter(Boolean);
+    if (Array.isArray(page.subSections)) {
+      for (const sub of page.subSections) {
+        if (sub.content2) parts.push(sub.content2);
+        if (Array.isArray(sub.content2Parts)) {
+          for (const p of sub.content2Parts) parts.push(p);
+        }
+      }
+    }
+    if (parts.length > 0) return parts.join("\n\n");
+    return page.content || "";
+  };
 
   // Calculate total pages: Cover + Empty + TOC + Content Pages + (References) + Back Cover
   const totalPageCount = 1 + 1 + 1 + pages.length + (references && references.length > 0 ? 1 : 0) + 1;
@@ -153,7 +176,7 @@ const BookReader = ({ title, pages, references }: BookReaderProps) => {
     </Page>,
     ...pages.map((page, index) => (
       <Page key={`page-${index}`} number={index + 1} title={page.title} image={page.image}>
-        {page.content}
+        {joinContent(page)}
       </Page>
     ))
   ];

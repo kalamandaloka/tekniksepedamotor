@@ -1,4 +1,4 @@
-import { Home, BookOpen, Target, Settings, Activity, FileCheck, Image as ImageIcon, Scroll, Book } from 'lucide-react'
+import { Home, BookOpen, Target, Settings, Activity, FileCheck, Image as ImageIcon } from 'lucide-react'
 import { type ModuleData } from '../data/modules'
 import { type ModuleContent } from '../types/ModuleContent'
 import { useState, useEffect } from 'react'
@@ -33,7 +33,7 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
   const [loading, setLoading] = useState(false);
   const [selectedItemIndex, setSelectedItemIndex] = useState<number>(0)
   const [activeSim, setActiveSim] = useState<string | null>(null)
-  const [theoryViewMode, setTheoryViewMode] = useState<'book' | 'scroll'>('book');
+  const [theoryViewMode] = useState<'book' | 'scroll'>('scroll');
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -215,25 +215,6 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
             </nav>
 
             <div className="flex items-center gap-2">
-                {activeTab === 'teori' && (
-                    <div className="hidden md:flex bg-nalar-dark/50 backdrop-blur-sm p-1 rounded-lg border border-white/10">
-                        <button
-                            onClick={() => setTheoryViewMode('book')}
-                            className={`p-2 rounded-md transition-all ${theoryViewMode === 'book' ? 'bg-nalar-accent text-nalar-dark shadow-sm' : 'text-gray-400 hover:text-white'}`}
-                            title="Tampilan Buku"
-                        >
-                            <Book size={18} />
-                        </button>
-                        <button
-                            onClick={() => setTheoryViewMode('scroll')}
-                            className={`p-2 rounded-md transition-all ${theoryViewMode === 'scroll' ? 'bg-nalar-accent text-nalar-dark shadow-sm' : 'text-gray-400 hover:text-white'}`}
-                            title="Tampilan Scroll"
-                        >
-                            <Scroll size={18} />
-                        </button>
-                    </div>
-                )}
-
                 <button 
                     onClick={onHomeClick}
                     className="hidden md:block p-2 text-white hover:bg-white/10 rounded-full transition-colors"
@@ -378,7 +359,20 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                             if (activeTab === 'system') {
                     return activeSim ? (
                         <div className="w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/20 backdrop-blur-sm relative animate-fade-in">
-                            <SystemSim key={activeSim} simId={activeSim} />
+                            {(() => {
+                                const sim = content?.system?.simulations?.find((s: any) => s.id === activeSim);
+                                return (
+                                    <SystemSim 
+                                        key={activeSim} 
+                                        simId={activeSim} 
+                                        simTitle={sim?.title} 
+                                        simDescription={sim?.description}
+                                        panelTitle={sim?.panelTitle}
+                                        status={sim?.status}
+                                        simConditions={sim?.conditions}
+                                    />
+                                );
+                            })()}
                         </div>
                     ) : (
                                     <div className="w-full h-full flex items-center justify-center text-gray-400 flex-col gap-4 bg-black/20 backdrop-blur-sm rounded-2xl border border-white/10">

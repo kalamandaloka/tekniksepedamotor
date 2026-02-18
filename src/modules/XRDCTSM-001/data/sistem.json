@@ -4,17 +4,114 @@
     {
       "id": "sim-01-identifikasi-bahaya",
       "title": "Identifikasi Bahaya di Bengkel",
-      "description": "Siswa mengamati layout bengkel virtual dan mengidentifikasi posisi bahaya (oli tumpah, kabel terkelupas, alat berserakan, dll)."
+      "description": "Siswa mengamati layout bengkel virtual dan mengidentifikasi posisi bahaya (oli tumpah, kabel terkelupas, alat berserakan, dll).",
+      "image": "/images/XRDCTSM-001/identifikasi-bahaya-di-bengkel.png",
+      "panelTitle": "Informasi Simulasi",
+      "status": "Normal",
+      "conditions": [
+        {
+          "id": 1,
+          "status": "Normal",
+          "description": "Lingkungan bengkel dalam kondisi sesuai standar K3. APD digunakan dengan benar, alat tertata rapi, tidak terdapat tumpahan oli di lantai, serta ventilasi dan pencahayaan dalam kondisi memadai.",
+          "image": "/images/XRDCTSM-001/identifikasi-bahaya-di-bengkel-normal.png"
+        },
+        {
+          "id": 2,
+          "status": "Waspada",
+          "description": "Terdapat beberapa pelanggaran prosedur K3. APD tidak digunakan secara lengkap, kabel berserakan di area kerja, lantai dalam kondisi licin, serta tingkat kebisingan meningkat yang berpotensi menimbulkan risiko kecelakaan.",
+          "image": "/images/XRDCTSM-001/identifikasi-bahaya-di-bengkel-waspada.png"
+        },
+        {
+          "id": 3,
+          "status": "Darurat",
+          "description": "Lingkungan kerja dalam kondisi tidak aman dan berisiko tinggi terhadap kecelakaan. Mesin beroperasi tanpa pelindung, pekerja tidak menggunakan APD, terdapat tumpahan bahan bakar, serta area kerja dalam keadaan semrawut.",
+          "image": "/images/XRDCTSM-001/identifikasi-bahaya-di-bengkel-bahaya.png"
+        }
+      ]
     },
     {
-      "id": "sim-02-pilih-apd",
-      "title": "Memilih APD Sesuai Pekerjaan",
-      "description": "Siswa memilih kombinasi APD yang tepat untuk beberapa skenario kerja (bongkar mesin, pengelasan, penggunaan chemical cleaner)."
+      "id": "sim-02-analisis-risiko",
+      "title": "Analisis Risiko",
+      "description": "Simulasi ini melatih peserta didik untuk menganalisis tingkat risiko di lingkungan bengkel berdasarkan kemungkinan terjadinya kecelakaan dan tingkat keparahan dampaknya.",
+      "image": "/images/XRDCTSM-001/analisis-risiko.png",
+      "panelTitle": "Informasi Simulasi",
+      "status": "Normal",
+      "conditions": [
+        {
+          "id": 1,
+          "status": "Normal",
+          "description": "Lingkungan bengkel dalam keadaan aman dan sesuai standar K3. Tidak ditemukan potensi bahaya signifikan.",
+          "image": "/images/XRDCTSM-001/analisis-risiko-normal.png"
+        },
+        {
+          "id": 2,
+          "status": "Waspada",
+          "description": "Terdapat beberapa potensi bahaya seperti APD tidak lengkap atau area kerja kurang tertata yang dapat meningkatkan risiko kecelakaan.",
+          "image": "/images/XRDCTSM-001/analisis-risiko-waspada.png"
+        },
+        {
+          "id": 3,
+          "status": "Darurat",
+          "description": "Lingkungan kerja tidak aman, terdapat pelanggaran serius prosedur K3 yang berpotensi menyebabkan kecelakaan berat dan memerlukan tindakan segera.",
+          "image": "/images/XRDCTSM-001/analisis-risiko-darurat.png"
+        }
+      ]
     },
     {
-      "id": "sim-03-rute-evakuasi",
-      "title": "Rute Evakuasi & Prosedur Darurat",
-      "description": "Simulasi rute evakuasi ketika terjadi kebakaran kecil di bengkel dan prosedur dasar yang harus dilakukan."
+      "id": "sim-03-pengambilan-keputusan-k3",
+      "title": "Pengambilan Keputusan K3",
+      "description": "Simulasi ini melatih peserta didik untuk mengambil keputusan keselamatan kerja berdasarkan hasil analisis risiko yang telah dilakukan.",
+      "image": "/images/XRDCTSM-001/keputusan-k3.webp",
+      "panelTitle": "Informasi Simulasi",
+      "status": "Normal",
+      "conditions": [
+        {
+          "id": 1,
+          "status": "Normal",
+          "description": "Keputusan tepat dan sesuai standar K3 sehingga pekerjaan dapat dilanjutkan dengan aman.",
+          "image": "/images/XRDCTSM-001/keputusan-k3-normal.webp"
+        },
+        {
+          "id": 2,
+          "status": "Waspada",
+          "description": "Keputusan kurang tepat sehingga masih terdapat potensi risiko yang belum terkendali.",
+          "image": "/images/XRDCTSM-001/keputusan-k3-waspada.jpg"
+        },
+        {
+          "id": 3,
+          "status": "Darurat",
+          "description": "Keputusan salah atau tidak diambil sehingga risiko kecelakaan meningkat.",
+          "image": "/images/XRDCTSM-001/keputusan-k3-darurat.png"
+        }
+      ]
+    },
+    {
+      "id": "sim-04-eneranapan-alat-pelindung-diri",
+      "title": "Penerapan Alat Pelindung Diri (APD)",
+      "description": "Simulasi ini melatih peserta didik untuk menentukan tindakan pengendalian terhadap bahaya yang telah dianalisis tingkat risikonya.",
+      "image": "/images/XRDCTSM-001/pengambilan-risiko-k3.png",
+      "panelTitle": "Informasi Simulasi",
+      "status": "Normal",
+      "conditions": [
+        {
+          "id": 1,
+          "status": "Normal",
+          "description": "APD digunakan lengkap dan sesuai standar. Pekerjaan dapat dilakukan dengan aman.",
+          "image": "/images/XRDCTSM-001/pengambilan-keputusan-k3-normal.png"
+        },
+        {
+          "id": 2,
+          "status": "Waspada",
+          "description": "APD digunakan lengkap dan sesuai standar. Pekerjaan dapat dilakukan dengan aman.",
+          "image": "/images/XRDCTSM-001/pengambilan-keputusan-k3-waspada.png"
+        },
+        {
+          "id": 3,
+          "status": "Darurat",
+          "description": "APD tidak digunakan atau salah penggunaan. Risiko kecelakaan sangat tinggi dan pekerjaan harus dihentikan.",
+          "image": "/images/XRDCTSM-001/pengambilan-keputusan-k3-darurat.png"
+        }
+      ]
     }
   ]
 }

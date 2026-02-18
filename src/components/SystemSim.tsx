@@ -1,15 +1,62 @@
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Stage, useGLTF, useAnimations, Instances, Instance, MeshDistortMaterial, Html } from "@react-three/drei";
+import { OrbitControls, Stage, useGLTF, useAnimations, Instances, Instance, Html } from "@react-three/drei";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { Play, Square, Maximize2, Minimize2, Info, X, Activity, Scissors } from "lucide-react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Group, MathUtils, TextureLoader, RepeatWrapping, Vector2, Vector3 } from "three";
+import { Group, Vector2, Vector3 } from "three";
 import * as THREE from "three";
 
 interface Props {
   simId: string;
+  simTitle?: string;
+  simDescription?: string;
+  panelTitle?: string;
+  status?: string;
+  simConditions?: { id: number; description: string; status?: string; image?: string }[];
 }
+
+const CenterImagePlane = ({ imageUrl }: { imageUrl?: string }) => {
+  const { camera } = useThree();
+  const [texture, setTexture] = useState<THREE.Texture | null>(null);
+  const meshRef = useRef<THREE.Mesh>(null);
+  
+  useEffect(() => {
+    let tex: THREE.Texture | null = null;
+    if (imageUrl) {
+      const loader = new THREE.TextureLoader();
+      loader.load(imageUrl, (t) => {
+        t.colorSpace = THREE.SRGBColorSpace;
+        setTexture(t);
+        tex = t;
+      });
+    } else {
+      setTexture(null);
+    }
+    return () => {
+      if (tex) tex.dispose();
+    };
+  }, [imageUrl]);
+  
+  useFrame(() => {
+    if (meshRef.current) {
+      meshRef.current.quaternion.copy(camera.quaternion);
+    }
+  });
+  
+  if (!texture) return null;
+  
+  const image = texture.image as HTMLImageElement | undefined;
+  const aspect = image && image.width && image.height ? image.width / image.height : 16 / 9;
+  const width = 6;
+  const height = width / aspect;
+  
+  return (
+    <mesh ref={meshRef} position={[0, 0.6, 0]} castShadow>
+      <planeGeometry args={[width, height]} />
+      <meshBasicMaterial map={texture} toneMapped={false} />
+    </mesh>
+  );
+};
 
 const animKolamUrl = new URL('../modules/LD-01/system/models/anim_kolam.glb', import.meta.url).href;
 const sawahUrl = new URL('../data/LD-01/models/sawah2.glb', import.meta.url).href;
@@ -72,7 +119,7 @@ const WaterWithFlow = ({ geometry, position, rotation, scale }: { geometry: THRE
   // Clone texture so each instance can have independent offset if needed (though we share here)
   // Actually, we want to animate the texture offset
   
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     if (waterTexture) {
         // Flow from left to right: Animate U (x) coordinate
         waterTexture.offset.x -= delta * 0.2; // Adjust speed here
@@ -99,15 +146,6 @@ const WaterWithFlow = ({ geometry, position, rotation, scale }: { geometry: THRE
   );
 };
 
-const dummyChartData = [
-  { time: '00:00', value: 24 },
-  { time: '04:00', value: 23 },
-  { time: '08:00', value: 26 },
-  { time: '12:00', value: 29 },
-  { time: '16:00', value: 28 },
-  { time: '20:00', value: 26 },
-  { time: '24:00', value: 24 },
-];
 
 const KolamAnimScene = ({ isPlaying }: { isPlaying: boolean }) => {
   const group = useRef<Group>(null);
@@ -156,7 +194,7 @@ const GrassCutterLogic = ({ active, onCut }: { active: boolean, onCut: (pos: Vec
 };
 
 const SawahScene = ({ isAritActive }: { isAritActive: boolean }) => {
-  const { nodes, materials } = useGLTF(sawahUrl) as any;
+  const { nodes } = useGLTF(sawahUrl) as any;
   
   // State for grass instances (to allow removal)
   const [grassInstances, setGrassInstances] = useState<any[]>([]);
@@ -296,53 +334,6 @@ const PengolahanScene = () => {
   );
 };
 
-const SurveyScene = () => {
-  return (
-    <group>
-      {/* Ground */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.1, 0]}>
-        <planeGeometry args={[20, 20]} />
-        <meshStandardMaterial color="#166534" />
-      </mesh>
-      <gridHelper args={[20, 20, 0xffffff, 0xffffff]} position={[0, 0, 0]} />
-
-      {/* Corner Stakes */}
-      {[[-4, -4], [4, -4], [4, 4], [-4, 4]].map((pos, i) => (
-        <group key={i} position={[pos[0], 0, pos[1]]}>
-            <mesh position={[0, 0.5, 0]}>
-                <cylinderGeometry args={[0.05, 0.05, 1]} />
-                <meshStandardMaterial color="#78350f" />
-            </mesh>
-            <mesh position={[0, 1, 0]}>
-                <coneGeometry args={[0.2, 0.4, 4]} />
-                <meshStandardMaterial color="#ef4444" />
-            </mesh>
-        </group>
-      ))}
-
-      {/* Lines */}
-      <mesh position={[0, 0.1, -4]} rotation={[0, 0, Math.PI/2]}>
-        <cylinderGeometry args={[0.02, 0.02, 8]} />
-        <meshStandardMaterial color="white" />
-      </mesh>
-      <mesh position={[0, 0.1, 4]} rotation={[0, 0, Math.PI/2]}>
-        <cylinderGeometry args={[0.02, 0.02, 8]} />
-        <meshStandardMaterial color="white" />
-      </mesh>
-      <mesh position={[-4, 0.1, 0]} rotation={[Math.PI/2, 0, 0]}>
-        <cylinderGeometry args={[0.02, 0.02, 8]} />
-        <meshStandardMaterial color="white" />
-      </mesh>
-      <mesh position={[4, 0.1, 0]} rotation={[Math.PI/2, 0, 0]}>
-        <cylinderGeometry args={[0.02, 0.02, 8]} />
-        <meshStandardMaterial color="white" />
-      </mesh>
-    </group>
-  );
-};
-
-
-
 const CustomCursorOverlay = ({ active, iconUrl }: { active: boolean, iconUrl: string }) => {
   const cursorRef = useRef<HTMLImageElement>(null);
 
@@ -383,7 +374,7 @@ const CustomCursorOverlay = ({ active, iconUrl }: { active: boolean, iconUrl: st
   );
 };
 
-const SystemSim = ({ simId }: Props) => {
+const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simConditions }: Props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -420,9 +411,10 @@ const SystemSim = ({ simId }: Props) => {
       <KolamAnimScene isPlaying={isPlaying} />
     ) : simId === "sim-01-layout" ? (
       <SawahScene isAritActive={isAritActive} />
-    ) : (
-      <SanitasiScene />
-    );
+    ) : null;
+
+  const activeStatus = (simConditions?.find(c => c.id === condition)?.status) ?? status ?? "Normal";
+  const statusClass = activeStatus === "Waspada" ? "text-yellow-400" : activeStatus === "Darurat" ? "text-red-400" : "text-green-400";
 
   return (
     <div ref={containerRef} className={`w-full h-full overflow-hidden relative group bg-gray-900 ${isAritActive ? 'cursor-none' : ''}`}>
@@ -430,33 +422,15 @@ const SystemSim = ({ simId }: Props) => {
       
       {/* 3D Scene */}
       <Canvas shadows camera={{ position: [8, 8, 8], fov: 45 }}>
-        <Stage environment="city" intensity={0.6}>
-          {scene}
-        </Stage>
+        {scene && (
+          <Stage environment="city" intensity={0.6}>
+            {scene}
+          </Stage>
+        )}
+        <CenterImagePlane imageUrl={simConditions?.find((c) => c.id === condition)?.image} />
         <OrbitControls autoRotate={simId !== "kolam-animasi"} autoRotateSpeed={0.6} enabled={!isAritActive} />
       </Canvas>
       
-      {/* Top Left - Chart Data */}
-      <div className="absolute top-4 left-4 z-[100] w-64 bg-black/60 backdrop-blur-md rounded-lg p-3 border border-white/10 shadow-lg pointer-events-none select-none cursor-auto">
-        <div className="flex items-center gap-2 mb-2 text-white/80">
-          <Activity size={16} className="text-nalar-primary" />
-          <span className="text-xs font-bold uppercase tracking-wider">Monitoring Suhu</span>
-        </div>
-        <div className="h-32 w-full pointer-events-auto cursor-auto">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={dummyChartData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#ffffff20" />
-              <XAxis dataKey="time" tick={{fontSize: 10, fill: '#ffffff80'}} interval="preserveStartEnd" />
-              <YAxis tick={{fontSize: 10, fill: '#ffffff80'}} domain={['dataMin - 2', 'dataMax + 2']} />
-              <Tooltip 
-                contentStyle={{ backgroundColor: '#000000cc', border: 'none', borderRadius: '4px', fontSize: '12px' }}
-                itemStyle={{ color: '#fff' }}
-              />
-              <Line type="monotone" dataKey="value" stroke="#14b8a6" strokeWidth={2} dot={{r: 2}} activeDot={{r: 4}} />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
-      </div>
 
       {/* Top Right - Info Panel */}
       <div className="absolute top-4 right-4 z-[100] flex flex-col items-end gap-2 pointer-events-none">
@@ -470,15 +444,16 @@ const SystemSim = ({ simId }: Props) => {
         
         {showInfo && (
           <div className="w-64 bg-black/60 backdrop-blur-md rounded-lg p-4 border border-white/10 shadow-lg animate-fade-in text-white/90 pointer-events-auto cursor-auto">
-            <h4 className="font-bold text-sm mb-2 text-nalar-accent">Informasi Simulasi</h4>
+            <h4 className="font-bold text-sm mb-2 text-nalar-accent">{panelTitle ?? "Informasi Simulasi"}</h4>
+            {simTitle && <div className="text-xs font-semibold mb-2 text-white/80">{simTitle}</div>}
             <p className="text-xs leading-relaxed text-gray-300">
-              Simulasi ini menunjukkan proses {simId.replace(/-/g, ' ')}. 
-              Anda dapat mengontrol animasi dan melihat perubahan parameter pada grafik.
-              Gunakan mouse untuk memutar (drag) dan zoom (scroll) tampilan 3D.
+              {(simConditions?.find(c => c.id === condition)?.description) 
+                ?? simDescription 
+                ?? `Simulasi ini menunjukkan proses ${simId.replace(/-/g, ' ')}. Anda dapat mengontrol animasi dan melihat perubahan parameter pada grafik. Gunakan mouse untuk memutar (drag) dan zoom (scroll) tampilan 3D.`}
             </p>
             <div className="mt-3 pt-3 border-t border-white/10 text-xs flex justify-between">
               <span className="text-gray-400">Status:</span>
-              <span className="text-green-400 font-mono">Normal</span>
+              <span className={`${statusClass} font-mono`}>{activeStatus}</span>
             </div>
           </div>
         )}

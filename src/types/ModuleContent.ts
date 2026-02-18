@@ -16,6 +16,17 @@ export interface ModuleContent {
       title?: string;
       content: string;
       image?: string;
+      contentL1?: string;
+      contentL2?: string;
+      contentL3?: string;
+      subSections?: {
+        title2: string;
+        content2?: string;
+        items?: {
+          title3: string;
+          content3?: string;
+        }[];
+      }[];
     }[];
     references?: string[];
   };
@@ -38,6 +49,14 @@ export interface ModuleContent {
       title: string;
       description: string;
       image?: string;
+      panelTitle?: string;
+      status?: string;
+      conditions?: {
+        id: number;
+        description: string;
+        status?: string;
+        image?: string;
+      }[];
     }[];
   };
   evaluasi: {

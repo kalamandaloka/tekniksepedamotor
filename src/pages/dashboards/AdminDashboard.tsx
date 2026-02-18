@@ -7,7 +7,6 @@ import {
   Key, 
   Settings, 
   LogOut, 
-  Plus, 
   Trash2, 
   Edit, 
   Save, 
@@ -60,7 +59,7 @@ const LicensesView = () => {
     const fetchLicenses = async () => {
         if (window.api) {
             const result = await window.api.getLicenses();
-            if (result.success) setLicenses(result.licenses);
+            if (result.success) setLicenses(Array.isArray(result.licenses) ? result.licenses as License[] : []);
         }
     };
 
@@ -195,7 +194,7 @@ const ModulesView = () => {
         const fetchModules = async () => {
             if (window.api) {
                 const result = await window.api.getModules();
-                if (result.success) setModules(result.modules);
+                if (result.success) setModules(Array.isArray(result.modules) ? result.modules as ModuleData[] : []);
             } else {
                 setModules(staticModules);
             }

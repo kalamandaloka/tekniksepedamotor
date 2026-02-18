@@ -1,4 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
+import { type ModuleContent } from '../types/ModuleContent';
+import { type ModuleData } from '../data/modules';
 
 export type UserRole = 'admin' | 'guru' | 'siswa';
 
@@ -98,6 +100,12 @@ declare global {
       getExamResults: (studentId?: number) => Promise<{ success: boolean; results?: any[]; error?: string }>;
       addExamResult: (data: { studentId: number; moduleId: string; score: number; type: string }) => Promise<{ success: boolean; id?: number; error?: string }>;
       getDashboardStats: () => Promise<{ success: boolean; stats?: any; error?: string }>;
+      getModuleContent: (moduleId: string) => Promise<{ success: boolean; content?: ModuleContent; error?: string }>;
+      getModules: () => Promise<{ success: boolean; modules?: ModuleData[]; error?: string }>;
+      saveModuleContent: (moduleId: string, content: ModuleContent) => Promise<{ success: boolean; error?: string }>;
+      getLicenses: () => Promise<{ success: boolean; licenses?: any[]; error?: string }>;
+      addLicense: (data: { code: string; duration_days: number }) => Promise<{ success: boolean; id?: number; error?: string }>;
+      deleteLicense: (id: number) => Promise<{ success: boolean; error?: string }>;
     };
   }
 }
