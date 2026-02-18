@@ -553,7 +553,14 @@ interface ModulesViewProps {
 const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps) => {
     const isLight = theme === 'light';
 
-    const paketConfigs = [
+    type PaketConfig = {
+        id: PaketId;
+        title: string;
+        description: string;
+        range: { min: number; max: number };
+    };
+
+    const paketConfigs: PaketConfig[] = [
         {
             id: 'tsm1',
             title: 'Teknik Sepeda Motor Jilid 1 : Mesin Dasar dan Kelistrikan',
@@ -593,7 +600,10 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
         return Number.isNaN(num) ? 0 : num;
     };
 
-    const renderModuleCard = (m: ModuleData) => (
+    const renderModuleCard = (m: ModuleData) => {
+        const heroImage = heroImages[selectedPaketId];
+
+        return (
         <div 
             key={m.id}
             className={`flex flex-col md:flex-row gap-4 md:items-center rounded-xl border p-4 md:p-5 transition-colors ${
@@ -606,20 +616,11 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
               className="w-24 h-24 md:w-28 md:h-28 rounded-lg overflow-hidden flex-shrink-0 relative"
             >
                 <img
-                  src="/gambar/global/semusim.png"
-                  alt={`Ilustrasi 3D modul ${m.title}`}
+                  src={heroImage.src}
+                  alt={heroImage.alt}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-black/40 via-black/10 to-transparent" />
-                <div
-                  className={`absolute top-2 left-2 px-2 py-1 rounded text-[10px] md:text-xs border ${
-                    isLight
-                      ? 'bg-white/80 text-slate-700 border-slate-200'
-                      : 'bg-black/60 text-white border-white/10'
-                  }`}
-                >
-                    {m.category}
-                </div>
             </div>
             <div className="flex-1 space-y-2">
                 <div className="flex flex-wrap items-baseline gap-2">
@@ -675,7 +676,8 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
               </button>
             </div>
         </div>
-    );
+        );
+    };
 
     const selectedPaket = paketConfigs.find((p) => p.id === selectedPaketId) ?? paketConfigs[0];
 
@@ -716,9 +718,10 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
                   isLight ? 'text-slate-700' : 'text-gray-200'
                 }`}
               >
-                Pembelajaran agribisnis tanaman perkebunan pada paket media ini dirancang untuk
-                mensimulasikan proses kerja nyata di lahan, mulai dari persiapan, perawatan, hingga
-                panen dan pascapanen secara interaktif.
+                Pembelajaran teknik sepeda motor pada paket media ini dirancang untuk
+                mensimulasikan proses kerja nyata di bengkel, mulai dari pemahaman dasar mesin
+                dan kelistrikan, sistem pemindah daya, hingga sasis dan sepeda motor listrik
+                secara interaktif.
               </p>
               <p
                 className={`mt-2 text-sm leading-relaxed ${
@@ -726,9 +729,9 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
                 }`}
               >
                 Seluruh materi telah diselaraskan dengan Standar Kompetensi Kerja Nasional Indonesia
-                (SKKNI) bidang agribisnis tanaman perkebunan serta capaian pembelajaran Fase F, sehingga
-                dapat digunakan sebagai pendukung pembelajaran vokasi yang autentik dan berorientasi
-                kompetensi.
+                (SKKNI) bidang teknik dan bisnis sepeda motor serta capaian pembelajaran vokasi,
+                sehingga dapat digunakan sebagai pendukung pembelajaran yang autentik, terstruktur,
+                dan berorientasi kompetensi industri.
               </p>
             </div>
             <h2 className={`text-2xl font-bold ${isLight ? 'text-slate-900' : 'text-white'}`}>Paket Media Pembelajaran</h2>
