@@ -1,0 +1,38 @@
+{
+  "title": "Evaluasi",
+  "teori": {
+    "questions": [
+      {
+        "id": 1,
+        "question": "Tujuan utama penerapan K3 di bengkel sepeda motor adalah…",
+        "options": [
+          "Mempercepat kerusakan peralatan",
+          "Melindungi pekerja, peralatan, dan lingkungan dari risiko kerja",
+          "Meningkatkan jumlah kecelakaan kerja",
+          "Mengabaikan prosedur darurat"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 2,
+        "question": "Contoh bahaya mekanis di bengkel adalah…",
+        "options": [
+          "Kebisingan dari mesin",
+          "Permukaan kerja licin",
+          "Bagian mesin berputar terbuka",
+          "Paparan asap knalpot"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  },
+  "praktek": {
+    "tasks": [
+      {
+        "id": 1,
+        "question": "Temukan dan klik area kerja yang tidak aman pada layout bengkel 3D (mis. oli tumpah, alat berserakan).",
+        "targetMeshName": "unsafe_area_1"
+      }
+    ]
+  }
+}

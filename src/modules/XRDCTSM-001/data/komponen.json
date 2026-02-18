@@ -1,0 +1,40 @@
+{
+  "title": "Komponen K3 Bengkel",
+  "items": [
+    {
+      "id": "apd-helm",
+      "name": "Helm kerja/ safety helmet",
+      "description": "Melindungi kepala dari benturan, benda jatuh, atau risiko lain di area bengkel.",
+      "image": "/images/global/default.svg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-kacamata",
+      "name": "Kacamata pelindung",
+      "description": "Melindungi mata dari serpihan logam, debu, dan percikan cairan.",
+      "image": "/images/global/default.svg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-sarung-tangan",
+      "name": "Sarung tangan kerja",
+      "description": "Melindungi tangan dari panas, bahan kimia ringan, dan permukaan tajam.",
+      "image": "/images/global/default.svg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-sepatu",
+      "name": "Sepatu safety",
+      "description": "Melindungi kaki dari kejatuhan benda berat, tumpahan oli, dan lantai licin.",
+      "image": "/images/global/default.svg",
+      "modelType": "box"
+    },
+    {
+      "id": "apd-earplug",
+      "name": "Earplug/Earmuff",
+      "description": "Mengurangi paparan kebisingan saat bekerja dengan mesin bising dalam waktu lama.",
+      "image": "/images/global/default.svg",
+      "modelType": "box"
+    }
+  ]
+}

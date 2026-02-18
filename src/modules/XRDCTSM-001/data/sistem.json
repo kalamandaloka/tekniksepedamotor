@@ -1,0 +1,20 @@
+{
+  "title": "Simulasi K3 Bengkel",
+  "simulations": [
+    {
+      "id": "sim-01-identifikasi-bahaya",
+      "title": "Identifikasi Bahaya di Bengkel",
+      "description": "Siswa mengamati layout bengkel virtual dan mengidentifikasi posisi bahaya (oli tumpah, kabel terkelupas, alat berserakan, dll)."
+    },
+    {
+      "id": "sim-02-pilih-apd",
+      "title": "Memilih APD Sesuai Pekerjaan",
+      "description": "Siswa memilih kombinasi APD yang tepat untuk beberapa skenario kerja (bongkar mesin, pengelasan, penggunaan chemical cleaner)."
+    },
+    {
+      "id": "sim-03-rute-evakuasi",
+      "title": "Rute Evakuasi & Prosedur Darurat",
+      "description": "Simulasi rute evakuasi ketika terjadi kebakaran kecil di bengkel dan prosedur dasar yang harus dilakukan."
+    }
+  ]
+}
