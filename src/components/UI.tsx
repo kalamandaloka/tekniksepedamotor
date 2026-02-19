@@ -7,6 +7,8 @@ import SystemSim from './SystemSim'
 import Footer from './Footer'
 import BookReader from './BookReader'
 import TheoryScrollView from './TheoryScrollView'
+import PanZoomImage from './PanZoomImage'
+import KomponenCenterImage from './KomponenCenterImage'
 import { createDummyContent } from '../utils/createDummyContent'
 
 // Dynamic imports for modules
@@ -73,7 +75,7 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                 {/* Description */}
                 <div>
                    <h3 className="text-sm font-bold text-nalar-primary mb-2 uppercase tracking-wider">Deskripsi</h3>
-                   <p className="text-gray-300 text-sm leading-relaxed">{content.capaian.description}</p>
+                   <p className="text-gray-300 text-sm leading-relaxed whitespace-pre-wrap text-justify">{content.capaian.description}</p>
                 </div>
 
                 {/* SKKNI */}
@@ -147,30 +149,14 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
         return null; // Handled in main layout
       case 'system':
         return (
-             <div className="animate-fade-in grid grid-cols-1 gap-4">
+             <div className="animate-fade-in grid grid-cols-1 gap-2">
                 {content.system.simulations.map((s) => (
                     <button
                         key={s.id}
                         onClick={() => setActiveSim(s.id)}
-                        className={`text-left rounded-xl border overflow-hidden transition-all duration-300 group relative flex flex-col ${activeSim === s.id ? 'border-nalar-accent shadow-[0_0_15px_rgba(255,165,0,0.3)] scale-[1.02] z-10' : 'bg-nalar-dark/80 border-white/10 hover:border-white/30 hover:bg-white/5'}`}
+                        className={`text-left rounded-xl border transition-all duration-300 px-3 py-2 ${activeSim === s.id ? 'border-nalar-accent bg-nalar-accent/10 text-nalar-accent' : 'bg-nalar-dark/80 border-white/10 hover:border-white/30 hover:bg-white/5 text-white'}`}
                     >
-                        <div className="w-full aspect-square bg-black/40 overflow-hidden relative shrink-0">
-                            {s.image ? (
-                                <img src={s.image} alt={s.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                            ) : (
-                                <div className="w-full h-full flex items-center justify-center text-white/20 bg-gray-900">
-                                    <ImageIcon size={24} className={`opacity-20 ${activeSim === s.id ? 'text-nalar-accent' : 'text-white'}`} />
-                                </div>
-                            )}
-                            {/* Overlay Gradient */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
-                        </div>
-                        
-                        <div className={`p-2 h-12 flex items-center justify-center text-center ${activeSim === s.id ? 'bg-nalar-accent/90 backdrop-blur-sm' : ''}`}>
-                            <h3 className={`text-[10px] font-bold leading-tight line-clamp-2 ${activeSim === s.id ? 'text-nalar-dark' : 'text-white'}`}>
-                                {s.title}
-                            </h3>
-                        </div>
+                        <h3 className="text-sm font-bold leading-tight">{s.title}</h3>
                     </button>
                 ))}
              </div>
@@ -245,51 +231,44 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                 /* Komponen Custom 3-Column Layout */
                 <div className="flex flex-col lg:flex-row w-full h-full gap-4 md:gap-6 animate-fade-in overflow-y-auto lg:overflow-hidden">
                     {/* Left Column: List of Cards */}
-                    <div className="w-full lg:w-[400px] xl:w-[500px] overflow-y-auto custom-scrollbar h-[300px] lg:h-full pr-2 shrink-0 pointer-events-auto order-2 lg:order-1">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+                    <div className="w-full lg:flex-[0_0_20%] xl:flex-[0_0_20%] overflow-y-auto custom-scrollbar h-[300px] lg:h-full pr-2 shrink-0 pointer-events-auto order-2 lg:order-1">
+                        <div className="grid grid-cols-1 gap-2">
                             {content.komponen.items.map((item, idx) => (
                                 <button
                                     key={item.id}
                                     onClick={() => setSelectedItemIndex(idx)}
-                                    className={`text-left rounded-xl border overflow-hidden transition-all duration-300 group relative flex flex-row lg:flex-col ${selectedItemIndex === idx ? 'border-nalar-accent shadow-[0_0_15px_rgba(255,165,0,0.3)] scale-[1.02] z-10' : 'bg-nalar-dark/80 border-white/10 hover:border-white/30 hover:bg-white/5'}`}
+                                    className={`text-left rounded-xl border transition-all duration-300 px-3 py-2 ${selectedItemIndex === idx ? 'border-nalar-accent bg-nalar-accent/10 text-nalar-accent' : 'bg-nalar-dark/80 border-white/10 hover:border-white/30 hover:bg-white/5 text-white'}`}
                                 >
-                                    <div className="w-24 lg:w-full h-24 lg:h-32 bg-black/40 overflow-hidden relative shrink-0">
-                                        {item.image ? (
-                                            <img src={item.image} alt={item.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                                        ) : (
-                                            <div className="w-full h-full flex items-center justify-center text-white/20 bg-gray-900">
-                                                <Settings className="w-8 h-8 opacity-20" />
-                                            </div>
-                                        )}
-                                        {/* Overlay Gradient */}
-                                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
-                                    </div>
-                                    
-                                    <div className={`p-3 flex-1 flex items-center ${selectedItemIndex === idx ? 'bg-nalar-accent/90 backdrop-blur-sm' : ''}`}>
-                                        <h3 className={`text-sm font-bold leading-tight line-clamp-2 ${selectedItemIndex === idx ? 'text-nalar-dark' : 'text-white'}`}>
-                                            {item.name}
-                                        </h3>
-                                    </div>
+                                    <h3 className="text-sm font-bold leading-tight">{item.name}</h3>
                                 </button>
                             ))}
                         </div>
                     </div>
 
-                    {/* Center Column: 3D Model */}
-                    <div className="flex-1 h-[300px] lg:h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/20 backdrop-blur-sm relative group pointer-events-auto order-1 lg:order-2 min-h-[300px]">
+                    {/* Center Column: Viewer Besar */}
+                    <div className="flex-1 lg:flex-none lg:flex-[0_0_40%] xl:flex-[0_0_40%] h-[400px] lg:h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/20 backdrop-blur-sm relative group pointer-events-auto order-1 lg:order-2 min-h-[400px]">
                         {(() => {
                             const item = content.komponen.items[selectedItemIndex];
                             if (item) {
                                 return (
                                     <>
-                                        <InlineModel 
-                                            modelType={item.modelType} 
-                                            modelPath={item.modelPath} 
-                                            className="w-full h-full absolute inset-0"
-                                        />
-                                        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 backdrop-blur-md px-4 py-2 rounded-full text-xs text-white/70 border border-white/10 pointer-events-none select-none opacity-0 group-hover:opacity-100 transition-opacity">
-                                            🖱️ Putar • ⚡ Zoom
-                                        </div>
+                                        {item.image ? (
+                                            <KomponenCenterImage 
+                                                imageUrl={item.image}
+                                                className="w-full h-full absolute inset-0"
+                                            />
+                                        ) : (
+                                            <>
+                                                <InlineModel 
+                                                    modelType={item.modelType} 
+                                                    modelPath={item.modelPath} 
+                                                    className="w-full h-full absolute inset-0"
+                                                />
+                                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 backdrop-blur-md px-4 py-2 rounded-full text-xs text-white/70 border border-white/10 pointer-events-none select-none opacity-0 group-hover:opacity-100 transition-opacity">
+                                                    🖱️ Putar • ⚡ Zoom
+                                                </div>
+                                            </>
+                                        )}
                                     </>
                                 );
                             }
@@ -297,8 +276,8 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                         })()}
                     </div>
 
-                    {/* Right Column: Description */}
-                    <div className="w-full lg:w-[300px] xl:w-[350px] h-auto lg:h-full bg-nalar-dark/90 backdrop-blur-md p-6 md:p-8 rounded-xl border border-white/10 shadow-2xl overflow-y-auto custom-scrollbar shrink-0 pointer-events-auto order-3">
+                    {/* Right Column: Deskripsi dan Fungsi */}
+                    <div className="w-full lg:flex-[0_0_40%] xl:flex-[0_0_40%] h-auto lg:h-full bg-nalar-dark/90 backdrop-blur-md p-6 md:p-8 rounded-xl border border-white/10 shadow-2xl overflow-y-auto custom-scrollbar shrink-0 pointer-events-auto order-3">
                          {content.komponen.items[selectedItemIndex] && (
                              <div className="animate-fade-in">
                                  <h2 className="text-2xl md:text-3xl font-bold text-nalar-accent mb-6 md:mb-8 border-b border-white/10 pb-4 leading-tight">
@@ -353,7 +332,7 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                         </div>
                     </div>
 
-                    {/* Right Area - 3D Model View */}
+                    {/* Right Area - Visual View */}
                     <div className="flex-1 h-[300px] lg:h-full w-full pointer-events-auto relative flex flex-col order-1 lg:order-2 min-h-[300px] min-w-0">
                         {(() => {
                             if (activeTab === 'system') {
@@ -370,6 +349,8 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                                         panelTitle={sim?.panelTitle}
                                         status={sim?.status}
                                         simConditions={sim?.conditions}
+                                        simImage={sim?.image}
+                                        showStatus={true}
                                     />
                                 );
                             })()}
@@ -378,6 +359,24 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                                     <div className="w-full h-full flex items-center justify-center text-gray-400 flex-col gap-4 bg-black/20 backdrop-blur-sm rounded-2xl border border-white/10">
                                         <Activity size={48} className="opacity-20" />
                                         <p>Pilih simulasi dari menu di sebelah kiri untuk memulai.</p>
+                                    </div>
+                                );
+                            }
+
+                            if (activeTab === 'capaian') {
+                                return (
+                                    <div className="w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/20 backdrop-blur-sm relative animate-fade-in">
+                                        {content?.capaian?.image ? (
+                                            <img 
+                                                src={content.capaian.image} 
+                                                alt={content.title} 
+                                                className="w-full h-full object-cover"
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full flex items-center justify-center text-white/30">
+                                                <ImageIcon size={48} />
+                                            </div>
+                                        )}
                                     </div>
                                 );
                             }
@@ -391,8 +390,6 @@ const UI = ({ activeModule, onHomeClick }: UIProps) => {
                                             modelPath={activeModel.url} 
                                             className="w-full h-full absolute inset-0"
                                         />
-                                        
-                                        {/* Hint/Controls Overlay */}
                                         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 backdrop-blur-md px-4 py-2 rounded-full text-xs text-white/70 border border-white/10 pointer-events-none select-none">
                                             🖱️ Drag to rotate • ⚡ Scroll to zoom
                                         </div>

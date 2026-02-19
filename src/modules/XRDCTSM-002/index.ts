@@ -1,6 +1,24 @@
 import { type ModuleContent } from "../../types/ModuleContent";
-import { createDummyContent } from "../../utils/createDummyContent";
+import capaian from "./view/capaian";
+import teori from "./view/teori";
+import komponenData from "./data/komponen.json";
+import sistemData from "./data/sistem.json";
+import evaluasi from "./view/evaluasi";
 
-const content: ModuleContent = createDummyContent("XRDCTSM-002", "Alat Ukur & SST");
+const content: ModuleContent = {
+  id: "XRDCTSM-002",
+  title: "Alat Ukur & SST",
+  capaian,
+  teori,
+  komponen: {
+    title: komponenData.title,
+    items: komponenData.items as ModuleContent["komponen"]["items"],
+  },
+  system: {
+    title: sistemData.title,
+    simulations: sistemData.simulations as ModuleContent["system"]["simulations"],
+  },
+  evaluasi,
+};
 
 export default content;

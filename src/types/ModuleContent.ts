@@ -4,6 +4,7 @@ export interface ModuleContent {
   capaian: {
     title: string;
     description: string;
+    image?: string;
     skkni: (string | { kode: string; nama: string; catatan?: string })[];
     kurikulum: (string | { kode: string; nama: string; catatan?: string })[];
     tujuan: string[];

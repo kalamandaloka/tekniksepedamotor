@@ -66,6 +66,7 @@ const MarkdownRenderer = ({ content }: { content: string }) => {
 
 const TheoryScrollView = ({ title, pages, references }: TheoryScrollViewProps) => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const isEmpty = !pages || pages.length === 0;
 
   const scrollToSection = (id: string) => {
     if (scrollContainerRef.current) {
@@ -89,7 +90,9 @@ const TheoryScrollView = ({ title, pages, references }: TheoryScrollViewProps) =
          </div>
          <div className="overflow-y-auto p-4 custom-scrollbar flex-1">
             <ul className="space-y-1">
-                  {pages.map((page, index) => {
+                  {isEmpty ? (
+                    <li className="pl-2 text-gray-500">Belum ada konten teori</li>
+                  ) : pages.map((page, index) => {
                     const base = (index + 1).toString();
                     const parts = getTitleParts(page.title);
                     const hasSubs = Array.isArray(page.subSections) && page.subSections.length > 0;
@@ -105,7 +108,9 @@ const TheoryScrollView = ({ title, pages, references }: TheoryScrollViewProps) =
                           </button>
                         </li>
                         {hasSubs
-                          ? page.subSections!.map((sub, j) => (
+                          ? (page.subSections ?? [])
+                              .filter((sub) => !!sub.title2 && sub.title2.trim().length > 0)
+                              .map((sub, j) => (
                               <React.Fragment key={`toc-${index}-l2-${j}`}>
                                 <li className="pl-6">
                                   <button
@@ -185,7 +190,7 @@ const TheoryScrollView = ({ title, pages, references }: TheoryScrollViewProps) =
               <List size={20} /> Daftar Isi
             </h2>
             <ul className="space-y-2">
-              {pages.map((page, index) => {
+              {(isEmpty ? [] : pages).map((page, index) => {
                 const base = (index + 1).toString();
                 const parts = getTitleParts(page.title);
                 const hasSubs = Array.isArray(page.subSections) && page.subSections.length > 0;
@@ -201,7 +206,9 @@ const TheoryScrollView = ({ title, pages, references }: TheoryScrollViewProps) =
                       </button>
                     </li>
                     {hasSubs
-                      ? page.subSections!.map((sub, j) => (
+                      ? (page.subSections ?? [])
+                          .filter((sub) => !!sub.title2 && sub.title2.trim().length > 0)
+                          .map((sub, j) => (
                           <React.Fragment key={`mtoc-${index}-l2-${j}`}>
                             <li className="pl-4">
                               <button
@@ -266,7 +273,9 @@ const TheoryScrollView = ({ title, pages, references }: TheoryScrollViewProps) =
 
           {/* Content Pages */}
           <div className="space-y-16">
-            {pages.map((page, index) => (
+            {isEmpty ? (
+              <div className="text-center text-gray-600 py-16">Belum ada konten teori</div>
+            ) : pages.map((page, index) => (
               <div key={index} id={`section-${index}`} className="scroll-mt-8">
                 {page.title && (
                   <div className="mb-6">

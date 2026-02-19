@@ -1,7 +1,33 @@
 {
   "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "description": "Modul ini membahas tentang penggunaan, perawatan, dan kalibrasi berbagai alat ukur mekanik otomotif serta Special Service Tools (SST) yang digunakan dalam pekerjaan perawatan dan perbaikan kendaraan bermotor.\n\nPeserta didik akan mempelajari prinsip kerja, fungsi, cara membaca hasil pengukuran, prosedur penggunaan yang benar sesuai standar industri, serta aspek Keselamatan dan Kesehatan Kerja (K3) dalam penggunaan alat ukur dan SST.\n\nMateri ini dirancang berbasis standar kompetensi kerja nasional (SKKNI) dan selaras dengan Capaian Pembelajaran (CP) Fase F SMK Teknik Otomotif, sehingga peserta didik mampu bekerja sesuai SOP bengkel dan kebutuhan industri otomotif.",
+  "image": "/images/global/tsm1.png",
+  "skkni": [
+    "Unit Kompetensi: Menggunakan Alat Ukur Mekanik Presisi pada Pekerjaan Perawatan dan Perbaikan Kendaraan.",
+    "Elemen Kompetensi: Mengidentifikasi jenis dan fungsi alat ukur mekanik presisi (jangka sorong, mikrometer, dial indicator, torque wrench).",
+    "Elemen Kompetensi: Menggunakan alat ukur sesuai prosedur kerja dan spesifikasi teknis.",
+    "Elemen Kompetensi: Membaca dan menginterpretasikan hasil pengukuran sesuai standar toleransi pabrikan.",
+    "Elemen Kompetensi: Melakukan perawatan, kalibrasi sederhana, dan penyimpanan alat ukur sesuai SOP bengkel.",
+    "Unit Kompetensi: Menggunakan Special Service Tools (SST) sesuai spesifikasi pabrikan.",
+    "Elemen Kompetensi: Mengidentifikasi jenis dan fungsi Special Service Tools (SST).",
+    "Elemen Kompetensi: Menggunakan SST sesuai prosedur kerja dan standar keselamatan.",
+    "Elemen Kompetensi: Menerapkan prosedur Keselamatan dan Kesehatan Kerja (K3) dalam penggunaan alat ukur dan SST."
+  ],
+  "kurikulum": [
+    "Capaian Pembelajaran (CP) Fase F: Peserta didik mampu memahami prinsip kerja alat ukur mekanik dan Special Service Tools (SST) pada pekerjaan perawatan dan perbaikan kendaraan.",
+    "Elemen CP: Memahami konsep pengukuran, satuan ukuran, dan batas toleransi komponen kendaraan sesuai spesifikasi teknis.",
+    "Elemen CP: Melakukan pengukuran komponen mesin dan sasis menggunakan alat ukur mekanik secara tepat dan akurat.",
+    "Elemen CP: Menganalisis hasil pengukuran dan membandingkannya dengan standar pabrikan untuk menentukan kondisi komponen.",
+    "Elemen CP: Menerapkan prosedur kerja dan Keselamatan dan Kesehatan Kerja (K3) sesuai standar industri otomotif.",
+    "Profil Pelajar Pancasila: Menunjukkan sikap teliti, disiplin, bertanggung jawab, dan mampu bekerja sesuai standar operasional bengkel."
+  ],
+  "tujuan": [
+    "Tujuan Pembelajaran: Peserta didik mampu menjelaskan fungsi dan prinsip kerja alat ukur mekanik serta Special Service Tools (SST) pada pekerjaan otomotif.",
+    "Indikator: Mengidentifikasi jenis-jenis alat ukur mekanik (jangka sorong, mikrometer, dial indicator, torque wrench) beserta fungsinya.",
+    "Indikator: Memilih alat ukur dan SST yang sesuai dengan jenis pekerjaan dan komponen yang akan diukur.",
+    "Indikator: Menggunakan alat ukur mekanik dan SST sesuai prosedur kerja dan standar operasional bengkel.",
+    "Indikator: Membaca dan mencatat hasil pengukuran secara akurat sesuai satuan dan batas toleransi teknis.",
+    "Indikator: Menganalisis hasil pengukuran untuk menentukan kondisi komponen (layak pakai, perlu perbaikan, atau penggantian).",
+    "Indikator: Menerapkan prosedur Keselamatan dan Kesehatan Kerja (K3) dalam setiap kegiatan praktik pengukuran."
+  ]
 }

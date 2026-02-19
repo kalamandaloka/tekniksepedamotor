@@ -13,6 +13,8 @@ interface Props {
   panelTitle?: string;
   status?: string;
   simConditions?: { id: number; description: string; status?: string; image?: string }[];
+  simImage?: string;
+  showStatus?: boolean;
 }
 
 const CenterImagePlane = ({ imageUrl }: { imageUrl?: string }) => {
@@ -47,11 +49,13 @@ const CenterImagePlane = ({ imageUrl }: { imageUrl?: string }) => {
   
   const image = texture.image as HTMLImageElement | undefined;
   const aspect = image && image.width && image.height ? image.width / image.height : 16 / 9;
-  const width = 6;
-  const height = width / aspect;
+  const dist = camera.position.length();
+  const fovRad = (camera.fov * Math.PI) / 180;
+  const height = 2 * dist * Math.tan(fovRad / 2);
+  const width = height * aspect;
   
   return (
-    <mesh ref={meshRef} position={[0, 0.6, 0]} castShadow>
+    <mesh ref={meshRef} position={[0, 0, 0]} castShadow>
       <planeGeometry args={[width, height]} />
       <meshBasicMaterial map={texture} toneMapped={false} />
     </mesh>
@@ -374,7 +378,7 @@ const CustomCursorOverlay = ({ active, iconUrl }: { active: boolean, iconUrl: st
   );
 };
 
-const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simConditions }: Props) => {
+const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simConditions, simImage, showStatus = true }: Props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -413,8 +417,10 @@ const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simCon
       <SawahScene isAritActive={isAritActive} />
     ) : null;
 
-  const activeStatus = (simConditions?.find(c => c.id === condition)?.status) ?? status ?? "Normal";
-  const statusClass = activeStatus === "Waspada" ? "text-yellow-400" : activeStatus === "Darurat" ? "text-red-400" : "text-green-400";
+  const hasConditions = Array.isArray(simConditions) && simConditions.length > 0;
+  const activeStatusRaw = hasConditions ? simConditions?.find(c => c.id === condition)?.status : status;
+  const statusClass = activeStatusRaw === "Waspada" ? "text-yellow-400" : activeStatusRaw === "Darurat" ? "text-red-400" : "text-green-400";
+  const centerImage = hasConditions ? simConditions?.find((c) => c.id === condition)?.image : simImage;
 
   return (
     <div ref={containerRef} className={`w-full h-full overflow-hidden relative group bg-gray-900 ${isAritActive ? 'cursor-none' : ''}`}>
@@ -427,7 +433,7 @@ const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simCon
             {scene}
           </Stage>
         )}
-        <CenterImagePlane imageUrl={simConditions?.find((c) => c.id === condition)?.image} />
+        <CenterImagePlane imageUrl={centerImage} />
         <OrbitControls autoRotate={simId !== "kolam-animasi"} autoRotateSpeed={0.6} enabled={!isAritActive} />
       </Canvas>
       
@@ -447,14 +453,16 @@ const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simCon
             <h4 className="font-bold text-sm mb-2 text-nalar-accent">{panelTitle ?? "Informasi Simulasi"}</h4>
             {simTitle && <div className="text-xs font-semibold mb-2 text-white/80">{simTitle}</div>}
             <p className="text-xs leading-relaxed text-gray-300">
-              {(simConditions?.find(c => c.id === condition)?.description) 
+              {(hasConditions ? simConditions?.find(c => c.id === condition)?.description : undefined) 
                 ?? simDescription 
                 ?? `Simulasi ini menunjukkan proses ${simId.replace(/-/g, ' ')}. Anda dapat mengontrol animasi dan melihat perubahan parameter pada grafik. Gunakan mouse untuk memutar (drag) dan zoom (scroll) tampilan 3D.`}
             </p>
-            <div className="mt-3 pt-3 border-t border-white/10 text-xs flex justify-between">
-              <span className="text-gray-400">Status:</span>
-              <span className={`${statusClass} font-mono`}>{activeStatus}</span>
-            </div>
+            {showStatus && activeStatusRaw && (
+              <div className="mt-3 pt-3 border-t border-white/10 text-xs flex justify-between">
+                <span className="text-gray-400">Status:</span>
+                <span className={`${statusClass} font-mono`}>{activeStatusRaw}</span>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -499,24 +507,25 @@ const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simCon
         </div>
       )}
 
-      {/* Bottom Right - Conditions & Fullscreen */}
+      {/* Bottom Right - Controls */}
       <div className="absolute bottom-4 right-4 z-[100] flex items-center gap-3">
-        {/* Condition Buttons */}
-        <div className="flex bg-black/60 backdrop-blur-md rounded-lg p-1 border border-white/10 shadow-lg cursor-auto">
-          {[1, 2, 3].map((c) => (
-            <button
-              key={c}
-              onClick={() => setCondition(c)}
-              className={`px-3 py-1.5 text-xs font-bold rounded transition-all cursor-auto ${
-                condition === c 
-                  ? 'bg-nalar-primary text-white shadow-sm' 
-                  : 'text-gray-400 hover:text-white hover:bg-white/10'
-              }`}
-            >
-              Kondisi {c}
-            </button>
-          ))}
-        </div>
+        {hasConditions && (
+          <div className="flex bg-black/60 backdrop-blur-md rounded-lg p-1 border border-white/10 shadow-lg cursor-auto">
+            {[1, 2, 3].map((c) => (
+              <button
+                key={c}
+                onClick={() => setCondition(c)}
+                className={`px-3 py-1.5 text-xs font-bold rounded transition-all cursor-auto ${
+                  condition === c 
+                    ? 'bg-nalar-primary text-white shadow-sm' 
+                    : 'text-gray-400 hover:text-white hover:bg-white/10'
+                }`}
+              >
+                Kondisi {c}
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Fullscreen Toggle */}
         <button
