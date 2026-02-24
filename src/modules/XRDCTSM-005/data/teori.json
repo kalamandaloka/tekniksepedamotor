@@ -1,5 +1,187 @@
 {
-  "title": "Teori Modul",
+  "title": "Mekanisme Katup & Timing",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Konsep Dasar Mekanisme Katup",
+      "content": "Mekanisme katup merupakan bagian dari sistem engine sepeda motor 4 langkah yang berfungsi untuk mengatur proses masuknya campuran udara dan bahan bakar ke dalam ruang bakar serta keluarnya gas sisa pembakaran secara tepat waktu. Sistem ini bekerja secara sinkron dengan gerakan piston dan poros engkol sehingga proses pembakaran dapat berlangsung secara efisien dan optimal.",
+      "contentL1": "Pada mesin 4 langkah, mekanisme katup berperan penting dalam menentukan performa, efisiensi bahan bakar, dan kestabilan kerja mesin. Ketidaktepatan waktu buka dan tutup katup dapat menyebabkan tenaga mesin menurun, konsumsi bahan bakar boros, hingga kerusakan komponen engine.",
+      "subSections": [
+        {
+          "title2": "Pengertian Mekanisme Katup",
+          "content2": "Mekanisme katup adalah sistem yang mengatur waktu pembukaan dan penutupan katup masuk dan katup buang sesuai dengan siklus kerja mesin 4 langkah. Sistem ini digerakkan oleh poros engkol (crankshaft) yang meneruskan putaran ke poros nok (camshaft) melalui sistem timing seperti rantai keteng atau gear. Putaran camshaft kemudian menggerakkan rocker arm atau pelatuk katup untuk membuka katup, sedangkan pegas katup berfungsi mengembalikan katup ke posisi tertutup. Dengan demikian, mekanisme katup memastikan aliran gas masuk dan keluar ruang bakar terjadi secara teratur dan sesuai urutan langkah hisap, kompresi, usaha, dan buang."
+        },
+        {
+          "title2": "Fungsi Mekanisme Katup pada Mesin 4 Langkah",
+          "content2": "Mekanisme katup adalah sistem yang mengatur waktu pembukaan dan penutupan katup masuk dan katup buang sesuai dengan siklus kerja mesin 4 langkah. Sistem ini digerakkan oleh poros engkol (crankshaft) yang meneruskan putaran ke poros nok (camshaft) melalui sistem timing seperti rantai keteng atau gear. Putaran camshaft kemudian menggerakkan rocker arm atau pelatuk katup untuk membuka katup, sedangkan pegas katup berfungsi mengembalikan katup ke posisi tertutup. Dengan demikian, mekanisme katup memastikan aliran gas masuk dan keluar ruang bakar terjadi secara teratur dan sesuai urutan langkah hisap, kompresi, usaha, dan buang."
+        },
+        {
+          "title2": "Perbedaan Katup Masuk dan Katup Buang",
+          "content2": "![Perbedaan Katup Masuk dan Katup Buang](images/XRDCTSM-005/perbedaan-katup-masuk-dan-katup-buang.png)1. Fungsi:\n   - Katup masuk: Mengatur masuknya campuran udara dan bahan bakar ke ruang bakar.\n   - Katup buang: Mengatur keluarnya gas sisa pembakaran dari ruang bakar.\n\n2. Ukuran Kepala Katup:\n   - Katup masuk: Umumnya memiliki diameter kepala lebih besar untuk memaksimalkan volume campuran yang masuk.\n   - Katup buang: Biasanya memiliki diameter lebih kecil dibandingkan katup masuk.\n\n3. Kondisi Kerja:\n   - Katup masuk: Bekerja pada suhu lebih rendah karena dialiri campuran udara dan bahan bakar.\n   - Katup buang: Bekerja pada suhu sangat tinggi karena bersentuhan langsung dengan gas sisa pembakaran.\n\n4. Material:\n   - Katup masuk: Terbuat dari baja paduan yang tahan terhadap tekanan.\n   - Katup buang: Menggunakan material khusus yang lebih tahan panas dan korosi.\n\n5. Dampak Kerusakan:\n   - Katup masuk bocor: Mesin sulit hidup dan tenaga menurun.\n   - Katup buang bocor: Mesin cepat panas dan suara ledakan pada knalpot."
+        }
+      ]
+    },
+    {
+      "title": "Komponen Mekanisme Katup",
+      "content": "",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Camshaft (Noken As)",
+          "content2": "![Camshaft (Noken As)](images/XRDCTSM-005/camshaft.png)Camshaft atau noken as adalah poros yang memiliki tonjolan (cam lobe) yang berfungsi untuk mengatur waktu pembukaan dan penutupan katup masuk dan katup buang.\n\n1. Fungsi Camshaft:\n   - Mengubah gerakan putar menjadi gerakan tekan untuk membuka katup.\n   - Mengatur durasi dan waktu buka-tutup katup sesuai desain mesin.\n   - Menentukan karakter tenaga mesin (torsi atau putaran tinggi).\n\n2. Cara Kerja:\n   - Camshaft digerakkan oleh poros engkol (crankshaft) melalui rantai keteng atau gear.\n   - Saat tonjolan cam menyentuh rocker arm atau tappet, katup akan terbuka.\n   - Ketika tonjolan berputar menjauh, pegas katup mengembalikan katup ke posisi tertutup.\n\n3. Konstruksi:\n   - Terbuat dari baja paduan yang tahan aus dan tekanan tinggi.\n   - Memiliki cam lobe untuk masing-masing katup (intake dan exhaust).\n\n4. Dampak Kerusakan:\n   - Keausan cam lobe menyebabkan bukaan katup tidak maksimal.\n   - Waktu pembukaan katup tidak tepat sehingga tenaga mesin menurun."
+        },
+        {
+          "title2": "Rocker Arm (Pelatuk Katup)",
+          "content2": "![Rocker Arm (Pelatuk Katup)](images/XRDCTSM-005/rocker-arm.png)Rocker arm atau pelatuk katup adalah komponen mekanisme katup yang berfungsi meneruskan dan mengubah gerakan dari camshaft (noken as) menjadi gerakan tekan untuk membuka katup.\n\n1. Fungsi Rocker Arm:\n   - Meneruskan tekanan dari cam lobe ke batang katup.\n   - Mengubah gerakan putar camshaft menjadi gerakan tekan-buka katup.\n   - Menjadi titik penyetelan celah katup pada tipe mesin tertentu.\n\n2. Cara Kerja:\n   - Saat tonjolan camshaft menekan salah satu sisi rocker arm, sisi lainnya akan menekan batang katup sehingga katup terbuka.\n   - Setelah camshaft berputar melewati tonjolan, pegas katup akan menutup kembali katup dan rocker arm kembali ke posisi semula.\n\n3. Konstruksi:\n   - Terbuat dari baja atau baja paduan yang kuat dan tahan aus.\n   - Memiliki poros sebagai titik tumpu (pivot).\n   - Pada beberapa tipe dilengkapi baut penyetel dan mur pengunci untuk mengatur celah katup.\n\n4. Dampak Kerusakan:\n   - Keausan pada ujung rocker arm menyebabkan bunyi kasar pada kepala silinder.\n   - Celah katup menjadi tidak stabil sehingga performa mesin menurun."
+        },
+        {
+          "title2": "Valve / Katup",
+          "content2": "![Valve / Katup](images/XRDCTSM-005/katup.png)Valve atau katup adalah komponen mekanisme katup yang berfungsi sebagai pintu pembuka dan penutup saluran masuk (intake) dan saluran buang (exhaust) pada ruang bakar mesin 4 langkah.\n\n1. Fungsi Katup:\n   - Mengatur masuknya campuran udara dan bahan bakar ke dalam ruang bakar.\n   - Mengatur keluarnya gas sisa hasil pembakaran.\n   - Menjaga kerapatan ruang bakar saat proses kompresi dan usaha.\n\n2. Cara Kerja:\n   - Katup dibuka oleh tekanan dari camshaft melalui rocker arm atau tappet.\n   - Setelah tekanan dilepas, pegas katup akan mengembalikan katup ke posisi tertutup.\n   - Pembukaan dan penutupan katup terjadi sesuai siklus kerja mesin 4 langkah.\n\n3. Konstruksi Katup:\n   - Terdiri dari kepala katup (valve head) dan batang katup (valve stem).\n   - Kepala katup berbentuk piringan untuk menutup rapat pada valve seat.\n   - Terbuat dari baja paduan tahan panas dan tekanan tinggi.\n\n4. Jenis Katup:\n   - Katup masuk (intake valve).\n   - Katup buang (exhaust valve).\n\n5. Dampak Kerusakan:\n   - Katup bengkok atau aus menyebabkan kebocoran kompresi.\n   - Katup terbakar (burnt valve) menyebabkan mesin kehilangan tenaga dan sulit dihidupkan."
+        },
+        {
+          "title2": "Valve Spring (Pegas Katup)",
+          "content2": "![Valve Spring (Pegas Katup)](images/XRDCTSM-005/valve-spring.png)Valve spring atau pegas katup adalah komponen mekanisme katup yang berfungsi untuk mengembalikan katup ke posisi tertutup setelah ditekan oleh camshaft melalui rocker arm atau tappet.\n\n1. Fungsi Valve Spring:\n   - Mengembalikan katup ke posisi tertutup dengan cepat dan rapat.\n   - Menjaga agar katup tetap menempel pada valve seat saat tidak ditekan.\n   - Mencegah terjadinya valve floating pada putaran mesin tinggi.\n\n2. Cara Kerja:\n   - Saat camshaft menekan katup, pegas akan tertekan (terkompresi).\n   - Ketika tonjolan camshaft berputar menjauh, pegas akan mengembang dan mendorong katup kembali menutup.\n\n3. Konstruksi:\n   - Terbuat dari baja pegas khusus yang elastis dan tahan panas.\n   - Berbentuk spiral (ulir) dengan kekuatan tekan tertentu.\n   - Pada beberapa mesin menggunakan pegas ganda (double spring) untuk kestabilan pada putaran tinggi.\n\n4. Dampak Kerusakan:\n   - Pegas lemah menyebabkan katup tidak menutup sempurna.\n   - Pegas patah dapat menyebabkan kerusakan serius pada piston dan katup.\n   - Mesin dapat kehilangan tenaga atau mengeluarkan suara tidak normal dari kepala silinder."
+        },
+        {
+          "title2": "Valve Guide & Valve Sea",
+          "content2": "![Valve Guide & Valve Sea](images/XRDCTSM-005/valve-guide-&-valve-seal.png)Valve guide dan valve seat merupakan komponen penting pada kepala silinder yang berfungsi untuk menjaga kestabilan gerak katup serta memastikan penutupan ruang bakar berlangsung rapat dan presisi.\n\n1. Valve Guide (Pemandu Katup):\n   - Fungsi: Membimbing gerakan naik-turun batang katup agar tetap lurus dan stabil.\n   - Cara Kerja: Batang katup bergerak di dalam valve guide sehingga tidak terjadi goyangan yang dapat menyebabkan keausan atau kebocoran.\n   - Konstruksi: Berbentuk silinder berlubang, biasanya terbuat dari besi tuang khusus atau bahan paduan yang tahan aus.\n   - Dampak Kerusakan: Keausan valve guide menyebabkan oli masuk ke ruang bakar dan menimbulkan asap putih pada knalpot.\n\n2. Valve Seat (Dudukan Katup):\n   - Fungsi: Sebagai tempat dudukan kepala katup agar ruang bakar tertutup rapat saat katup menutup.\n   - Cara Kerja: Kepala katup menempel rapat pada valve seat saat proses kompresi dan usaha untuk menjaga tekanan tetap maksimal.\n   - Konstruksi: Terbuat dari logam khusus yang tahan panas dan tekanan tinggi, dipasang pada kepala silinder.\n   - Dampak Kerusakan: Valve seat aus atau terbakar menyebabkan kebocoran kompresi dan tenaga mesin menurun.\n\nKondisi valve guide dan valve seat yang baik sangat penting untuk menjaga kompresi mesin, efisiensi pembakaran, dan umur pakai komponen engine."
+        },
+        {
+          "title2": "Tappet / Penyetel Katup",
+          "content2": "![Tappet / Penyetel Katup](images/XRDCTSM-005/tappet.png)Tappet atau penyetel katup adalah komponen mekanisme katup yang berfungsi sebagai penghubung antara camshaft dan katup sekaligus sebagai bagian untuk mengatur celah katup (valve clearance).\n\n1. Fungsi Tappet:\n   - Meneruskan tekanan dari camshaft ke batang katup (pada tipe tertentu tanpa rocker arm).\n   - Mengatur dan menjaga celah katup sesuai spesifikasi pabrikan.\n   - Menjamin pembukaan dan penutupan katup berlangsung presisi.\n\n2. Jenis Tappet:\n   - Tappet mekanis (manual adjuster): Menggunakan baut penyetel dan mur pengunci untuk mengatur celah katup.\n   - Tappet shim: Menggunakan pelat tipis (shim) dengan ketebalan tertentu untuk mengatur celah.\n   - Hydraulic tappet: Menggunakan tekanan oli untuk menyesuaikan celah secara otomatis.\n\n3. Cara Kerja:\n   - Camshaft menekan tappet saat tonjolan (cam lobe) berputar.\n   - Tappet meneruskan tekanan ke batang katup sehingga katup terbuka.\n   - Setelah camshaft berputar menjauh, pegas katup mengembalikan katup ke posisi tertutup.\n\n4. Dampak Kerusakan atau Kesalahan Setelan:\n   - Celah terlalu rapat menyebabkan katup tidak menutup sempurna dan kompresi bocor.\n   - Celah terlalu renggang menimbulkan suara kasar pada kepala silinder.\n   - Keausan tappet dapat menyebabkan bukaan katup tidak maksimal dan performa mesin menurun."
+        }
+      ]
+    },
+    {
+      "title": "Sistem Timing (Sistem Kateng)",
+      "content": "Sistem timing atau sistem kateng adalah mekanisme yang berfungsi untuk menyinkronkan putaran poros engkol (crankshaft) dengan poros nok (camshaft) agar pembukaan dan penutupan katup terjadi pada waktu yang tepat sesuai siklus mesin 4 langkah.\n\nKetepatan sistem timing sangat penting karena kesalahan satu gigi saja dapat menyebabkan tenaga mesin menurun, mesin sulit hidup, bahkan kerusakan serius pada katup dan piston.",
+      "contentL1": "Sistem timing atau sistem kateng adalah mekanisme yang berfungsi untuk menyinkronkan putaran poros engkol (crankshaft) dengan poros nok (camshaft) agar pembukaan dan penutupan katup terjadi pada waktu yang tepat sesuai siklus mesin 4 langkah.\n\nKetepatan sistem timing sangat penting karena kesalahan satu gigi saja dapat menyebabkan tenaga mesin menurun, mesin sulit hidup, bahkan kerusakan serius pada katup dan piston.",
+      "subSections": [
+        {
+          "title2": "Pengertian Sistem Timing",
+          "content2": "Sistem timing adalah sistem penggerak camshaft yang memastikan hubungan putaran antara crankshaft dan camshaft tetap sinkron dengan perbandingan 2:1 pada mesin 4 langkah.\n\nArtinya, dalam dua kali putaran poros engkol, camshaft berputar satu kali. Sinkronisasi ini memastikan katup membuka dan menutup sesuai langkah hisap, kompresi, usaha, dan buang."
+        },
+        {
+          "title2": "Timing Chain (Rantai Keteng)",
+          "content2": "![Rantai Keteng](images/XRDCTSM-005/timing-chain.png)Timing chain atau rantai keteng adalah komponen yang berfungsi meneruskan putaran dari crankshaft ke camshaft.\n\n1. Fungsi:\n   - Menghubungkan putaran crankshaft ke camshaft.\n   - Menjaga sinkronisasi kerja mekanisme katup.\n\n2. Konstruksi:\n   - Terbuat dari baja khusus yang kuat dan tahan aus.\n   - Berbentuk rantai dengan mata rantai presisi.\n\n3. Dampak Kerusakan:\n   - Rantai kendur menyebabkan suara kasar pada mesin.\n   - Rantai loncat gigi menyebabkan timing tidak tepat."
+        },
+        {
+          "title2": "Sprocket Camshaft & Crankshaft",
+          "content2": "![Sprocket Camshaft & Crankshaf](images/XRDCTSM-005/sprocket-camshaft-&-crankshaf.png)Sprocket adalah roda bergigi yang terpasang pada camshaft dan crankshaft sebagai penggerak rantai keteng.\n\n1. Fungsi:\n   - Meneruskan dan menjaga kestabilan putaran sistem timing.\n   - Menentukan posisi tanda timing.\n\n2. Karakteristik:\n   - Memiliki jumlah gigi tertentu sesuai desain mesin.\n   - Dilengkapi tanda timing sebagai acuan penyetelan.\n\n3. Dampak Kerusakan:\n   - Gigi aus menyebabkan rantai tidak stabil.\n   - Posisi salah pemasangan menyebabkan mesin tidak sinkron."
+        },
+        {
+          "title2": "Tensioner (Penegang Rantai)",
+          "content2": "![Tensioner](images/XRDCTSM-005/tensioner.png)Tensioner adalah komponen yang berfungsi menjaga ketegangan rantai keteng agar tidak kendor saat mesin beroperasi.\n\n1. Fungsi:\n   - Menjaga ketegangan rantai tetap stabil.\n   - Mencegah rantai loncat gigi.\n\n2. Jenis:\n   - Tensioner manual.\n   - Tensioner otomatis (menggunakan pegas atau tekanan oli).\n\n3. Dampak Kerusakan:\n   - Rantai berbunyi kasar.\n   - Risiko loncat gigi dan kerusakan katup."
+        },
+        {
+          "title2": "Tanda Timing (Timing Mark)",
+          "content2": "![Tanda Timing (Timing Mark)](images/XRDCTSM-005/tanda.timing.png)Tanda timing adalah tanda khusus pada sprocket dan magnet/flywheel yang digunakan sebagai acuan penyetelan posisi crankshaft dan camshaft.\n\n1. Fungsi:\n   - Menentukan posisi Top Dead Center (TDC/TMA).\n   - Memastikan pemasangan camshaft sesuai spesifikasi.\n\n2. Letak Tanda:\n   - Pada magnet atau flywheel (tanda T atau garis).\n   - Pada sprocket camshaft (garis atau titik sejajar head cylinder).\n\n3. Dampak Salah Penyetelan:\n   - Mesin sulit hidup.\n   - Tenaga lemah.\n   - Katup dapat bertabrakan dengan piston pada mesin tipe tertentu."
+        }
+      ]
+    },
+    {
+      "title": "Celah Katup (Valve Clearance)",
+      "content": "Celah katup (valve clearance) adalah jarak bebas antara ujung batang katup dengan mekanisme penggeraknya (rocker arm atau tappet) saat katup dalam kondisi tertutup dan mesin berada pada posisi Top Kompresi.\n\nCelah ini diperlukan karena komponen mesin akan mengalami pemuaian akibat panas saat mesin bekerja. Penyetelan celah katup yang tepat sangat penting untuk menjaga performa, efisiensi, dan umur pakai mesin.",
+      "contentL1": "Celah katup (valve clearance) adalah jarak bebas antara ujung batang katup dengan mekanisme penggeraknya (rocker arm atau tappet) saat katup dalam kondisi tertutup dan mesin berada pada posisi Top Kompresi.\n\nCelah ini diperlukan karena komponen mesin akan mengalami pemuaian akibat panas saat mesin bekerja. Penyetelan celah katup yang tepat sangat penting untuk menjaga performa, efisiensi, dan umur pakai mesin.",
+      "subSections": [
+        {
+          "title2": "Pengertian Celah Katup",
+          "content2": "Celah katup merupakan ruang bebas yang terdapat di antara komponen penggerak katup dengan batang katup ketika katup dalam posisi tertutup.\n\nPengukuran celah katup dilakukan menggunakan feeler gauge dengan ketebalan tertentu sesuai spesifikasi pabrikan. Pemeriksaan biasanya dilakukan saat mesin dalam kondisi dingin untuk mendapatkan hasil yang akurat.\n\nPada mesin tipe rocker arm, celah berada di antara ujung rocker arm dan batang katup. Sedangkan pada tipe shim, celah berada di antara camshaft dan shim."
+        },
+        {
+          "title2": "Fungsi Celah Katup",
+          "content2": "1. Mengkompensasi pemuaian logam akibat panas saat mesin bekerja.\n2. Memastikan katup dapat menutup dengan sempurna saat langkah kompresi dan usaha.\n3. Menjaga timing pembukaan dan penutupan katup tetap sesuai desain mesin.\n4. Menghindari tekanan terus-menerus pada katup saat mesin panas.\n5. Menjaga kestabilan performa mesin pada berbagai putaran.\n6. Memperpanjang umur pakai katup dan komponen mekanisme katup."
+        },
+        {
+          "title2": "Dampak Celah Terlalu Rapat",
+          "content2": "1. Katup tidak dapat menutup sempurna karena pemuaian komponen.\n2. Terjadi kebocoran kompresi sehingga tenaga mesin menurun.\n3. Mesin sulit dihidupkan terutama saat kondisi dingin.\n4. Katup dapat terbakar (burnt valve) akibat tidak mampu melepas panas ke valve seat.\n5. Mesin cepat panas (overheat).\n6. Konsumsi bahan bakar menjadi lebih boros.\n7. Pada kondisi parah dapat menyebabkan kerusakan permanen pada katup dan dudukannya."
+        },
+        {
+          "title2": "Dampak Celah Terlalu Renggang",
+          "content2": "1. Timbul suara berisik atau ketukan (valve noise) pada kepala silinder.\n2. Bukaan katup menjadi tidak maksimal karena sebagian gerakan camshaft terbuang untuk menghilangkan celah.\n3. Tenaga mesin berkurang terutama pada putaran tinggi.\n4. Keausan lebih cepat pada rocker arm, camshaft, dan ujung batang katup.\n5. Getaran mesin meningkat.\n6. Efisiensi pembakaran menurun."
+        },
+        {
+          "title2": "Spesifikasi Umum Celah Katup",
+          "content2": "Spesifikasi celah katup ditentukan oleh pabrikan dan berbeda pada setiap tipe mesin.\n\nSecara umum pada sepeda motor 4 langkah:\n- Katup masuk (intake): 0,05 – 0,10 mm.\n- Katup buang (exhaust): 0,08 – 0,12 mm.\n\nKatup buang biasanya memiliki celah lebih besar karena bekerja pada suhu yang lebih tinggi.\n\nPenyetelan harus selalu mengacu pada buku manual servis resmi dan dilakukan saat mesin dalam kondisi dingin agar hasil pengukuran akurat dan sesuai standar teknis."
+        }
+      ]
+    },
+    {
+      "title": "Prosedur Pemeriksaan & Penyetelan Celah Katup",
+      "content": "Pemeriksaan dan penyetelan celah katup merupakan bagian dari perawatan berkala mesin sepeda motor 4 langkah. Prosedur ini harus dilakukan secara sistematis, teliti, dan sesuai standar pabrikan untuk memastikan katup membuka dan menutup dengan tepat.\n\nKesalahan prosedur dapat menyebabkan kompresi bocor, suara mesin kasar, bahkan kerusakan serius pada katup dan piston. Oleh karena itu, setiap langkah harus dilakukan dengan memperhatikan aspek Keselamatan dan Kesehatan Kerja (K3).",
+      "contentL1": "Pemeriksaan dan penyetelan celah katup merupakan bagian dari perawatan berkala mesin sepeda motor 4 langkah. Prosedur ini harus dilakukan secara sistematis, teliti, dan sesuai standar pabrikan untuk memastikan katup membuka dan menutup dengan tepat.\n\nKesalahan prosedur dapat menyebabkan kompresi bocor, suara mesin kasar, bahkan kerusakan serius pada katup dan piston. Oleh karena itu, setiap langkah harus dilakukan dengan memperhatikan aspek Keselamatan dan Kesehatan Kerja (K3).",
+      "subSections": [
+        {
+          "title2": "Persiapan Alat & APD",
+          "content2": "![Persiapan Alat & APD](images/XRDCTSM-005/persiapan-alat-&-apd.png)Sebelum melakukan pekerjaan, teknisi harus menyiapkan alat dan menggunakan APD sesuai standar.\n\nAlat yang diperlukan:\n1. Feeler gauge sesuai ukuran spesifikasi.\n2. Kunci ring/pas sesuai ukuran baut penyetel.\n3. Obeng (+) atau (-) sesuai tipe baut penyetel.\n4. Kunci soket atau kunci T untuk memutar crankshaft.\n5. Lap bersih.\n\nAPD yang digunakan:\n1. Sarung tangan kerja.\n2. Kacamata pelindung.\n3. Sepatu keselamatan.\n\nPastikan mesin dalam kondisi dingin sebelum dilakukan pemeriksaan agar hasil pengukuran akurat."
+        },
+        {
+          "title2": "Posisi Top Kompresi (TMA)",
+          "content2": "Langkah penting sebelum pengukuran adalah memastikan piston berada pada posisi Top Mati Atas (TMA) langkah kompresi.\n\nProsedur:\n1. Buka penutup lubang timing pada magnet/flywheel.\n2. Putar crankshaft searah jarum jam menggunakan kunci hingga tanda \"T\" pada magnet sejajar dengan tanda pada blok mesin.\n3. Pastikan kedua katup dalam kondisi bebas (tidak tertekan).\n\nCiri TMA langkah kompresi:\n- Rocker arm dapat digerakkan sedikit.\n- Kedua katup dalam posisi tertutup.\n\nJika salah posisi (TMA langkah buang), salah satu katup akan masih tertekan."
+        },
+        {
+          "title2": "Penggunaan Feeler Gauge",
+          "content2": "Feeler gauge digunakan untuk mengukur celah antara ujung rocker arm dan batang katup.\n\nLangkah penggunaan:\n1. Pilih bilah feeler gauge sesuai spesifikasi pabrikan.\n2. Masukkan feeler gauge di antara rocker arm dan batang katup.\n3. Rasakan tahanan saat digeser.\n\nKriteria hasil yang benar:\n- Feeler gauge dapat digeser dengan sedikit tahanan (tidak terlalu longgar dan tidak terlalu seret).\n\nJika terlalu longgar berarti celah terlalu besar.\nJika tidak dapat masuk berarti celah terlalu sempit."
+        },
+        {
+          "title2": "Cara Penyetelan Baut Penyetel",
+          "content2": "Jika hasil pengukuran tidak sesuai spesifikasi, lakukan penyetelan.\n\nProsedur penyetelan:\n1. Longgarkan mur pengunci pada baut penyetel.\n2. Putar baut penyetel menggunakan obeng:\n   - Searah jarum jam untuk memperkecil celah.\n   - Berlawanan arah jarum jam untuk memperbesar celah.\n3. Sambil memutar baut, tetap sisipkan feeler gauge.\n4. Atur hingga feeler gauge terasa sedikit seret.\n5. Tahan posisi baut penyetel, lalu kencangkan kembali mur pengunci.\n\nPastikan baut tidak berubah posisi saat mur dikencangkan."
+        },
+        {
+          "title2": "Pemeriksaan Ulang",
+          "content2": "Setelah penyetelan selesai, lakukan pemeriksaan ulang untuk memastikan hasil akurat.\n\nLangkah akhir:\n1. Ukur kembali celah menggunakan feeler gauge.\n2. Pastikan nilai sesuai spesifikasi.\n3. Putar crankshaft dua kali putaran penuh dan kembali ke posisi TMA.\n4. Periksa kembali celah untuk memastikan tidak berubah.\n5. Pasang kembali semua penutup dengan benar.\n\nSetelah mesin dihidupkan, periksa apakah terdapat suara abnormal pada kepala silinder.\n\nPenyetelan yang tepat akan menghasilkan suara mesin halus, performa stabil, dan kompresi optimal."
+        }
+      ]
+    },
+    {
+      "title": "Pemeriksaan Sistem Timing",
+      "content": "Pemeriksaan sistem timing bertujuan untuk memastikan sinkronisasi antara crankshaft dan camshaft tetap sesuai spesifikasi pabrikan. Sistem timing yang tidak tepat dapat menyebabkan penurunan performa mesin, suara abnormal, hingga kerusakan serius pada katup dan piston.\n\nPemeriksaan harus dilakukan secara sistematis dengan memperhatikan prosedur kerja dan keselamatan (K3).",
+      "contentL1": "Pemeriksaan sistem timing bertujuan untuk memastikan sinkronisasi antara crankshaft dan camshaft tetap sesuai spesifikasi pabrikan. Sistem timing yang tidak tepat dapat menyebabkan penurunan performa mesin, suara abnormal, hingga kerusakan serius pada katup dan piston.\n\nPemeriksaan harus dilakukan secara sistematis dengan memperhatikan prosedur kerja dan keselamatan (K3).",
+      "subSections": [
+        {
+          "title2": "Pemeriksaan Tanda Timing",
+          "content2": "Tanda timing (timing mark) digunakan sebagai acuan untuk memastikan posisi crankshaft dan camshaft berada pada sinkronisasi yang benar.\n\nProsedur pemeriksaan:\n1. Buka tutup lubang pemeriksaan magnet/flywheel.\n2. Putar crankshaft searah jarum jam hingga tanda \"T\" sejajar dengan tanda pada blok mesin.\n3. Periksa posisi tanda pada sprocket camshaft.\n4. Pastikan tanda garis atau titik pada sprocket sejajar dengan permukaan kepala silinder.\n\nJika tanda tidak sejajar, kemungkinan terjadi loncat gigi pada rantai keteng atau kesalahan pemasangan camshaft."
+        },
+        {
+          "title2": "Pemeriksaan Rantai Keteng",
+          "content2": "Rantai keteng berfungsi meneruskan putaran crankshaft ke camshaft. Kondisi rantai yang aus atau kendor dapat mengganggu ketepatan timing.\n\nLangkah pemeriksaan:\n1. Dengarkan suara mesin, apakah terdapat bunyi kasar dari area silinder head.\n2. Periksa kelonggaran rantai saat tensioner dilepas.\n3. Amati kondisi fisik rantai apakah terdapat keausan atau peregangan berlebih.\n\nCiri rantai bermasalah:\n- Suara berisik saat mesin hidup.\n- Timing mudah berubah.\n- Rantai terasa terlalu kendor."
+        },
+        {
+          "title2": "Pemeriksaan Tensioner",
+          "content2": "Tensioner berfungsi menjaga ketegangan rantai keteng agar tetap stabil selama mesin bekerja.\n\nProsedur pemeriksaan:\n1. Lepas tensioner dari blok mesin sesuai prosedur.\n2. Periksa kondisi pegas atau mekanisme otomatis.\n3. Pastikan tensioner dapat bergerak dengan lancar dan tidak macet.\n4. Periksa ujung penekan rantai dari keausan.\n\nTensioner yang rusak dapat menyebabkan rantai kendur dan berisiko loncat gigi."
+        },
+        {
+          "title2": "Pemeriksaan Dampak Salah Timing",
+          "content2": "Kesalahan sistem timing dapat menimbulkan berbagai masalah pada mesin, antara lain:\n\n1. Mesin sulit dihidupkan.\n2. Tenaga mesin menurun.\n3. Mesin brebet atau tidak stabil.\n4. Konsumsi bahan bakar meningkat.\n5. Pada mesin tipe interference, katup dapat bertabrakan dengan piston dan menyebabkan kerusakan berat.\n\nOleh karena itu, pemeriksaan sistem timing harus dilakukan dengan teliti dan selalu mengacu pada buku manual servis resmi."
+        }
+      ]
+    },
+    {
+      "title": "Gangguan & Analisis Kerusakan",
+      "content": "Gangguan pada mekanisme katup dan sistem timing dapat mempengaruhi performa, efisiensi, dan keandalan mesin sepeda motor. Kerusakan biasanya ditandai dengan gejala tertentu yang dapat dianalisis untuk menentukan penyebabnya.\n\nAnalisis kerusakan dilakukan dengan mengamati gejala, memeriksa kondisi komponen, serta membandingkan hasil pemeriksaan dengan spesifikasi standar pabrikan.",
+      "contentL1": "Gangguan pada mekanisme katup dan sistem timing dapat mempengaruhi performa, efisiensi, dan keandalan mesin sepeda motor. Kerusakan biasanya ditandai dengan gejala tertentu yang dapat dianalisis untuk menentukan penyebabnya.\n\nAnalisis kerusakan dilakukan dengan mengamati gejala, memeriksa kondisi komponen, serta membandingkan hasil pemeriksaan dengan spesifikasi standar pabrikan.",
+      "subSections": [
+        {
+          "title2": "Mesin Susah Hidup",
+          "content2": "Gejala:\n- Starter berputar normal tetapi mesin tidak menyala.\n- Mesin sulit hidup saat kondisi dingin.\n\nKemungkinan penyebab dari sistem katup:\n1. Celah katup terlalu rapat sehingga katup tidak menutup sempurna.\n2. Kebocoran kompresi akibat katup aus atau terbakar.\n3. Timing camshaft tidak tepat (loncat gigi).\n\nTindakan pemeriksaan:\n- Periksa dan setel ulang celah katup.\n- Periksa kesesuaian tanda timing.\n- Lakukan uji kompresi untuk memastikan tidak terjadi kebocoran."
+        },
+        {
+          "title2": "Mesin Brebet",
+          "content2": "Gejala:\n- Mesin tersendat-sendat saat digas.\n- Putaran mesin tidak stabil.\n\nKemungkinan penyebab dari mekanisme katup:\n1. Bukaan katup tidak maksimal akibat celah terlalu renggang.\n2. Timing tidak sinkron.\n3. Katup aus atau pegas katup lemah.\n\nTindakan pemeriksaan:\n- Periksa dan sesuaikan celah katup.\n- Periksa kondisi rantai keteng dan tensioner.\n- Periksa kondisi pegas katup."
+        },
+        {
+          "title2": "Suara Kasar dari Head Cylinder",
+          "content2": "Gejala:\n- Bunyi ketukan atau suara berisik dari bagian kepala silinder.\n\nKemungkinan penyebab:\n1. Celah katup terlalu renggang.\n2. Rantai keteng kendor.\n3. Tensioner rusak.\n4. Keausan pada rocker arm atau camshaft.\n\nTindakan pemeriksaan:\n- Ukur celah katup menggunakan feeler gauge.\n- Periksa ketegangan rantai keteng.\n- Periksa kondisi cam lobe dan rocker arm."
+        },
+        {
+          "title2": "Tenaga Lemah",
+          "content2": "Gejala:\n- Akselerasi lambat.\n- Motor terasa berat saat digunakan.\n\nKemungkinan penyebab:\n1. Katup bocor akibat celah terlalu rapat.\n2. Timing camshaft tidak tepat.\n3. Bukaan katup tidak maksimal akibat keausan komponen.\n\nTindakan pemeriksaan:\n- Periksa tanda timing.\n- Lakukan penyetelan celah katup.\n- Periksa kondisi valve seat dan valve guide."
+        },
+        {
+          "title2": "Overheat",
+          "content2": "Gejala:\n- Mesin cepat panas.\n- Temperatur mesin meningkat tidak normal.\n\nKemungkinan penyebab:\n1. Katup tidak menutup sempurna sehingga pembakaran tidak efisien.\n2. Katup buang terbakar akibat celah terlalu rapat.\n3. Timing terlalu maju atau mundur.\n\nTindakan pemeriksaan:\n- Periksa dan setel ulang celah katup.\n- Periksa kondisi katup dan dudukannya.\n- Pastikan sistem timing terpasang sesuai tanda.\n\nAnalisis kerusakan yang tepat membantu mencegah kerusakan lanjutan serta menjaga umur pakai mesin tetap optimal."
+        }
+      ]
+    }
+  ]
 }

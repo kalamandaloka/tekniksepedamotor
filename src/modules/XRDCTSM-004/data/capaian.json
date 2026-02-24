@@ -1,7 +1,23 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Struktur Mesin & Komponen Utama",
+  "description": "Modul ini membahas struktur dasar mesin sepeda motor serta fungsi dan cara kerja komponen utama mesin 4 langkah. Materi mencakup identifikasi komponen blok silinder, kepala silinder, piston, poros engkol, mekanisme katup, sistem pelumasan, dan sistem pendinginan. Peserta didik diharapkan mampu memahami konstruksi mesin, hubungan kerja antar komponen, serta prinsip perubahan energi dari energi panas menjadi energi mekanik sesuai standar SKKNI dan Capaian Pembelajaran Kurikulum Merdeka SMK.",
+  "image": "/images/XRDCTSM-004/sturktur-mesin.png",
+  "skkni": [
+    "Mengidentifikasi konstruksi dan bagian utama mesin sepeda motor",
+    "Menjelaskan fungsi komponen utama mesin sepeda motor",
+    "Memahami hubungan kerja antar komponen mekanisme mesin",
+    "Menerapkan prosedur kerja sesuai standar saat identifikasi komponen mesin"],
+  "kurikulum": [
+    "CP: Memahami konstruksi dan prinsip kerja engine sepeda motor",
+    "ATP 1: Mengidentifikasi bagian-bagian utama struktur mesin sepeda motor",
+    "ATP 2: Menjelaskan fungsi komponen utama mesin (piston, connecting rod, crankshaft, camshaft, katup)",
+    "ATP 3: Menganalisis hubungan mekanisme kerja antar komponen pada mesin 4 langkah"
+  ],
+  "tujuan": [
+    "Peserta didik mampu menyebutkan bagian utama struktur mesin sepeda motor",
+    "Peserta didik mampu mengidentifikasi komponen utama mesin dengan benar",
+    "Peserta didik mampu menjelaskan fungsi setiap komponen utama mesin",
+    "Peserta didik mampu menjelaskan hubungan gerak piston, connecting rod, dan poros engkol",
+    "Peserta didik mampu menjelaskan mekanisme buka-tutup katup pada mesin 4 langkah"
+  ]
 }

@@ -1,5 +1,173 @@
 {
-  "title": "Teori Modul",
+  "title": "Struktur Mesin & Komponen Utama",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Struktur Dasar Mesin",
+      "content": "",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Pengertian Mesin Pembakaran Dalam",
+          "content2": "Mesin pembakaran dalam adalah mesin yang proses pembakaran campuran udara dan bahan bakar terjadi di dalam ruang bakar (silinder). Hasil pembakaran tersebut menghasilkan tekanan tinggi yang mendorong piston bergerak naik dan turun. Gerakan piston kemudian diteruskan melalui connecting rod (stang seher) ke poros engkol sehingga berubah menjadi gerak putar. Pada sepeda motor, mesin yang umum digunakan adalah mesin bensin 4 langkah, yang bekerja melalui siklus hisap, kompresi, usaha, dan buang. Mesin ini mengubah energi kimia dari bahan bakar menjadi energi panas, lalu menjadi energi mekanik untuk menggerakkan kendaraan."
+        },
+        {
+          "title2": "Jenis Mesin 4 Langkah",
+          "content2": "Mesin 4 langkah (4-tak) adalah mesin yang memerlukan empat langkah gerakan piston atau dua kali putaran poros engkol untuk menghasilkan satu kali langkah usaha. Pada sepeda motor, mesin 4 langkah banyak digunakan karena lebih efisien, ramah lingkungan, dan perawatannya relatif lebih mudah dibandingkan mesin 2 langkah.\n\nBerdasarkan konstruksi dan mekanisme katupnya, mesin 4 langkah pada sepeda motor dibedakan menjadi beberapa jenis:\n\n1. SOHC (Single Over Head Camshaft) → Menggunakan satu poros nok (camshaft) yang terletak di kepala silinder untuk menggerakkan katup masuk dan katup buang.\n\n2. DOHC (Double Over Head Camshaft) → Menggunakan dua poros nok di kepala silinder, masing-masing untuk katup masuk dan katup buang, sehingga mampu bekerja lebih presisi pada putaran tinggi.\n\n3. OHV (Over Head Valve) → Camshaft terletak di dalam blok mesin dan menggerakkan katup melalui push rod dan rocker arm.\n\nSelain itu, mesin 4 langkah juga dapat dibedakan berdasarkan sistem pendinginannya, yaitu pendingin udara dan pendingin cairan. Pemilihan jenis mesin disesuaikan dengan kebutuhan performa, efisiensi, dan desain kendaraan."
+        },
+        {
+          "title2": "Struktur Utama Mesin",
+          "content2": "Struktur utama mesin sepeda motor 4 langkah terdiri dari tiga bagian pokok yang membentuk konstruksi dasar engine, yaitu blok silinder, kepala silinder, dan crankcase. Ketiga bagian ini menjadi tempat terpasangnya seluruh komponen utama mesin serta menopang proses pembakaran dan perubahan energi menjadi tenaga mekanik.",
+          "items": [
+            {
+              "title3": "Blok Silinder",
+              "content3": "![Blok Silinder](images/XRDCTSM-004/blok-silinder.png)Blok silinder adalah bagian mesin yang menjadi tempat bergeraknya piston naik dan turun. Di dalam blok silinder terdapat lubang silinder (cylinder bore) sebagai ruang gerak piston. Blok silinder biasanya terbuat dari bahan aluminium alloy atau besi tuang yang kuat terhadap panas dan tekanan. Fungsi utama blok silinder adalah sebagai rumah piston dan tempat terjadinya proses kompresi dan pembakaran."
+            },
+            {
+              "title3": "Kepala Silinder (Cylinder Head)",
+              "content3": "![Kepala Silinder](images/XRDCTSM-004/kepala-silinder.png)Kepala silinder terletak di bagian atas blok silinder dan berfungsi sebagai penutup ruang bakar. Pada bagian ini terdapat ruang bakar, katup masuk dan katup buang, busi, serta mekanisme camshaft (pada tipe OHC). Kepala silinder berperan penting dalam mengatur keluar-masuknya campuran udara dan bahan bakar serta pembuangan gas sisa pembakaran."
+            },
+            {
+              "title3": "Crankcase",
+              "content3": "![Crankcase](images/XRDCTSM-004/crankcase.png)Crankcase adalah bagian bawah mesin yang berfungsi sebagai rumah poros engkol (crankshaft). Crankcase juga menjadi tempat penyimpanan oli mesin untuk sistem pelumasan. Selain itu, crankcase menopang komponen seperti connecting rod dan menjadi dudukan utama seluruh rangkaian mesin. Bagian ini biasanya dibuat dari bahan aluminium agar ringan namun tetap kuat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Komponen Utama Mesin",
+      "content": "Komponen utama mesin sepeda motor 4 langkah merupakan bagian-bagian mekanis yang bekerja secara langsung dalam proses pembakaran dan perubahan energi panas menjadi energi mekanik. Setiap komponen memiliki fungsi spesifik dan saling berhubungan dalam satu sistem kerja yang sinkron.",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Piston & Ring Piston",
+          "content2": "![Piston & Ring Piston](images/XRDCTSM-004/piston-&-ring-piston.png)Piston adalah komponen berbentuk silinder yang bergerak naik dan turun di dalam silinder. Piston menerima tekanan hasil pembakaran dan mengubahnya menjadi gerakan mekanis. Piston umumnya terbuat dari aluminium alloy karena ringan dan mampu menghantarkan panas dengan baik.\n\nBagian-bagian piston meliputi kepala piston (piston crown), alur ring (ring groove), dan lubang pin piston.\n\nRing piston terdiri dari:\n1. Ring Kompresi → Menahan tekanan pembakaran agar tidak bocor ke crankcase.\n2. Ring Oli → Mengontrol pelumasan dengan mengikis kelebihan oli pada dinding silinder.\n\nFungsi utama piston dan ring piston:\n- Menjaga kompresi ruang bakar.\n- Meneruskan tekanan pembakaran ke connecting rod.\n- Mengatur pelumasan di dalam silinder.\n- Membantu proses perpindahan panas."
+        },
+        {
+          "title2": "Connecting Rod (Stang Seher)",
+          "content2": "![Connecting Rod](images/XRDCTSM-004/connecting-rod.png)Connecting rod adalah batang penghubung antara piston dan poros engkol. Komponen ini mengubah gerakan lurus (naik-turun) piston menjadi gerakan putar melalui poros engkol.\n\nBagian connecting rod terdiri dari:\n- Small end → Terhubung dengan piston melalui pen piston.\n- Big end → Terhubung dengan crankshaft.\n\nConnecting rod harus memiliki kekuatan tinggi karena menerima gaya tekan dan tarik secara terus-menerus selama proses pembakaran."
+        },
+        {
+          "title2": "Crankshaft (Poros Engkol)",
+          "content2": "![Crankshaft](images/XRDCTSM-004/crankshaft.png)Crankshaft adalah komponen yang berfungsi mengubah gerakan naik turun piston menjadi gerakan putar. Putaran crankshaft inilah yang menjadi sumber tenaga untuk menggerakkan sistem transmisi dan roda kendaraan.\n\nCrankshaft terdiri dari:\n- Crank pin\n- Counter weight (pemberat penyeimbang)\n- Main journal\n\nFungsi counter weight adalah menjaga keseimbangan putaran agar mesin tidak bergetar berlebihan. Presisi dan keseimbangan crankshaft sangat menentukan kehalusan kerja mesin."
+        },
+        {
+          "title2": "Camshaft (Noken As)",
+          "content2": "![Camshaft](images/XRDCTSM-004/camshaft.png)Camshaft adalah poros yang memiliki tonjolan (cam lobe) untuk menekan rocker arm atau langsung menekan katup sehingga katup dapat membuka dan menutup sesuai waktu yang ditentukan.\n\nCamshaft digerakkan oleh crankshaft melalui rantai timing atau gear timing dengan perbandingan putaran 2:1 (dua putaran crankshaft menghasilkan satu putaran camshaft).\n\nKetepatan waktu buka-tutup katup (valve timing) sangat penting agar proses hisap, kompresi, usaha, dan buang berjalan sempurna."
+        },
+        {
+          "title2": "Katup Masuk dan Katup Buang",
+          "content2": "![Katup Masuk dan Katup Buang](images/XRDCTSM-004/katup.png)Katup adalah komponen yang berfungsi mengatur aliran gas ke dan dari ruang bakar.\n\nJenis katup:\n- Katup Masuk (Intake Valve) → Membuka saat langkah hisap untuk memasukkan campuran udara dan bahan bakar.\n- Katup Buang (Exhaust Valve) → Membuka saat langkah buang untuk mengeluarkan gas sisa pembakaran.\n\nBagian katup meliputi kepala katup, batang katup, dan pegas katup. Pegas katup berfungsi mengembalikan katup ke posisi tertutup setelah ditekan oleh camshaft.\n\nKinerja katup harus rapat saat tertutup agar kompresi tidak bocor dan pembakaran berlangsung maksimal."
+        }
+      ]
+    },
+    {
+      "title": "Mekanisme Kerja Mesin 4 Langkah",
+      "content": "Mesin 4 langkah adalah mesin yang memerlukan empat langkah gerakan piston (dua kali putaran poros engkol) untuk menghasilkan satu kali langkah usaha. Setiap langkah memiliki proses yang berbeda dan berlangsung secara berurutan serta berulang selama mesin hidup. Sinkronisasi antara piston, poros engkol, camshaft, dan katup sangat menentukan keberhasilan proses pembakaran.",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Siklus Hisap, Kompresi, Usaha, Buang",
+          "content2": "",
+          "items": [
+            {
+              "title3": "x",
+              "content3": "![Siklus Hisap](images/XRDCTSM-004/sikulus-hisap.png)Posisi Awal: Piston berada di Titik Mati Atas (TMA).\n\nProses:\n- Piston bergerak turun menuju Titik Mati Bawah (TMB).\n- Katup masuk terbuka.\n- Katup buang tertutup.\n- Terjadi kevakuman di dalam silinder.\n\nAkibat kevakuman tersebut, campuran udara dan bahan bakar masuk ke ruang bakar melalui saluran masuk. Tekanan di dalam silinder lebih rendah dari tekanan atmosfer sehingga campuran terdorong masuk.\n\nSudut Putaran: 0° – 180° poros engkol.\n\nTujuan langkah ini adalah mengisi ruang bakar dengan campuran yang cukup untuk proses pembakaran berikutnya."
+            },
+            {
+              "title3": "Langkah Kompresi (Compression Stroke)",
+              "content3": "![Langkah kompreso](images/XRDCTSM-004/langkah-kompresi.png)Posisi Awal: Piston berada di TMB.\n\nProses:\n- Piston bergerak naik menuju TMA.\n- Katup masuk dan katup buang tertutup rapat.\n- Campuran udara dan bahan bakar dimampatkan.\n\nSelama proses kompresi, tekanan dan suhu campuran meningkat secara signifikan. Kompresi yang baik akan meningkatkan efisiensi pembakaran dan tenaga mesin.\n\nBeberapa derajat sebelum piston mencapai TMA (sekitar 10°–20° sebelum TMA), busi memercikkan bunga api untuk memulai pembakaran.\n\nSudut Putaran: 180° – 360° poros engkol."
+            },
+            {
+              "title3": "Langkah Usaha (Power Stroke)",
+              "content3": "![Langkah Usaha](images/XRDCTSM-004/langkah-usaha.png)Posisi Awal: Piston berada di TMA.\n\nProses:\n- Campuran yang telah terbakar menghasilkan tekanan tinggi.\n- Tekanan pembakaran dapat mencapai puluhan bar.\n- Piston terdorong turun dari TMA ke TMB.\n- Kedua katup tetap tertutup.\n\nEnergi panas hasil pembakaran diubah menjadi energi mekanik berupa gerakan piston. Gerakan ini diteruskan oleh connecting rod dan diubah menjadi putaran oleh poros engkol.\n\nLangkah ini merupakan satu-satunya langkah yang menghasilkan tenaga.\n\nSudut Putaran: 360° – 540° poros engkol."
+            },
+            {
+              "title3": "Langkah Buang (Exhaust Stroke)",
+          "content3": "![Langkah Buang](/images/XRDCTSM-003/langkah-buang.png)Posisi Awal: Piston berada di TMB.\n\nProses:\n- Katup buang terbuka.\n- Katup masuk tertutup.\n- Piston bergerak naik dari TMB ke TMA.\n\nGerakan naik piston mendorong gas sisa pembakaran keluar melalui saluran buang menuju knalpot. Proses ini membersihkan ruang bakar agar siap menerima campuran baru pada langkah hisap berikutnya.\n\nSudut Putaran: 540° – 720° poros engkol.\n\nSetelah mencapai 720°, satu siklus kerja selesai dan mesin kembali ke langkah hisap."
+            }
+          ]
+        },
+        {
+          "title2": "Perubahan Energi Panas Menjadi Energi Mekanik",
+          "content2": "Perubahan energi pada mesin sepeda motor terjadi melalui proses konversi bertahap, yaitu energi kimia → energi panas → energi tekanan → energi gerak (mekanik). Proses ini berlangsung di dalam ruang bakar selama langkah usaha (power stroke). Prinsip dasar yang bekerja adalah hukum termodinamika, yaitu energi tidak dapat diciptakan atau dimusnahkan, tetapi dapat diubah bentuknya.",
+          "items": [
+            {
+              "title3": "Energi Panas Menjadi Energi Tekanan",
+              "content3": "Gas hasil pembakaran mengalami ekspansi (pemuaian cepat). Karena ruang bakar tertutup dan piston berada di posisi Titik Mati Atas (TMA), tekanan tinggi tersebut tidak dapat keluar dan akhirnya menekan permukaan kepala piston.\n\nGaya yang bekerja pada piston dapat dijelaskan dengan rumus:\nF = P × A\n\nDimana:\nF = Gaya (Newton)\nP = Tekanan (Pascal)\nA = Luas permukaan piston (m²)\n\nSemakin besar tekanan hasil pembakaran dan semakin besar diameter piston, maka gaya dorong yang dihasilkan akan semakin besar."
+            },
+            {
+              "title3": "Energi Tekanan Menjadi Gerak Lurus Piston",
+              "content3": "Tekanan tinggi mendorong piston bergerak turun dari TMA ke TMB. Gerakan ini disebut langkah usaha (power stroke). Pada tahap ini terjadi perubahan energi tekanan menjadi energi kinetik (gerak).\n\nBesarnya kerja (work) yang dihasilkan dapat dijelaskan dengan konsep:\nW = F × s\n\nDimana:\nW = Usaha (Joule)\nF = Gaya dorong piston\ns = Jarak perpindahan piston (stroke)\n\nSemakin panjang langkah piston dan semakin besar tekanan, maka energi mekanik yang dihasilkan semakin besar."
+            },
+            {
+              "title3": "Gerak Lurus Menjadi Gerak Putar (Torsi)",
+              "content3": "Gerakan turun piston diteruskan ke connecting rod, kemudian diubah menjadi gerakan putar oleh crankshaft melalui mekanisme engkol.\n\nPerubahan ini menghasilkan torsi (momen puntir), yang dapat dijelaskan dengan rumus:\nT = F × r\n\nDimana:\nT = Torsi (Nm)\nF = Gaya pada crank pin\nr = Jari-jari engkol (crank radius)\n\nTorsi inilah yang menjadi tenaga utama untuk memutar transmisi dan roda kendaraan. Besarnya torsi dipengaruhi oleh tekanan pembakaran dan panjang langkah engkol."
+            },
+            {
+              "title3": "Kerugian Energi (Losses)",
+              "content3": "Tidak seluruh energi panas berubah menjadi energi mekanik. Sebagian energi hilang melalui:\n- Panas yang terserap dinding silinder\n- Panas yang terbuang melalui gas buang\n- Gesekan antar komponen\n- Kebocoran kompresi\n\nEfisiensi mesin bensin rata-rata hanya sekitar 25–35%. Artinya, hanya sebagian energi bahan bakar yang benar-benar menjadi tenaga putar, sedangkan sisanya hilang sebagai panas dan gesekan."
+            },
+            {
+              "title3": "Hubungan dengan Sinkronisasi Mesin",
+              "content3": "Agar perubahan energi berlangsung optimal, timing pengapian dan timing katup harus tepat. Jika pengapian terlalu maju atau terlalu lambat, tekanan maksimum tidak terjadi pada sudut engkol yang ideal (sekitar 10–15° setelah TMA), sehingga tenaga yang dihasilkan berkurang dan konsumsi bahan bakar meningkat."
+            }
+          ]
+        },
+        {
+          "title2": "Hubungan Putaran Poros Engkol dan Camshaft",
+          "content2": "Perubahan energi pada mesin sepeda motor terjadi melalui proses konversi bertahap, yaitu energi kimia → energi panas → energi tekanan → energi gerak (mekanik). Proses ini berlangsung di dalam ruang bakar selama langkah usaha (power stroke). Prinsip dasar yang bekerja adalah hukum termodinamika, yaitu energi tidak dapat diciptakan atau dimusnahkan, tetapi dapat diubah bentuknya.",
+          "items": [
+            {
+              "title3": "Perbandingan Putaran (Rasio 2:1)",
+              "content3": "Mesin 4 langkah membutuhkan dua kali putaran poros engkol (720°) untuk menyelesaikan satu siklus kerja lengkap. Oleh karena itu, camshaft hanya berputar satu kali (360°) dalam satu siklus kerja.\n\nArtinya:\n- Crankshaft : 2 putaran\n- Camshaft : 1 putaran\n- Rasio putaran = 2 : 1\n\nRasio ini memastikan katup masuk dan katup buang hanya membuka satu kali setiap dua putaran poros engkol."
+            },
+            {
+              "title3": "Hubungan Posisi Piston dan Katup",
+              "content3": "Hubungan putaran poros engkol dengan camshaft menentukan kapan katup membuka dan menutup.\n\nContoh sinkronisasi:\n- Saat piston bergerak turun pada langkah hisap, camshaft memposisikan katup masuk terbuka.\n- Saat piston naik pada langkah kompresi, kedua katup tertutup.\n- Saat langkah usaha, kedua katup tetap tertutup.\n- Saat langkah buang, camshaft membuka katup buang ketika piston naik.\n\nKetepatan posisi ini diatur oleh tanda timing (timing mark) pada gear atau sprocket."
+            },
+            {
+              "title3": "Mekanisme Penggerak Camshaft",
+              "content3": "Putaran crankshaft diteruskan ke camshaft melalui:\n1. Timing Chain (rantai keteng)\n2. Timing Gear\n3. Timing Belt (pada beberapa tipe mesin)\n\nKomponen pendukungnya meliputi:\n- Tensioner (penegang rantai)\n- Guide chain\n\nFungsi sistem ini adalah menjaga agar camshaft tetap berputar sesuai rasio 2:1 tanpa loncat gigi atau perubahan sudut."
+            },
+            {
+              "title3": "Valve Timing dan Valve Overlap",
+              "content3": "Dalam praktiknya, katup tidak membuka dan menutup tepat pada TMA atau TMB, tetapi beberapa derajat sebelum atau sesudah titik tersebut.\n\nContoh:\n- Katup masuk mulai membuka beberapa derajat sebelum TMA.\n- Katup buang menutup beberapa derajat setelah TMA.\n\nKondisi dimana katup masuk dan katup buang sama-sama sedikit terbuka disebut valve overlap. Tujuannya untuk meningkatkan efisiensi pengisian campuran dan pembuangan gas sisa pada putaran tinggi."
+            },
+            {
+              "title3": "Dampak Ketidaksinkronan Timing",
+              "content3": "Jika timing tidak tepat (misalnya rantai keteng loncat satu gigi), maka:\n- Tenaga mesin berkurang\n- Konsumsi bahan bakar meningkat\n- Mesin sulit hidup\n- Dapat terjadi tabrakan katup dengan piston (pada mesin interference)\n\nOleh karena itu, penyetelan timing harus sesuai tanda pabrikan dan dilakukan dengan presisi."
+            }
+          ]
+        },
+        {
+          "title2": "Mekanisme Buka-Tutup Katup",
+          "content2": "Mekanisme buka-tutup katup adalah sistem yang mengatur waktu terbukanya katup masuk dan katup buang sesuai dengan siklus kerja mesin 4 langkah. Mekanisme ini bekerja berdasarkan putaran camshaft (noken as) yang digerakkan oleh poros engkol melalui sistem timing. Ketepatan mekanisme ini sangat menentukan efisiensi pembakaran dan performa mesin.",
+          "items": [
+            {
+              "title3": "Prinsip Kerja Mekanisme Katup",
+              "content3": "Saat camshaft berputar, tonjolan pada cam (cam lobe) akan menekan rocker arm atau langsung menekan batang katup (pada tipe OHC). Tekanan ini mengalahkan gaya pegas katup sehingga katup terbuka.\n\nKetika tonjolan cam melewati titik tekan maksimum, pegas katup akan mendorong katup kembali ke posisi tertutup.\n\nDengan demikian:\n- Camshaft mengatur kapan katup membuka.\n- Pegas katup memastikan katup menutup kembali dengan rapat."
+            },
+            {
+              "title3": "Komponen Mekanisme Katup",
+              "content3": "Komponen utama dalam mekanisme buka-tutup katup meliputi:\n\n1. Camshaft (Noken As) → Mengatur waktu dan durasi buka katup.\n2. Cam Lobe → Tonjolan pada camshaft yang menekan katup.\n3. Rocker Arm → Meneruskan tekanan dari cam ke katup (pada tipe tertentu).\n4. Katup Masuk & Katup Buang → Mengatur aliran gas.\n5. Pegas Katup (Valve Spring) → Mengembalikan katup ke posisi tertutup.\n6. Valve Guide & Valve Seat → Menjaga arah gerak katup dan memastikan kerapatan saat tertutup."
+            },
+            {
+              "title3": "Urutan Mekanisme dalam Siklus 4 Langkah",
+              "content3": "Langkah Hisap → Cam menekan katup masuk sehingga terbuka.\nLangkah Kompresi → Kedua katup tertutup rapat.\nLangkah Usaha → Kedua katup tetap tertutup untuk menahan tekanan pembakaran.\nLangkah Buang → Cam menekan katup buang sehingga terbuka.\n\nSemua proses ini terjadi karena sinkronisasi putaran camshaft dengan crankshaft (rasio 2:1)."
+            },
+            {
+              "title3": "Celah Katup (Valve Clearance)",
+              "content3": "Celah katup adalah jarak kecil antara ujung rocker arm dan batang katup saat katup dalam kondisi tertutup. Celah ini diperlukan karena komponen mesin akan memuai saat panas.\n\nJika celah terlalu sempit:\n- Katup bisa tidak menutup rapat.\n- Kompresi bocor.\n- Katup cepat terbakar.\n\nJika celah terlalu renggang:\n- Timbul suara berisik (ketukan katup).\n- Waktu buka katup menjadi tidak optimal.\n\nPenyetelan celah katup dilakukan menggunakan feeler gauge sesuai spesifikasi pabrikan."
+            },
+            {
+              "title3": "Dampak Kerusakan Mekanisme Katup",
+              "content3": "Gangguan pada mekanisme buka-tutup katup dapat menyebabkan:\n- Mesin sulit hidup\n- Tenaga berkurang\n- Konsumsi bahan bakar meningkat\n- Suara kasar pada kepala silinder\n- Kerusakan katup akibat overheating\n\nOleh karena itu, pemeriksaan dan penyetelan mekanisme katup merupakan bagian penting dalam perawatan berkala sepeda motor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

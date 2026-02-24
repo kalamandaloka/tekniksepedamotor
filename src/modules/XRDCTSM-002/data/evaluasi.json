@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Alat ukur yang memiliki ketelitian hingga 0,01 mm adalah ...",
+        "options": [
+          "Vernier Caliper",
+          "Micrometer",
+          "Feeler Gauge",
+          "Compression Tester"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Vernier Caliper digunakan untuk mengukur berikut ini, kecuali ...",
+        "options": [
+          "Diameter luar",
+          "Diameter dalam",
+          "Kedalaman",
+          "Tekanan kompresi"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 3,
+        "question": "Skala nonius terdapat pada alat ...",
+        "options": [
+          "Dial Indicator",
+          "Micrometer",
+          "Vernier Caliper",
+          "Torque Wrench"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Feeler gauge digunakan untuk mengukur ...",
+        "options": [
+          "Celah katup",
+          "Diameter piston",
+          "Tekanan kompresi",
+          "Torsi baut"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 5,
+        "question": "Celah katup diukur saat piston berada pada posisi ...",
+        "options": [
+          "Langkah buang",
+          "Langkah kompresi (TMA)",
+          "Langkah usaha",
+          "Langkah isap"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Cylinder Bore Gauge digunakan untuk mengukur ...",
+        "options": [
+          "Diameter dalam silinder",
+          "Tegangan aki",
+          "Ketebalan kampas rem",
+          "Run out velg"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 7,
+        "question": "Dial Indicator digunakan untuk memeriksa ...",
+        "options": [
+          "Tekanan bahan bakar",
+          "Keolengan velg",
+          "Hambatan spul",
+          "Celah katup"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Satuan tekanan kompresi biasanya dinyatakan dalam ...",
+        "options": [
+          "Volt",
+          "Newton meter",
+          "PSI",
+          "Ohm"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Compression Tester digunakan untuk mengetahui kondisi ...",
+        "options": [
+          "Ring piston dan katup",
+          "Velg dan ban",
+          "Aki dan spul",
+          "Rantai dan gear"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 10,
+        "question": "Multimeter digunakan untuk mengukur ...",
+        "options": [
+          "Tekanan kompresi",
+          "Tegangan listrik",
+          "Diameter silinder",
+          "Run out"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Torque wrench digunakan untuk ...",
+        "options": [
+          "Mengukur hambatan",
+          "Mengukur celah",
+          "Mengencangkan baut sesuai torsi",
+          "Melepas bearing"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Nilai torsi biasanya dinyatakan dalam satuan ...",
+        "options": [
+          "Volt",
+          "PSI",
+          "Newton meter",
+          "Milimeter"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "Flywheel puller digunakan untuk ...",
+        "options": [
+          "Melepas magnet",
+          "Mengukur piston",
+          "Mengencangkan baut",
+          "Mengukur silinder"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 14,
+        "question": "Clutch holder berfungsi untuk ...",
+        "options": [
+          "Menahan kopling agar tidak berputar",
+          "Mengukur kopling",
+          "Mengganti kampas",
+          "Mengukur torsi"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 15,
+        "question": "Valve spring compressor digunakan saat ...",
+        "options": [
+          "Melepas pegas katup",
+          "Mengukur silinder",
+          "Mengukur tegangan",
+          "Mengganti aki"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 16,
+        "question": "Bearing puller digunakan untuk ...",
+        "options": [
+          "Menekan piston",
+          "Menarik bearing",
+          "Mengukur celah",
+          "Mengencangkan baut"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Piston ring compressor digunakan saat ...",
+        "options": [
+          "Memasang piston ke silinder",
+          "Mengukur piston",
+          "Melepas katup",
+          "Mengukur kompresi"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 18,
+        "question": "Injector tester digunakan untuk memeriksa ...",
+        "options": [
+          "Pola semprotan injektor",
+          "Tekanan ban",
+          "Celah katup",
+          "Run out velg"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 19,
+        "question": "CVT holder digunakan pada motor ...",
+        "options": [
+          "Sport",
+          "Bebek",
+          "Matic",
+          "Karburator"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 20,
+        "question": "Jika hasil kompresi rendah, kemungkinan penyebabnya adalah ...",
+        "options": [
+          "Ring piston aus",
+          "Velg oleng",
+          "Baut longgar",
+          "Aki penuh"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 21,
+        "question": "Ketelitian micrometer umumnya adalah ...",
+        "options": [
+          "1 mm",
+          "0,5 mm",
+          "0,1 mm",
+          "0,01 mm"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 22,
+        "question": "Run out velg melebihi toleransi harus ...",
+        "options": [
+          "Dibiarkan",
+          "Disetel atau diganti",
+          "Dilumasi",
+          "Dicuci"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Sebelum menggunakan micrometer, perlu dilakukan ...",
+        "options": [
+          "Penggantian",
+          "Zero setting",
+          "Pemanasan",
+          "Pendinginan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Jika jangka sorong tidak menunjukkan nol saat ditutup, maka perlu ...",
+        "options": [
+          "Dibuang",
+          "Dilas",
+          "Dikalibrasi",
+          "Dicat"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 25,
+        "question": "Pengencangan baut kepala silinder dilakukan secara ...",
+        "options": [
+          "Acak",
+          "Menyilang",
+          "Satu sisi saja",
+          "Cepat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Hambatan spul diukur menggunakan ...",
+        "options": [
+          "Compression tester",
+          "Torque wrench",
+          "Multimeter",
+          "Feeler gauge"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 27,
+        "question": "Keausan silinder dapat menyebabkan ...",
+        "options": [
+          "Kompresi menurun",
+          "Torsi naik",
+          "Velg stabil",
+          "Aki penuh"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 28,
+        "question": "Tujuan penggunaan SST adalah untuk ...",
+        "options": [
+          "Mempercepat kerja tanpa standar",
+          "Menjamin pekerjaan sesuai standar pabrikan",
+          "Menggantikan semua alat ukur",
+          "Mengurangi biaya"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Penggunaan torque wrench mencegah terjadinya ...",
+        "options": [
+          "Over torque dan under torque",
+          "Kebocoran oli saja",
+          "Velg oleng",
+          "Korsleting"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 30,
+        "question": "Tujuan utama pengukuran dalam servis sepeda motor adalah ...",
+        "options": [
+          "Memastikan komponen sesuai toleransi",
+          "Mempercepat pekerjaan",
+          "Mengurangi pekerja",
+          "Menghemat bahan bakar"
+        ],
+        "correctAnswer": 1
+      }
+    ]
   }
 }

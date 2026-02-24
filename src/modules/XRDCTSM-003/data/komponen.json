@@ -1,4 +1,70 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Prinsip Kerja Mesin 4 Tak",
+  "items": [
+  {
+    "id": "komp-01",
+    "name": "Piston",
+    "description": "Piston adalah komponen berbentuk silinder pejal yang bergerak bolak-balik di dalam silinder dan berfungsi sebagai penerima langsung tekanan hasil pembakaran. Piston biasanya terbuat dari aluminium alloy karena material ini ringan, kuat, serta memiliki kemampuan penghantaran panas yang baik. Bagian utama piston meliputi kepala piston (crown) yang menerima tekanan pembakaran, alur ring piston (ring groove) sebagai dudukan ring piston, dan skirt piston yang menjaga kestabilan gerakan di dalam silinder. Desain kepala piston dapat berbeda-beda tergantung rasio kompresi dan karakter mesin, misalnya berbentuk datar, cembung, atau cekung. Piston bekerja dalam kondisi suhu dan tekanan tinggi sehingga membutuhkan pelumasan yang baik untuk mengurangi gesekan dan mencegah keausan.",
+    "function": "Piston berfungsi menerima tekanan hasil pembakaran dan mengubah energi panas menjadi energi mekanik berupa gerakan naik turun. Gerakan ini kemudian diteruskan ke connecting rod untuk diubah menjadi gerak putar oleh poros engkol. Selain itu, piston berfungsi mengompresi campuran udara dan bahan bakar sebelum pembakaran, membantu proses pembuangan gas sisa, serta menjaga kestabilan tekanan ruang bakar bersama ring piston. Kinerja piston sangat menentukan tenaga, efisiensi bahan bakar, dan kehalusan kerja mesin."
+    ,
+    "image": "/images/XRDCTSM-003/piston.png",
+    "modelType": "box"
+  },
+  {
+    "id": "komp-02",
+    "name": "Connecting Rod",
+    "description": "Connecting rod atau batang piston adalah komponen penghubung antara piston dan poros engkol (crankshaft). Komponen ini berperan penting dalam meneruskan gaya tekan dari hasil pembakaran yang diterima piston untuk kemudian diubah menjadi gerakan putar oleh poros engkol. Connecting rod umumnya terbuat dari baja tempa (forged steel) berkekuatan tinggi karena harus mampu menahan gaya tarik dan tekan yang sangat besar serta berulang dalam setiap siklus mesin. Bagian utama connecting rod terdiri dari small end (ujung kecil) yang terhubung ke piston melalui piston pin, batang tengah (rod shank), dan big end (ujung besar) yang terhubung ke crank pin pada poros engkol. Pada bagian big end terdapat bearing atau metal jalan yang berfungsi mengurangi gesekan dan menjaga kestabilan putaran. Ketelitian bentuk dan kelurusan connecting rod sangat menentukan keseimbangan kerja mesin dan umur pakai komponen.",
+    "function": "Connecting rod berfungsi meneruskan gaya dari piston ke poros engkol sehingga gerakan naik turun piston dapat diubah menjadi gerakan rotasi. Selain itu, connecting rod menjaga keselarasan gerakan piston agar tetap stabil selama proses kerja mesin berlangsung. Komponen ini juga berperan dalam menjaga keseimbangan dinamika mesin karena bekerja secara terus-menerus dalam kondisi beban tinggi, baik saat menerima gaya tekan pada langkah usaha maupun gaya tarik pada langkah kompresi dan buang.",
+    "image": "/images/XRDCTSM-003/connecting-rod.png",
+    "modelType": "box"
+  },
+  {
+    "id": "komp-03",
+    "name": "Poros Engkol (Crankshaft)",
+    "description": "Poros engkol atau crankshaft adalah komponen utama yang berfungsi mengubah gerakan bolak-balik piston menjadi gerakan putar. Poros engkol terdiri dari crank journal sebagai dudukan bantalan utama, crank pin sebagai tempat terpasangnya connecting rod, serta counterweight sebagai pemberat untuk menjaga keseimbangan putaran. Crankshaft umumnya dibuat dari baja karbon tinggi atau baja tempa dengan perlakuan panas khusus agar kuat terhadap tekanan, puntiran, dan keausan. Pada mesin 4 tak, poros engkol berputar dua kali (720°) untuk menyelesaikan satu siklus kerja penuh. Presisi keseimbangan dan kelurusan poros engkol sangat penting untuk mengurangi getaran, menjaga stabilitas mesin, serta mencegah kerusakan pada bearing dan komponen lainnya.",
+    "function": "Poros engkol berfungsi mengubah gerakan linear piston menjadi gerakan rotasi yang kemudian diteruskan ke sistem kopling dan transmisi untuk menggerakkan roda. Selain itu, poros engkol berfungsi sebagai pusat perputaran mesin dan menjaga keseimbangan kerja mekanis melalui counterweight. Komponen ini juga mendukung sistem pelumasan dengan adanya saluran oli internal untuk melumasi bagian bearing dan crank pin.",
+    "image": "/images/XRDCTSM-003/crankshaft.png",
+    "modelType": "box"
+  },
+  {
+    "id": "komp-04",
+    "name": "Katup Masuk (Intake Valve)",
+    "description": "Katup masuk adalah komponen mekanisme katup yang berfungsi mengatur masuknya campuran udara dan bahan bakar ke dalam ruang bakar. Katup ini bekerja berdasarkan pergerakan camshaft yang menekan rocker arm atau valve lifter sehingga katup terbuka pada waktu tertentu. Diameter kepala katup masuk biasanya lebih besar dibanding katup buang untuk memaksimalkan aliran campuran ke dalam silinder. Katup masuk terbuat dari baja paduan yang tahan terhadap gesekan dan suhu tinggi. Bagian utama katup meliputi kepala katup (valve head), batang katup (valve stem), dan ujung batang katup yang bersentuhan dengan mekanisme penggerak. Kerapatan dudukan katup pada valve seat sangat penting untuk menjaga kompresi mesin.",
+    "function": "Katup masuk berfungsi mengontrol jumlah dan waktu masuknya campuran udara serta bahan bakar ke dalam ruang bakar. Pembukaan dan penutupan katup yang tepat sangat menentukan efisiensi volumetrik mesin, performa, serta konsumsi bahan bakar. Selain itu, katup masuk menjaga agar tidak terjadi kebocoran kompresi saat langkah kompresi dan usaha berlangsung.",
+    "image": "/images/XRDCTSM-003/intake-valve.png",
+    "modelType": "box"
+  },
+  {
+    "id": "komp-05",
+    "name": "Katup Buang (Exhaust Valve)",
+    "description": "Katup buang adalah komponen mekanisme katup yang berfungsi mengatur keluarnya gas sisa pembakaran dari ruang bakar menuju saluran buang dan knalpot. Katup ini bekerja berdasarkan dorongan camshaft yang menekan rocker arm atau lifter sesuai timing mesin. Berbeda dengan katup masuk, katup buang bekerja dalam kondisi suhu yang jauh lebih tinggi karena langsung terpapar gas hasil pembakaran. Oleh karena itu, katup buang dibuat dari baja paduan khusus yang tahan panas, oksidasi, dan korosi. Bagian utama katup buang meliputi kepala katup (valve head), batang katup (valve stem), serta ujung batang katup yang bersentuhan dengan mekanisme penggerak. Permukaan kepala katup harus rata dan duduk sempurna pada valve seat untuk mencegah kebocoran kompresi.",
+    "function": "Katup buang berfungsi mengeluarkan gas sisa pembakaran setelah langkah usaha selesai sehingga ruang bakar menjadi bersih dan siap menerima campuran baru pada langkah hisap berikutnya. Selain itu, katup buang menjaga agar tekanan sisa tidak mengganggu kinerja mesin serta membantu mempertahankan efisiensi pembakaran. Ketepatan waktu pembukaan dan penutupan katup buang sangat mempengaruhi performa dan konsumsi bahan bakar.",
+    "image": "/images/XRDCTSM-003/katup-keluar.png",
+    "modelType": "box"
+  },
+  {
+    "id": "komp-06",
+    "name": "Camshaft (Noken As)",
+    "description": "Camshaft atau noken as adalah poros yang memiliki tonjolan (cam lobe) dan berfungsi mengatur waktu buka dan tutup katup masuk serta katup buang. Camshaft digerakkan oleh poros engkol melalui rantai keteng atau gear dengan perbandingan putaran 2:1 pada mesin 4 tak, artinya camshaft berputar satu kali setiap dua kali putaran poros engkol. Setiap cam lobe memiliki profil khusus yang menentukan tinggi bukaan katup (valve lift), durasi bukaan, serta karakter tenaga mesin. Camshaft terbuat dari baja paduan atau besi tuang khusus yang tahan terhadap gesekan dan tekanan tinggi. Presisi bentuk cam sangat penting untuk menjaga sinkronisasi antara gerakan piston dan pembukaan katup.",
+    "function": "Camshaft berfungsi mengatur timing pembukaan dan penutupan katup agar sesuai dengan posisi piston dalam setiap langkah siklus 4 tak. Selain itu, camshaft menentukan karakteristik performa mesin, seperti tenaga pada putaran rendah atau tinggi. Sinkronisasi yang tepat antara camshaft dan poros engkol memastikan pembakaran berlangsung optimal dan mesin bekerja secara efisien.",
+    "image": "/images/XRDCTSM-003/camshaft.png",
+    "modelType": "box"
+  },
+  {
+    "id": "komp-07",
+    "name": "Busi",
+    "description": "Busi adalah komponen sistem pengapian yang menghasilkan percikan api di dalam ruang bakar untuk membakar campuran udara dan bahan bakar. Busi terdiri dari elektroda tengah, elektroda massa (ground electrode), insulator keramik, ulir (thread), dan terminal penghubung kabel busi. Elektroda biasanya terbuat dari campuran nikel, platinum, atau iridium yang tahan panas dan aus. Busi bekerja dalam kondisi tekanan dan suhu tinggi sehingga membutuhkan kualitas material yang baik. Warna ujung elektroda dapat menjadi indikator kondisi pembakaran di dalam mesin.",
+    "function": "Busi berfungsi memicu pembakaran campuran udara dan bahan bakar pada akhir langkah kompresi dengan menghasilkan percikan api bertegangan tinggi. Percikan api yang stabil dan tepat waktu sangat penting untuk menghasilkan tenaga optimal, menjaga efisiensi bahan bakar, serta mencegah gejala knocking atau pembakaran tidak sempurna. Busi juga membantu proses diagnosa kondisi mesin melalui pemeriksaan warna dan kondisi elektroda.",
+    "image": "/images/XRDCTSM-003/busi.png",
+    "modelType": "box"
+  },
+  {
+  "id": "komp-08",
+  "name": "Ruang Bakar",
+  "description": "Ruang bakar adalah bagian pada mesin 4 tak yang menjadi tempat terjadinya proses pembakaran campuran udara dan bahan bakar. Ruang ini terletak di antara kepala silinder, piston, dan dinding silinder. Volume ruang bakar berubah mengikuti posisi piston saat bergerak dari Titik Mati Atas (TMA) ke Titik Mati Bawah (TMB).",
+  "function": "Ruang bakar berfungsi sebagai tempat terjadinya proses kompresi dan pembakaran. Pada langkah kompresi, campuran udara dan bahan bakar dimampatkan sehingga tekanan dan suhu meningkat. Pada langkah usaha, pembakaran menghasilkan tekanan tinggi yang mendorong piston turun dan menghasilkan tenaga. Bentuk dan volume ruang bakar sangat mempengaruhi efisiensi pembakaran, tenaga mesin, serta rasio kompresi.",
+  "image": "/images/XRDCTSM-003/ruang-bakar.png",
+  "modelType": "box"
+  }
+  ]
 }

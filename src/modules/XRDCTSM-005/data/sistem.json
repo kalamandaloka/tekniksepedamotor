@@ -1,4 +1,20 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Mekanisme Katup & Timing",
+  "simulations": [
+    {
+      "id": "sim_penyetelan_celah_katup",
+      "title": "Simulasi Penyetelan Celah Katup",
+      "description": "Gunakan alat pelindung diri (sarung tangan, kacamata kerja, dan sepatu keselamatan) sebelum memulai simulasi. Pastikan mesin dalam kondisi dingin. Lepaskan penutup kepala silinder sesuai prosedur.\n\nPutar crankshaft searah jarum jam hingga tanda \"T\" pada magnet sejajar dengan tanda pada blok mesin. Pastikan piston berada pada posisi Top Mati Atas (TMA) langkah kompresi dengan memastikan kedua rocker arm dalam kondisi bebas.\n\nPilih ukuran feeler gauge sesuai spesifikasi. Masukkan feeler gauge di antara ujung rocker arm dan batang katup. Rasakan tahanan geser feeler gauge. Identifikasi apakah celah terlalu rapat, terlalu renggang, atau sesuai standar.\n\nJika celah tidak sesuai, longgarkan mur pengunci baut penyetel. Putar baut penyetel searah jarum jam untuk memperkecil celah atau berlawanan arah jarum jam untuk memperbesar celah. Atur hingga feeler gauge terasa sedikit seret saat digeser.\n\nTahan posisi baut penyetel dan kencangkan kembali mur pengunci. Ukur ulang celah untuk memastikan hasil sesuai spesifikasi.\n\nPutar crankshaft dua kali putaran penuh (720°) dan kembali ke posisi TMA. Periksa kembali celah katup. Catat hasil pengukuran sebelum dan sesudah penyetelan. Simpulkan apakah penyetelan sudah sesuai standar pabrikan dan jelaskan dampaknya terhadap performa mesin.",
+      "image": "/images/XRDCTSM-005/simulasi-penyetelan-celah-katup.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_pemeriksaan_timing_mark",
+      "title": "Simulasi Pemeriksaan & Penyetelan Timing Mark",
+      "description": "Gunakan alat pelindung diri (sarung tangan dan kacamata kerja) sebelum memulai simulasi. Pastikan mesin dalam kondisi mati dan aman untuk diperiksa.\n\nLepaskan penutup lubang pemeriksaan magnet dan penutup sprocket camshaft sesuai prosedur. Putar crankshaft searah jarum jam hingga tanda \"T\" pada magnet sejajar dengan tanda pada blok mesin.\n\nAmati posisi tanda pada sprocket camshaft. Pastikan garis atau titik pada sprocket sejajar dengan permukaan kepala silinder. Identifikasi apakah posisi tanda sudah sesuai atau terjadi pergeseran satu gigi.\n\nJika tanda tidak sejajar, lepaskan tensioner rantai keteng sesuai prosedur. Atur ulang posisi rantai pada sprocket camshaft hingga tanda sejajar dengan benar.\n\nPasang kembali tensioner dan pastikan rantai dalam kondisi tegang. Putar crankshaft dua kali putaran penuh (720°) secara manual. Kembalikan ke posisi tanda \"T\" dan periksa kembali kesesuaian tanda timing.\n\nCatat kondisi sebelum dan sesudah penyetelan. Analisis dampak jika timing tidak tepat, seperti mesin sulit hidup, tenaga lemah, atau risiko tabrakan katup dengan piston. Simpulkan pentingnya ketelitian dalam penyetelan sistem timing."
+      ,
+      "image": "/images/XRDCTSM-005/simulasi-pemeriksaan-timing-mark.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

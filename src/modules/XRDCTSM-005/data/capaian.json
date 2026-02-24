@@ -1,7 +1,28 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Mekanisme Katup & Timing",
+  "description": "Modul ini membahas prinsip kerja mekanisme katup dan sistem timing pada mesin 4 langkah sepeda motor, meliputi fungsi dan konstruksi komponen (camshaft, rocker arm, valve, timing chain, sprocket, tensioner), cara kerja pembukaan dan penutupan katup, serta prosedur pemeriksaan dan penyetelan celah katup sesuai standar pabrikan dengan memperhatikan K3.",
+  "image": "/images/XRDCTSM-005/mekanisme-katup-timing.png",
+  "skkni": [
+    "Melakukan perawatan dan perbaikan sistem mekanisme katup sepeda motor",
+    "Menyetel celah katup sesuai spesifikasi teknis",
+    "Memeriksa dan menyetel sistem timing (rantai keteng dan tanda timing) sesuai prosedur",
+    "Menerapkan prosedur Keselamatan dan Kesehatan Kerja (K3) dalam pekerjaan sistem engine"
+  ],
+  "kurikulum": [
+    "CP: Peserta didik mampu memahami dan menjelaskan prinsip kerja engine 4 langkah serta mekanisme katup dan timing.",
+    "CP: Peserta didik mampu melakukan pemeriksaan, pengukuran, dan penyetelan celah katup sesuai standar pabrikan.",
+    "CP: Peserta didik mampu menganalisis gangguan pada mekanisme katup dan sistem timing berdasarkan gejala kerusakan.",
+    "ATP 1: Mengidentifikasi komponen mekanisme katup dan sistem timing pada mesin sepeda motor.",
+    "ATP 2: Menjelaskan prinsip kerja katup masuk dan katup buang pada siklus 4 langkah.",
+    "ATP 3: Melakukan pemeriksaan celah katup menggunakan feeler gauge.",
+    "ATP 4: Melakukan penyetelan celah katup sesuai prosedur servis manual.",
+    "ATP 5: Memeriksa kesesuaian tanda timing poros engkol dan camshaft."
+  ],
+  "tujuan": [
+    "Peserta didik dapat menyebutkan dan menjelaskan fungsi komponen mekanisme katup dan timing dengan benar.",
+    "Peserta didik dapat menjelaskan hubungan kerja piston, camshaft, dan katup pada mesin 4 langkah.",
+    "Peserta didik dapat melakukan pengukuran celah katup menggunakan alat ukur sesuai prosedur.",
+    "Peserta didik dapat melakukan penyetelan celah katup sesuai standar spesifikasi teknis.",
+    "Peserta didik dapat mengidentifikasi kesalahan pemasangan timing dan dampaknya terhadap performa mesin."
+  ]
 }

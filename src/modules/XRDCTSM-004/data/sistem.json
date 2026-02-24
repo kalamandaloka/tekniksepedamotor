@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Struktur Mesin & Komponen Utama",
+  "simulations": [
+    {
+      "id": "sim_piston_crankshaft",
+      "title": "Simulasi Gerak Piston & Poros Engkol",
+      "description": "Gunakan alat pelindung diri yang sesuai sebelum memulai simulasi. Jalankan simulasi dan amati gerakan piston dari Titik Mati Atas (TMA) ke Titik Mati Bawah (TMB). Perhatikan bagaimana connecting rod mengikuti perubahan sudut poros engkol. Putar poros engkol secara manual menggunakan kontrol sudut 0° hingga 720° dan identifikasi posisi piston pada setiap 180°. Analisis bagaimana gerakan naik-turun piston berubah menjadi gerakan putar pada crankshaft. Amati sudut engkol saat piston berada di TMA dan TMB. Jelaskan bagaimana tekanan pembakaran pada langkah usaha menghasilkan gaya dorong yang diteruskan menjadi torsi pada poros engkol. Catat hasil pengamatan dan simpulkan hubungan antara gaya, sudut engkol, dan putaran mesin.",
+      "image": "/images/XRDCTSM-004/simulasi-piston-crankshaft.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_valve_mechanism",
+      "title": "Simulasi Mekanisme Buka-Tutup Katup",
+      "description": "Gunakan alat pelindung diri yang sesuai sebelum memulai simulasi. Jalankan simulasi dan amati putaran camshaft serta pergerakan cam lobe saat menekan rocker arm atau batang katup. Perhatikan kapan katup masuk dan katup buang membuka dan menutup. Putar camshaft secara manual dan identifikasi hubungan antara dua putaran poros engkol dengan satu putaran camshaft (rasio 2:1). Amati kondisi valve overlap dan tentukan pada sudut berapa kedua katup terbuka bersamaan. Ubah pengaturan celah katup dan analisis dampaknya terhadap proses kompresi. Simulasikan kondisi loncat satu gigi pada timing dan jelaskan akibatnya terhadap performa mesin. Catat hasil analisis dan buat kesimpulan tentang pentingnya sinkronisasi mekanisme katup.",
+      "image": "/images/XRDCTSM-004/simulasi-mekanisme-katup.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

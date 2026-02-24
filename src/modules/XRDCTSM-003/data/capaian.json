@@ -1,7 +1,23 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Prinsip Kerja Mesin 4 Tak",
+  "description": "Modul ini membahas prinsip kerja mesin 4 tak pada sepeda motor yang meliputi proses hisap, kompresi, usaha, dan buang. Peserta didik akan memahami siklus kerja mesin, pergerakan piston, kerja katup, serta hubungan komponen utama dalam menghasilkan tenaga.",
+  "image": "/images/XRDCTSM-003/prinsip-kerja-mesin-4-tak.png",
+  "skkni": [
+    "Menerapkan dasar-dasar sistem kerja motor bensin",
+    "Memahami prinsip kerja motor 4 langkah",
+    "Melakukan pemeriksaan sistem mekanisme katup",
+    "Memahami proses pembakaran dalam motor bensin"
+  ],
+  "kurikulum": [
+    "CP: Memahami prinsip kerja engine sepeda motor dan sistem pendukungnya",
+    "ATP 1: Menjelaskan konsep dasar motor bakar 4 langkah",
+    "ATP 2: Mengidentifikasi tahapan siklus kerja mesin 4 tak",
+    "ATP 3: Menganalisis hubungan gerak piston, poros engkol, dan katup"
+  ],
+  "tujuan": [
+    "Peserta didik mampu menjelaskan pengertian mesin 4 tak dengan benar",
+    "Peserta didik mampu menyebutkan dan menjelaskan 4 langkah kerja mesin",
+    "Peserta didik mampu menggambarkan siklus kerja mesin 4 tak",
+    "Peserta didik mampu mengidentifikasi posisi piston dan katup pada setiap langkah"
+  ]
 }

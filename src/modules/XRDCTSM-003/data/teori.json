@@ -1,5 +1,143 @@
 {
-  "title": "Teori Modul",
-  "content": "",
-  "pages": []
+  "title": "Prinsip Kerja Mesin 4 Tak",
+  "content": "Modul ini membahas prinsip kerja mesin 4 tak pada sepeda motor yang meliputi konsep dasar motor bakar, komponen utama mesin, serta siklus kerja hisap, kompresi, usaha, dan buang. Peserta didik akan memahami hubungan gerak piston, poros engkol, dan mekanisme katup dalam menghasilkan tenaga melalui satu siklus kerja 720 derajat putaran poros engkol.",
+  "pages": [
+    {
+      "title": "Dasar Motor Bakar",
+      "content": "Materi ini membahas konsep dasar motor bakar sebagai fondasi dalam memahami prinsip kerja mesin sepeda motor.",
+      "contentL1": "Motor bakar merupakan sistem utama pada sepeda motor yang berfungsi menghasilkan tenaga melalui proses pembakaran bahan bakar di dalam ruang bakar.",
+      "subSections": [
+        {
+          "title2": "Pengertian Motor Bakar",
+          "content2": "Motor bakar adalah mesin yang mengubah energi kimia dari bahan bakar menjadi energi mekanik melalui proses pembakaran. Pembakaran terjadi di dalam ruang bakar dan menghasilkan tekanan tinggi yang mendorong piston bergerak naik turun. Gerakan piston tersebut kemudian diubah menjadi gerak putar oleh poros engkol sehingga dapat menggerakkan roda kendaraan."
+        },
+        {
+          "title2": "Prinsip Perubahan Energi (Kimia → Panas → Mekanik)",
+          "content2": "![Prinsip Perubahan Energi](images/XRDCTSM-003/prinsip-perubahan-energi.png)Prinsip kerja motor bakar didasarkan pada perubahan energi. Energi kimia yang tersimpan dalam bahan bakar dibakar bersama udara sehingga menghasilkan energi panas. Energi panas tersebut menciptakan tekanan tinggi di dalam ruang bakar. Tekanan ini mendorong piston sehingga menghasilkan energi mekanik berupa gerak naik turun yang kemudian diubah menjadi putaran poros engkol. Urutannya adalah: Energi Kimia → Energi Panas → Energi Mekanik."
+        },
+        {
+          "title2": "Perbedaan Motor 2 Tak dan 4 Tak",
+          "content2": "![Perbedaan Motor 2 Tak dan 4 Tak](images/XRDCTSM-003/perbedaan-motor-2-tak-dan-4-tak.png)Motor 2 tak menyelesaikan satu siklus kerja dalam satu putaran poros engkol (360°) dan menghasilkan tenaga setiap satu putaran. Konstruksinya lebih sederhana namun konsumsi bahan bakar lebih boros dan emisi lebih tinggi. Motor 4 tak menyelesaikan satu siklus kerja dalam dua putaran poros engkol (720°) dan menghasilkan tenaga setiap dua putaran. Motor 4 tak lebih hemat bahan bakar, lebih halus, dan lebih ramah lingkungan."
+        }
+      ]
+    },
+    {
+      "title": "Siklus Kerja Mesin 4 Tak (720° Putaran Poros Engkol)",
+      "content": "",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Langkah Hisap (Intake)",
+          "content2": "![Langkah Hisap (Intake)](images/XRDCTSM-003/langkah-hisap.png)Langkah hisap adalah tahap pertama dalam siklus kerja mesin 4 tak yang berlangsung selama 180° putaran poros engkol. Pada tahap ini, mesin melakukan proses pengisian ruang bakar dengan campuran udara dan bahan bakar. Kualitas pengisian pada langkah ini sangat menentukan besar kecilnya tenaga yang akan dihasilkan pada langkah usaha. Proses ini terjadi akibat perbedaan tekanan antara ruang bakar dan tekanan atmosfer.",
+          "items": [
+            {
+              "title3": "Piston: TMA → TMB",
+              "content3": "Pada awal langkah hisap, piston berada di Titik Mati Atas (TMA). Seiring berputarnya poros engkol, connecting rod menarik piston bergerak turun menuju Titik Mati Bawah (TMB). Gerakan turun piston ini memperbesar volume ruang bakar secara bertahap. Bertambahnya volume menyebabkan tekanan di dalam silinder menjadi lebih rendah dari tekanan atmosfer (terjadi kevakuman relatif). Kevakuman inilah yang memungkinkan campuran udara dan bahan bakar masuk ke dalam silinder secara alami."
+            },
+            {
+              "title3": "Katup Masuk: Terbuka",
+              "content3": "Pada langkah hisap, katup masuk terbuka karena didorong oleh camshaft melalui mekanisme rocker arm atau lifter. Pembukaan katup tidak selalu tepat di TMA, tetapi biasanya sedikit sebelum TMA (valve timing advance) untuk meningkatkan efisiensi pengisian. Katup masuk yang terbuka memungkinkan campuran udara dan bahan bakar mengalir dari saluran intake menuju ruang bakar. Besarnya bukaan katup (valve lift) dan lamanya bukaan (duration) sangat mempengaruhi jumlah campuran yang masuk."
+            },
+            {
+              "title3": "Katup Buang: Tertutup",
+              "content3": "Selama langkah hisap, katup buang dalam keadaan tertutup rapat untuk menjaga agar tidak terjadi kebocoran tekanan dan tidak ada gas sisa pembakaran yang kembali masuk. Penutupan yang rapat pada valve seat memastikan proses pengisian berjalan optimal. Pada beberapa mesin, terdapat sedikit overlap (kedua katup sedikit terbuka bersamaan di sekitar TMA), namun secara prinsip katup buang tidak aktif selama sebagian besar langkah hisap."
+            },
+            {
+              "title3": "Campuran Udara dan Bahan Bakar Masuk ke Ruang Bakar",
+              "content3": "Akibat tekanan rendah di dalam silinder, campuran udara dan bahan bakar mengalir melalui intake manifold menuju ruang bakar. Pada sistem karburator, campuran sudah terbentuk sebelum masuk ke silinder. Pada sistem injeksi (EFI), bahan bakar disemprotkan oleh injektor dan bercampur dengan udara sebelum atau saat memasuki ruang bakar. Proses pengisian ini dipengaruhi oleh desain saluran intake, ukuran katup, putaran mesin, dan kondisi filter udara. Semakin optimal pengisian, semakin tinggi efisiensi volumetrik mesin dan semakin besar tenaga yang dapat dihasilkan pada langkah usaha."
+            }
+          ]
+        },
+        {
+          "title2": "Langkah Kompresi (Compression)",
+          "content2": "![Langkah Kompresi (Compression)](images/XRDCTSM-003/langkah-kompresi.png)Langkah kompresi merupakan tahap kedua dalam siklus kerja mesin 4 tak yang berlangsung selama 180° putaran poros engkol. Pada tahap ini, campuran udara dan bahan bakar yang telah masuk pada langkah hisap dimampatkan di dalam ruang bakar. Proses kompresi bertujuan meningkatkan tekanan dan suhu campuran sehingga pembakaran dapat terjadi secara cepat, sempurna, dan menghasilkan tenaga maksimal pada langkah usaha.",
+          "items": [
+            {
+              "title3": "Piston: TMA → TMB",
+              "content3": "Pada awal langkah hisap, piston berada di Titik Mati Atas (TMA). Seiring berputarnya poros engkol, connecting rod menarik piston bergerak turun menuju Titik Mati Bawah (TMB). Gerakan turun piston ini memperbesar volume ruang bakar secara bertahap. Bertambahnya volume menyebabkan tekanan di dalam silinder menjadi lebih rendah dari tekanan atmosfer (terjadi kevakuman relatif). Kevakuman inilah yang memungkinkan campuran udara dan bahan bakar masuk ke dalam silinder secara alami."
+            },
+            {
+              "title3": "Katup Masuk: Terbuka",
+              "content3": "Pada langkah hisap, katup masuk terbuka karena didorong oleh camshaft melalui mekanisme rocker arm atau lifter. Pembukaan katup tidak selalu tepat di TMA, tetapi biasanya sedikit sebelum TMA (valve timing advance) untuk meningkatkan efisiensi pengisian. Katup masuk yang terbuka memungkinkan campuran udara dan bahan bakar mengalir dari saluran intake menuju ruang bakar. Besarnya bukaan katup (valve lift) dan lamanya bukaan (duration) sangat mempengaruhi jumlah campuran yang masuk."
+            },
+            {
+              "title3": "Katup Buang: Tertutup",
+              "content3": "Selama langkah hisap, katup buang dalam keadaan tertutup rapat untuk menjaga agar tidak terjadi kebocoran tekanan dan tidak ada gas sisa pembakaran yang kembali masuk. Penutupan yang rapat pada valve seat memastikan proses pengisian berjalan optimal. Pada beberapa mesin, terdapat sedikit overlap (kedua katup sedikit terbuka bersamaan di sekitar TMA), namun secara prinsip katup buang tidak aktif selama sebagian besar langkah hisap."
+            },
+            {
+              "title3": "Campuran Udara dan Bahan Bakar Masuk ke Ruang Bakar",
+              "content3": "Akibat tekanan rendah di dalam silinder, campuran udara dan bahan bakar mengalir melalui intake manifold menuju ruang bakar. Pada sistem karburator, campuran sudah terbentuk sebelum masuk ke silinder. Pada sistem injeksi (EFI), bahan bakar disemprotkan oleh injektor dan bercampur dengan udara sebelum atau saat memasuki ruang bakar. Proses pengisian ini dipengaruhi oleh desain saluran intake, ukuran katup, putaran mesin, dan kondisi filter udara. Semakin optimal pengisian, semakin tinggi efisiensi volumetrik mesin dan semakin besar tenaga yang dapat dihasilkan pada langkah usaha."
+            }
+          ]
+        },
+        {
+          "title2": "Langkah Usaha (Power)",
+          "content2": "![Langkah Usaha (Power)](images/XRDCTSM-003/langkah-usaha.png)Langkah usaha merupakan tahap ketiga dalam siklus kerja mesin 4 tak dan merupakan satu-satunya langkah yang menghasilkan tenaga. Tahap ini berlangsung selama 180° putaran poros engkol. Pada langkah ini terjadi proses pembakaran campuran udara dan bahan bakar yang telah dikompresi, sehingga menghasilkan tekanan tinggi yang mendorong piston ke bawah.",
+          "items": [
+            {
+              "title3": "Piston: TMA → TMB",
+              "content3": "Pada awal langkah usaha, piston berada di sekitar Titik Mati Atas (TMA) setelah terjadi percikan api dari busi. Tekanan tinggi hasil pembakaran mendorong piston bergerak turun menuju Titik Mati Bawah (TMB). Gerakan turun ini merupakan hasil langsung dari energi panas yang berubah menjadi energi mekanik. Connecting rod meneruskan gaya dorong ini ke poros engkol sehingga menghasilkan gerakan putar."
+            },
+            {
+              "title3": "Katup: Tertutup",
+              "content3": "Selama langkah usaha, katup masuk dan katup buang dalam keadaan tertutup rapat. Penutupan kedua katup ini sangat penting untuk menjaga agar tekanan hasil pembakaran tidak bocor keluar. Dengan ruang bakar yang tertutup sempurna, seluruh tekanan dapat dimanfaatkan untuk mendorong piston secara maksimal sehingga menghasilkan tenaga optimal."
+            },
+            {
+              "title3": "Pembakaran Menghasilkan Tekanan",
+              "content3": "Percikan api dari busi membakar campuran udara dan bahan bakar yang telah dikompresi. Proses pembakaran ini berlangsung sangat cepat dan menghasilkan peningkatan tekanan serta suhu yang sangat tinggi di dalam ruang bakar. Tekanan dapat mencapai puluhan bar tergantung rasio kompresi dan kondisi mesin. Energi panas hasil pembakaran inilah yang menjadi sumber tenaga mesin."
+            },
+            {
+              "title3": "Menghasilkan Tenaga",
+              "content3": "Tekanan tinggi mendorong piston turun dan gaya tersebut diteruskan melalui connecting rod ke crankshaft. Karena posisi crank pin tidak sejajar dengan pusat putaran, gaya linear piston berubah menjadi gerak rotasi pada poros engkol. Putaran poros engkol inilah yang kemudian diteruskan ke sistem kopling dan transmisi untuk menggerakkan roda kendaraan. Dalam satu siklus 4 tak (720°), langkah usaha hanya terjadi satu kali."
+            }
+          ]
+        },
+        {
+          "title2": "Langkah Buang (Exhaust)",
+          "content2": "![Langkah Buang (Exhaust)](images/XRDCTSM-003/langkah-buang.png)Langkah buang merupakan tahap keempat dalam siklus kerja mesin 4 tak dan berlangsung selama 180° putaran poros engkol. Pada tahap ini, gas sisa hasil pembakaran dikeluarkan dari ruang bakar agar silinder siap menerima campuran baru pada langkah hisap berikutnya. Proses pembuangan yang optimal sangat penting untuk menjaga efisiensi mesin dan kestabilan performa.",
+          "items": [
+            {
+              "title3": "Piston: TMB → TMA",
+              "content3": "Pada awal langkah buang, piston berada di Titik Mati Bawah (TMB) setelah menyelesaikan langkah usaha. Seiring putaran poros engkol, connecting rod mendorong piston naik menuju Titik Mati Atas (TMA). Gerakan naik ini memperkecil volume ruang bakar dan memaksa gas sisa pembakaran terdorong keluar melalui saluran buang."
+            },
+            {
+              "title3": "Katup Buang: Terbuka",
+              "content3": "Selama langkah buang, katup buang dalam keadaan terbuka karena didorong oleh camshaft sesuai timing mesin. Pembukaan katup buang biasanya dimulai sedikit sebelum piston mencapai TMB pada akhir langkah usaha (exhaust valve opening) untuk membantu mengurangi tekanan sisa pembakaran. Katup yang terbuka memungkinkan gas sisa mengalir keluar menuju exhaust manifold dan knalpot."
+            },
+            {
+              "title3": "Katup Masuk: Tertutup",
+              "content3": "Pada sebagian besar langkah buang, katup masuk dalam keadaan tertutup untuk mencegah campuran baru masuk sebelum gas sisa benar-benar keluar. Namun, pada akhir langkah buang mendekati TMA, beberapa mesin menerapkan valve overlap, yaitu kondisi di mana katup masuk mulai sedikit terbuka sebelum katup buang sepenuhnya tertutup untuk meningkatkan efisiensi pengisian pada putaran tinggi."
+            },
+            {
+              "title3": "Gas Sisa Pembakaran Keluar",
+              "content3": "Gas sisa hasil pembakaran yang mengandung karbon dioksida, uap air, dan sisa hidrokarbon terdorong keluar akibat gerakan piston ke atas dan tekanan dalam silinder. Gas tersebut mengalir melalui saluran buang menuju knalpot. Setelah piston mencapai TMA dan katup buang menutup, siklus kembali ke langkah hisap untuk memulai proses kerja berikutnya. Proses pembuangan yang sempurna memastikan ruang bakar bersih dan siap menerima campuran baru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hubungan Gerak Mekanisme Mesin 4 Tak",
+      "content": "",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Perubahan Gerak Naik-Turun Menjadi Gerak Putar",
+          "content2": "![Perubahan Gerak Naik-Turun Menjadi Gerak Putar](/images/XRDCTSM-003/perubahan-gerak-naik-turun-menjadi-gerak-putar.png)Pada mesin 4 tak, piston bergerak naik dan turun di dalam silinder. Gerakan ini disebut gerak bolak-balik (reciprocating motion).\n\nGerakan naik-turun piston belum dapat langsung digunakan untuk menggerakkan roda. Oleh karena itu, gerakan tersebut harus diubah menjadi gerakan memutar (rotary motion).\n\nProses perubahan gerak terjadi sebagai berikut:\n1. Piston bergerak turun akibat tekanan hasil pembakaran.\n2. Gerakan piston diteruskan ke connecting rod.\n3. Connecting rod mendorong dan memutar poros engkol.\n4. Poros engkol menghasilkan gerakan putar secara terus-menerus.\n\nPerubahan gerak ini memungkinkan energi hasil pembakaran diubah menjadi energi mekanik yang dapat digunakan untuk menggerakkan roda sepeda motor.\n\nTanpa mekanisme perubahan gerak ini, mesin tidak dapat menghasilkan tenaga putar yang dibutuhkan kendaraan."
+        },
+        {
+          "title": "Hubungan Putaran Poros Engkol dengan Siklus Kerja",
+          "content": "Dalam mesin 4 tak, satu siklus kerja lengkap terdiri dari empat langkah, yaitu hisap, kompresi, usaha, dan buang.\n\nUntuk menyelesaikan keempat langkah tersebut, poros engkol harus berputar sebanyak dua kali putaran penuh atau 720 derajat.\n\nHubungannya adalah sebagai berikut:\n- Langkah hisap terjadi pada putaran 0° sampai 180°.\n- Langkah kompresi terjadi pada putaran 180° sampai 360°.\n- Langkah usaha terjadi pada putaran 360° sampai 540°.\n- Langkah buang terjadi pada putaran 540° sampai 720°.\n\nArtinya, dua kali putaran poros engkol menghasilkan satu kali proses pembakaran.\n\nHal ini menunjukkan bahwa setiap satu kali langkah usaha (power stroke), poros engkol tetap harus menyelesaikan empat tahap gerakan piston untuk menghasilkan satu siklus kerja lengkap.\n\nPemahaman hubungan ini penting untuk menganalisis waktu pembakaran dan kinerja mesin secara keseluruhan."
+        },
+        {
+          "title2": "Sinkronisasi Waktu Kerja (Timing)",
+          "content2": "![Sinkronisasi Waktu Kerja](/images/XRDCTSM-003/sinkronisasi-waktu-kerja.png)Agar mesin 4 tak dapat bekerja dengan baik, setiap gerakan piston dan pembukaan katup harus terjadi pada waktu yang tepat. Ketepatan hubungan waktu ini disebut sebagai timing.\n\nDalam satu siklus kerja, piston bergerak dari Titik Mati Atas (TMA) ke Titik Mati Bawah (TMB) dan kembali lagi. Gerakan ini harus selaras dengan pembukaan dan penutupan katup masuk serta katup buang.\n\nBeberapa konsep penting dalam timing mesin 4 tak:\n- TMA (Titik Mati Atas) adalah posisi piston paling atas di dalam silinder.\n- TMB (Titik Mati Bawah) adalah posisi piston paling bawah di dalam silinder.\n- Pembakaran terjadi sesaat sebelum piston mencapai TMA pada akhir langkah kompresi.\n\nSinkronisasi ini memastikan bahwa:\n1. Campuran udara dan bahan bakar masuk pada waktu yang tepat.\n2. Campuran dikompresi secara maksimal sebelum pembakaran.\n3. Pembakaran menghasilkan dorongan tenaga yang optimal.\n4. Gas sisa pembakaran keluar dengan sempurna.\n\nJika timing tidak tepat, maka dapat menyebabkan tenaga mesin berkurang, konsumsi bahan bakar meningkat, dan mesin bekerja tidak stabil.\n\nOleh karena itu, sinkronisasi waktu kerja merupakan faktor penting dalam menjaga performa dan efisiensi mesin 4 tak."
+        },
+        {
+          "title2": "Analisis Hubungan Gerak dalam 1 Siklus",
+          "content2": "[Analisis Hubungan Gerak dalam 1 Siklus](/images/XRDCTSM-003/analisis-hubungan-gerak-dalam-1-siklus.png)Dalam satu siklus kerja mesin 4 tak terjadi rangkaian hubungan gerak yang saling berkaitan dan tidak dapat dipisahkan.\n\nSatu siklus kerja terdiri dari empat langkah: hisap, kompresi, usaha, dan buang. Selama proses tersebut, piston bergerak naik dan turun sebanyak dua kali, sementara poros engkol berputar dua kali penuh (720 derajat).\n\nAnalisis hubungan gerak dalam satu siklus adalah sebagai berikut:\n1. Saat langkah hisap, piston bergerak turun dan poros engkol berputar 180 derajat.\n2. Saat langkah kompresi, piston bergerak naik dan poros engkol berputar hingga 360 derajat.\n3. Saat langkah usaha, piston terdorong turun akibat pembakaran dan poros engkol berputar hingga 540 derajat.\n4. Saat langkah buang, piston kembali naik dan poros engkol menyelesaikan putaran hingga 720 derajat.\n\nHubungan ini menunjukkan bahwa gerak bolak-balik piston selalu diikuti oleh gerak putar poros engkol secara berkelanjutan.\n\nDalam satu siklus lengkap hanya terjadi satu kali langkah usaha yang menghasilkan tenaga, sedangkan tiga langkah lainnya berfungsi mendukung proses pembakaran.\n\nOleh karena itu, keseimbangan dan kesinambungan gerak dalam satu siklus sangat menentukan kelancaran kerja mesin 4 tak."
+        }
+      ]
+    }
+  ]
 }

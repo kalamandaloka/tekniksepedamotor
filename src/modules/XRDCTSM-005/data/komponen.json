@@ -1,4 +1,149 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "",
+  "items": [
+  {
+      "id": "MK-01",
+      "name": "Camshaft (Noken As)",
+      "description": "Camshaft atau noken as adalah poros berprofil nok (cam lobe) yang berfungsi mengatur waktu pembukaan dan penutupan katup pada mesin 4 langkah. Komponen ini diputar oleh crankshaft melalui sistem timing (rantai keteng atau gear) dengan rasio 2:1. Profil cam lobe dirancang khusus untuk menentukan lift (tinggi bukaan katup), durasi buka katup, serta karakter tenaga mesin (torsi bawah atau putaran tinggi). Camshaft umumnya terbuat dari baja paduan yang dikeraskan agar tahan terhadap gesekan dan tekanan tinggi.",
+      "function": "Mengatur waktu dan durasi pembukaan serta penutupan katup dengan mengubah gerakan putar menjadi gerakan tekan pada mekanisme katup.",
+      "image": "/images/XRDCTSM-005/camshaft.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-02",
+      "name": "Rocker Arm (Pelatuk Katup)",
+      "description": "Rocker arm adalah komponen berbentuk tuas yang berfungsi meneruskan tekanan dari camshaft ke batang katup pada sistem tipe OHC tertentu. Rocker arm memiliki titik tumpu (pivot) sehingga bekerja berdasarkan prinsip tuas. Pada beberapa tipe mesin, rocker arm dilengkapi baut penyetel dan mur pengunci untuk mengatur celah katup. Komponen ini harus memiliki permukaan kontak yang halus untuk mengurangi keausan.",
+      "function": "Meneruskan tekanan dari camshaft ke katup dan sebagai titik penyetelan celah katup pada sistem mekanis.",
+      "image": "/images/XRDCTSM-005/rocker-arm.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-03",
+      "name": "Valve (Katup Masuk & Buang)",
+      "description": "Valve atau katup adalah komponen berbentuk payung yang berfungsi membuka dan menutup saluran masuk (intake) dan saluran buang (exhaust) pada kepala silinder. Katup bekerja pada suhu dan tekanan tinggi, terutama katup buang yang bersentuhan langsung dengan gas hasil pembakaran. Katup terdiri dari kepala katup (valve head) dan batang katup (valve stem). Materialnya terbuat dari baja paduan tahan panas untuk menjaga kekuatan dan daya tahan.",
+      "function": "Mengatur aliran campuran udara-bahan bakar masuk ke ruang bakar dan mengeluarkan gas sisa pembakaran secara tepat waktu serta menjaga kerapatan ruang bakar.",
+      "image": "/images/XRDCTSM-005/katup.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-04",
+      "name": "Valve Spring (Pegas Katup)",
+      "description": "Valve spring adalah pegas berbentuk spiral yang terpasang pada batang katup. Komponen ini berfungsi mengembalikan katup ke posisi tertutup setelah dibuka oleh camshaft. Pegas katup dirancang dengan kekuatan tertentu agar mampu menutup katup dengan cepat dan mencegah terjadinya valve floating pada putaran tinggi. Terbuat dari baja pegas khusus yang elastis dan tahan panas.",
+      "function": "Mengembalikan katup ke posisi tertutup dan menjaga agar katup tetap rapat pada valve seat selama mesin bekerja.",
+      "image": "/images/XRDCTSM-005/valve-spring.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-05",
+      "name": "Valve Guide",
+      "description": "Valve guide adalah silinder pemandu tempat batang katup bergerak naik dan turun. Komponen ini dipasang pada kepala silinder dan berfungsi menjaga pergerakan katup tetap lurus dan stabil. Valve guide juga membantu mengontrol pelumasan pada batang katup agar tidak terjadi kebocoran oli berlebihan ke ruang bakar. Materialnya biasanya terbuat dari besi tuang khusus atau paduan logam tahan aus.",
+      "function": "Memandu gerakan batang katup agar tetap presisi, mengurangi keausan, serta mencegah kebocoran oli ke ruang bakar.",
+      "image": "/images/XRDCTSM-005/valve-guide.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-06",
+      "name": "Valve Seat",
+      "description": "Valve seat adalah dudukan katup yang terpasang pada kepala silinder sebagai tempat menempelnya kepala katup saat posisi tertutup. Permukaan valve seat dibuat sangat presisi dengan sudut tertentu (umumnya 45°) agar katup dapat menutup rapat dan menjaga kompresi tetap maksimal. Valve seat harus tahan terhadap suhu tinggi dan tekanan hasil pembakaran, terutama pada katup buang.",
+      "function": "Menjadi bidang kontak antara kepala katup dan kepala silinder untuk menjaga kerapatan ruang bakar serta membantu proses pelepasan panas dari katup ke kepala silinder.",
+      "image": "/images/XRDCTSM-005/valve-seat.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-07",
+      "name": "Tappet / Penyetel Katup",
+      "description": "Tappet adalah komponen penghubung antara camshaft dan katup pada sistem tertentu (misalnya tipe OHC tanpa rocker arm langsung). Pada sistem mekanis, tappet dilengkapi baut penyetel dan mur pengunci untuk mengatur celah katup. Tappet harus memiliki permukaan kontak yang keras dan rata untuk mencegah keausan akibat gesekan langsung dengan cam lobe.",
+      "function": "Meneruskan tekanan dari camshaft ke batang katup serta mengatur dan menjaga celah katup sesuai spesifikasi pabrikan.",
+      "image": "/images/XRDCTSM-005/tappet.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-08",
+      "name": "Timing Chain (Rantai Keteng)",
+      "description": "Timing chain atau rantai keteng adalah rantai baja presisi yang menghubungkan sprocket crankshaft dan sprocket camshaft. Komponen ini bekerja secara terus-menerus selama mesin hidup dan harus memiliki ketahanan tinggi terhadap gesekan dan peregangan. Rantai keteng yang aus atau memanjang dapat menyebabkan ketidaktepatan timing.",
+      "function": "Meneruskan putaran dari crankshaft ke camshaft agar pembukaan dan penutupan katup tetap sinkron dengan gerakan piston.",
+      "image": "/images/XRDCTSM-005/tanda-timing.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-09",
+      "name": "Sprocket Camshaft & Crankshaft",
+      "description": "Sprocket adalah roda bergigi yang terpasang pada ujung camshaft dan crankshaft sebagai penggerak rantai keteng. Jumlah gigi dan diameter sprocket dirancang untuk menghasilkan rasio putaran 2:1 antara crankshaft dan camshaft. Pada sprocket camshaft biasanya terdapat tanda timing sebagai acuan penyetelan.",
+      "function": "Menyalurkan putaran mesin melalui rantai keteng serta menjaga rasio dan sinkronisasi sistem timing.",
+      "image": "/images/XRDCTSM-005/sprocket.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-10",
+      "name": "Tensioner (Penegang Rantai)",
+      "description": "Tensioner adalah komponen yang berfungsi menjaga ketegangan rantai keteng agar tetap stabil selama mesin beroperasi. Tensioner dapat bertipe manual atau otomatis (menggunakan pegas dan/atau tekanan oli). Komponen ini mencegah rantai menjadi kendor akibat getaran dan pemakaian jangka panjang.",
+      "function": "Menjaga rantai keteng tetap tegang, mencegah loncat gigi, serta memastikan sistem timing tetap akurat.",
+      "image": "/images/XRDCTSM-005/tensioner.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-11",
+      "name": "Timing Mark (Tanda Timing)",
+      "description": "Timing mark adalah tanda referensi yang terdapat pada magnet/flywheel dan sprocket camshaft yang digunakan sebagai acuan penyetelan posisi crankshaft dan camshaft. Tanda ini biasanya berupa huruf (misalnya \"T\" untuk Top) atau garis yang harus sejajar dengan tanda pada blok mesin atau kepala silinder saat posisi Top Mati Atas (TMA). Ketelitian dalam membaca tanda timing sangat penting untuk mencegah kesalahan pemasangan sistem katup.",
+      "function": "Menjadi acuan penyetelan dan pemeriksaan sinkronisasi antara crankshaft dan camshaft agar sistem timing bekerja sesuai spesifikasi.",
+      "image": "/images/XRDCTSM-005/tanda-timing.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-12",
+      "name": "Guide Chain (Rel Penuntun Rantai)",
+      "description": "Guide chain adalah rel atau penuntun rantai keteng yang terbuat dari bahan logam dengan lapisan plastik tahan aus. Komponen ini berfungsi sebagai jalur agar rantai keteng tetap pada posisi yang benar dan tidak bergeser saat mesin beroperasi. Guide chain bekerja bersama tensioner untuk menjaga stabilitas sistem timing.",
+      "function": "Menuntun pergerakan rantai keteng agar tetap pada jalur yang benar serta mengurangi getaran dan keausan berlebih.",
+      "image": "/images/XRDCTSM-005/guide-chain.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-13",
+      "name": "Cylinder Head (Kepala Silinder)",
+      "description": "Cylinder head adalah bagian atas mesin yang menjadi tempat terpasangnya katup, camshaft (pada tipe OHC), valve guide, valve seat, dan busi. Kepala silinder memiliki saluran masuk dan buang serta ruang bakar. Komponen ini harus mampu menahan tekanan dan suhu tinggi hasil pembakaran.",
+      "function": "Menjadi rumah bagi mekanisme katup dan ruang bakar serta mendukung proses pembakaran dan sirkulasi gas masuk-buang.",
+      "image": "/images/XRDCTSM-005/cylinder-head.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-14",
+      "name": "Crankshaft (Poros Engkol)",
+      "description": "Crankshaft adalah poros utama mesin yang mengubah gerakan naik-turun piston menjadi gerakan putar. Putaran crankshaft diteruskan ke camshaft melalui sistem timing. Crankshaft bekerja dengan beban tinggi dan harus memiliki keseimbangan yang baik untuk menjaga kestabilan mesin.",
+      "function": "Mengubah gerakan piston menjadi putaran serta menggerakkan camshaft melalui sistem timing dengan rasio 2:1.",
+      "image": "/images/XRDCTSM-005/crankshaft.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-15",
+      "name": "Head Gasket (Gasket Kepala Silinder)",
+      "description": "Head gasket adalah paking yang terpasang di antara blok silinder dan kepala silinder. Komponen ini berfungsi menjaga kerapatan sambungan agar tidak terjadi kebocoran kompresi, oli, maupun cairan pendingin (pada mesin berpendingin cairan). Gasket harus tahan terhadap tekanan dan suhu tinggi.",
+      "function": "Menjaga kerapatan antara blok silinder dan kepala silinder untuk mencegah kebocoran kompresi serta menjaga stabilitas sistem pembakaran.",
+      "image": "/images/XRDCTSM-005/head-gasket.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-16",
+      "name": "Cam Chain Guide Tensioner Arm",
+      "description": "Cam chain guide tensioner arm adalah lengan penekan yang bekerja bersama tensioner untuk menjaga tekanan pada rantai keteng. Komponen ini biasanya terbuat dari logam dengan lapisan plastik atau resin tahan aus pada bagian yang bersentuhan langsung dengan rantai. Arm ini bergerak mengikuti dorongan pegas atau mekanisme otomatis dari tensioner untuk menjaga kestabilan sistem timing saat mesin beroperasi pada berbagai putaran.",
+      "function": "Meneruskan tekanan dari tensioner ke rantai keteng agar tetap tegang dan stabil selama mesin bekerja.",
+      "image": "/images/XRDCTSM-005/guide-chain.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-17",
+      "name": "Camshaft Bearing (Laher Noken As)",
+      "description": "Camshaft bearing adalah bantalan yang menopang poros camshaft agar dapat berputar dengan halus dan presisi. Bantalan ini berfungsi mengurangi gesekan antara camshaft dan rumahnya di cylinder head. Pada beberapa mesin, camshaft menggunakan plain bearing (bantalan luncur), sedangkan pada tipe lain menggunakan ball bearing. Pelumasan yang baik sangat penting untuk mencegah keausan dan kerusakan pada bearing.",
+      "function": "Menopang dan memungkinkan camshaft berputar dengan stabil serta mengurangi gesekan dan keausan.",
+      "image": "/images/XRDCTSM-005/camshaft.png",
+      "modelType": "box"
+    },
+    {
+      "id": "MK-18",
+      "name": "Valve Retainer & Keeper",
+      "description": "Valve retainer dan keeper adalah komponen pengunci yang terpasang pada ujung batang katup untuk menahan valve spring pada posisinya. Retainer berbentuk cakram penahan pegas, sedangkan keeper (collet) adalah pengunci kecil berbentuk setengah kerucut yang menjepit batang katup. Komponen ini bekerja pada tekanan tinggi dan harus terpasang dengan benar untuk mencegah pegas terlepas saat mesin beroperasi.",
+      "function": "Mengunci dan menahan valve spring pada batang katup agar sistem katup tetap terpasang dengan aman saat mesin bekerja.",
+      "image": "/images/XRDCTSM-005/valve-retainer.png",
+      "modelType": "box"
+    }
+]
 }

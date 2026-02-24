@@ -1,4 +1,125 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Alat Ukur & SST",
+  "items": [
+    {
+      "id": "vernier-caliper",
+      "name": "Vernier Caliper (Jangka Sorong)",
+      "description": "Vernier Caliper atau jangka sorong adalah alat ukur mekanik serbaguna yang digunakan untuk mengukur dimensi luar, dimensi dalam, dan kedalaman suatu komponen sepeda motor dengan tingkat ketelitian hingga 0,02 mm. Alat ini terdiri dari skala utama dan skala nonius (vernier) yang memungkinkan pembacaan hasil pengukuran lebih presisi dibandingkan mistar biasa. Dalam praktik teknik sepeda motor, jangka sorong merupakan alat dasar yang wajib dikuasai sebelum menggunakan alat ukur presisi lainnya seperti micrometer.",
+      "function": "Digunakan untuk mengukur diameter piston, ketebalan kampas rem, diameter poros roda, ketebalan piringan cakram, serta diameter baut dan pin piston. Selain itu, jangka sorong juga dapat digunakan untuk memeriksa keausan komponen luar dan memastikan ukuran masih dalam batas toleransi pabrikan sebelum dilakukan perbaikan atau penggantian.",
+      "image": "/images/XRDCTSM-002/vernier-caliper.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "micrometer",
+      "name": "Micrometer",
+      "description": "Micrometer adalah alat ukur presisi tinggi yang digunakan untuk mengukur diameter luar atau ketebalan komponen dengan ketelitian hingga 0,01 mm. Alat ini memiliki sistem ulir presisi yang memungkinkan pengukuran sangat akurat, sehingga sering digunakan dalam pekerjaan overhaul mesin sepeda motor. Micrometer sangat penting untuk memastikan ukuran komponen seperti piston dan crankshaft sesuai standar spesifikasi pabrikan.",
+      "function": "Digunakan untuk mengukur diameter luar piston, crankshaft journal, pen piston, dan komponen presisi lainnya. Micrometer membantu mendeteksi keausan, keovalan, serta penyimpangan ukuran yang dapat mempengaruhi performa mesin dan umur pakai komponen.",
+      "image": "/images/XRDCTSM-002/micrometer.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "dial-indicator",
+      "name": "Dial Indicator",
+      "description": "Dial Indicator adalah alat ukur presisi yang digunakan untuk mengukur penyimpangan kecil seperti keolengan (run out), pergeseran aksial, dan kerataan permukaan. Alat ini memiliki jarum penunjuk pada skala berbentuk lingkaran dengan ketelitian hingga 0,01 mm. Dial indicator biasanya digunakan bersama magnetic stand untuk memastikan posisi pengukuran stabil dan akurat.",
+      "function": "Digunakan untuk memeriksa run out velg, keolengan poros engkol, serta kerataan permukaan kepala silinder atau cakram rem. Hasil pengukuran membantu teknisi menentukan apakah komponen masih dalam batas toleransi atau memerlukan perbaikan.",
+      "image": "/images/XRDCTSM-002/dial-indicator.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "cylinder-bore-gauge",
+      "name": "Cylinder Bore Gauge",
+      "description": "Cylinder Bore Gauge adalah alat ukur khusus untuk mengukur diameter dalam silinder mesin dengan tingkat presisi tinggi. Alat ini biasanya digunakan bersama micrometer sebagai alat kalibrasi awal sebelum pengukuran dilakukan. Cylinder bore gauge sangat penting dalam proses overhaul mesin karena dapat mendeteksi keausan, ketirusan (taper), dan keovalan pada dinding silinder.",
+      "function": "Digunakan untuk mengukur diameter silinder pada beberapa titik (atas, tengah, dan bawah) serta pada arah berbeda untuk mengetahui tingkat keausan dan penyimpangan bentuk. Hasil pengukuran menjadi dasar keputusan apakah silinder perlu dilakukan oversize, reboring, atau penggantian.",
+      "image": "/images/XRDCTSM-002/cylinder-bore-gauge.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "feeler-gauge",
+      "name": "Feeler Gauge",
+      "description": "Feeler Gauge adalah alat ukur berupa sekumpulan lembaran baja tipis dengan berbagai ukuran ketebalan yang digunakan untuk mengukur celah antar komponen. Dalam teknik sepeda motor, alat ini sangat penting untuk penyetelan celah katup (valve clearance) agar proses pembakaran berlangsung optimal dan mesin bekerja dengan efisien.",
+      "function": "Digunakan untuk mengukur dan menyetel celah katup sesuai standar pabrikan. Celah yang tepat memastikan katup membuka dan menutup secara optimal, mencegah kebocoran kompresi, serta mengurangi suara berisik pada mesin.",
+      "image": "/images/XRDCTSM-002/feeler-gauge.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "compression-tester",
+      "name": "Compression Tester",
+      "description": "Compression Tester adalah alat ukur yang digunakan untuk mengukur tekanan kompresi di dalam ruang bakar mesin sepeda motor. Alat ini terdiri dari pressure gauge, selang tekanan tinggi, dan adaptor busi yang dipasang pada lubang busi. Pengukuran kompresi sangat penting untuk mengetahui kondisi ring piston, katup, gasket kepala silinder, serta kerapatan ruang bakar tanpa harus membongkar mesin secara langsung.",
+      "function": "Digunakan untuk mengukur tekanan kompresi mesin saat proses diagnosis kerusakan. Nilai kompresi dibandingkan dengan standar pabrikan untuk mendeteksi kebocoran ring piston, katup tidak rapat, gasket bocor, atau penumpukan karbon berlebih. Hasil pengukuran membantu teknisi menentukan tindakan perbaikan yang tepat.",
+      "image": "/images/XRDCTSM-002/compression-tester.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "multimeter",
+      "name": "Multimeter",
+      "description": "Multimeter adalah alat ukur listrik yang digunakan untuk mengukur tegangan (Volt), arus (Ampere), dan hambatan (Ohm) pada sistem kelistrikan sepeda motor. Multimeter dapat berupa tipe analog maupun digital, dengan tipe digital lebih umum digunakan karena pembacaan lebih akurat dan mudah.",
+      "function": "Digunakan untuk mengukur tegangan aki, tegangan pengisian regulator/rectifier, hambatan spul, kontinuitas kabel, serta pengujian sensor seperti TPS dan pick-up coil. Membantu teknisi menemukan gangguan kelistrikan secara sistematis dan akurat.",
+      "image": "/images/XRDCTSM-002/multimeter.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "torque-wrench",
+      "name": "Torque Wrench",
+      "description": "Torque Wrench adalah alat khusus yang digunakan untuk mengencangkan baut atau mur sesuai nilai torsi yang ditentukan pabrikan. Pengencangan presisi sangat penting terutama pada kepala silinder, crankcase, dan komponen transmisi sepeda motor.",
+      "function": "Digunakan untuk mengencangkan baut kepala silinder, baut blok mesin, baut roda, dan komponen penting lainnya sesuai nilai torsi (Nm) pada manual servis. Mencegah over torque maupun under torque yang dapat menyebabkan kerusakan.",
+      "image": "/images/XRDCTSM-002/torque-wrench.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "flywheel-puller",
+      "name": "Flywheel Puller",
+      "description": "Flywheel Puller adalah Special Service Tool (SST) yang digunakan untuk melepas magnet (flywheel) dari poros engkol tanpa merusak ulir atau poros. Alat ini dirancang sesuai ukuran dan tipe ulir flywheel masing-masing pabrikan.",
+      "function": "Digunakan saat servis sistem pengapian atau penggantian stator. Membantu pelepasan flywheel secara aman dan presisi tanpa merusak poros engkol maupun ulir magnet.",
+      "image": "/images/XRDCTSM-002/flywheel-puller.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "clutch-holder",
+      "name": "Clutch Holder",
+      "description": "Clutch Holder adalah SST yang berfungsi untuk menahan rumah kopling agar tidak berputar saat mur pengikat dilepas atau dikencangkan. Alat ini penting dalam proses pembongkaran sistem kopling sepeda motor.",
+      "function": "Digunakan untuk menahan kopling saat melepas atau mengencangkan mur tengah kopling sehingga tidak terjadi kerusakan pada kampas, gear, maupun komponen transmisi.",
+      "image": "/images/XRDCTSM-002/clutch-holder.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "valve-spring-compressor",
+      "name": "Valve Spring Compressor",
+      "description": "Valve Spring Compressor adalah Special Service Tool (SST) yang digunakan untuk menekan pegas katup pada kepala silinder saat proses pelepasan atau pemasangan katup. Pegas katup memiliki tekanan yang cukup kuat sehingga memerlukan alat khusus agar pembongkaran dapat dilakukan dengan aman dan presisi tanpa merusak komponen.",
+      "function": "Digunakan untuk menekan pegas katup sehingga pengunci katup (valve keeper) dapat dilepas atau dipasang kembali saat overhaul mesin. Membantu mencegah kerusakan pada batang katup, pegas, serta dudukan katup dan mengurangi risiko cedera akibat tekanan pegas.",
+      "image": "/images/XRDCTSM-002/valve-spring-compressor.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "bearing-puller",
+      "name": "Bearing Puller",
+      "description": "Bearing Puller adalah alat penarik khusus yang digunakan untuk melepas bearing dari poros atau rumah bearing tanpa merusak dudukan atau porosnya. Bearing yang terpasang rapat tidak dapat dilepas dengan cara dipukul karena dapat menyebabkan deformasi atau kerusakan permanen.",
+      "function": "Digunakan untuk menarik bearing secara merata dan presisi dari poros engkol, roda, atau rumah mesin. Membantu menjaga kondisi dudukan bearing tetap presisi dan mencegah kerusakan akibat pelepasan paksa.",
+      "image": "/images/XRDCTSM-002/bearing-puller.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "piston-ring-compressor",
+      "name": "Piston Ring Compressor",
+      "description": "Piston Ring Compressor adalah alat yang digunakan untuk menekan ring piston agar sejajar dan masuk dengan mudah ke dalam silinder saat proses pemasangan piston. Ring piston memiliki sifat elastis dan mudah patah jika dipasang tanpa alat bantu yang tepat.",
+      "function": "Digunakan saat proses pemasangan piston ke dalam silinder setelah overhaul mesin. Membantu mencegah ring piston patah, tergores, atau tidak sejajar yang dapat menyebabkan kebocoran kompresi dan penurunan performa mesin.",
+      "image": "/images/XRDCTSM-002/piston-ring-compressor.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "injector-tester",
+      "name": "Injector Tester",
+      "description": "Injector Tester adalah alat khusus untuk menguji performa injektor pada sepeda motor sistem injeksi (FI). Alat ini digunakan untuk memeriksa pola semprotan bahan bakar, tekanan kerja, dan potensi kebocoran pada injektor.",
+      "function": "Digunakan untuk memastikan injektor menyemprotkan bahan bakar dengan pola yang merata dan tekanan yang sesuai standar. Membantu mendeteksi injektor tersumbat, bocor, atau tidak bekerja optimal yang dapat menyebabkan mesin brebet atau boros bahan bakar.",
+      "image": "/images/XRDCTSM-002/injector-tester.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "cvt-holder",
+      "name": "CVT Holder",
+      "description": "CVT Holder adalah alat penahan khusus yang digunakan pada sistem transmisi otomatis (CVT) sepeda motor matic. Sistem CVT memiliki gaya putar tinggi sehingga diperlukan alat khusus untuk menahan pulley saat proses pembongkaran atau pemasangan.",
+      "function": "Digunakan untuk menahan pulley depan atau belakang saat melepas atau mengencangkan mur CVT. Mencegah komponen berputar bebas, mengurangi risiko kerusakan pada pulley dan belt, serta meningkatkan keselamatan kerja teknisi.",
+      "image": "/images/XRDCTSM-002/cvt-holder.jpg",
+      "modelType": "box"
+    }
+  ]
 }

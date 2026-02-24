@@ -1,5 +1,262 @@
 {
-  "title": "Teori Modul",
-  "content": "",
-  "pages": []
-}
+  "title": "Alat Ukur & SST",
+  "content": "Modul ini membahas penggunaan alat ukur mekanik dan Special Service Tools (SST) dalam pekerjaan perawatan dan perbaikan kendaraan. Peserta didik mempelajari fungsi, prinsip kerja, cara penggunaan, pembacaan hasil pengukuran sesuai toleransi pabrikan, serta penerapan prosedur Keselamatan dan Kesehatan Kerja (K3) sesuai standar industri otomotif.",
+  "pages": [
+    {
+      "title": "Konsep Dasar Pengukuran",
+      "content": "",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Pengertian Pengukuran dalam Teknik Sepeda Motor",
+          "content2": "Pengukuran dalam teknik sepeda motor adalah proses membandingkan suatu besaran komponen dengan standar satuan tertentu untuk mengetahui ukuran, celah, tekanan, atau nilai listriknya. Pengukuran dilakukan untuk memastikan komponen masih dalam batas toleransi pabrikan sehingga kendaraan dapat bekerja dengan optimal dan aman."
+        },
+        {
+          "title2": "Satuan Ukuran yang Digunakan",
+          "content2": "Dalam pekerjaan servis sepeda motor digunakan berbagai satuan ukuran seperti milimeter (mm) untuk panjang dan diameter, Newton meter (Nm) untuk torsi pengencangan baut, Volt (V) untuk tegangan listrik, Ohm (Ω) untuk hambatan, Ampere (A) untuk arus listrik, dan PSI atau kg/cm² untuk tekanan kompresi. Pemahaman satuan ini sangat penting agar tidak terjadi kesalahan dalam membaca hasil pengukuran."
+        },
+        {
+          "title2": "Ketelitian dan Toleransi",
+          "content2": "Setiap alat ukur memiliki tingkat ketelitian tertentu. Ketelitian menunjukkan seberapa kecil skala pengukuran yang dapat dibaca oleh alat tersebut. Toleransi adalah batas penyimpangan ukuran yang masih diperbolehkan sesuai spesifikasi pabrikan. Jika hasil pengukuran melebihi batas toleransi, maka komponen harus diperbaiki atau diganti."
+        },
+        {
+          "title2": "Pentingnya Akurasi dalam Servis Sepeda Motor",
+          "content2": "Akurasi pengukuran sangat menentukan kualitas perbaikan sepeda motor. Kesalahan dalam membaca atau menggunakan alat ukur dapat menyebabkan kerusakan mesin, kebocoran kompresi, kerusakan sistem kelistrikan, atau bahkan kecelakaan kerja. Oleh karena itu, teknisi harus bekerja secara teliti, mengikuti prosedur kerja, dan menerapkan K3 dalam setiap proses pengukuran."
+        }         
+        ]
+        },
+        {
+          "title": "Alat Ukur Mekanik pada Sepeda Motor",
+          "content": "",
+          "contentL1": "",
+          "subSections": [
+              {
+                "title2": "Vernier Caliper (Jangka Sorong)",
+                "content2": "![Vernier Caliper (Jangka Sorong)](/images/XRDCTSM-002/vernier-caliper.jpg)Vernier Caliper atau jangka sorong adalah alat ukur mekanik yang digunakan untuk mengukur panjang, diameter luar, diameter dalam, dan kedalaman komponen sepeda motor dengan ketelitian hingga 0,02 mm. Alat ini sering digunakan dalam pekerjaan servis untuk memastikan ukuran komponen sesuai standar pabrikan.",
+                "items": [
+                  {
+                    "title3": "Fungsi pada Komponen Sepeda Motor",
+                    "content3": "Jangka sorong digunakan untuk mengukur diameter piston, ketebalan kampas rem, diameter poros, ketebalan piringan cakram, serta diameter baut dan pin piston. Hasil pengukuran digunakan untuk menentukan apakah komponen masih dalam batas toleransi atau harus diganti."
+                  },
+                  {
+                    "title3": "Cara Membaca Skala",
+                    "content3": "Hasil pengukuran dibaca dengan menjumlahkan nilai skala utama yang terlihat sebelum nol skala nonius dengan nilai garis pada skala nonius yang berhimpit dengan garis skala utama. Ketelitian pembacaan biasanya 0,02 mm atau 0,05 mm tergantung jenis alat."
+                  },
+                  {
+                    "title3": "Praktik Pengukuran",
+                    "content3": "Pastikan alat bersih dan posisi nol tepat sebelum digunakan. Tempatkan komponen di antara rahang ukur sesuai kebutuhan. Geser rahang hingga menyentuh permukaan komponen tanpa tekanan berlebih, kemudian kunci dan baca hasil pengukuran. Catat hasil dan bandingkan dengan spesifikasi pabrikan."
+                  }
+                ]
+              },
+              {
+                "title2": "Micrometer",
+                "content2": "![Micrometer](/images/XRDCTSM-002/micrometer.webp)Micrometer adalah alat ukur presisi yang digunakan untuk mengukur diameter atau ketebalan komponen dengan tingkat ketelitian hingga 0,01 mm. Dalam teknik sepeda motor, micrometer sangat penting digunakan saat proses overhaul mesin untuk memastikan ukuran komponen sesuai dengan batas toleransi pabrikan.",
+                "items": [
+                  {
+                    "title3": "Pengukuran Diameter Piston dan Crankshaft",
+                    "content3": "Micrometer digunakan untuk mengukur diameter luar piston dan poros engkol (crankshaft). Pengukuran dilakukan pada beberapa titik untuk mengetahui adanya keausan atau keovalan. Hasil pengukuran dibandingkan dengan spesifikasi standar untuk menentukan apakah komponen masih layak pakai atau perlu diganti."
+                  },
+                  {
+                    "title3": "Cara Membaca dan Kalibrasi",
+                    "content3": "Pembacaan micrometer dilakukan dengan menjumlahkan nilai skala utama pada sleeve dengan nilai skala putar pada thimble yang sejajar dengan garis referensi. Sebelum digunakan, lakukan pengecekan nol (zero setting) dengan menutup anvil dan spindle hingga rapat menggunakan ratchet stop. Jika angka tidak menunjukkan nol, lakukan penyetelan sesuai prosedur agar hasil pengukuran tetap akurat."
+                  }
+                ]
+              },
+              {
+                "title2": "Dial Indicator",
+                "content2": "![Dial Indicator](/images/XRDCTSM-002/dial-indicator.png)Dial Indicator adalah alat ukur presisi yang digunakan untuk mengukur penyimpangan kecil pada suatu komponen, seperti keolengan (run out) dan kerataan permukaan. Alat ini bekerja menggunakan jarum penunjuk yang bergerak pada skala berbentuk lingkaran untuk menunjukkan perubahan ukuran dalam satuan milimeter. Tingkat ketelitian dial indicator umumnya mencapai 0,01 mm sehingga sangat efektif digunakan dalam pekerjaan servis sepeda motor yang memerlukan pengukuran presisi tinggi.\n\nDalam teknik sepeda motor, dial indicator sering digunakan saat pemeriksaan velg, poros, dan permukaan komponen mesin untuk memastikan tidak terjadi penyimpangan yang melebihi batas toleransi pabrikan.",
+                "items": [
+                  {
+                    "title3": "Pengukuran Run Out Velg",
+                    "content3": "Dial indicator digunakan untuk memeriksa keolengan velg sepeda motor. Alat dipasang pada magnetic stand dan ujung spindle ditempelkan pada sisi velg. Velg kemudian diputar secara perlahan, dan pergerakan jarum diamati. Selisih pergerakan jarum menunjukkan besarnya run out. Jika hasil pengukuran melebihi batas toleransi, velg perlu dilakukan penyetelan ulang (truing) atau diganti untuk menjaga kestabilan dan keselamatan berkendara."
+                  },
+                  {
+                    "title3": "Pengukuran Kerataan Permukaan",
+                    "content3": "Dial indicator juga digunakan untuk memeriksa kerataan permukaan komponen seperti kepala silinder, cakram rem, atau permukaan dudukan bearing. Spindle ditempatkan pada permukaan yang diperiksa, kemudian komponen digerakkan atau diputar perlahan. Perubahan posisi jarum menunjukkan adanya penyimpangan atau ketidakrataan. Pengukuran ini penting untuk mencegah kebocoran kompresi, getaran berlebih, atau keausan tidak merata pada komponen sepeda motor."
+                  }
+                ]
+              },
+              {
+                "title2": "Cylinder Bore Gauge",
+                "content2": "![Cylinder Bore Gauge](/images/XRDCTSM-002/cylinder-bore-gauge.jpg)Cylinder Bore Gauge adalah alat ukur presisi yang digunakan untuk mengukur diameter dalam silinder mesin sepeda motor secara akurat. Alat ini sangat penting dalam proses overhaul mesin untuk mengetahui tingkat keausan, keovalan, dan ketirusan (taper) pada dinding silinder. Pengukuran yang tepat membantu teknisi menentukan apakah silinder masih dapat digunakan, perlu dilakukan oversize, atau harus diganti.",
+                "items": [
+                  {
+                    "title3": "Mengukur Keausan Silinder Motor",
+                    "content3": "Pengukuran dilakukan dengan terlebih dahulu melakukan kalibrasi menggunakan micrometer sesuai ukuran standar silinder. Setelah disetel, cylinder bore gauge dimasukkan ke dalam silinder dan digerakkan secara perlahan untuk mencari titik pembacaan terkecil. Pengukuran dilakukan pada beberapa posisi, yaitu bagian atas, tengah, dan bawah silinder, serta pada arah berbeda untuk mengetahui keovalan. Selisih hasil pengukuran menunjukkan tingkat keausan, ketirusan, atau penyimpangan silinder dari ukuran standar pabrikan."
+                  }
+                ]
+              },
+              {
+                "title2": "Feeler Gauge",
+                "content2": "![Feeler Gauge](/images/XRDCTSM-002/feeler-gauge.jpg)Feeler Gauge adalah alat ukur berupa lembaran baja tipis dengan berbagai ukuran ketebalan yang digunakan untuk mengukur celah atau kerenggangan antar komponen. Dalam teknik sepeda motor, feeler gauge paling sering digunakan untuk mengukur dan menyetel celah katup (valve clearance) agar sesuai dengan spesifikasi pabrikan. Ketepatan pengukuran celah katup sangat berpengaruh terhadap performa mesin, konsumsi bahan bakar, dan suara mesin.",
+                "items": [
+                  {
+                    "title3": "Mengukur Celah Katup Motor",
+                    "content3": "Pengukuran celah katup dilakukan saat posisi piston berada pada Titik Mati Atas (TMA) langkah kompresi. Pilih lembar feeler gauge sesuai ukuran standar celah katup yang tercantum pada buku manual servis. Masukkan lembar feeler gauge di antara ujung rocker arm dan batang katup. Lembar harus dapat digeser dengan sedikit hambatan (tidak terlalu longgar dan tidak terlalu seret). Jika celah tidak sesuai, lakukan penyetelan hingga ukuran sesuai spesifikasi. Celah yang terlalu sempit dapat menyebabkan katup tidak menutup sempurna, sedangkan celah terlalu renggang dapat menimbulkan suara berisik dan penurunan performa mesin."
+                  }
+                ]
+              },
+              {
+                "title2": "Compression Tester",
+                "content2": "![Compression Tester](/images/XRDCTSM-002/compression-tester.jpg)Compression Tester adalah alat ukur yang digunakan untuk mengukur tekanan kompresi pada ruang bakar mesin sepeda motor. Tekanan kompresi yang sesuai standar sangat penting untuk memastikan proses pembakaran berlangsung optimal. Pengukuran kompresi biasanya dilakukan saat mesin mengalami gejala seperti tenaga lemah, sulit dihidupkan, atau konsumsi bahan bakar boros.",
+                "items": [
+                  {
+                    "title3": "Mengukur Tekanan Kompresi Mesin Motor",
+                    "content3": "Pengukuran dilakukan dengan melepas busi terlebih dahulu, kemudian memasang adaptor compression tester pada lubang busi hingga rapat. Gas dibuka penuh dan mesin di-starter beberapa kali hingga jarum pada alat berhenti naik. Nilai tekanan yang terbaca dicatat dan dibandingkan dengan spesifikasi standar pabrikan. Tekanan kompresi yang rendah dapat menunjukkan adanya kebocoran pada ring piston, katup, atau gasket kepala silinder. Sedangkan tekanan yang terlalu tinggi dapat mengindikasikan adanya penumpukan karbon pada ruang bakar."
+                  }
+                ]
+              },
+              {
+                "title2": "Multimeter",
+                "content2": "![Multimeter](/images/XRDCTSM-002/multimeter.webp)Multimeter adalah alat ukur listrik yang digunakan untuk mengukur tegangan (Volt), arus (Ampere), dan hambatan (Ohm) pada sistem kelistrikan sepeda motor. Dalam teknik sepeda motor modern, multimeter menjadi alat utama untuk mendiagnosis gangguan pada sistem pengapian, sistem pengisian, sistem starter, dan sensor-sensor elektronik. Penggunaan multimeter yang tepat membantu teknisi menemukan kerusakan secara akurat tanpa harus membongkar komponen secara berlebihan.",
+                "items": [
+                  {
+                    "title3": "Pengukuran Sistem Kelistrikan Motor",
+                    "content3": "Multimeter digunakan untuk memeriksa kondisi rangkaian kelistrikan seperti kontinuitas kabel, tegangan output regulator/rectifier, serta kondisi saklar dan relay. Pemeriksaan dilakukan dengan memilih mode pengukuran yang sesuai (DCV, ACV, atau Ohm) dan memastikan probe terpasang dengan benar untuk menghindari kesalahan pembacaan."
+                  },
+                  {
+                    "title3": "Tegangan Aki",
+                    "content3": "Untuk mengukur tegangan aki, atur multimeter pada skala DC Volt. Tempelkan probe merah pada terminal positif (+) dan probe hitam pada terminal negatif (-). Tegangan aki normal dalam kondisi mesin mati biasanya sekitar 12,4–12,8 Volt. Jika mesin hidup, tegangan pengisian normal berkisar antara 13,5–14,5 Volt. Nilai di luar batas tersebut dapat menunjukkan masalah pada sistem pengisian atau kondisi aki yang lemah."
+                  },
+                  {
+                    "title3": "Hambatan Spul",
+                    "content3": "Pengukuran hambatan spul dilakukan dengan mengatur multimeter pada skala Ohm (Ω). Probe ditempelkan pada terminal spul sesuai diagram kelistrikan. Nilai hambatan yang terbaca kemudian dibandingkan dengan spesifikasi pabrikan. Hambatan yang terlalu tinggi atau terlalu rendah dapat menandakan adanya lilitan putus atau korsleting pada spul."
+                  },
+                  {
+                    "title3": "Pengujian Sensor",
+                    "content3": "Multimeter juga digunakan untuk menguji sensor seperti sensor suhu, sensor TPS (Throttle Position Sensor), atau sensor pick-up coil. Pengujian dilakukan dengan mengukur tegangan referensi atau nilai hambatan sesuai prosedur manual servis. Hasil pengukuran dibandingkan dengan standar pabrikan untuk menentukan apakah sensor masih berfungsi dengan baik atau perlu diganti."
+                  }
+                ]
+              },
+              {
+                "title2": "Torque Wrench",
+                "content2": "![Torque Wrench](/images/XRDCTSM-002/torque-wrench.jpg)\n\nTorque Wrench adalah alat khusus yang digunakan untuk mengencangkan baut atau mur sesuai dengan nilai torsi yang ditentukan oleh pabrikan. Dalam teknik sepeda motor, penggunaan torque wrench sangat penting terutama pada komponen mesin seperti kepala silinder, crankcase, dan komponen rangka. Pengencangan yang sesuai torsi memastikan baut tidak terlalu kencang (over torque) maupun terlalu longgar (under torque), sehingga mencegah kerusakan komponen dan kebocoran.",
+                "items": [
+                  {
+                    "title3": "Pengencangan Baut Kepala Silinder Sesuai Torsi",
+                    "content3": "Pada saat pemasangan kepala silinder, baut harus dikencangkan menggunakan torque wrench sesuai nilai torsi yang tercantum dalam manual servis. Pengencangan dilakukan secara bertahap dan menyilang (cross pattern) untuk memastikan tekanan merata pada gasket dan permukaan silinder. Nilai torsi biasanya dinyatakan dalam satuan Newton meter (Nm). Pengencangan yang tidak sesuai torsi dapat menyebabkan kebocoran kompresi, kerusakan ulir baut, atau bahkan retaknya komponen mesin."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+          "title": "Pengertian dan Fungsi Special Service Tools (SST)",
+          "content": "Special Service Tools (SST) adalah alat khusus yang dirancang oleh pabrikan sepeda motor untuk digunakan pada pekerjaan servis tertentu. SST dibuat sesuai dengan bentuk, ukuran, dan kebutuhan komponen motor sehingga proses pembongkaran, pemasangan, dan penyetelan dapat dilakukan dengan lebih aman, cepat, dan akurat.\n\nPenggunaan SST bertujuan untuk mencegah kerusakan komponen, meningkatkan efisiensi kerja, serta memastikan pekerjaan sesuai standar teknis pabrikan.",
+          "contentL1": "",
+          "subSections": [
+              {
+                "title2": "Fungsi Special Service Tools (SST)",
+                "content2": "SST berfungsi untuk membantu teknisi melakukan pekerjaan khusus yang tidak dapat dilakukan dengan alat tangan biasa. Fungsi utamanya meliputi mempermudah proses pembongkaran dan pemasangan komponen, menjaga komponen agar tidak rusak selama servis, memastikan penyetelan sesuai standar pabrikan, serta meningkatkan efisiensi dan keselamatan kerja. Penggunaan SST juga membantu menjaga kualitas hasil pekerjaan agar sesuai standar industri."
+              },
+              {
+                "title2": "Alat Khusus Sesuai Standar Pabrikan Motor",
+                "content2": "Setiap pabrikan sepeda motor merancang komponen dengan spesifikasi tertentu sehingga membutuhkan alat khusus yang sesuai. Contoh SST pada sepeda motor antara lain flywheel puller untuk melepas magnet tanpa merusak poros, clutch holder untuk menahan rumah kopling saat pembongkaran, valve spring compressor untuk melepas pegas katup, bearing puller untuk melepas bearing tanpa merusak dudukan, serta CVT holder pada motor matic. Penggunaan alat yang tidak sesuai dapat menyebabkan kerusakan komponen, perubahan bentuk, atau bahkan membahayakan keselamatan teknisi."
+              },
+              {
+                "title2": "Jenis-jenis Special Service Tools (SST) pada Sepeda Motor",
+                "content2": "Special Service Tools (SST) pada sepeda motor merupakan alat khusus yang dirancang untuk menangani komponen tertentu sesuai standar pabrikan. Setiap alat memiliki fungsi spesifik dan digunakan pada pekerjaan servis yang memerlukan presisi serta keamanan tinggi. Penggunaan SST yang tepat tidak hanya mempermudah pekerjaan teknisi, tetapi juga mencegah kerusakan komponen dan menjaga kualitas hasil perbaikan sesuai standar industri.",
+                "items": [
+                  {
+                    "title3": "Flywheel Puller",
+                    "content3": "![Flywheel Puller](/images/XRDCTSM-002/flywheel-puller.jpg)Flywheel Puller digunakan untuk melepas magnet (flywheel) dari poros engkol pada sistem pengapian sepeda motor. Alat ini dipasang pada ulir flywheel, kemudian baut penekan diputar hingga flywheel terlepas secara perlahan dan aman. Tanpa menggunakan SST ini, pelepasan flywheel berisiko merusak ulir, poros engkol, atau komponen magnet. Penggunaan flywheel puller memastikan proses pembongkaran berlangsung presisi dan tidak merusak komponen mesin."
+                  },
+                  {
+                    "title3": "Clutch Holder",
+                    "content3": "![Clutch Holder](/images/XRDCTSM-002/clutch-holder.jpg)Clutch Holder berfungsi untuk menahan rumah kopling agar tidak berputar saat proses pelepasan atau pengencangan mur pengikat kopling. Pada sepeda motor manual maupun bebek, kopling terhubung langsung dengan sistem transmisi sehingga membutuhkan penahan khusus saat dibongkar. Penggunaan clutch holder mencegah kerusakan pada kampas kopling, gear, maupun komponen transmisi lainnya."
+                  },
+                  {
+                    "title3": "Valve Spring Compressor",
+                    "content3": "![Valve Spring Compressor](/images/XRDCTSM-002/valve-spring-compressor.webp)alve Spring Compressor digunakan untuk menekan pegas katup saat melepas atau memasang katup pada kepala silinder. Alat ini membantu teknisi membuka pengunci katup (valve keeper) dengan aman tanpa merusak batang katup atau dudukannya. SST ini sangat penting dalam proses overhaul mesin, terutama saat penggantian seal katup atau perbaikan kebocoran kompresi."
+                  },
+                  {
+                    "title3": "Bearing Puller",
+                    "content3": "![Bearing Puller](/images/XRDCTSM-002/bearing-puller.jpg)Bearing Puller digunakan untuk melepas bearing dari poros atau rumah bearing tanpa merusak dudukan. Alat ini bekerja dengan sistem penarik yang mencengkeram bagian dalam atau luar bearing, kemudian ditarik secara merata menggunakan baut penekan. Penggunaan alat yang tidak sesuai dapat menyebabkan dudukan bearing aus atau rusak."
+                  },
+                  {
+                    "title3": "Piston Ring Compressor",
+                    "content3": "![Piston Ring Compressor](/images/XRDCTSM-002/piston-ring-compressor.jpg)Piston Ring Compressor digunakan saat pemasangan piston ke dalam silinder. Alat ini menekan ring piston agar sejajar dan masuk dengan aman ke dalam dinding silinder. Tanpa alat ini, ring piston dapat patah atau tergores yang dapat menyebabkan kebocoran kompresi dan penurunan performa mesin."
+                  },
+                  {
+                    "title3": "Injector Tester (Motor Injeksi)",
+                    "content3": "![Injector Tester](/images/XRDCTSM-002/injector-tester.jpg)Injector Tester digunakan untuk menguji pola semprotan, tekanan, dan kebocoran injektor pada motor sistem injeksi. Pengujian ini penting untuk memastikan bahan bakar tersebar secara merata di ruang bakar. Injektor yang kotor atau tidak berfungsi dengan baik dapat menyebabkan mesin brebet, boros bahan bakar, atau sulit dihidupkan."
+                  },
+                  {
+                    "title3": "CVT Holder (Motor Matic)",
+                    "content3": "![CVT Holder](/images/XRDCTSM-002/cvt-holder.jpg)CVT Holder digunakan untuk menahan pulley depan atau belakang pada sistem CVT motor matic saat proses pembongkaran dan pemasangan. Sistem CVT memiliki gaya putar yang kuat sehingga memerlukan alat penahan khusus. Penggunaan CVT holder mencegah komponen berputar saat mur dilepas atau dikencangkan serta menghindari kerusakan pada rumah pulley."
+                  }
+                ]
+              },
+              {
+                "title2": "Prosedur Penggunaan Special Service Tools (SST)",
+                "content2": "Penggunaan Special Service Tools (SST) pada sepeda motor harus mengikuti prosedur kerja yang tercantum dalam manual servis pabrikan. Setiap SST dirancang khusus untuk fungsi tertentu sehingga tidak boleh digantikan dengan alat yang tidak sesuai. Prosedur penggunaan yang benar akan menjaga ketepatan pemasangan, mencegah kerusakan komponen, serta meningkatkan keselamatan kerja teknisi.\n\nSebelum menggunakan SST, teknisi harus memastikan alat dalam kondisi baik, memahami fungsi alat, serta membaca langkah kerja pada manual servis agar pekerjaan dilakukan sesuai standar industri.",
+                "items": [
+                  {
+                    "title3": "Langkah Kerja Sesuai Manual Servis",
+                    "content3": "Langkah kerja penggunaan SST harus mengikuti urutan yang telah ditentukan dalam buku manual servis. Tahapan umum meliputi: mempersiapkan alat dan komponen yang akan dibongkar, memastikan posisi komponen sesuai prosedur, memasang SST pada titik yang telah ditentukan, melakukan pembongkaran atau pemasangan secara bertahap dan hati-hati, serta melakukan pemeriksaan ulang setelah pekerjaan selesai. Penggunaan SST sesuai prosedur membantu memastikan komponen terpasang presisi dan sesuai spesifikasi pabrikan."
+                  },
+                  {
+                    "title3": "Risiko Jika Tidak Menggunakan SST",
+                    "content3": "Penggunaan alat yang tidak sesuai atau tidak menggunakan SST dapat menimbulkan berbagai risiko, seperti rusaknya ulir baut, poros bengkok, dudukan bearing aus, komponen retak, atau kebocoran sistem mesin. Selain itu, risiko kecelakaan kerja juga meningkat akibat tekanan tidak merata atau alat tergelincir saat digunakan. Oleh karena itu, penggunaan SST merupakan bagian dari standar kerja profesional yang bertujuan menjaga kualitas servis dan keselamatan teknisi."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+          "title": "Jenis-jenis Special Service Tools (SST) pada Sepeda Motor",
+          "content": "Special Service Tools (SST) pada sepeda motor merupakan alat khusus yang dirancang untuk menangani komponen tertentu sesuai standar pabrikan. Setiap alat memiliki fungsi spesifik dan digunakan pada pekerjaan servis yang memerlukan presisi serta keamanan tinggi. Penggunaan SST yang tepat tidak hanya mempermudah pekerjaan teknisi, tetapi juga mencegah kerusakan komponen dan menjaga kualitas hasil perbaikan sesuai standar industri.",
+          "contentL1": "",
+          "subSections": [
+            {
+              "title2": "Flywheel Puller",
+              "content2": "![Flywheel Puller](/images/XRDCTSM-002/flywheel-puller.jpg)Flywheel Puller digunakan untuk melepas magnet (flywheel) dari poros engkol pada sistem pengapian sepeda motor. Alat ini dipasang pada ulir flywheel, kemudian baut penekan diputar hingga flywheel terlepas secara perlahan dan aman. Tanpa menggunakan SST ini, pelepasan flywheel berisiko merusak ulir, poros engkol, atau komponen magnet. Penggunaan flywheel puller memastikan proses pembongkaran berlangsung presisi dan tidak merusak komponen mesin."
+            },
+            {
+              "title2": "Clutch Holder",
+              "content2": "![Clutch Holder](/images/XRDCTSM-002/clutch-holder.jpg)Clutch Holder berfungsi untuk menahan rumah kopling agar tidak berputar saat proses pelepasan atau pengencangan mur pengikat kopling. Pada sepeda motor manual maupun bebek, kopling terhubung langsung dengan sistem transmisi sehingga membutuhkan penahan khusus saat dibongkar. Penggunaan clutch holder mencegah kerusakan pada kampas kopling, gear, maupun komponen transmisi lainnya."
+            },
+            {
+              "title2": "Valve Spring Compressor",
+              "content2": "![Valve Spring Compressor](/images/XRDCTSM-002/valve-spring-compressor.webp)alve Spring Compressor digunakan untuk menekan pegas katup saat melepas atau memasang katup pada kepala silinder. Alat ini membantu teknisi membuka pengunci katup (valve keeper) dengan aman tanpa merusak batang katup atau dudukannya. SST ini sangat penting dalam proses overhaul mesin, terutama saat penggantian seal katup atau perbaikan kebocoran kompresi."
+            },
+            {
+              "title2": "Bearing Puller",
+              "content2": "![Bearing Puller](/images/XRDCTSM-002/bearing-puller.jpg)Bearing Puller digunakan untuk melepas bearing dari poros atau rumah bearing tanpa merusak dudukan. Alat ini bekerja dengan sistem penarik yang mencengkeram bagian dalam atau luar bearing, kemudian ditarik secara merata menggunakan baut penekan. Penggunaan alat yang tidak sesuai dapat menyebabkan dudukan bearing aus atau rusak."
+            },
+            {
+              "title2": "Piston Ring Compressor",
+              "content2": "![Piston Ring Compressor](/images/XRDCTSM-002/piston-ring-compressor.jpg)Piston Ring Compressor digunakan saat pemasangan piston ke dalam silinder. Alat ini menekan ring piston agar sejajar dan masuk dengan aman ke dalam dinding silinder. Tanpa alat ini, ring piston dapat patah atau tergores yang dapat menyebabkan kebocoran kompresi dan penurunan performa mesin."
+            },
+            {
+              "title2": "Injector Tester (Motor Injeksi)",
+              "content2": "![Injector Tester](/images/XRDCTSM-002/injector-tester.jpg)Injector Tester digunakan untuk menguji pola semprotan, tekanan, dan kebocoran injektor pada motor sistem injeksi. Pengujian ini penting untuk memastikan bahan bakar tersebar secara merata di ruang bakar. Injektor yang kotor atau tidak berfungsi dengan baik dapat menyebabkan mesin brebet, boros bahan bakar, atau sulit dihidupkan."
+            },
+            {
+              "title2": "CVT Holder (Motor Matic)",
+              "content2": "![CVT Holder](/images/XRDCTSM-002/cvt-holder.jpg)CVT Holder digunakan untuk menahan pulley depan atau belakang pada sistem CVT motor matic saat proses pembongkaran dan pemasangan. Sistem CVT memiliki gaya putar yang kuat sehingga memerlukan alat penahan khusus. Penggunaan CVT holder mencegah komponen berputar saat mur dilepas atau dikencangkan serta menghindari kerusakan pada rumah pulley."
+            }
+          ]
+        },
+        {
+          "title": "Perawatan dan Kalibrasi Alat",
+          "content": "Perawatan dan kalibrasi alat ukur merupakan bagian penting dalam pekerjaan teknik sepeda motor. Alat ukur yang terawat dengan baik akan memberikan hasil pengukuran yang akurat dan dapat dipercaya. Sebaliknya, alat yang rusak, kotor, atau tidak terkalibrasi dapat menyebabkan kesalahan diagnosis dan kerusakan komponen. Oleh karena itu, teknisi wajib melakukan perawatan, penyimpanan, dan pengecekan alat secara rutin sesuai prosedur bengkel.",
+          "contentL1": "",
+          "subSections": [
+            {
+              "title2": "Penyimpanan Alat Ukur",
+              "content2": "Alat ukur harus disimpan di tempat yang bersih, kering, dan terlindung dari debu serta kelembapan untuk mencegah karat dan kerusakan. Gunakan kotak penyimpanan khusus (tool box atau case bawaan) agar alat tidak terbentur atau terjatuh. Hindari menumpuk alat ukur dengan alat berat lainnya. Setelah digunakan, bersihkan permukaan alat dari oli, debu, atau kotoran sebelum disimpan."
+            },
+            {
+              "title2": "Perawatan Berkala",
+              "content2": "Perawatan berkala dilakukan dengan membersihkan alat menggunakan kain halus setelah pemakaian, memberikan pelumas tipis pada bagian logam tertentu untuk mencegah karat, serta memeriksa kondisi fisik alat seperti skala, jarum penunjuk, dan ulir penggerak. Jika ditemukan kerusakan atau ketidaktepatan pembacaan, alat harus segera diperbaiki atau diganti agar tidak mempengaruhi hasil kerja."
+            },
+            {
+              "title2": "Kalibrasi Sederhana",
+              "content2": "Kalibrasi sederhana dilakukan untuk memastikan alat ukur menunjukkan nilai yang tepat sebelum digunakan. Contohnya pada micrometer, lakukan pengecekan nol (zero setting) dengan menutup anvil dan spindle hingga rapat menggunakan ratchet stop. Pada jangka sorong, pastikan skala menunjukkan angka nol saat rahang tertutup. Jika terjadi penyimpangan, lakukan penyetelan sesuai prosedur atau laporkan untuk kalibrasi resmi. Kalibrasi yang rutin menjaga keakuratan hasil pengukuran sesuai standar industri."
+            }
+          ]
+        }
+
+        ]
+      }

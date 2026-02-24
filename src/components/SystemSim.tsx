@@ -49,9 +49,16 @@ const CenterImagePlane = ({ imageUrl }: { imageUrl?: string }) => {
   
   const image = texture.image as HTMLImageElement | undefined;
   const aspect = image && image.width && image.height ? image.width / image.height : 16 / 9;
-  const dist = camera.position.length();
-  const fovRad = (camera.fov * Math.PI) / 180;
-  const height = 2 * dist * Math.tan(fovRad / 2);
+  let height: number;
+  if (camera instanceof THREE.PerspectiveCamera) {
+    const dist = camera.position.length();
+    const fovRad = (camera.fov * Math.PI) / 180;
+    height = 2 * dist * Math.tan(fovRad / 2);
+  } else if (camera instanceof THREE.OrthographicCamera) {
+    height = Math.abs(camera.top - camera.bottom);
+  } else {
+    height = 6;
+  }
   const width = height * aspect;
   
   return (
@@ -449,10 +456,10 @@ const SystemSim = ({ simId, simTitle, simDescription, panelTitle, status, simCon
         </button>
         
         {showInfo && (
-          <div className="w-64 bg-black/60 backdrop-blur-md rounded-lg p-4 border border-white/10 shadow-lg animate-fade-in text-white/90 pointer-events-auto cursor-auto">
+          <div className="w-72 max-h-[65vh] overflow-y-auto custom-scrollbar bg-black/60 backdrop-blur-md rounded-lg p-4 pb-16 mb-20 border border-white/10 shadow-lg animate-fade-in text-white/90 pointer-events-auto cursor-auto">
             <h4 className="font-bold text-sm mb-2 text-nalar-accent">{panelTitle ?? "Informasi Simulasi"}</h4>
             {simTitle && <div className="text-xs font-semibold mb-2 text-white/80">{simTitle}</div>}
-            <p className="text-xs leading-relaxed text-gray-300">
+            <p className="text-xs leading-relaxed text-gray-300 whitespace-pre-wrap text-justify">
               {(hasConditions ? simConditions?.find(c => c.id === condition)?.description : undefined) 
                 ?? simDescription 
                 ?? `Simulasi ini menunjukkan proses ${simId.replace(/-/g, ' ')}. Anda dapat mengontrol animasi dan melihat perubahan parameter pada grafik. Gunakan mouse untuk memutar (drag) dan zoom (scroll) tampilan 3D.`}

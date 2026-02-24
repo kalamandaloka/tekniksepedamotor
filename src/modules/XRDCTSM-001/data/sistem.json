@@ -4,14 +4,14 @@
     {
       "id": "sim-01-penggunaan-apd-yang-baik-dan-benar",
       "title": "Penggunaan APD yang Baik dan Benar",
-      "description": "Simulasi ini menampilkan seorang mekanik di bengkel sepeda motor. Peserta didik diminta untuk mengidentifikasi apakah alat pelindung diri (APD) telah digunakan dengan lengkap dan benar sesuai standar Keselamatan dan Kesehatan Kerja (K3). Perhatikan penggunaan helm keselamatan, pelindung mata, pelindung pernapasan, sarung tangan, sepatu keselamatan, dan pakaian kerja. Tentukan apakah kondisi tersebut Aman atau Tidak Aman berdasarkan teori penggunaan APD.",
+      "description": "Amati kondisi mekanik di dalam bengkel sepeda motor. Identifikasi alat pelindung diri (APD) yang digunakan. Periksa apakah helm keselamatan, pelindung mata, pelindung pernapasan, sarung tangan, sepatu keselamatan, dan pakaian kerja telah digunakan secara lengkap dan sesuai standar K3. Tentukan apakah kondisi tersebut Aman atau Tidak Aman. Jelaskan alasan keputusan Anda berdasarkan prinsip penggunaan APD yang benar.",
       "image": "/images/XRDCTSM-001/penggunaan-apd-yang-baik-dan-benar.png",
       "panelTitle": "Informasi Simulasi"
     },
     {
       "id": "sim-02-analisis-bahaya-di-bengkel",
       "title": "Analisis Bahaya di Bengkel",
-      "description": "Simulasi ini menampilkan kondisi bengkel sepeda motor dengan beberapa potensi bahaya. Peserta didik diminta untuk mengidentifikasi faktor bahaya berdasarkan teori K3, seperti faktor fisik, faktor kimia, faktor ergonomi, tindakan berbahaya, dan keadaan berbahaya. Perhatikan kondisi lantai, tata letak alat, penggunaan APD, posisi kerja mekanik, serta keberadaan simbol keselamatan. Tentukan apakah kondisi bengkel tersebut Aman atau Tidak Aman dan jelaskan jenis bahayanya.",
+      "description": "Amati kondisi lingkungan bengkel sepeda motor pada simulasi. Identifikasi setiap potensi bahaya yang terlihat. Kelompokkan bahaya berdasarkan faktor fisik, faktor kimia, faktor ergonomi, tindakan berbahaya, atau keadaan berbahaya. Periksa kondisi lantai, tata letak alat, penggunaan APD, posisi kerja mekanik, serta simbol keselamatan yang tersedia. Tentukan apakah kondisi bengkel Aman atau Tidak Aman dan jelaskan jenis serta sumber bahayanya.",
       "image": "/images/XRDCTSM-001/analisis-bahaya-di-bengkel.png",
       "panelTitle": "Informasi Simulasi"
     }

@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Motor bakar bekerja dengan prinsip perubahan energi dari ...",
+        "options": [
+          "Mekanik → Panas → Kimia",
+          "Kimia → Panas → Mekanik",
+          "Listrik → Kimia → Mekanik",
+          "Panas → Mekanik → Kimia"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Satu siklus kerja mesin 4 tak memerlukan putaran poros engkol sebanyak ...",
+        "options": [
+          "180°",
+          "360°",
+          "540°",
+          "720°"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 3,
+        "question": "Langkah pertama pada mesin 4 tak adalah ...",
+        "options": [
+          "Kompresi",
+          "Usaha",
+          "Buang",
+          "Hisap"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 4,
+        "question": "Pada langkah hisap, posisi piston bergerak dari ...",
+        "options": [
+          "TMB ke TMA",
+          "TMA ke TMB",
+          "TMA ke TMA",
+          "TMB ke TMB"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Pada langkah kompresi, kondisi kedua katup adalah ...",
+        "options": [
+          "Terbuka semua",
+          "Katup masuk terbuka",
+          "Katup buang terbuka",
+          "Tertutup semua"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 6,
+        "question": "Langkah yang menghasilkan tenaga pada mesin 4 tak adalah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "Komponen yang mengubah gerakan naik turun piston menjadi gerakan putar adalah ...",
+        "options": [
+          "Camshaft",
+          "Poros engkol",
+          "Ring piston",
+          "Katup"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Perbandingan putaran crankshaft dan camshaft pada mesin 4 tak adalah ...",
+        "options": [
+          "1 : 1",
+          "2 : 1",
+          "1 : 2",
+          "4 : 1"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 9,
+        "question": "Ring piston berfungsi untuk ...",
+        "options": [
+          "Membuka katup",
+          "Menjaga kompresi",
+          "Memutar crankshaft",
+          "Mendinginkan radiator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Katup masuk terbuka pada langkah ...",
+        "options": [
+          "Hisap",
+          "Usaha",
+          "Kompresi",
+          "Buang"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 11,
+        "question": "Busi memercikkan api pada akhir langkah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Buang",
+          "Pendinginan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 12,
+        "question": "Fungsi utama silinder adalah ...",
+        "options": [
+          "Mengatur pengapian",
+          "Menjadi ruang pembakaran",
+          "Menggerakkan katup",
+          "Menyaring udara"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Connecting rod berfungsi untuk ...",
+        "options": [
+          "Mengatur buka tutup katup",
+          "Menghubungkan piston dan crankshaft",
+          "Menyaring bahan bakar",
+          "Mengatur pengapian"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Pada langkah buang, piston bergerak dari ...",
+        "options": [
+          "TMB ke TMA",
+          "TMA ke TMB",
+          "TMA ke TMA",
+          "TMB ke TMB"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 15,
+        "question": "Katup buang terbuka pada langkah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 16,
+        "question": "Rasio kompresi adalah perbandingan antara volume ruang bakar saat piston di ...",
+        "options": [
+          "TMB dan TMA",
+          "TMA dan TMA",
+          "TMB dan TMB",
+          "Bawah dan tengah"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 17,
+        "question": "Komponen yang mengatur timing katup adalah ...",
+        "options": [
+          "Piston",
+          "Ring piston",
+          "Camshaft",
+          "Busi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 18,
+        "question": "Efisiensi volumetrik berkaitan dengan ...",
+        "options": [
+          "Jumlah oli mesin",
+          "Kemampuan silinder terisi campuran",
+          "Warna busi",
+          "Suhu radiator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Tenaga mesin diteruskan ke transmisi melalui ...",
+        "options": [
+          "Katup",
+          "Crankshaft",
+          "Ring piston",
+          "Silinder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Ring oli berfungsi untuk ...",
+        "options": [
+          "Menahan tekanan pembakaran",
+          "Mengatur pelumasan dinding silinder",
+          "Membuka katup",
+          "Mengatur pengapian"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Material piston umumnya terbuat dari ...",
+        "options": [
+          "Besi tuang",
+          "Kuningan",
+          "Aluminium alloy",
+          "Plastik"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 22,
+        "question": "Counterweight pada crankshaft berfungsi untuk ...",
+        "options": [
+          "Menambah panas",
+          "Menyeimbangkan putaran",
+          "Mengatur katup",
+          "Menyaring oli"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Jika ring piston aus, gejala yang muncul adalah ...",
+        "options": [
+          "Mesin lebih irit",
+          "Kompresi bocor",
+          "Putaran stabil",
+          "Suara halus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Langkah kompresi berlangsung selama ...",
+        "options": [
+          "180°",
+          "360°",
+          "720°",
+          "90°"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Percikan api busi terjadi beberapa derajat sebelum ...",
+        "options": [
+          "TMB",
+          "TMA",
+          "Langkah buang",
+          "Katup terbuka"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Valve overlap terjadi ketika ...",
+        "options": [
+          "Kedua katup tertutup",
+          "Kedua katup terbuka bersamaan sesaat",
+          "Katup masuk rusak",
+          "Katup buang macet"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Langkah usaha terjadi setiap ...",
+        "options": [
+          "Satu putaran",
+          "Dua putaran poros engkol",
+          "Setengah putaran",
+          "Tiga putaran"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "Katup yang memiliki diameter kepala lebih besar biasanya adalah ...",
+        "options": [
+          "Katup buang",
+          "Katup masuk",
+          "Busi",
+          "Ring piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Komponen yang menerima langsung tekanan pembakaran adalah ...",
+        "options": [
+          "Crankshaft",
+          "Piston",
+          "Camshaft",
+          "Katup"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Langkah terakhir dalam siklus mesin 4 tak adalah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 4
+      }     
+      ]
+    }
   }
-}

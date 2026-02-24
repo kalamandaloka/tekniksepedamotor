@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Simulasi Prinsip Kerja Mesin 4 Tak",
+  "simulations": [
+    {
+      "id": "Siklus Kerja Mesin 4 Tak",
+      "title": "Simulasi Interaktif Siklus Kerja 720°",
+      "description": "Putar poros engkol secara bertahap dari 0° hingga 720°. Amati gerakan piston dari TMA ke TMB dan sebaliknya. Perhatikan kondisi katup masuk dan katup buang pada setiap perubahan sudut. Identifikasi kapan langkah Hisap, Kompresi, Usaha, dan Buang terjadi. Tentukan pada sudut berapa busi memercikkan api. Jelaskan hubungan antara posisi piston, kondisi katup, dan sudut putaran poros engkol pada setiap langkah.",
+      "image": "/images/XRDCTSM-003/simulasi-siklus-kerja-mesin-4tak.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "Hubungan Mekanisme Mesin 4 Tak",
+      "title": "Simulasi Hubungan Mekanisme Piston dan Katup",
+      "description": "Putar poros engkol dan amati perubahan gerakan piston, connecting rod, dan crankshaft. Perhatikan bagaimana camshaft berputar dengan rasio 2:1 terhadap poros engkol. Amati saat camshaft membuka dan menutup katup masuk serta katup buang. Identifikasi hubungan sinkronisasi antara gerakan piston dan timing katup. Tentukan apa yang terjadi jika timing tidak sesuai dan jelaskan dampaknya terhadap kinerja mesin.",
+      "image": "/images/XRDCTSM-003/hubungan-mekanisme-mesin-4-tak.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

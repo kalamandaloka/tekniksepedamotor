@@ -13,10 +13,8 @@ import {
   Search,
   Trash2,
   MoreVertical,
-  Lock,
   CheckCircle,
   PlayCircle,
-  ShoppingCart,
   Sun,
   Moon
 } from 'lucide-react';
@@ -262,7 +260,10 @@ const ClassesView = ({ theme }: ClassesViewProps) => {
     }
   };
 
-  useEffect(() => { fetchClasses(); }, []);
+  useEffect(() => {
+    const id = setTimeout(() => { fetchClasses(); }, 0);
+    return () => clearTimeout(id);
+  }, []);
 
   const handleAddClass = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -587,13 +588,14 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
         tsmlistrik: 'Teknik Sepeda Motor 3',
     };
 
-    const [selectedPaketId, setSelectedPaketId] = useState<PaketId>(activePackage ?? 'tsm1');
+  const [selectedPaketId, setSelectedPaketId] = useState<PaketId>(activePackage ?? 'tsm1');
 
-    useEffect(() => {
-        if (activePackage) {
-            setSelectedPaketId(activePackage);
-        }
-    }, [activePackage]);
+  useEffect(() => {
+      if (activePackage) {
+          const id = setTimeout(() => setSelectedPaketId(activePackage), 0);
+          return () => clearTimeout(id);
+      }
+  }, [activePackage]);
 
     const getNumberFromId = (id: string) => {
         const num = Number(id.slice(-3));
@@ -653,13 +655,13 @@ const ModulesView = ({ onSelectModule, theme, activePackage }: ModulesViewProps)
                     className={isLight ? 'text-slate-600' : 'text-gray-300'}
                   >
                     <span className="font-semibold">CP Fase F:</span>{' '}
-                    <span>Pemahaman dan penerapan praktik agribisnis tanaman perkebunan secara komprehensif.</span>
+                    <span>Pemahaman dan penerapan praktik teknik sepeda motor secara komprehensif, meliputi perawatan, pengukuran, diagnosis, dan perbaikan sistem mesin serta kelistrikan sesuai standar industri.</span>
                   </div>
                   <div
                     className={isLight ? 'text-slate-600' : 'text-gray-300'}
                   >
                     <span className="font-semibold">SKKNI:</span>{' '}
-                    <span>Selaras dengan standar kompetensi kerja nasional bidang agribisnis tanaman perkebunan.</span>
+                    <span>Selaras dengan Standar Kompetensi Kerja Nasional Indonesia (SKKNI) bidang Teknik Otomotif – Sepeda Motor, mencakup kompetensi penggunaan alat ukur, penerapan prosedur kerja, keselamatan kerja (K3), dan penggunaan Special Service Tools (SST).</span>
                   </div>
                 </div>
             </div>
@@ -899,9 +901,11 @@ const ExamsView = ({ theme }: ExamsViewProps) => {
 
 // --- Main Layout ---
 
+type TabId = 'beranda' | 'kelas' | 'siswa' | 'modul' | 'ujian';
+
 const GuruDashboard = () => {
   const { user, logout } = useAuth();
-  const [activeTab, setActiveTab] = useState<'beranda' | 'kelas' | 'siswa' | 'modul' | 'ujian'>('beranda');
+  const [activeTab, setActiveTab] = useState<TabId>('beranda');
   const [activeModule, setActiveModule] = useState<ModuleData | null>(null);
   const [activePackage, setActivePackage] = useState<PaketId | null>(null);
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
@@ -925,7 +929,7 @@ const GuruDashboard = () => {
     setActiveTab('modul');
   };
 
-  const menuItems = [
+  const menuItems: { id: TabId; label: string; icon: React.ComponentType<{ size?: number }> }[] = [
     { id: 'beranda', label: 'Beranda', icon: LayoutDashboard },
     { id: 'kelas', label: 'Kelas', icon: School },
     { id: 'siswa', label: 'Siswa', icon: Users },
@@ -947,7 +951,7 @@ const GuruDashboard = () => {
              <button
                 key={item.id}
                 onClick={() => {
-                  setActiveTab(item.id as any);
+                  setActiveTab(item.id);
                   if (item.id === 'modul') {
                     setActivePackage(null);
                   }

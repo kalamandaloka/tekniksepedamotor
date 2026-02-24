@@ -7,7 +7,6 @@ import SystemSim from './SystemSim'
 import Footer from './Footer'
 import BookReader from './BookReader'
 import TheoryScrollView from './TheoryScrollView'
-import PanZoomImage from './PanZoomImage'
 import KomponenCenterImage from './KomponenCenterImage'
 import { createDummyContent } from '../utils/createDummyContent'
 

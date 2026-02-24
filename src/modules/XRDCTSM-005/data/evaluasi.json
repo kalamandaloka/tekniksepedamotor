@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama mekanisme katup pada mesin 4 langkah adalah ...",
+        "options": [
+          "Mengatur pelumasan mesin",
+          "Mengatur keluar masuknya gas di ruang bakar",
+          "Mengatur sistem pendinginan",
+          "Mengatur tekanan oli"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Komponen yang berfungsi mengatur waktu buka dan tutup katup adalah ...",
+        "options": [
+          "Piston",
+          "Crankcase",
+          "Camshaft",
+          "Flywheel"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Perbandingan putaran crankshaft dan camshaft pada mesin 4 langkah adalah ...",
+        "options": [
+          "1 : 1",
+          "2 : 1",
+          "3 : 1",
+          "4 : 1"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "Rantai keteng berfungsi untuk ...",
+        "options": [
+          "Menggerakkan piston",
+          "Menghubungkan crankshaft dan camshaft",
+          "Mengatur tekanan kompresi",
+          "Menyalurkan bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Celah katup diukur menggunakan alat ...",
+        "options": [
+          "Micrometer",
+          "Dial indicator",
+          "Feeler gauge",
+          "Jangka sorong"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "Celah katup yang terlalu rapat dapat menyebabkan ...",
+        "options": [
+          "Suara kasar",
+          "Katup tidak menutup sempurna",
+          "Tenaga meningkat",
+          "Mesin lebih hemat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "Celah katup yang terlalu renggang menyebabkan ...",
+        "options": [
+          "Mesin overheat",
+          "Katup terbakar",
+          "Suara berisik pada head silinder",
+          "Kompresi meningkat"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 8,
+        "question": "Posisi piston saat penyetelan celah katup adalah ...",
+        "options": [
+          "TMA langkah kompresi",
+          "TMB langkah usaha",
+          "TMB langkah hisap",
+          "TMA langkah buang"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 9,
+        "question": "Tensioner berfungsi untuk ...",
+        "options": [
+          "Menambah tenaga mesin",
+          "Menjaga ketegangan rantai keteng",
+          "Mengatur bahan bakar",
+          "Mengurangi suhu mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Tanda \"T\" pada magnet menunjukkan posisi ...",
+        "options": [
+          "Top speed",
+          "Top torque",
+          "Top Mati Atas",
+          "Top temperature"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 11,
+        "question": "Katup buang bekerja pada suhu yang lebih ... dibanding katup masuk.",
+        "options": [
+          "Rendah",
+          "Stabil",
+          "Tinggi",
+          "Normal"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Jika timing loncat satu gigi, maka kemungkinan terjadi ...",
+        "options": [
+          "Tenaga mesin meningkat",
+          "Mesin sulit hidup",
+          "Mesin lebih halus",
+          "Oli cepat habis"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Valve spring berfungsi untuk ...",
+        "options": [
+          "Membuka katup",
+          "Menutup katup",
+          "Memutar camshaft",
+          "Menggerakkan piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Komponen yang menjadi dudukan kepala katup adalah ...",
+        "options": [
+          "Valve guide",
+          "Valve seat",
+          "Rocker arm",
+          "Tappet"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Valve guide berfungsi untuk ...",
+        "options": [
+          "Memandu gerakan batang katup",
+          "Menekan katup",
+          "Mengatur oli",
+          "Menahan piston"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 16,
+        "question": "Jika katup tidak menutup rapat, maka akan terjadi ...",
+        "options": [
+          "Kompresi bocor",
+          "Tenaga bertambah",
+          "Mesin stabil",
+          "Pendinginan meningkat"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 17,
+        "question": "Penyetelan celah katup dilakukan saat mesin dalam kondisi ...",
+        "options": [
+          "Panas",
+          "Dingin",
+          "Hidup",
+          "Gas penuh"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 18,
+        "question": "Rocker arm bekerja berdasarkan prinsip ...",
+        "options": [
+          "Katrol",
+          "Tuas",
+          "Pegas",
+          "Magnet"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Bunyi kasar dari head silinder biasanya disebabkan oleh ...",
+        "options": [
+          "Oli penuh",
+          "Celah katup terlalu renggang",
+          "Busi baru",
+          "Bahan bakar habis"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Jumlah putaran crankshaft dalam satu siklus 4 langkah adalah ...",
+        "options": [
+          "1 putaran",
+          "2 putaran",
+          "3 putaran",
+          "4 putaran"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Cam lobe berfungsi untuk ...",
+        "options": [
+          "Menekan mekanisme katup",
+          "Menyimpan oli",
+          "Mengatur bahan bakar",
+          "Mendinginkan mesin"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 22,
+        "question": "Jika tensioner rusak, maka rantai keteng akan ...",
+        "options": [
+          "Tegang sempurna",
+          "Kendor",
+          "Menyusut",
+          "Menghilang"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Katup masuk biasanya memiliki diameter kepala lebih ... dibanding katup buang.",
+        "options": [
+          "Kecil",
+          "Besar",
+          "Sama",
+          "Tipis"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Loncat gigi pada rantai keteng dapat menyebabkan ...",
+        "options": [
+          "Timing tidak tepat",
+          "Mesin lebih irit",
+          "Oli bertambah",
+          "Busi awet"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Katup terbakar biasanya disebabkan oleh ...",
+        "options": [
+          "Celah terlalu rapat",
+          "Celah terlalu renggang",
+          "Oli berlebih",
+          "Busi baru"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 26,
+        "question": "Sprocket camshaft berfungsi untuk ...",
+        "options": [
+          "Menggerakkan piston",
+          "Menggerakkan rantai keteng",
+          "Mengatur tekanan oli",
+          "Menahan katup"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Jika kompresi bocor akibat katup, maka tenaga mesin akan ...",
+        "options": [
+          "Meningkat",
+          "Stabil",
+          "Menurun",
+          "Normal"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Sistem timing yang tidak tepat dapat menyebabkan ...",
+        "options": [
+          "Mesin lebih halus",
+          "Performa menurun",
+          "Oli bertambah",
+          "Pendinginan maksimal"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Komponen yang mengunci valve spring adalah ...",
+        "options": [
+          "Valve seat",
+          "Valve retainer",
+          "Camshaft",
+          "Crankshaft"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Tujuan utama pemeriksaan sistem timing adalah ...",
+        "options": [
+          "Menambah tenaga",
+          "Menjaga sinkronisasi crankshaft dan camshaft",
+          "Mengganti oli",
+          "Membersihkan busi"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }

@@ -1,4 +1,109 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Struktur Mesin & Komponen Utama",
+  "items": [
+  {
+  "id": "blok_silinder",
+  "name": "Blok Silinder",
+  "description": "Blok silinder adalah bagian utama mesin yang menjadi tempat bergeraknya piston naik dan turun di dalam lubang silinder (cylinder bore). Komponen ini menjadi struktur dasar yang menopang proses kompresi dan pembakaran. Blok silinder umumnya terbuat dari aluminium alloy atau besi tuang yang memiliki kekuatan tinggi terhadap tekanan dan suhu hasil pembakaran. Pada beberapa tipe mesin, dinding silinder dilapisi dengan liner (selongsong silinder) untuk meningkatkan ketahanan aus. Presisi diameter silinder sangat menentukan kompresi dan performa mesin.",
+  "function": "Sebagai rumah piston dan ruang silinder tempat terjadinya kompresi serta pembakaran, sekaligus menopang komponen utama mesin agar tetap sejajar dan presisi.",
+  "image": "/images/XRDCTSM-004/blok-silinder.png",
+  "modelType": "box"
+  },
+  {
+  "id": "kepala_silinder",
+  "name": "Kepala Silinder (Cylinder Head)",
+  "description": "Kepala silinder adalah bagian mesin yang terletak di atas blok silinder dan berfungsi sebagai penutup ruang bakar. Pada bagian ini terdapat ruang bakar, katup masuk, katup buang, busi, serta mekanisme camshaft (pada tipe OHC). Kepala silinder dirancang untuk menahan tekanan dan suhu tinggi akibat proses pembakaran. Di dalamnya juga terdapat saluran masuk (intake port) dan saluran buang (exhaust port) untuk mengatur aliran gas. Permukaan kepala silinder harus rata dan rapat dengan gasket agar tidak terjadi kebocoran kompresi.",
+  "function": "Menutup ruang bakar, menempatkan mekanisme katup dan sistem pengapian, serta mengatur aliran masuk dan keluar gas selama siklus kerja mesin.",
+  "image": "/images/XRDCTSM-004/kepala-silinder.png",
+  "modelType": "box"
+  },
+  {
+  "id": "crankcase",
+  "name": "Crankcase",
+  "description": "Crankcase adalah bagian bawah mesin yang berfungsi sebagai rumah poros engkol (crankshaft) dan tempat terpasangnya komponen mekanisme engkol. Crankcase juga menjadi wadah penyimpanan oli pada sistem pelumasan basah (wet sump). Komponen ini harus kuat dan presisi karena menopang beban putaran dan gaya dari piston melalui connecting rod. Crankcase biasanya dibuat dari aluminium agar ringan namun tetap kokoh terhadap getaran dan tekanan kerja mesin.",
+  "function": "Menopang dan melindungi mekanisme poros engkol, serta menjadi tempat sirkulasi dan penyimpanan oli mesin.",
+  "image": "/images/XRDCTSM-004/crankcase.png",
+  "modelType": "box"
+  },
+  {
+  "id": "piston",
+  "name": "Piston",
+  "description": "Piston adalah komponen berbentuk silinder yang bergerak naik dan turun di dalam blok silinder akibat tekanan hasil pembakaran. Piston menerima tekanan gas saat langkah usaha dan meneruskannya ke connecting rod. Piston umumnya terbuat dari aluminium alloy karena ringan, kuat terhadap tekanan tinggi, dan mampu menghantarkan panas dengan baik. Bagian piston meliputi kepala piston (piston crown), alur ring (ring groove), dan lubang pen piston (piston pin bore).",
+  "function": "Mengubah tekanan hasil pembakaran menjadi gerakan mekanis naik-turun dan meneruskan gaya tersebut ke connecting rod.",
+  "image": "/images/XRDCTSM-004/piston.png",
+  "modelType": "box"
+  },
+  {
+  "id": "ring_piston",
+  "name": "Ring Piston",
+  "description": "Ring piston adalah cincin logam yang terpasang pada alur piston. Ring piston terdiri dari ring kompresi dan ring oli. Ring kompresi berfungsi menahan tekanan pembakaran agar tidak bocor ke crankcase, sedangkan ring oli berfungsi mengontrol jumlah oli pada dinding silinder. Ring piston harus memiliki elastisitas dan ketahanan aus yang tinggi agar mampu menjaga kompresi secara optimal.",
+  "function": "Menjaga kompresi ruang bakar, mencegah kebocoran tekanan, serta mengontrol pelumasan pada dinding silinder.",
+  "image": "/images/XRDCTSM-004/ring-piston.png",
+  "modelType": "box"
+  },
+  {
+  "id": "connecting_rod",
+  "name": "Connecting Rod (Stang Seher)",
+  "description": "Connecting rod adalah batang penghubung antara piston dan crankshaft. Komponen ini mengubah gerakan naik-turun piston menjadi gerakan putar melalui mekanisme engkol. Connecting rod terdiri dari small end yang terhubung ke piston melalui pen piston dan big end yang terhubung ke crank pin. Komponen ini harus memiliki kekuatan tinggi karena menerima gaya tekan dan tarik secara berulang selama proses pembakaran.",
+  "function": "Meneruskan gerakan linier piston menjadi gerakan rotasi melalui poros engkol.",
+  "image": "/images/XRDCTSM-004/connecting-rod.png",
+  "modelType": "box"
+  },
+  {
+  "id": "crankshaft",
+  "name": "Crankshaft (Poros Engkol)",
+  "description": "Crankshaft adalah komponen utama yang mengubah gerakan naik-turun piston menjadi gerakan putar. Crankshaft terdiri dari crank pin, main journal, dan counter weight untuk menjaga keseimbangan putaran. Putaran crankshaft menghasilkan torsi yang diteruskan ke sistem transmisi. Presisi dan keseimbangan crankshaft sangat mempengaruhi kehalusan kerja mesin dan mengurangi getaran.",
+  "function": "Menghasilkan putaran dan torsi sebagai tenaga utama untuk menggerakkan transmisi dan roda kendaraan.",
+  "image": "/images/XRDCTSM-004/crankshaft.png",
+  "modelType": "box"
+  },
+  {
+  "id": "camshaft",
+  "name": "Camshaft (Noken As)",
+  "description": "Camshaft adalah poros dengan tonjolan (cam lobe) yang berfungsi mengatur waktu buka dan tutup katup. Camshaft digerakkan oleh crankshaft melalui sistem timing dengan rasio putaran 2:1 pada mesin 4 langkah. Profil cam menentukan tinggi angkatan katup (valve lift) dan lama bukaan (duration). Sinkronisasi camshaft dengan crankshaft sangat penting agar proses pembakaran berlangsung tepat waktu.",
+  "function": "Mengontrol mekanisme buka-tutup katup sesuai dengan siklus kerja mesin 4 langkah.",
+  "image": "/images/XRDCTSM-004/camshaft.png",
+  "modelType": "box"
+  },
+  {
+  "id": "katup",
+  "name": "Katup Masuk dan Katup Buang",
+  "description": "Katup adalah komponen yang mengatur aliran gas ke dan dari ruang bakar. Katup masuk berfungsi memasukkan campuran udara dan bahan bakar saat langkah hisap, sedangkan katup buang berfungsi mengeluarkan gas sisa pembakaran saat langkah buang. Katup terdiri dari kepala katup, batang katup, dan pegas katup. Permukaan katup harus rapat dengan valve seat untuk menjaga kompresi.",
+  "function": "Mengatur aliran masuk campuran bahan bakar dan udara serta membuang gas sisa pembakaran sesuai siklus mesin.",
+  "image": "/images/XRDCTSM-004/katup.png",
+  "modelType": "box"
+  },
+  {
+  "id": "timing_chain",
+  "name": "Timing Chain (Rantai Keteng)",
+  "description": "Timing chain adalah rantai baja khusus yang berfungsi menghubungkan putaran crankshaft dengan camshaft. Komponen ini memastikan camshaft berputar dengan rasio 2:1 terhadap crankshaft pada mesin 4 langkah. Timing chain harus memiliki kekuatan tinggi terhadap tarikan dan gesekan karena bekerja secara terus-menerus selama mesin hidup. Pelumasan yang baik sangat diperlukan untuk mencegah keausan dan bunyi berisik.",
+  "function": "Meneruskan putaran poros engkol ke camshaft agar mekanisme buka-tutup katup tetap sinkron dengan posisi piston.",
+  "image": "/images/XRDCTSM-004/timing-chain.png",
+  "modelType": "box"
+  },
+  {
+  "id": "sprocket_camshaft",
+  "name": "Sprocket Camshaft",
+  "description": "Sprocket camshaft adalah roda gigi yang terpasang pada camshaft dan berfungsi sebagai tempat dudukan timing chain. Ukuran sprocket camshaft dirancang lebih besar dibandingkan sprocket crankshaft untuk menghasilkan rasio putaran 2:1. Pada sprocket ini biasanya terdapat tanda timing (timing mark) yang digunakan sebagai acuan saat penyetelan sinkronisasi mesin.",
+  "function": "Mengatur dan menerima putaran dari timing chain untuk menggerakkan camshaft sesuai rasio yang ditentukan.",
+  "image": "/images/XRDCTSM-004/sprocket-camshaft.png",
+  "modelType": "box"
+  },
+  {
+  "id": "sprocket_crankshaft",
+  "name": "Sprocket Crankshaft",
+  "description": "Sprocket crankshaft adalah roda gigi yang terpasang pada poros engkol dan berfungsi menggerakkan timing chain. Sprocket ini memiliki diameter lebih kecil dibandingkan sprocket camshaft agar menghasilkan perbandingan putaran 2:1. Ketepatan pemasangan sprocket ini sangat penting untuk menjaga sinkronisasi timing mesin.",
+  "function": "Menggerakkan timing chain sebagai penghubung putaran dari poros engkol ke camshaft.",
+  "image": "/images/XRDCTSM-004/sprocket-crankshaft.png",
+  "modelType": "box"
+  },
+  {
+  "id": "tensioner",
+  "name": "Tensioner Rantai Timing",
+  "description": "Tensioner adalah komponen yang berfungsi menjaga ketegangan timing chain agar tetap stabil selama mesin beroperasi. Tensioner dapat bekerja secara mekanis atau otomatis (menggunakan tekanan pegas dan oli). Jika tensioner lemah atau rusak, rantai dapat kendor dan menyebabkan loncat gigi (timing jump).",
+  "function": "Menjaga ketegangan timing chain agar tidak kendor dan mencegah ketidaksinkronan putaran.",
+  "image": "/images/XRDCTSM-004/tensioner.png",
+  "modelType": "box"
+  }
+  ]
 }

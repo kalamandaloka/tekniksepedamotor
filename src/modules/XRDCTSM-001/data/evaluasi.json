@@ -168,170 +168,170 @@
         "correctAnswer": 3
       },
       {
-        "id": 16,
-        "question": "Kondisi bengkel yang rapi dan bersih menunjukkan tingkat risiko ...",
-        "options": [
-          "Risiko tinggi",
-          "Risiko sedang",
-          "Risiko rendah",
-          "Risiko darurat"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 17,
-        "question": "Kabel listrik yang terkelupas termasuk jenis bahaya ...",
-        "options": [
-          "Bahaya kimia",
-          "Bahaya biologi",
-          "Bahaya listrik",
-          "Bahaya psikologis"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 18,
-        "question": "Alat pelindung diri (APD) wajib disediakan oleh ...",
-        "options": [
-          "Pekerja",
-          "Pengusaha",
-          "Pelanggan",
-          "Pemerintah daerah"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 19,
-        "question": "Memperbaiki mesin saat masih menyala termasuk tindakan ...",
-        "options": [
-          "Aman dan sesuai prosedur",
-          "Berbahaya dan melanggar K3",
-          "Efisien dan cepat",
-          "Diperbolehkan dalam keadaan darurat"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 20,
-        "question": "Pekerja berhak menolak bekerja apabila ...",
-        "options": [
-          "Upah tidak sesuai",
-          "Jam kerja panjang",
-          "APD tidak memenuhi syarat",
-          "Pekerjaan terlalu banyak"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 21,
-        "question": "Paparan radiasi dapat merusak ...",
-        "options": [
-          "Otot kaki",
-          "Sperma dan sel darah putih",
-          "Rambut kepala",
-          "Kulit tangan saja"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 22,
-        "question": "Memasang pelindung mesin termasuk pengendalian risiko jenis ...",
-        "options": [
-          "Administratif",
-          "APD",
-          "Rekayasa teknik",
-          "Substitusi"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 23,
-        "question": "Area pengisian aki harus diwaspadai karena berpotensi mengandung ...",
-        "options": [
-          "Debu berlebihan",
-          "Air kotor",
-          "Gas berbahaya",
-          "Kebisingan tinggi"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 24,
-        "question": "Penyakit akibat kerja karena kebisingan adalah ...",
-        "options": [
-          "Dermatitis",
-          "Gangguan pendengaran",
-          "Asma",
-          "Luka bakar"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 25,
-        "question": "Keputusan K3 yang tepat akan menghasilkan kondisi ...",
-        "options": [
-          "Waspada",
-          "Darurat",
-          "Aman",
-          "Berisiko tinggi"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 26,
-        "question": "Sarung tangan digunakan untuk melindungi dari ...",
-        "options": [
-          "Kebisingan",
-          "Benda tajam dan bahan kimia",
-          "Debu ringan",
-          "Radiasi matahari"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 27,
-        "question": "Ventilasi yang baik di bengkel berfungsi untuk ...",
-        "options": [
-          "Menambah suhu ruangan",
-          "Mengurangi cahaya",
-          "Melancarkan sirkulasi udara",
-          "Mengurangi ruang kerja"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 28,
-        "question": "Pelanggaran terhadap UU No. 1 Tahun 1970 dapat dikenakan sanksi berupa ...",
-        "options": [
-          "Penghargaan",
-          "Bonus kerja",
-          "Denda atau kurungan",
-          "Promosi jabatan"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 29,
-        "question": "Tujuan simulasi analisis risiko adalah untuk ...",
-        "options": [
-          "Menghibur peserta didik",
-          "Menilai tingkat risiko kerja",
-          "Menambah waktu belajar",
-          "Mengurangi biaya operasional"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 30,
-        "question": "Tujuan utama penerapan K3 di bengkel sepeda motor adalah ...",
-        "options": [
-          "Meningkatkan produksi saja",
-          "Mengurangi jumlah pekerja",
-          "Menciptakan lingkungan kerja yang aman dan sehat",
-          "Mempercepat pekerjaan"
-        ],
-        "correctAnswer": 3
-      }
+      "id": 16,
+      "question": "Kondisi bengkel yang rapi dan bersih menunjukkan tingkat risiko ...",
+      "options": [
+        "Risiko tinggi",
+        "Risiko sedang",
+        "Risiko rendah",
+        "Risiko darurat"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "question": "Kabel listrik yang terkelupas termasuk jenis bahaya ...",
+      "options": [
+        "Bahaya kimia",
+        "Bahaya biologi",
+        "Bahaya listrik",
+        "Bahaya psikologis"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 18,
+      "question": "Alat pelindung diri (APD) wajib disediakan oleh ...",
+      "options": [
+        "Pekerja",
+        "Pengusaha",
+        "Pelanggan",
+        "Pemerintah daerah"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "question": "Memperbaiki mesin saat masih menyala termasuk tindakan ...",
+      "options": [
+        "Aman dan sesuai prosedur",
+        "Berbahaya dan melanggar K3",
+        "Efisien dan cepat",
+        "Diperbolehkan dalam keadaan darurat"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 20,
+      "question": "Pekerja berhak menolak bekerja apabila ...",
+      "options": [
+        "Upah tidak sesuai",
+        "Jam kerja panjang",
+        "APD tidak memenuhi syarat",
+        "Pekerjaan terlalu banyak"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "question": "Paparan radiasi dapat merusak ...",
+      "options": [
+        "Otot kaki",
+        "Sperma dan sel darah putih",
+        "Rambut kepala",
+        "Kulit tangan saja"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "question": "Memasang pelindung mesin termasuk pengendalian risiko jenis ...",
+      "options": [
+        "Administratif",
+        "APD",
+        "Rekayasa teknik",
+        "Substitusi"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 23,
+      "question": "Area pengisian aki harus diwaspadai karena berpotensi mengandung ...",
+      "options": [
+        "Debu berlebihan",
+        "Air kotor",
+        "Gas berbahaya",
+        "Kebisingan tinggi"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 24,
+      "question": "Penyakit akibat kerja karena kebisingan adalah ...",
+      "options": [
+        "Dermatitis",
+        "Gangguan pendengaran",
+        "Asma",
+        "Luka bakar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "question": "Keputusan K3 yang tepat akan menghasilkan kondisi ...",
+      "options": [
+        "Waspada",
+        "Darurat",
+        "Aman",
+        "Berisiko tinggi"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 26,
+      "question": "Sarung tangan digunakan untuk melindungi dari ...",
+      "options": [
+        "Kebisingan",
+        "Benda tajam dan bahan kimia",
+        "Debu ringan",
+        "Radiasi matahari"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 27,
+      "question": "Ventilasi yang baik di bengkel berfungsi untuk ...",
+      "options": [
+        "Menambah suhu ruangan",
+        "Mengurangi cahaya",
+        "Melancarkan sirkulasi udara",
+        "Mengurangi ruang kerja"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 28,
+      "question": "Pelanggaran terhadap UU No. 1 Tahun 1970 dapat dikenakan sanksi berupa ...",
+      "options": [
+        "Penghargaan",
+        "Bonus kerja",
+        "Denda atau kurungan",
+        "Promosi jabatan"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 29,
+      "question": "Tujuan simulasi analisis risiko adalah untuk ...",
+      "options": [
+        "Menghibur peserta didik",
+        "Menilai tingkat risiko kerja",
+        "Menambah waktu belajar",
+        "Mengurangi biaya operasional"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 30,
+      "question": "Tujuan utama penerapan K3 di bengkel sepeda motor adalah ...",
+      "options": [
+        "Meningkatkan produksi saja",
+        "Mengurangi jumlah pekerja",
+        "Menciptakan lingkungan kerja yang aman dan sehat",
+        "Mempercepat pekerjaan"
+      ],
+      "correctAnswer": 3
+    }
 
     ]
   }

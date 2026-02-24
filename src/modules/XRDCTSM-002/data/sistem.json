@@ -1,4 +1,40 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Simulasi Alat Ukur & SST",
+  "simulations": [
+    {
+      "id": "sim-01-membaca-vernier-caliper",
+      "title": "Membaca Vernier Caliper (Jangka Sorong)",
+      "description": "Amati posisi skala utama dan skala nonius pada Vernier Caliper. Identifikasi angka terakhir pada skala utama sebelum nol nonius. Tentukan garis nonius yang sejajar tepat dengan garis pada skala utama. Hitung hasil pengukuran dengan menjumlahkan skala utama dan skala nonius. Tuliskan hasil pengukuran dalam satuan milimeter (mm) dengan ketelitian yang sesuai.",
+      "image": "/images/XRDCTSM-002/simulasi-vernier-caliper.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim-02-pengukuran-celah-katup",
+      "title": "Pengukuran Celah Katup Menggunakan Feeler Gauge",
+      "description": "Posisikan piston pada Titik Mati Atas (TMA) langkah kompresi. Pilih ukuran feeler gauge sesuai standar spesifikasi yang diberikan. Masukkan feeler gauge ke celah katup dan rasakan hambatan yang terjadi. Tentukan apakah celah katup sesuai standar, terlalu longgar, atau terlalu sempit. Bandingkan hasil pemeriksaan dengan nilai spesifikasi sebelum menarik kesimpulan.",
+      "image": "/images/XRDCTSM-002/simulasi-feeler-gauge.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim-03-cek-kompresi-mesin",
+      "title": "Pemeriksaan Tekanan Kompresi Mesin",
+      "description": "Pasang Compression Tester pada lubang busi dengan benar. Putar starter mesin sesuai prosedur. Amati nilai tekanan yang ditunjukkan pada pressure gauge. Catat hasil pengukuran dalam satuan kg/cm² atau psi sesuai tampilan alat. Bandingkan nilai tersebut dengan standar spesifikasi pabrikan. Tentukan apakah kondisi kompresi normal atau terdapat indikasi kerusakan seperti ring piston aus, katup bocor, atau gasket kepala silinder rusak.",
+      "image": "/images/XRDCTSM-002/simulasi-compression-tester.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim-04-pengukuran-runout-velg",
+      "title": "Pengukuran Run Out Velg Menggunakan Dial Indicator",
+      "description": "Pasang Dial Indicator pada magnetic stand dengan posisi ujung probe menyentuh permukaan velg. Putar velg secara perlahan dan amati pergerakan jarum indikator. Catat nilai penyimpangan maksimum yang terjadi. Bandingkan hasil pengukuran dengan batas toleransi standar pabrikan. Tentukan apakah velg masih dalam batas aman, perlu penyetelan (truing), atau harus diganti.",
+      "image": "/images/XRDCTSM-002/simulasi-dial-indicator.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim-05-pengencangan-kepala-silinder",
+      "title": "Pengencangan Baut Kepala Silinder Menggunakan Torque Wrench",
+      "description": "Atur nilai torsi pada Torque Wrench sesuai spesifikasi pabrikan. Tentukan pola pengencangan menyilang (cross pattern) yang benar. Lakukan pengencangan secara bertahap sesuai urutan yang ditentukan. Perhatikan bunyi klik sebagai tanda torsi tercapai. Pastikan seluruh baut dikencangkan dengan nilai torsi yang sama dan sesuai standar manual servis.",
+      "image": "/images/XRDCTSM-002/simulasi-torque-wrench.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

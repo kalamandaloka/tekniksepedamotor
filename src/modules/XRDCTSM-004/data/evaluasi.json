@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Mesin pembakaran dalam adalah mesin yang proses pembakarannya terjadi di ...",
+        "options": [
+          "Karburator",
+          "Ruang bakar (silinder)",
+          "Tangki bahan bakar",
+          "Knalpot"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Pada mesin 4 langkah, satu siklus kerja lengkap memerlukan putaran poros engkol sebesar ...",
+        "options": [
+          "180°",
+          "360°",
+          "540°",
+          "720°"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 3,
+        "question": "Bagian mesin yang menjadi tempat piston bergerak naik dan turun adalah ...",
+        "options": [
+          "Crankcase",
+          "Blok silinder",
+          "Camshaft",
+          "Tensioner"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "Kepala silinder berfungsi untuk ...",
+        "options": [
+          "Menyimpan oli",
+          "Menutup ruang bakar dan tempat mekanisme katup",
+          "Mengubah gerak piston",
+          "Menggerakkan transmisi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Crankcase berfungsi sebagai ...",
+        "options": [
+          "Ruang pembakaran",
+          "Rumah poros engkol",
+          "Tempat busi",
+          "Saluran udara"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Komponen yang menerima langsung tekanan hasil pembakaran adalah ...",
+        "options": [
+          "Camshaft",
+          "Katup",
+          "Piston",
+          "Rantai timing"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "Ring piston berfungsi untuk ...",
+        "options": [
+          "Mengatur waktu katup",
+          "Menjaga kompresi dan mengontrol oli",
+          "Menggerakkan poros engkol",
+          "Menghasilkan percikan api"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Connecting rod berfungsi untuk ...",
+        "options": [
+          "Menghubungkan piston dengan poros engkol",
+          "Menutup ruang bakar",
+          "Mengatur pembakaran",
+          "Menyimpan oli"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 9,
+        "question": "Gerakan naik-turun piston diubah menjadi gerakan putar oleh ...",
+        "options": [
+          "Camshaft",
+          "Crankshaft",
+          "Katup",
+          "Blok silinder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Perbandingan putaran crankshaft dan camshaft pada mesin 4 langkah adalah ...",
+        "options": [
+          "1 : 1",
+          "1 : 2",
+          "2 : 1",
+          "3 : 1"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 11,
+        "question": "Pada langkah hisap, kondisi katup adalah ...",
+        "options": [
+          "Kedua katup tertutup",
+          "Katup masuk terbuka",
+          "Katup buang terbuka",
+          "Kedua katup terbuka penuh"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 12,
+        "question": "Langkah yang menghasilkan tenaga pada mesin 4 langkah adalah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "Pada langkah kompresi, kondisi katup adalah ...",
+        "options": [
+          "Katup masuk terbuka",
+          "Katup buang terbuka",
+          "Kedua katup tertutup",
+          "Kedua katup terbuka"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 14,
+        "question": "Katup buang membuka saat langkah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 15,
+        "question": "Energi kimia bahan bakar pertama kali berubah menjadi ...",
+        "options": [
+          "Energi panas",
+          "Energi listrik",
+          "Energi kinetik",
+          "Energi cahaya"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 16,
+        "question": "Rumus gaya pada piston akibat tekanan pembakaran adalah ...",
+        "options": [
+          "F = P × A",
+          "T = F × r",
+          "W = F × s",
+          "F = m × a"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 17,
+        "question": "Torsi pada poros engkol dihitung menggunakan rumus ...",
+        "options": [
+          "F = P × A",
+          "W = F × s",
+          "T = F × r",
+          "P = F × A"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 18,
+        "question": "Komponen yang mengatur waktu buka dan tutup katup adalah ...",
+        "options": [
+          "Crankshaft",
+          "Camshaft",
+          "Ring piston",
+          "Connecting rod"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Tonjolan pada camshaft yang menekan katup disebut ...",
+        "options": [
+          "Journal",
+          "Cam lobe",
+          "Crank pin",
+          "Valve seat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Valve overlap terjadi ketika ...",
+        "options": [
+          "Kedua katup tertutup",
+          "Katup masuk terbuka sendiri",
+          "Katup buang terbuka sendiri",
+          "Katup masuk dan buang terbuka bersamaan"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 21,
+        "question": "Jika timing chain loncat satu gigi, maka yang terjadi adalah ...",
+        "options": [
+          "Mesin lebih irit",
+          "Sinkronisasi katup terganggu",
+          "Tenaga meningkat",
+          "Oli bertambah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "Pegas katup berfungsi untuk ...",
+        "options": [
+          "Membuka katup",
+          "Menutup kembali katup",
+          "Menggerakkan piston",
+          "Menahan crankshaft"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Celah katup yang terlalu sempit dapat menyebabkan ...",
+        "options": [
+          "Katup tidak menutup rapat",
+          "Tenaga meningkat",
+          "Putaran stabil",
+          "Mesin lebih halus"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 24,
+        "question": "Sudut 0°–180° poros engkol menunjukkan langkah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Tekanan maksimum pembakaran terjadi pada langkah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 26,
+        "question": "Komponen yang menjaga ketegangan rantai timing adalah ...",
+        "options": [
+          "Cam lobe",
+          "Tensioner",
+          "Valve guide",
+          "Ring piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Efisiensi mesin bensin rata-rata berkisar ...",
+        "options": [
+          "5–10%",
+          "15–20%",
+          "25–35%",
+          "60–80%"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Jika kompresi bocor, maka tenaga mesin akan ...",
+        "options": [
+          "Bertambah",
+          "Tetap",
+          "Berkurang",
+          "Tidak terpengaruh"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 29,
+        "question": "Camshaft berputar satu kali setiap ...",
+        "options": [
+          "180° crankshaft",
+          "360° crankshaft",
+          "540° crankshaft",
+          "720° crankshaft"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 30,
+        "question": "Tujuan utama sinkronisasi crankshaft dan camshaft adalah agar ...",
+        "options": [
+          "Mesin terlihat rapi",
+          "Katup membuka dan menutup sesuai posisi piston",
+          "Oli cepat panas",
+          "Knalpot lebih keras"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }
