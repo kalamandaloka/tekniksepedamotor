@@ -1,5 +1,297 @@
-{
-  "title": "Teori Modul",
+{ "title": "Pembakaran & Air Fuel Ratio (AFR)",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Konsep Dasar Pembakaran Mesin Bensin",
+      "contentL1": "Pembakaran merupakan proses utama yang memungkinkan mesin bensin sepeda motor dapat menghasilkan tenaga. Tanpa pembakaran, mesin tidak dapat bekerja karena tidak terjadi perubahan energi yang dibutuhkan untuk menggerakkan piston. Oleh karena itu, pemahaman tentang pembakaran menjadi dasar dalam mempelajari sistem bahan bakar, sistem pengapian, dan analisis gangguan mesin.",
+      "subSections": [
+        {
+          "title2": "Pengertian pembakaran",
+          "content2": "Pembakaran adalah proses reaksi kimia antara bahan bakar (bensin) dan oksigen (udara) yang menghasilkan energi dalam bentuk panas dan tekanan tinggi. Reaksi ini disebut reaksi oksidasi, yaitu proses pengikatan unsur bahan bakar dengan oksigen.\n\nPada mesin bensin sepeda motor, pembakaran terjadi di dalam ruang bakar (combustion chamber) ketika campuran udara dan bahan bakar yang telah dikompresi dinyalakan oleh percikan bunga api dari busi. Proses ini berlangsung sangat cepat dalam waktu sepersekian detik, namun mampu menghasilkan tekanan yang besar.\n\nSecara prinsip, pembakaran pada mesin bensin mengubah:\n- Energi kimia (yang tersimpan dalam bahan bakar)\n- Menjadi energi panas (akibat reaksi pembakaran)\n- Lalu menjadi energi mekanik (gerakan piston akibat tekanan gas hasil pembakaran).\n\nTekanan hasil pembakaran mendorong piston bergerak dari Titik Mati Atas (TMA) menuju Titik Mati Bawah (TMB) pada langkah usaha (power stroke). Gerakan piston ini diteruskan ke poros engkol sehingga menghasilkan putaran mesin.\n\nPembakaran pada mesin bensin memiliki beberapa karakteristik penting:\n1. Terjadi di dalam ruang tertutup (silinder).\n2. Dipicu oleh percikan api dari busi (spark ignition).\n3. Berlangsung cepat dan terkendali.\n4. Membutuhkan perbandingan campuran udara dan bahan bakar yang tepat.\n\nApabila pembakaran berlangsung sempurna, maka tenaga mesin optimal, konsumsi bahan bakar efisien, dan emisi gas buang rendah. Sebaliknya, jika pembakaran tidak sempurna dapat menyebabkan tenaga lemah, mesin tersendat, konsumsi bahan bakar boros, timbul asap hitam, serta meningkatnya gas berbahaya seperti CO dan HC.\n\nOleh karena itu, pemahaman konsep pembakaran sangat penting dalam kegiatan perawatan dan diagnosis kerusakan sepeda motor di bengkel.",
+          "item": [
+          ]
+        },
+        {
+          "title2": "Syarat terjadinya pembakaran (udara, bahan bakar, percikan api)",
+          "content2": "Pembakaran pada mesin bensin hanya dapat terjadi apabila terdapat tiga unsur utama yang dikenal sebagai segitiga api (fire triangle), yaitu udara (oksigen), bahan bakar, dan sumber panas atau percikan api. Ketiga unsur ini harus tersedia secara bersamaan dan dalam kondisi yang tepat agar proses pembakaran dapat berlangsung secara sempurna di dalam ruang bakar.",
+          "items": [
+            {
+              "title3": "Udara (Oksigen)",
+              "content3": "Udara mengandung sekitar 21% oksigen yang berfungsi sebagai zat pengoksidasi dalam proses pembakaran. Oksigen bereaksi dengan bahan bakar untuk menghasilkan panas dan tekanan tinggi. Jika suplai udara kurang, pembakaran menjadi tidak sempurna dan menghasilkan asap hitam serta konsumsi bahan bakar boros. Sebaliknya, jika udara terlalu banyak, campuran menjadi terlalu miskin sehingga mesin dapat kehilangan tenaga dan suhu mesin meningkat."
+            },
+            {
+              "title3": "Bahan Bakar (Bensin)",
+              "content3": "Bahan bakar merupakan sumber energi kimia pada mesin bensin. Bensin harus bercampur dengan udara dalam perbandingan tertentu agar mudah terbakar. Campuran yang terlalu kaya (terlalu banyak bensin) menyebabkan pembakaran tidak sempurna dan timbul asap hitam. Campuran terlalu miskin (terlalu sedikit bensin) dapat menyebabkan mesin panas dan tenaga berkurang. Kualitas bahan bakar dan nilai oktan juga memengaruhi kestabilan pembakaran dan mencegah terjadinya knocking."
+            },
+            {
+              "title3": "Percikan Api (Bunga Api dari Busi)",
+              "content3": "Percikan api dihasilkan oleh sistem pengapian melalui busi. Percikan ini berfungsi memicu campuran udara dan bahan bakar yang telah dikompresi di dalam silinder. Waktu pengapian harus tepat agar tekanan hasil pembakaran maksimal. Jika percikan api lemah, busi kotor, atau waktu pengapian tidak tepat, maka mesin akan sulit hidup, tersendat-sendat, atau kehilangan tenaga."
+            }
+          ]
+        },
+        {
+          "title2": "Proses pembakaran pada mesin 4 langkah",
+          "content2": "![Proses pembakaran pada mesin 4 langkah](images/XRDCTSM-009/prosesPembakaran.png)Pada mesin bensin 4 langkah, proses pembakaran terjadi melalui empat tahapan gerakan piston di dalam silinder. Keempat langkah ini bekerja secara berurutan untuk menghasilkan tenaga yang menggerakkan sepeda motor. Pembakaran secara langsung terjadi pada akhir langkah kompresi dan awal langkah usaha (power stroke), ketika campuran udara dan bahan bakar dinyalakan oleh percikan api dari busi.",
+          "item": [
+            {
+              "title3": "Langkah Hisap (Intake)",
+              "content3": "Pada langkah hisap, piston bergerak dari Titik Mati Atas (TMA) menuju Titik Mati Bawah (TMB). Katup masuk terbuka dan katup buang tertutup. Gerakan piston ke bawah menyebabkan tekanan di dalam silinder menurun sehingga campuran udara dan bahan bakar masuk ke ruang bakar. Pada tahap ini belum terjadi pembakaran."
+            },
+            {
+              "title3": "Langkah Kompresi (Compression)",
+              "content3": "Pada langkah kompresi, piston bergerak dari TMB kembali ke TMA dengan kedua katup (masuk dan buang) dalam keadaan tertutup. Campuran udara dan bahan bakar dikompresi sehingga tekanannya meningkat dan suhu naik. Sesaat sebelum piston mencapai TMA, busi memercikkan bunga api untuk memulai proses pembakaran."
+            },
+            {
+              "title3": "Langkah Usaha (Power Stroke)",
+              "content3": "Langkah usaha merupakan tahap terjadinya pembakaran. Percikan api dari busi membakar campuran udara dan bahan bakar yang telah dikompresi. Pembakaran menghasilkan tekanan gas yang sangat tinggi sehingga mendorong piston dari TMA ke TMB. Gerakan piston ini menghasilkan tenaga yang diteruskan ke poros engkol dan menjadi putaran mesin."
+            },
+            {
+              "title3": "Langkah Buang (Exhaust)",
+              "content3": "Pada langkah buang, piston kembali bergerak dari TMB ke TMA. Katup buang terbuka dan katup masuk tertutup. Gas sisa hasil pembakaran didorong keluar dari silinder menuju sistem pembuangan (knalpot). Setelah langkah ini selesai, siklus kembali ke langkah hisap dan proses berulang."
+            }
+          ]
+        },
+        {
+          "title2": "Faktor yang memengaruhi kualitas pembakaran",
+          "content2": "Kualitas pembakaran sangat menentukan performa, efisiensi bahan bakar, dan tingkat emisi gas buang pada sepeda motor. Pembakaran yang baik akan menghasilkan tenaga maksimal dengan konsumsi bahan bakar yang efisien serta emisi yang rendah. Sebaliknya, pembakaran yang tidak sempurna dapat menyebabkan tenaga lemah, mesin boros, dan meningkatnya gas berbahaya. Berikut beberapa faktor utama yang memengaruhi kualitas pembakaran pada mesin bensin.",
+          "item": [
+            {
+              "title3": "Perbandingan Udara dan Bahan Bakar (Air Fuel Ratio / AFR)",
+              "content3": "Perbandingan campuran udara dan bahan bakar harus sesuai agar pembakaran berlangsung optimal. Perbandingan ideal bensin adalah 14,7 : 1 (stoikiometri). Jika campuran terlalu kaya (rich), pembakaran tidak sempurna dan menghasilkan asap hitam serta boros bahan bakar. Jika terlalu miskin (lean), mesin menjadi panas dan tenaga berkurang."
+            },
+            {
+              "title3": "Tekanan Kompresi",
+              "content3": "Tekanan kompresi yang baik akan meningkatkan suhu campuran sehingga pembakaran lebih efektif. Kompresi yang rendah akibat ring piston aus, kebocoran katup, atau silinder aus dapat menyebabkan tenaga menurun dan mesin sulit dihidupkan."
+            },
+            {
+              "title3": "Waktu Pengapian (Ignition Timing)",
+              "content3": "Percikan api harus terjadi pada waktu yang tepat sebelum piston mencapai Titik Mati Atas (TMA). Jika pengapian terlalu maju atau terlalu mundur, pembakaran tidak berlangsung optimal dan dapat menyebabkan knocking, tenaga lemah, atau konsumsi bahan bakar meningkat."
+            },
+            {
+              "title3": "Kondisi Busi",
+              "content3": "Busi yang bersih dan memiliki celah elektroda sesuai standar akan menghasilkan percikan api yang kuat dan stabil. Busi kotor, aus, atau celah terlalu lebar dapat menyebabkan percikan api lemah sehingga pembakaran tidak sempurna."
+            },
+            {
+              "title3": "Kualitas dan Nilai Oktan Bahan Bakar",
+              "content3": "Bahan bakar dengan nilai oktan sesuai spesifikasi mesin akan mencegah terjadinya knocking (detonasi dini). Nilai oktan yang terlalu rendah dapat menyebabkan pembakaran tidak stabil dan merusak komponen mesin."
+            },
+            {
+              "title3": "Suhu Kerja Mesin",
+              "content3": "Mesin harus bekerja pada suhu operasional yang ideal. Mesin yang terlalu dingin menyebabkan pembakaran kurang sempurna, sedangkan mesin yang terlalu panas dapat menimbulkan detonasi dan kerusakan komponen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Konsep Dasar Pembakaran Mesin Bensin",
+      "contentL1": "Pembakaran merupakan proses utama yang memungkinkan mesin bensin sepeda motor dapat menghasilkan tenaga. Tanpa pembakaran, mesin tidak dapat bekerja karena tidak terjadi perubahan energi yang dibutuhkan untuk menggerakkan piston. Oleh karena itu, pemahaman tentang pembakaran menjadi dasar dalam mempelajari sistem bahan bakar, sistem pengapian, dan analisis gangguan mesin.",
+      "subSections": [
+        {
+        "title2": "Pengertian Air Fuel Ratio (AFR)",
+        "content2": "Air Fuel Ratio (AFR) adalah perbandingan antara jumlah udara dan jumlah bahan bakar yang bercampur di dalam ruang bakar sebelum terjadi proses pembakaran. AFR dinyatakan dalam bentuk rasio, misalnya 14,7 : 1 yang berarti 14,7 bagian udara dicampur dengan 1 bagian bahan bakar.\n\nDalam mesin bensin sepeda motor, perbandingan udara dan bahan bakar harus diatur secara tepat agar pembakaran berlangsung sempurna. Campuran ini diatur oleh sistem bahan bakar, baik pada sistem karburator maupun sistem injeksi (EFI).\n\nNilai AFR sangat berpengaruh terhadap tenaga mesin, konsumsi bahan bakar, suhu kerja mesin, dan emisi gas buang. Jika perbandingan tidak sesuai, maka pembakaran menjadi tidak optimal.\n\nSecara umum, terdapat tiga kondisi utama AFR pada mesin bensin:\n- Stoikiometri (ideal), yaitu 14,7 : 1\n- Rich (kaya), yaitu bahan bakar lebih banyak dari udara\n- Lean (miskin), yaitu udara lebih banyak dari bahan bakar\n\nPemahaman tentang AFR sangat penting dalam diagnosis gangguan mesin seperti boros bahan bakar, mesin panas, tenaga lemah, atau timbulnya asap hitam. Pada sistem EFI modern, nilai AFR dikontrol secara otomatis oleh ECU berdasarkan data dari berbagai sensor seperti sensor oksigen (O2 sensor), throttle position sensor (TPS), dan manifold absolute pressure (MAP sensor)."
+        },
+        {
+        "title2": "Perbandingan Stoikiometri (14,7 : 1)",
+        "content2": "Perbandingan stoikiometri adalah perbandingan ideal antara udara dan bahan bakar di mana seluruh bahan bakar dapat terbakar secara sempurna oleh oksigen yang tersedia tanpa sisa. Pada mesin bensin, nilai stoikiometri adalah 14,7 : 1, yang berarti 14,7 bagian udara dicampur dengan 1 bagian bahan bakar (bensin).\n\nAngka 14,7 : 1 diperoleh dari perhitungan kimia berdasarkan kebutuhan oksigen untuk membakar bensin secara sempurna. Pada kondisi ini, pembakaran menghasilkan tenaga yang cukup baik, konsumsi bahan bakar efisien, dan emisi gas buang relatif rendah.\n\nPada kondisi stoikiometri:\n- Seluruh bahan bakar terbakar optimal.\n- Emisi gas CO dan HC lebih rendah dibanding campuran kaya.\n- Suhu pembakaran berada dalam batas normal.\n\nNamun, dalam praktiknya mesin tidak selalu bekerja pada AFR 14,7 : 1. Pada kondisi tertentu, sistem akan mengubah perbandingan tersebut, misalnya:\n- Saat akselerasi cepat → campuran dibuat sedikit lebih kaya untuk menambah tenaga.\n- Saat kecepatan stabil → mendekati stoikiometri untuk efisiensi.\n- Saat deselerasi → bisa dibuat lebih miskin untuk menghemat bahan bakar.\n\nPada sistem EFI, nilai stoikiometri sangat penting karena menjadi acuan kerja sensor oksigen (O2 sensor) dan ECU dalam mengatur suplai bahan bakar agar emisi tetap sesuai standar."
+        },
+        {
+          "title2": "Campuran Kaya (Rich)",
+          "content2": "Campuran kaya (rich) adalah kondisi di mana jumlah bahan bakar lebih banyak dibandingkan jumlah udara dalam campuran pembakaran. Artinya, nilai AFR lebih kecil dari 14,7 : 1 (misalnya 12 : 1 atau 13 : 1). Pada kondisi ini, bensin yang masuk ke ruang bakar lebih banyak daripada yang dibutuhkan untuk pembakaran sempurna.\n\nCampuran kaya biasanya digunakan pada kondisi tertentu, seperti saat mesin dingin, akselerasi cepat, atau beban berat. Pada saat tersebut, tambahan bahan bakar diperlukan untuk meningkatkan tenaga dan menjaga kestabilan mesin.\n\nKarakteristik campuran kaya:\n- Tenaga mesin meningkat (lebih responsif).\n- Suhu pembakaran relatif lebih rendah.\n- Konsumsi bahan bakar lebih boros.\n- Emisi gas CO dan HC meningkat.\n- Dapat menimbulkan asap hitam pada knalpot.\n\nDampak jika campuran terlalu kaya secara terus-menerus:\n- Busi cepat kotor (berwarna hitam berjelaga).\n- Ruang bakar dipenuhi karbon.\n- Konsumsi bahan bakar tidak efisien.\n- Oli mesin dapat tercampur bahan bakar.\n\nPada sistem karburator, campuran kaya dapat terjadi karena setelan sekrup udara tidak tepat atau jarum pelampung bermasalah. Pada sistem EFI, kondisi rich bisa disebabkan oleh sensor oksigen rusak, injektor bocor, atau tekanan bahan bakar terlalu tinggi.\n\nOleh karena itu, campuran kaya harus dikontrol dengan baik agar tidak menimbulkan kerugian dalam jangka panjang."
+        },
+        {
+          "title2": "Campuran Ideal (Stoikiometri)",
+          "content2": "Campuran ideal atau stoikiometri adalah kondisi di mana jumlah udara dan bahan bakar berada pada perbandingan yang tepat sehingga seluruh bahan bakar dapat terbakar secara sempurna. Pada mesin bensin, perbandingan ideal tersebut adalah 14,7 : 1, yang berarti 14,7 bagian udara bercampur dengan 1 bagian bahan bakar.\n\nPada kondisi ini, oksigen yang tersedia cukup untuk membakar seluruh bensin tanpa sisa bahan bakar maupun kekurangan oksigen. Hasil pembakaran menjadi lebih efisien dan emisi gas buang relatif lebih rendah dibandingkan campuran kaya.\n\nKarakteristik campuran stoikiometri:\n- Pembakaran berlangsung paling seimbang.\n- Konsumsi bahan bakar lebih efisien.\n- Emisi gas CO dan HC lebih rendah.\n- Kinerja mesin stabil pada putaran normal.\n\nCampuran ideal biasanya digunakan saat mesin bekerja pada kondisi normal atau kecepatan stabil. Pada sistem EFI modern, ECU akan mengatur suplai bahan bakar agar mendekati nilai 14,7 : 1 berdasarkan pembacaan sensor oksigen (O2 sensor).\n\nMeskipun disebut ideal, dalam praktiknya mesin tidak selalu bekerja tepat pada rasio ini. Pada saat akselerasi atau beban berat, campuran bisa dibuat sedikit lebih kaya, sedangkan saat beban ringan dapat dibuat sedikit lebih miskin untuk meningkatkan efisiensi."
+        },
+        {
+          "title2": "Campuran Miskin (Lean)",
+          "content2": "Campuran miskin (lean) adalah kondisi di mana jumlah udara lebih banyak dibandingkan jumlah bahan bakar dalam campuran pembakaran. Artinya, nilai AFR lebih besar dari 14,7 : 1 (misalnya 16 : 1 atau 18 : 1). Pada kondisi ini, oksigen yang tersedia lebih banyak daripada yang dibutuhkan untuk membakar bahan bakar secara sempurna.\n\nCampuran lean biasanya digunakan pada kondisi beban ringan atau kecepatan konstan untuk meningkatkan efisiensi bahan bakar. Dengan bahan bakar yang lebih sedikit, konsumsi bensin menjadi lebih hemat.\n\nKarakteristik campuran miskin:\n- Konsumsi bahan bakar lebih hemat.\n- Emisi CO lebih rendah.\n- Suhu pembakaran lebih tinggi.\n- Tenaga mesin dapat sedikit berkurang.\n\nDampak jika campuran terlalu miskin secara berlebihan:\n- Mesin terasa kurang responsif.\n- Suhu mesin meningkat (overheat).\n- Risiko terjadinya knocking atau detonasi.\n- Katup dan piston dapat mengalami kerusakan akibat panas berlebih.\n\nPada sistem karburator, campuran lean dapat disebabkan oleh saluran bahan bakar tersumbat atau setelan udara terlalu terbuka. Pada sistem EFI, kondisi lean dapat terjadi akibat sensor rusak, tekanan bahan bakar rendah, atau kebocoran pada intake manifold.\n\nOleh karena itu, meskipun campuran miskin dapat meningkatkan efisiensi bahan bakar, pengaturannya harus tetap dalam batas aman agar tidak merusak mesin."
+        },
+        {
+          "title2": "Dampak AFR terhadap Performa dan Konsumsi BBM",
+          "content2": "Air Fuel Ratio (AFR) sangat memengaruhi performa mesin dan konsumsi bahan bakar (BBM). Perbandingan udara dan bahan bakar yang tidak tepat akan menyebabkan tenaga mesin tidak optimal, konsumsi bahan bakar boros, atau bahkan kerusakan komponen mesin.\n\nSetiap kondisi AFR (rich, stoikiometri, dan lean) memiliki pengaruh yang berbeda terhadap karakter kerja mesin. Oleh karena itu, sistem bahan bakar harus mampu menyesuaikan campuran sesuai kebutuhan mesin pada berbagai kondisi operasi.",
+          "item": [
+            {
+              "title3": "Pengaruh Campuran Kaya (Rich) terhadap Performa dan BBM",
+              "content3": "Campuran kaya (AFR lebih kecil dari 14,7 : 1) cenderung menghasilkan tenaga yang lebih besar karena bahan bakar lebih banyak tersedia untuk dibakar. Kondisi ini cocok saat akselerasi atau beban berat. Namun, konsumsi bahan bakar menjadi lebih boros dan emisi gas buang meningkat. Jika terlalu kaya secara terus-menerus, mesin menjadi tidak efisien dan komponen seperti busi cepat kotor."
+            },
+            {
+              "title3": "Pengaruh Campuran Stoikiometri terhadap Performa dan BBM",
+              "content3": "Campuran stoikiometri (14,7 : 1) menghasilkan keseimbangan antara tenaga dan efisiensi bahan bakar. Mesin bekerja stabil, konsumsi BBM relatif hemat, dan emisi lebih terkendali. Kondisi ini ideal untuk penggunaan normal atau kecepatan konstan."
+            },
+            {
+              "title3": "Pengaruh Campuran Miskin (Lean) terhadap Performa dan BBM",
+              "content3": "Campuran miskin (AFR lebih besar dari 14,7 : 1) membuat konsumsi bahan bakar lebih hemat karena jumlah bensin yang digunakan lebih sedikit. Namun, tenaga mesin bisa berkurang dan suhu pembakaran meningkat. Jika terlalu miskin, mesin dapat mengalami overheat dan risiko kerusakan akibat panas berlebih."
+            },
+            {
+              "title3": "Kesimpulan Pengaruh AFR",
+              "content3": "AFR yang tepat akan menghasilkan performa optimal dan konsumsi bahan bakar yang efisien. Sistem karburator maupun EFI dirancang untuk menyesuaikan campuran sesuai kebutuhan mesin. Oleh karena itu, pemeriksaan dan penyetelan sistem bahan bakar sangat penting untuk menjaga keseimbangan antara tenaga dan efisiensi BBM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AFR dan Emisi Gas Buang",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Hubungan AFR dengan CO, HC, dan NOx",
+          "content2": "Air Fuel Ratio (AFR) sangat memengaruhi kandungan gas buang yang dihasilkan mesin bensin. Proses pembakaran yang tidak sempurna akan menghasilkan gas berbahaya seperti CO (Carbon Monoxide), HC (Hydrocarbon), dan NOx (Nitrogen Oxides). Setiap perubahan pada perbandingan udara dan bahan bakar akan memengaruhi kadar gas-gas tersebut.\n\nPada campuran ideal (stoikiometri), pembakaran berlangsung lebih sempurna sehingga emisi relatif lebih rendah. Namun, pada kondisi campuran terlalu kaya atau terlalu miskin, komposisi gas buang akan berubah dan dapat melampaui batas standar emisi.",
+          "item": [
+            {
+              "title3": "Pengaruh AFR terhadap CO (Carbon Monoxide)",
+              "content3": "CO terbentuk akibat pembakaran tidak sempurna karena kekurangan oksigen. Pada campuran kaya (rich), kadar CO meningkat karena bahan bakar lebih banyak daripada udara yang tersedia untuk membakar secara sempurna. Semakin kaya campuran, semakin tinggi kadar CO dalam gas buang."
+            },
+            {
+              "title3": "Pengaruh AFR terhadap HC (Hydrocarbon)",
+              "content3": "HC merupakan bahan bakar yang tidak terbakar atau terbakar sebagian. Kadar HC tinggi dapat terjadi pada campuran terlalu kaya maupun terlalu miskin. Campuran kaya menyebabkan sebagian bahan bakar tidak terbakar sempurna, sedangkan campuran terlalu miskin dapat menyebabkan misfire (gagal pembakaran) sehingga bahan bakar keluar tanpa terbakar."
+            },
+            {
+              "title3": "Pengaruh AFR terhadap NOx (Nitrogen Oxides)",
+              "content3": "NOx terbentuk akibat reaksi antara nitrogen dan oksigen pada suhu pembakaran yang sangat tinggi. Kadar NOx cenderung meningkat pada campuran miskin (lean) karena suhu pembakaran lebih tinggi. Semakin tinggi suhu ruang bakar, semakin besar potensi terbentuknya NOx."
+            },
+            {
+              "title3": "Kesimpulan Hubungan AFR dan Emisi",
+              "content3": "Campuran stoikiometri (14,7 : 1) menghasilkan keseimbangan emisi yang paling terkendali. Campuran kaya meningkatkan CO dan HC, sedangkan campuran miskin meningkatkan NOx. Oleh karena itu, sistem EFI modern menggunakan sensor oksigen (O2 sensor) dan ECU untuk menjaga AFR mendekati ideal agar emisi tetap sesuai standar lingkungan."
+            }
+          ]
+        },
+        {
+          "title2": "Dampak Pembakaran Tidak Sempurna",
+          "content2": "Pembakaran tidak sempurna terjadi ketika campuran udara dan bahan bakar tidak terbakar secara optimal di dalam ruang bakar. Kondisi ini dapat disebabkan oleh campuran terlalu kaya atau terlalu miskin, percikan api lemah, kompresi rendah, atau gangguan pada sistem bahan bakar dan pengapian. Pembakaran yang tidak sempurna akan berdampak langsung pada performa mesin, konsumsi bahan bakar, dan emisi gas buang.",
+          "item": [
+            {
+              "title3": "Penurunan Tenaga Mesin",
+              "content3": "Jika pembakaran tidak berlangsung sempurna, energi panas yang dihasilkan tidak maksimal sehingga tekanan yang mendorong piston berkurang. Akibatnya tenaga mesin menurun, akselerasi terasa lemah, dan respons gas tidak optimal."
+            },
+            {
+              "title3": "Konsumsi Bahan Bakar Lebih Boros",
+              "content3": "Bahan bakar yang tidak terbakar secara sempurna akan terbuang sia-sia. Mesin membutuhkan lebih banyak bensin untuk menghasilkan tenaga yang sama, sehingga konsumsi bahan bakar menjadi lebih boros."
+            },
+            {
+              "title3": "Peningkatan Emisi Gas Buang Berbahaya",
+              "content3": "Pembakaran tidak sempurna meningkatkan kadar gas berbahaya seperti CO (karbon monoksida) dan HC (hidrokarbon) dalam gas buang. Gas-gas ini berbahaya bagi kesehatan dan mencemari lingkungan."
+            },
+            {
+              "title3": "Penumpukan Karbon pada Ruang Bakar",
+              "content3": "Sisa bahan bakar yang tidak terbakar dapat meninggalkan kerak karbon pada piston, kepala silinder, dan busi. Penumpukan karbon dapat menurunkan efisiensi pembakaran dan mempercepat kerusakan komponen."
+            },
+            {
+              "title3": "Gangguan Kinerja Mesin",
+              "content3": "Pembakaran tidak sempurna dapat menyebabkan mesin tersendat-sendat (brebet), sulit dihidupkan, atau bahkan terjadi misfire. Dalam jangka panjang, kondisi ini dapat merusak komponen mesin seperti katup dan piston."
+            }
+          ]
+        },
+        {
+          "title2": "Analisis Hasil Uji Emisi Sederhana",
+          "content2": "Uji emisi sederhana dilakukan untuk mengetahui kadar gas buang yang dihasilkan mesin sepeda motor, khususnya CO (Carbon Monoxide) dan HC (Hydrocarbon). Hasil pengukuran ini dapat digunakan untuk menganalisis kondisi pembakaran dan memperkirakan apakah AFR (Air Fuel Ratio) berada pada kondisi rich, stoikiometri, atau lean.\n\nPada pengujian sederhana di bengkel, alat gas analyzer dimasukkan ke knalpot untuk membaca kadar CO (%) dan HC (ppm). Nilai yang ditampilkan kemudian dibandingkan dengan standar emisi yang berlaku atau standar pabrikan.",
+          "item": [
+            {
+              "title3": "Kadar CO Tinggi",
+              "content3": "Jika kadar CO tinggi, kemungkinan campuran terlalu kaya (rich). Hal ini menunjukkan pembakaran tidak sempurna karena kekurangan oksigen. Penyebabnya dapat berupa setelan bahan bakar terlalu besar, injektor bocor, sensor oksigen rusak, atau filter udara kotor."
+            },
+            {
+              "title3": "Kadar HC Tinggi",
+              "content3": "HC tinggi menunjukkan adanya bahan bakar yang tidak terbakar sempurna atau terjadi misfire. Penyebabnya bisa karena busi lemah, kompresi rendah, sistem pengapian bermasalah, atau campuran terlalu kaya maupun terlalu miskin."
+            },
+            {
+              "title3": "CO Rendah dan HC Rendah",
+              "content3": "Jika kadar CO dan HC rendah, pembakaran cenderung berlangsung baik dan mendekati kondisi stoikiometri. Mesin bekerja lebih efisien dan emisi lebih terkendali."
+            },
+            {
+              "title3": "Indikasi Campuran Terlalu Miskin",
+              "content3": "Pada campuran terlalu miskin (lean), kadar CO biasanya rendah, namun suhu pembakaran meningkat dan dapat meningkatkan NOx (walaupun pada uji sederhana biasanya NOx tidak diukur). Mesin bisa terasa kurang responsif atau cepat panas."
+            },
+            {
+              "title3": "Kesimpulan Analisis Uji Emisi",
+              "content3": "Hasil uji emisi dapat digunakan sebagai dasar diagnosis sistem bahan bakar dan pengapian. Dengan membaca kadar CO dan HC, teknisi dapat memperkirakan kondisi AFR dan menentukan langkah perbaikan seperti penyetelan karburator, pemeriksaan injektor, pembersihan throttle body, atau penggantian busi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Komponen yang Mempengaruhi Pembakaran",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Sistem Bahan Bakar (Karburator & EFI)",
+          "content2": "![Sistem Bahan Bakar](images/XRDCTSM-009/karburator&Efi.png)Sistem bahan bakar berfungsi untuk mencampurkan udara dan bahan bakar dalam perbandingan yang tepat sebelum masuk ke ruang bakar. Kualitas campuran ini sangat menentukan kesempurnaan pembakaran. Pada sepeda motor, terdapat dua jenis sistem bahan bakar yang umum digunakan, yaitu sistem karburator dan sistem Electronic Fuel Injection (EFI).",
+          "item": [
+            {
+              "title3": "Sistem Karburator",
+              "content3": "Karburator bekerja berdasarkan prinsip kevakuman (venturi) untuk mencampurkan udara dan bahan bakar. Saat udara mengalir melalui venturi, tekanan menurun dan bahan bakar tersedot dari mangkuk pelampung melalui spuyer (main jet dan pilot jet), kemudian bercampur dengan udara sebelum masuk ke ruang bakar.\n\nKelebihan karburator:\n- Konstruksi sederhana.\n- Mudah diservis dan disetel secara manual.\n\nKekurangan karburator:\n- Campuran bahan bakar kurang presisi.\n- Kurang responsif terhadap perubahan suhu dan tekanan udara.\n- Emisi gas buang relatif lebih tinggi dibanding EFI.\n\nJika penyetelan tidak tepat atau komponen kotor/aus, campuran bisa menjadi terlalu kaya atau terlalu miskin sehingga memengaruhi kualitas pembakaran."
+            },
+            {
+              "title3": "Sistem Electronic Fuel Injection (EFI)",
+              "content3": "EFI adalah sistem bahan bakar yang menggunakan injektor untuk menyemprotkan bahan bakar secara elektronik berdasarkan perhitungan ECU (Engine Control Unit). ECU menerima data dari berbagai sensor seperti TPS (Throttle Position Sensor), MAP (Manifold Absolute Pressure), dan O2 sensor untuk menentukan jumlah bahan bakar yang tepat.\n\nKelebihan sistem EFI:\n- Campuran bahan bakar lebih presisi.\n- Konsumsi bahan bakar lebih efisien.\n- Emisi gas buang lebih rendah.\n- Respons mesin lebih stabil.\n\nKekurangan sistem EFI:\n- Sistem lebih kompleks.\n- Membutuhkan alat khusus untuk diagnosis.\n\nKarena pengaturan bahan bakar dilakukan secara otomatis dan akurat, sistem EFI mampu menjaga AFR mendekati nilai ideal sehingga pembakaran lebih sempurna."
+            },
+            {
+              "title3": "Pengaruh Sistem Bahan Bakar terhadap Pembakaran",
+              "content3": "Baik karburator maupun EFI memiliki peran utama dalam menentukan kualitas campuran udara dan bahan bakar. Jika sistem bahan bakar bermasalah, seperti spuyer tersumbat, injektor kotor, atau sensor rusak, maka AFR akan berubah dan pembakaran menjadi tidak sempurna. Oleh karena itu, pemeriksaan dan perawatan sistem bahan bakar sangat penting untuk menjaga performa dan efisiensi mesin."
+            }
+          ]
+        },
+        {
+          "title2": "Sistem Pengapian",
+          "content2": "![Sistem Pengapian](images/XRDCTSM-009/sistemPengapian.png)Sistem pengapian berfungsi untuk menghasilkan percikan bunga api pada busi guna membakar campuran udara dan bahan bakar di dalam ruang bakar. Percikan api harus memiliki tegangan tinggi, kuat, dan terjadi pada waktu yang tepat agar proses pembakaran berlangsung sempurna.\n\nPada sepeda motor, sistem pengapian bekerja dengan mengubah arus listrik tegangan rendah dari aki atau spul menjadi tegangan tinggi melalui koil pengapian, kemudian dialirkan ke busi untuk menghasilkan percikan api. Ketepatan waktu pengapian sangat menentukan kualitas pembakaran dan performa mesin.",
+          "item": [
+            {
+              "title3": "Komponen Utama Sistem Pengapian",
+              "content3": "Komponen utama sistem pengapian meliputi aki atau sumber listrik, spul atau alternator, CDI/ECU, koil pengapian, kabel tegangan tinggi, dan busi. Koil berfungsi menaikkan tegangan listrik menjadi ribuan volt, sedangkan busi menghasilkan percikan api di dalam ruang bakar."
+            },
+            {
+              "title3": "Waktu Pengapian (Ignition Timing)",
+              "content3": "Percikan api harus terjadi sesaat sebelum piston mencapai Titik Mati Atas (TMA) pada akhir langkah kompresi. Jika pengapian terlalu maju (advanced), dapat menyebabkan knocking atau detonasi. Jika terlalu mundur (retarded), tenaga mesin berkurang dan konsumsi bahan bakar meningkat."
+            },
+            {
+              "title3": "Jenis Sistem Pengapian",
+              "content3": "Pada sepeda motor modern, sistem pengapian umumnya menggunakan CDI (Capacitor Discharge Ignition) atau dikontrol langsung oleh ECU pada sistem EFI. Sistem ini mampu mengatur waktu pengapian secara otomatis sesuai putaran mesin dan beban kerja."
+            },
+            {
+              "title3": "Dampak Gangguan Sistem Pengapian",
+              "content3": "Jika sistem pengapian bermasalah, seperti busi kotor, koil lemah, atau CDI rusak, percikan api menjadi tidak stabil. Akibatnya pembakaran tidak sempurna, mesin tersendat (brebet), sulit dihidupkan, tenaga menurun, dan emisi meningkat."
+            }
+          ]
+        },
+        {
+          "title2": "Sensor pada Sistem EFI (TPS, MAP, O2 Sensor)",
+          "content2": "![Sensor pada Sistem EFI (TPS, MAP, O2 Sensor)](images/XRDCTSM-009/sensorPadaSistemEfi.png)Pada sistem Electronic Fuel Injection (EFI), pengaturan jumlah bahan bakar tidak dilakukan secara manual, tetapi dihitung dan dikontrol oleh ECU (Engine Control Unit). ECU menerima data dari berbagai sensor untuk menentukan jumlah bahan bakar yang disemprotkan injektor agar AFR tetap optimal sesuai kondisi mesin. Beberapa sensor utama yang memengaruhi proses pembakaran adalah TPS, MAP sensor, dan O2 sensor.",
+          "item": [
+            {
+              "title3": "Throttle Position Sensor (TPS)",
+              "content3": "TPS berfungsi mendeteksi posisi bukaan throttle (katup gas). Sensor ini mengirimkan sinyal ke ECU mengenai seberapa besar pengendara membuka gas. Jika throttle dibuka lebar, ECU akan menambah suplai bahan bakar untuk meningkatkan tenaga. Jika throttle sedikit terbuka, bahan bakar dikurangi untuk efisiensi. Kerusakan TPS dapat menyebabkan mesin tersendat atau respons gas tidak stabil."
+            },
+            {
+              "title3": "Manifold Absolute Pressure (MAP) Sensor",
+              "content3": "MAP sensor berfungsi mengukur tekanan udara di dalam intake manifold. Data tekanan ini digunakan ECU untuk menghitung jumlah udara yang masuk ke mesin. Berdasarkan informasi tersebut, ECU menentukan jumlah bahan bakar yang sesuai agar campuran tetap ideal. Jika MAP sensor bermasalah, campuran bisa menjadi terlalu kaya atau terlalu miskin."
+            },
+            {
+              "title3": "Oxygen Sensor (O2 Sensor)",
+              "content3": "O2 sensor dipasang pada saluran knalpot dan berfungsi mendeteksi kadar oksigen dalam gas buang. Sensor ini membantu ECU mengetahui apakah campuran pembakaran terlalu kaya atau terlalu miskin. Jika kadar oksigen tinggi, campuran dianggap miskin dan ECU akan menambah bahan bakar. Jika kadar oksigen rendah, campuran dianggap kaya dan ECU akan mengurangi bahan bakar. O2 sensor sangat penting untuk menjaga AFR mendekati stoikiometri dan menekan emisi gas buang."
+            }
+          ]
+        },
+        {
+          "title2": "Kondisi Ruang Bakar dan Kompresi",
+          "content2": "Ruang bakar dan tekanan kompresi merupakan faktor penting yang memengaruhi kualitas pembakaran pada mesin bensin. Ruang bakar adalah tempat terjadinya proses pembakaran campuran udara dan bahan bakar, sedangkan kompresi adalah proses pemadatan campuran tersebut sebelum dinyalakan oleh busi. Jika kondisi ruang bakar dan kompresi tidak optimal, maka pembakaran tidak akan berlangsung sempurna.",
+          "item": [
+            {
+              "title3": "Kondisi Ruang Bakar",
+              "content3": "Ruang bakar harus dalam kondisi bersih dan memiliki bentuk yang sesuai desain pabrikan agar pembakaran berlangsung efisien. Penumpukan kerak karbon pada piston atau kepala silinder dapat mengganggu proses pembakaran, meningkatkan risiko knocking, serta menurunkan efisiensi mesin. Selain itu, kebocoran pada katup atau gasket kepala silinder juga dapat menyebabkan tekanan pembakaran berkurang."
+            },
+            {
+              "title3": "Tekanan Kompresi yang Optimal",
+              "content3": "Tekanan kompresi yang cukup akan meningkatkan suhu campuran udara dan bahan bakar sehingga pembakaran lebih mudah dan lebih sempurna. Kompresi yang rendah akibat ring piston aus, silinder aus, atau katup bocor menyebabkan tenaga mesin menurun dan mesin sulit dihidupkan. Oleh karena itu, pemeriksaan tekanan kompresi penting dilakukan dalam diagnosis kerusakan mesin."
+            },
+            {
+              "title3": "Dampak Kompresi Terlalu Tinggi atau Terlalu Rendah",
+              "content3": "Kompresi terlalu rendah menyebabkan pembakaran tidak maksimal dan tenaga lemah. Sebaliknya, kompresi terlalu tinggi dapat meningkatkan suhu ruang bakar secara berlebihan dan memicu detonasi (knocking). Oleh karena itu, rasio kompresi harus sesuai dengan spesifikasi mesin agar pembakaran berlangsung optimal dan aman."
+            }
+          ]
+        }
+      ]
+    }        
+  ]
 }

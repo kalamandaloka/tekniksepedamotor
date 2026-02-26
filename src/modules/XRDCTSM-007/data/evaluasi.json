@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama sistem pelumasan pada mesin sepeda motor adalah ...",
+        "options": [
+          "Meningkatkan tekanan kompresi",
+          "Mengurangi gesekan antar komponen mesin",
+          "Menambah kapasitas silinder",
+          "Mengatur pembakaran bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Oli mesin bekerja dengan cara ...",
+        "options": [
+          "Mendinginkan radiator",
+          "Membentuk lapisan pelindung antar logam",
+          "Meningkatkan tekanan bahan bakar",
+          "Mengurangi volume ruang bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 3,
+        "question": "Tempat penampungan oli pada sistem wet sump adalah ...",
+        "options": [
+          "Tangki bahan bakar",
+          "Radiator",
+          "Bak oli (oil pan)",
+          "Karburator"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Komponen yang berfungsi memompa dan memberi tekanan oli adalah ...",
+        "options": [
+          "Oil cooler",
+          "Relief valve",
+          "Pompa oli",
+          "Filter udara"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "Saringan kasar sebelum pompa oli disebut ...",
+        "options": [
+          "Oil filter",
+          "Oil strainer",
+          "Main gallery",
+          "Relief valve"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Filter oli berfungsi untuk ...",
+        "options": [
+          "Menyaring partikel halus dalam oli",
+          "Menambah tekanan oli",
+          "Mengatur putaran mesin",
+          "Mendinginkan piston"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 7,
+        "question": "Relief valve berfungsi untuk ...",
+        "options": [
+          "Menaikkan tekanan oli",
+          "Membatasi tekanan oli berlebih",
+          "Menyaring kotoran",
+          "Menambah volume oli"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Sistem pelumasan dry sump menyimpan oli di ...",
+        "options": [
+          "Bak oli mesin",
+          "Tangki terpisah",
+          "Ruang bakar",
+          "Silinder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 9,
+        "question": "Salah satu fungsi oli selain melumasi adalah ...",
+        "options": [
+          "Meningkatkan tekanan kompresi",
+          "Mendinginkan komponen mesin",
+          "Mengatur pengapian",
+          "Mengurangi kapasitas mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Kekurangan oli mesin dapat menyebabkan ...",
+        "options": [
+          "Mesin lebih hemat bahan bakar",
+          "Tekanan kompresi meningkat",
+          "Overheating",
+          "Suara mesin lebih halus"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 11,
+        "question": "Kelebihan oli mesin dapat menyebabkan ...",
+        "options": [
+          "Oli berbusa",
+          "Tekanan hilang",
+          "Mesin mati total",
+          "Bahan bakar habis"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 12,
+        "question": "Pemeriksaan volume oli dilakukan saat motor dalam posisi ...",
+        "options": [
+          "Miring ke kiri",
+          "Tegak dan rata",
+          "Miring ke kanan",
+          "Dalam keadaan berjalan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Alat untuk mengukur tekanan oli adalah ...",
+        "options": [
+          "Feeler gauge",
+          "Oil pressure gauge",
+          "Multimeter",
+          "Compression tester"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Oil cooler berfungsi untuk ...",
+        "options": [
+          "Menyaring udara",
+          "Mendinginkan oli",
+          "Menambah tekanan oli",
+          "Mengurangi kompresi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Oli yang sudah sangat hitam dan encer menandakan ...",
+        "options": [
+          "Oli masih bagus",
+          "Harus diganti",
+          "Mesin normal",
+          "Tekanan oli tinggi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Saluran utama distribusi oli disebut ...",
+        "options": [
+          "Main oil gallery",
+          "Fuel line",
+          "Exhaust pipe",
+          "Radiator hose"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 17,
+        "question": "Salah satu penyebab tekanan oli rendah adalah ...",
+        "options": [
+          "Oli berlebih",
+          "Filter tersumbat",
+          "Busi rusak",
+          "Rantai kendor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 18,
+        "question": "Langkah pertama sebelum mengganti oli adalah ...",
+        "options": [
+          "Melepas filter udara",
+          "Memanaskan mesin sebentar",
+          "Membuka silinder",
+          "Mengganti piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Baut pembuangan oli disebut juga ...",
+        "options": [
+          "Drain bolt",
+          "Main bolt",
+          "Cylinder bolt",
+          "Lock nut"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 20,
+        "question": "Standar kekentalan oli biasanya ditunjukkan oleh kode ...",
+        "options": [
+          "RPM",
+          "SAE",
+          "API",
+          "CC"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Jika seal poros engkol rusak maka akan terjadi ...",
+        "options": [
+          "Tekanan naik",
+          "Kebocoran oli",
+          "Bahan bakar bocor",
+          "Mesin lebih dingin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "Overheating akibat pelumasan buruk dapat menyebabkan ...",
+        "options": [
+          "Piston macet",
+          "Ban kempes",
+          "Lampu mati",
+          "Aki rusak"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "question": "Komponen yang membantu menangkap serpihan logam di bak oli adalah ...",
+        "options": [
+          "Magnet",
+          "Baut",
+          "Pegas",
+          "Selang"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 24,
+        "question": "Tekanan oli dipengaruhi oleh ...",
+        "options": [
+          "Putaran mesin",
+          "Warna motor",
+          "Ukuran ban",
+          "Jenis lampu"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Oli kembali ke bak oli karena pengaruh ...",
+        "options": [
+          "Tekanan udara",
+          "Gravitasi",
+          "Putaran kipas",
+          "Karburator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Penggantian filter oli sebaiknya dilakukan ...",
+        "options": [
+          "Setiap hari",
+          "Setiap servis berkala",
+          "Setiap isi bensin",
+          "Setiap minggu"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "APD yang digunakan saat mengganti oli adalah ...",
+        "options": [
+          "Helm balap",
+          "Sarung tangan dan kacamata kerja",
+          "Sepatu santai",
+          "Topi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "Jika relief valve macet terbuka maka tekanan oli akan ...",
+        "options": [
+          "Naik drastis",
+          "Turun",
+          "Tetap stabil",
+          "Tidak berubah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Salah satu tujuan pelumasan adalah ...",
+        "options": [
+          "Mengurangi kapasitas mesin",
+          "Memperpanjang umur mesin",
+          "Meningkatkan berat mesin",
+          "Mengurangi kompresi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Pembuangan oli bekas harus dilakukan dengan cara ...",
+        "options": [
+          "Dibuang ke selokan",
+          "Ditampung dan dibuang sesuai prosedur lingkungan",
+          "Dibiarkan mengalir",
+          "Dicampur dengan bensin"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }

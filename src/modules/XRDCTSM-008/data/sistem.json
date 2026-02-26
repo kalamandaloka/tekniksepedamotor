@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Pendinginan Mesin",
+  "simulations": [
+    {
+      "id": "sim_pemeriksaan_sistem_pendinginan",
+      "title": "Simulasi Pemeriksaan Sistem Pendinginan",
+      "description": "Gunakan alat pelindung diri (sarung tangan dan kacamata pelindung) sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam kondisi mati dan mesin sudah dingin.\n\n1. Periksa level coolant pada reservoir tank. Pastikan berada di antara batas MIN dan MAX.\n2. Buka penutup radiator dengan hati-hati (jika mesin sudah benar-benar dingin), lalu periksa apakah radiator terisi penuh.\n3. Periksa kondisi coolant. Amati warna dan kebersihannya. Pastikan tidak keruh, tidak bercampur oli, dan tidak terdapat kotoran.\n4. Periksa seluruh selang radiator. Tekan perlahan untuk memastikan tidak retak, tidak getas, dan tidak bocor. Pastikan klem terpasang kuat.\n5. Periksa bagian luar radiator. Bersihkan kisi-kisi dari debu atau kotoran yang menempel.\n6. Hidupkan mesin dan biarkan mencapai suhu kerja. Amati apakah kipas pendingin menyala secara otomatis saat suhu meningkat.\n7. Periksa apakah terdapat kebocoran coolant saat mesin hidup.\n8. Matikan mesin dan periksa kembali level coolant setelah mesin dingin.\n\nCatat hasil pemeriksaan pada lembar kerja praktik dan laporkan kepada instruktur jika ditemukan ketidaksesuaian.",
+      "image": "/images/XRDCTSM-008/sim_pemeriksaan_sistem_pendinginan.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_penggantian_coolant",
+      "title": "Simulasi Penggantian Coolant",
+      "description": "Gunakan alat pelindung diri (sarung tangan, kacamata pelindung, dan wearpack) sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam kondisi mati dan mesin benar-benar dingin.\n\n1. Siapkan alat dan bahan yang diperlukan seperti kunci yang sesuai, wadah penampung coolant bekas, corong, dan coolant baru sesuai spesifikasi pabrikan.\n2. Buka tutup radiator secara perlahan setelah memastikan mesin dingin.\n3. Letakkan wadah penampung di bawah mesin.\n4. Buka baut pembuangan (drain bolt) atau lepaskan selang bawah radiator untuk menguras coolant lama.\n5. Biarkan coolant keluar hingga habis, kemudian pasang kembali baut pembuangan atau selang dengan kencang.\n6. Jika diperlukan, lakukan flushing dengan air bersih atau cairan pembersih radiator, lalu kuras kembali hingga bersih.\n7. Isi radiator dengan coolant baru menggunakan corong hingga penuh.\n8. Hidupkan mesin dan biarkan pada putaran idle untuk membantu sirkulasi dan mengeluarkan udara (bleeding).\n9. Tambahkan coolant jika level berkurang akibat keluarnya udara dari sistem.\n10. Tutup radiator dengan rapat dan isi reservoir tank hingga batas yang dianjurkan.\n11. Periksa apakah terdapat kebocoran pada baut pembuangan, selang, dan sambungan.\n\nBersihkan area kerja dari tumpahan coolant dan buang coolant bekas sesuai prosedur pengelolaan limbah.\n\nCatat hasil pekerjaan pada lembar praktik dan laporkan kepada instruktur setelah selesai.",
+      "image": "/images/XRDCTSM-008/sim_penggantian_coolant.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

@@ -1,7 +1,29 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Pembakaran & AFR",
+  "description": "Modul ini membahas proses pembakaran pada mesin bensin sepeda motor 4 langkah serta konsep Air Fuel Ratio (AFR). Materi mencakup teori campuran udara dan bahan bakar, jenis campuran (rich, stoikiometri, dan lean), faktor yang memengaruhi kualitas pembakaran, pengaruh terhadap performa dan emisi gas buang, serta pemeriksaan sistem bahan bakar dan pengapian sesuai standar Kurikulum Merdeka dan SKKNI Teknik Sepeda Motor. Pembelajaran juga menekankan penerapan K3 dan prosedur kerja sesuai SOP bengkel.",
+  "image": "/images/XRDCTSM-009/pembakaran&AFR.png",
+  "skkni": [
+    "Memelihara Sistem Bahan Bakar Sepeda Motor",
+    "Memelihara Sistem Pengapian Sepeda Motor",
+    "Memeriksa dan Memelihara Sistem Injeksi Bahan Bakar Elektronik (EFI)",
+    "Memeriksa Emisi Gas Buang Sepeda Motor"
+  ],
+  "kurikulum": [
+    "CP Fase F Teknik Sepeda Motor: Peserta didik mampu memahami dan melakukan perawatan sistem bahan bakar, sistem pengapian, serta menganalisis proses pembakaran dan emisi gas buang sesuai prosedur dan standar K3.",
+    "ATP: Menjelaskan proses pembakaran pada mesin bensin 4 langkah.",
+    "ATP: Menjelaskan konsep Air Fuel Ratio (AFR) pada mesin sepeda motor.",
+    "ATP: Mengidentifikasi perbedaan campuran rich, stoikiometri (14,7:1), dan lean.",
+    "ATP: Menganalisis pengaruh AFR terhadap tenaga mesin dan konsumsi bahan bakar.",
+    "ATP: Menjelaskan hubungan AFR dengan emisi gas buang.",
+    "ATP: Melakukan pemeriksaan sistem bahan bakar dan pengapian yang memengaruhi pembakaran.",
+    "ATP: Menganalisis hasil uji emisi sederhana.",
+    "ATP: Membuat laporan hasil pemeriksaan sistem pembakaran."
+  ],
+  "tujuan": [
+    "Peserta didik mampu menjelaskan proses pembakaran pada mesin bensin sepeda motor.",
+    "Peserta didik mampu memahami konsep Air Fuel Ratio (AFR) dan nilai stoikiometri.",
+    "Peserta didik mampu membedakan campuran rich, ideal, dan lean.",
+    "Peserta didik mampu menganalisis pengaruh AFR terhadap performa dan emisi.",
+    "Peserta didik mampu melakukan pemeriksaan sederhana sistem yang memengaruhi proses pembakaran sesuai SOP dan K3."
+  ]
 }

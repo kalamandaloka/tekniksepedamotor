@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama sistem intake pada sepeda motor adalah ...",
+        "options": [
+          "Membuang gas sisa pembakaran",
+          "Menyaring dan menyalurkan udara ke ruang bakar",
+          "Mendinginkan mesin",
+          "Melumasi komponen silinder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Komponen yang berfungsi menyaring udara sebelum masuk ke throttle body adalah ...",
+        "options": [
+          "Muffler",
+          "Catalytic converter",
+          "Air filter",
+          "O2 sensor"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Jika filter udara tersumbat, maka campuran udara–bahan bakar akan menjadi ...",
+        "options": [
+          "Terlalu kurus (lean)",
+          "Terlalu kaya (rich)",
+          "Stabil",
+          "Tidak berubah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "Throttle body pada sistem injeksi berfungsi untuk ...",
+        "options": [
+          "Mengatur tekanan oli",
+          "Mengatur jumlah udara yang masuk",
+          "Mengatur suhu mesin",
+          "Menyaring bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Sensor yang membaca tekanan udara di intake manifold adalah ...",
+        "options": [
+          "TPS",
+          "MAP",
+          "IAT",
+          "O2 Sensor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Gas CO yang tinggi pada hasil uji emisi menunjukkan ...",
+        "options": [
+          "Pembakaran sempurna",
+          "Campuran terlalu kurus",
+          "Pembakaran tidak sempurna",
+          "Tekanan oli rendah"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "Gas HC yang tinggi biasanya disebabkan oleh ...",
+        "options": [
+          "Filter udara bersih",
+          "Pengapian tidak sempurna",
+          "Tekanan kompresi tinggi",
+          "Oli baru diganti"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Komponen yang berfungsi mengubah CO menjadi CO2 adalah ...",
+        "options": [
+          "Muffler",
+          "Throttle body",
+          "Catalytic converter",
+          "Intake manifold"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Sistem PAIR berfungsi untuk ...",
+        "options": [
+          "Menambah bahan bakar",
+          "Menambah udara ke exhaust untuk oksidasi",
+          "Mengurangi tekanan oli",
+          "Meningkatkan kompresi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Tekanan balik (back pressure) yang terlalu tinggi dapat menyebabkan ...",
+        "options": [
+          "Mesin lebih irit",
+          "Tenaga mesin menurun",
+          "Putaran idle stabil",
+          "Emisi CO2 meningkat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Langkah pertama sebelum uji emisi dilakukan adalah ...",
+        "options": [
+          "Mengganti knalpot",
+          "Mematikan mesin",
+          "Memanaskan mesin hingga suhu kerja",
+          "Mengganti busi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Alat yang digunakan untuk mengukur kadar CO dan HC adalah ...",
+        "options": [
+          "Multimeter",
+          "Compression tester",
+          "Gas analyzer",
+          "Feeler gauge"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "Gas NOx terbentuk akibat ...",
+        "options": [
+          "Suhu pembakaran tinggi",
+          "Campuran kaya",
+          "Filter udara kotor",
+          "Oli berlebih"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 14,
+        "question": "CO2 yang tinggi pada uji emisi menunjukkan ...",
+        "options": [
+          "Pembakaran relatif baik",
+          "Campuran terlalu kaya",
+          "Misfire",
+          "Kebocoran intake"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 15,
+        "question": "Jika O2 tinggi pada hasil uji emisi, kemungkinan terjadi ...",
+        "options": [
+          "Campuran terlalu kaya",
+          "Campuran terlalu kurus atau kebocoran",
+          "Pembakaran sempurna",
+          "Tekanan oli rendah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Intake manifold berfungsi untuk ...",
+        "options": [
+          "Menyalurkan gas buang",
+          "Menyalurkan udara ke silinder",
+          "Mendinginkan piston",
+          "Mengatur tekanan oli"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Kerusakan muffler dapat menyebabkan ...",
+        "options": [
+          "Suara menjadi lebih halus",
+          "Kebisingan meningkat",
+          "Oli cepat habis",
+          "Pendinginan maksimal"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 18,
+        "question": "Sensor O2 berfungsi untuk ...",
+        "options": [
+          "Mengukur suhu oli",
+          "Mengukur kadar oksigen pada gas buang",
+          "Mengatur tekanan bensin",
+          "Mengukur tekanan kompresi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Jika catalytic converter tersumbat, maka gejala yang muncul adalah ...",
+        "options": [
+          "Mesin terasa ringan",
+          "Mesin terasa berat",
+          "Konsumsi oli menurun",
+          "Putaran idle meningkat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Campuran ideal bensin dan udara mendekati perbandingan ...",
+        "options": [
+          "10:1",
+          "12:1",
+          "14,7:1",
+          "18:1"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 21,
+        "question": "Sistem exhaust bekerja terutama pada langkah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 22,
+        "question": "Jika HC tinggi tetapi CO normal, kemungkinan terjadi ...",
+        "options": [
+          "Masalah pengapian",
+          "Filter udara kotor",
+          "Campuran kaya",
+          "Tekanan oli tinggi"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "question": "Tujuan utama standar baku mutu emisi adalah ...",
+        "options": [
+          "Meningkatkan kecepatan motor",
+          "Mengurangi pencemaran udara",
+          "Menambah konsumsi bahan bakar",
+          "Mengurangi suara knalpot"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Secondary Air System bekerja dengan cara ...",
+        "options": [
+          "Menambahkan bahan bakar",
+          "Menambahkan udara ke saluran exhaust",
+          "Mengurangi tekanan oli",
+          "Mengatur suhu radiator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 25,
+        "question": "Salah satu penyebab campuran terlalu kurus adalah ...",
+        "options": [
+          "Filter udara bersih",
+          "Kebocoran intake manifold",
+          "Throttle bersih",
+          "Busi baru"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Back pressure yang sesuai akan membantu proses ...",
+        "options": [
+          "Pelumasan",
+          "Scavenging",
+          "Pendinginan",
+          "Filtrasi udara"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Langkah terakhir setelah perbaikan emisi adalah ...",
+        "options": [
+          "Mengganti knalpot",
+          "Uji emisi ulang",
+          "Membongkar mesin",
+          "Mengganti oli"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "Gas analyzer digunakan untuk mengukur ...",
+        "options": [
+          "Tekanan kompresi",
+          "Tekanan bahan bakar",
+          "Kadar gas buang",
+          "Suhu oli"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 29,
+        "question": "Kerusakan pada sensor MAP dapat menyebabkan ...",
+        "options": [
+          "Campuran tidak akurat",
+          "Oli bocor",
+          "Suara knalpot keras",
+          "Radiator bocor"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 30,
+        "question": "Pembakaran yang tidak sempurna akan meningkatkan kadar ...",
+        "options": [
+          "CO dan HC",
+          "CO2 saja",
+          "O2 saja",
+          "Nitrogen saja"
+        ],
+        "correctAnswer": 1
+      }
+    ]
   }
 }

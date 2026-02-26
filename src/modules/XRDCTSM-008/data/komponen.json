@@ -1,4 +1,77 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Pendinginan Mesin",
+  "items": [
+    {
+      "id": "komp-01",
+      "name": "Radiator",
+      "description": "Radiator adalah komponen sistem pendinginan cairan yang berfungsi sebagai penukar panas (heat exchanger). Radiator terdiri dari tangki atas, tangki bawah, dan inti radiator yang memiliki pipa serta sirip untuk memperluas permukaan pelepasan panas.",
+      "function": "Mendinginkan coolant dengan melepaskan panas ke udara luar sebelum dialirkan kembali ke mesin.",
+      "image": "/images/XRDCTSM-008/radiator.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-02",
+      "name": "Tutup Radiator (Radiator Cap)",
+      "description": "Tutup radiator adalah komponen yang mengatur tekanan dalam sistem pendinginan dan dilengkapi katup tekanan serta katup vakum.",
+      "function": "Menjaga tekanan sistem agar titik didih coolant meningkat dan mengatur aliran coolant ke dan dari reservoir tank.",
+      "image": "/images/XRDCTSM-008/tutupRadiator.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-03",
+      "name": "Thermostat",
+      "description": "Thermostat adalah katup otomatis yang bekerja berdasarkan suhu coolant dengan menggunakan elemen lilin (wax element).",
+      "function": "Mengatur sirkulasi coolant agar mesin cepat mencapai suhu kerja ideal dan tetap stabil.",
+      "image": "/images/XRDCTSM-008/thermostat.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-04",
+      "name": "Water Pump",
+      "description": "Water pump adalah pompa yang digerakkan oleh mesin untuk mengalirkan coolant ke seluruh sistem pendinginan.",
+      "function": "Mensirkulasikan coolant dari radiator ke mesin dan kembali lagi secara terus-menerus.",
+      "image": "/images/XRDCTSM-008/waterPump.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-05",
+      "name": "Kipas Pendingin (Cooling Fan)",
+      "description": "Kipas pendingin adalah komponen yang digerakkan motor listrik dan dikontrol sensor suhu untuk membantu aliran udara melalui radiator.",
+      "function": "Membantu radiator membuang panas terutama saat kendaraan berhenti atau berjalan lambat.",
+      "image": "/images/XRDCTSM-008/kipasPendingin.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-06",
+      "name": "Selang Radiator",
+      "description": "Selang radiator adalah saluran berbahan karet tahan panas yang menghubungkan mesin, radiator, dan reservoir.",
+      "function": "Menyalurkan coolant antar komponen dalam sistem pendinginan.",
+      "image": "/images/XRDCTSM-008/selangRadiator.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-07",
+      "name": "Reservoir Tank",
+      "description": "Reservoir tank adalah tabung cadangan coolant yang menampung kelebihan cairan akibat pemuaian saat suhu meningkat.",
+      "function": "Menjaga kestabilan volume coolant dan mencegah masuknya udara ke sistem.",
+      "image": "/images/XRDCTSM-008/reservoirTank.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-08",
+      "name": "Coolant (Air Pendingin)",
+      "description": "Coolant adalah cairan khusus yang mengandung zat aditif untuk meningkatkan titik didih dan mencegah korosi dalam sistem pendinginan.",
+      "function": "Menyerap, membawa, dan membuang panas dari mesin ke radiator.",
+      "image": "/images/XRDCTSM-008/coolant.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-09",
+      "name": "Sirip Pendingin (Cooling Fins)",
+      "description": "Sirip pendingin adalah bagian dari blok dan kepala silinder pada sistem pendinginan udara yang berbentuk lapisan tipis untuk memperluas permukaan pelepasan panas.",
+      "function": "Membantu pelepasan panas mesin langsung ke udara luar.",
+      "image": "/images/XRDCTSM-008/siripPendingin.png",
+      "modelType": "box"
+    }
+  ]
 }

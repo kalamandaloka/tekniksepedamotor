@@ -1,7 +1,30 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Pelumasan Mesin Sepeda Motor",
+  "description": "Modul ini membahas prinsip kerja, fungsi, komponen, dan perawatan sistem pelumasan pada mesin sepeda motor. Peserta didik akan mempelajari jenis-jenis sistem pelumasan (basah dan kering), alur sirkulasi oli, fungsi pompa oli, filter oli, oil cooler, serta prosedur pemeriksaan dan penggantian oli sesuai standar pabrikan. Pembelajaran dirancang berbasis Capaian Pembelajaran (CP), Alur Tujuan Pembelajaran (ATP), serta mengacu pada Standar Kompetensi Kerja Nasional Indonesia (SKKNI) bidang Teknik Sepeda Motor.",
+  "image": "/images/XRDCTSM-007/sistem_pelumasan.png",
+  "skkni": [
+    "Melaksanakan perawatan berkala sistem pelumasan sepeda motor.",
+    "Memeriksa dan mengganti oli mesin sesuai prosedur kerja.",
+    "Memeriksa dan mengganti filter oli.",
+    "Mendiagnosis gangguan pada sistem pelumasan mesin.",
+    "Menerapkan prosedur K3 dalam pekerjaan perawatan sistem pelumasan."
+  ],
+  "kurikulum": [
+    "CP: Peserta didik mampu memahami dan menjelaskan fungsi serta prinsip kerja sistem pelumasan mesin sepeda motor.",
+    "CP: Peserta didik mampu melakukan pemeriksaan, perawatan, dan penggantian oli mesin sesuai standar operasional prosedur (SOP).",
+    "ATP 1: Menjelaskan fungsi dan tujuan sistem pelumasan pada mesin 4 langkah.",
+    "ATP 2: Mengidentifikasi komponen-komponen sistem pelumasan dan fungsinya.",
+    "ATP 3: Menjelaskan alur sirkulasi oli pada mesin sepeda motor.",
+    "ATP 4: Melakukan pemeriksaan volume dan kualitas oli mesin.",
+    "ATP 5: Melakukan penggantian oli dan filter oli sesuai prosedur.",
+    "ATP 6: Mengevaluasi hasil pekerjaan dan memastikan tidak terjadi kebocoran."
+  ],
+  "tujuan": [
+    "Peserta didik dapat menjelaskan fungsi utama sistem pelumasan pada mesin sepeda motor.",
+    "Peserta didik dapat menyebutkan dan menjelaskan komponen sistem pelumasan beserta fungsinya.",
+    "Peserta didik dapat menjelaskan alur kerja sirkulasi oli pada mesin.",
+    "Peserta didik dapat melakukan pemeriksaan kondisi dan volume oli mesin.",
+    "Peserta didik dapat melakukan penggantian oli dan filter oli dengan benar dan aman.",
+    "Peserta didik menerapkan prinsip keselamatan dan kesehatan kerja (K3) saat melakukan perawatan sistem pelumasan."
+  ]
 }

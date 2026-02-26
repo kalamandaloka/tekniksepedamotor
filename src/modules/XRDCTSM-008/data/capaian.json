@@ -1,7 +1,28 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Pendinginan Mesin",
+  "description": "Modul ini membahas prinsip kerja, jenis, komponen, pemeriksaan, perawatan, dan perbaikan sistem pendinginan mesin sepeda motor (pendingin udara dan pendingin cairan) sesuai standar Kurikulum Merdeka dan SKKNI Teknik Sepeda Motor. Materi mencakup penerapan K3, penggunaan alat dan bahan, serta prosedur servis sesuai SOP bengkel.",
+  "image": "/images/XRDCTSM-008/sistem-pendingin-mesin.png",
+  "skkni": [
+    "Memelihara Sistem Pendingin Mesin",
+    "Memperbaiki Sistem Pendingin Mesin"
+  ],
+  "kurikulum": [
+    "CP Fase F Teknik Sepeda Motor: Peserta didik mampu melakukan perawatan dan perbaikan sistem pendinginan mesin sepeda motor sesuai prosedur dan standar K3.",
+    "ATP: Menjelaskan fungsi sistem pendinginan mesin.",
+    "ATP: Mengidentifikasi jenis sistem pendinginan (udara dan cairan).",
+    "ATP: Mengidentifikasi dan menjelaskan fungsi komponen sistem pendinginan.",
+    "ATP: Menjelaskan prinsip kerja sistem pendinginan mesin.",
+    "ATP: Melakukan pemeriksaan level dan kualitas coolant.",
+    "ATP: Melakukan pemeriksaan kebocoran sistem pendinginan.",
+    "ATP: Melakukan penggantian coolant sesuai SOP.",
+    "ATP: Mendiagnosis gangguan sistem pendinginan (overheating).",
+    "ATP: Membuat laporan hasil pemeriksaan dan perawatan."
+  ],
+  "tujuan": [
+    "Peserta didik mampu menjelaskan prinsip kerja sistem pendinginan mesin sepeda motor.",
+    "Peserta didik mampu mengidentifikasi komponen dan fungsi sistem pendinginan.",
+    "Peserta didik mampu melakukan pemeriksaan dan perawatan sistem pendinginan sesuai SOP.",
+    "Peserta didik mampu menerapkan prosedur K3 dalam pekerjaan sistem pendinginan.",
+    "Peserta didik mampu mendiagnosis kerusakan sederhana pada sistem pendinginan mesin."
+  ]
 }

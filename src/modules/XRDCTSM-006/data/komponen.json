@@ -1,4 +1,77 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Intake–Exhaust & Emisi",
+  "items": [
+    {
+      "id": "intake-01",
+      "name": "Saringan Udara (Air Filter)",
+      "description": "Komponen pada sistem intake yang berfungsi menyaring udara sebelum masuk ke throttle body atau karburator. Filter ini menahan debu dan partikel agar tidak masuk ke ruang bakar.",
+      "function": "Menyaring udara dari kotoran dan menjaga suplai udara tetap bersih untuk proses pembakaran.",
+      "image": "/images/XRDCTSM-006/saringan-udara.png",
+      "modelType": "box"
+    },
+    {
+      "id": "intake-02",
+      "name": "Throttle Body",
+      "description": "Komponen sistem injeksi yang mengatur jumlah udara yang masuk ke intake manifold melalui katup throttle.",
+      "function": "Mengontrol volume udara sesuai bukaan gas untuk menentukan rasio campuran udara–bahan bakar.",
+      "image": "/images/XRDCTSM-006/throttle-body.png",
+      "modelType": "box"
+    },
+    {
+      "id": "intake-03",
+      "name": "Karburator",
+      "description": "Komponen pada sistem bahan bakar konvensional yang mencampur udara dan bahan bakar secara mekanis sebelum masuk ke ruang bakar.",
+      "function": "Menghasilkan campuran udara–bahan bakar sesuai kevakuman dan bukaan gas.",
+      "image": "/images/XRDCTSM-006/karbu.png",
+      "modelType": "box"
+    },
+    {
+      "id": "intake-04",
+      "name": "Intake Manifold",
+      "description": "Saluran penghubung antara throttle body atau karburator dengan ruang bakar.",
+      "function": "Menyalurkan udara atau campuran udara–bahan bakar secara merata ke dalam silinder.",
+      "image": "/images/XRDCTSM-006/intake-manifold.png",
+      "modelType": "box"
+    },
+    {
+      "id": "exhaust-01",
+      "name": "Header / Pipa Knalpot",
+      "description": "Saluran pertama pada sistem exhaust yang menerima gas buang langsung dari ruang bakar.",
+      "function": "Menyalurkan gas sisa pembakaran menuju catalytic converter dan muffler.",
+      "image": "/images/XRDCTSM-006/pipa-knalpot.png",
+      "modelType": "box"
+    },
+    {
+      "id": "exhaust-02",
+      "name": "Catalytic Converter",
+      "description": "Komponen pengendali emisi yang mengubah gas beracun menjadi gas yang lebih ramah lingkungan melalui reaksi kimia.",
+      "function": "Mengurangi kadar CO, HC, dan NOx sebelum gas dilepas ke atmosfer.",
+      "image": "/images/XRDCTSM-006/catalytic-converter.png",
+      "modelType": "box"
+    },
+    {
+      "id": "exhaust-03",
+      "name": "Muffler / Silencer",
+      "description": "Bagian akhir sistem exhaust yang dirancang untuk meredam suara hasil pembakaran.",
+      "function": "Mengurangi kebisingan kendaraan dan menjaga tekanan balik sistem knalpot.",
+      "image": "/images/XRDCTSM-006/muffler.png",
+      "modelType": "box"
+    },
+    {
+      "id": "emisi-01",
+      "name": "Secondary Air System (PAIR)",
+      "description": "Sistem yang memasukkan udara tambahan ke saluran exhaust untuk membantu oksidasi gas sisa pembakaran.",
+      "function": "Menurunkan kadar HC dan CO sebelum gas buang keluar melalui knalpot.",
+      "image": "/images/XRDCTSM-006/pair.png",
+      "modelType": "box"
+    },
+    {
+      "id": "emisi-02",
+      "name": "Sensor Oksigen (O2 Sensor)",
+      "description": "Sensor pada sistem exhaust yang membaca kadar oksigen dalam gas buang dan mengirimkan data ke ECU.",
+      "function": "Membantu ECU mengatur campuran udara–bahan bakar agar pembakaran lebih efisien dan emisi rendah.",
+      "image": "/images/XRDCTSM-006/sistem-injeksi-&-sensor-o2.png",
+      "modelType": "box"
+    }
+  ]
 }

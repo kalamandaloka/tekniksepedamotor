@@ -1,4 +1,61 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Pelumasan Mesin Sepeda Motor",
+  "items": [
+    {
+      "id": "komp-01",
+      "name": "Bak Oli (Oil Pan)",
+      "description": "Bak oli adalah tempat penampungan utama oli mesin pada sistem pelumasan basah. Komponen ini terletak di bagian bawah mesin dan menyatu dengan crankcase. Bak oli berfungsi sebagai reservoir oli sebelum dan sesudah bersirkulasi ke seluruh bagian mesin.",
+      "function": "1. Menyimpan cadangan oli mesin.\n2. Menampung oli yang kembali dari proses pelumasan.\n3. Membantu pelepasan panas oli.\n4. Menjadi tempat pengendapan kotoran sebelum disaring kembali.",
+      "image": "/images/XRDCTSM-007/bak-oli.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-02",
+      "name": "Pompa Oli (Oil Pump)",
+      "description": "Pompa oli adalah komponen yang berfungsi mengalirkan dan memberikan tekanan pada oli agar dapat bersirkulasi ke seluruh bagian mesin. Pompa ini digerakkan oleh poros engkol atau camshaft.",
+      "function": "1. Menghisap oli dari bak oli atau tangki oli.\n2. Menekan oli ke saluran pelumasan.\n3. Menjaga tekanan oli tetap stabil.\n4. Menjamin distribusi oli merata ke seluruh komponen.",
+      "image": "/images/XRDCTSM-007/pompa-oli.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-03",
+      "name": "Saringan Oli (Oil Strainer)",
+      "description": "Oil strainer adalah saringan kasar yang terletak sebelum pompa oli. Berfungsi menyaring partikel besar agar tidak masuk ke dalam sistem pelumasan.",
+      "function": "1. Menyaring serpihan logam kasar.\n2. Mencegah kotoran masuk ke pompa oli.\n3. Melindungi sistem pelumasan dari kerusakan akibat benda asing.",
+      "image": "/images/XRDCTSM-007/saringan-oli.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-04",
+      "name": "Filter Oli (Oil Filter)",
+      "description": "Filter oli adalah komponen penyaring halus yang bertugas menyaring partikel kecil dan kotoran dari oli sebelum didistribusikan ke komponen mesin.",
+      "function": "1. Menyaring partikel halus hasil gesekan.\n2. Menjaga kebersihan oli.\n3. Mencegah penyumbatan saluran oli.\n4. Mendukung umur pakai mesin lebih panjang.",
+      "image": "/images/XRDCTSM-007/filter-oli.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-05",
+      "name": "Katup Pengatur Tekanan Oli (Relief Valve)",
+      "description": "Relief valve adalah katup yang mengatur tekanan oli agar tetap dalam batas aman selama mesin beroperasi.",
+      "function": "1. Membuka saat tekanan oli terlalu tinggi.\n2. Mengalirkan kembali oli ke bak oli.\n3. Menjaga kestabilan tekanan sistem pelumasan.\n4. Mencegah kerusakan seal dan gasket akibat tekanan berlebih.",
+      "image": "/images/XRDCTSM-007/relief-valve.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-06",
+      "name": "Oil Cooler",
+      "description": "Oil cooler adalah komponen tambahan yang berfungsi menurunkan suhu oli sebelum kembali bersirkulasi ke dalam mesin, terutama pada motor performa tinggi.",
+      "function": "1. Mendinginkan oli mesin.\n2. Menjaga viskositas oli tetap stabil.\n3. Mencegah overheating.\n4. Meningkatkan efisiensi pelumasan.",
+      "image": "/images/XRDCTSM-007/oil-cooler.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-07",
+      "name": "Jalur dan Saluran Oli",
+      "description": "Jalur dan saluran oli merupakan sistem saluran internal dalam blok mesin yang mendistribusikan oli ke seluruh komponen yang membutuhkan pelumasan.",
+      "function": "1. Mengalirkan oli dari pompa ke komponen mesin.\n2. Menjamin distribusi oli merata.\n3. Mengembalikan oli ke bak oli.\n4. Menjaga sirkulasi pelumasan tetap lancar.",
+      "image": "/images/XRDCTSM-007/oil-gallery.png",
+      "modelType": "box"
+    }
+  ]
 }

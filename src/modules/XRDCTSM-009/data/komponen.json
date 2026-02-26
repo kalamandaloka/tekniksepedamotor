@@ -1,4 +1,109 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Pembakaran & Air Fuel Ratio (AFR)",
+  "items": [
+    {
+      "id": "komp-01",
+      "name": "Karburator",
+      "description": "Karburator adalah komponen sistem bahan bakar tipe konvensional yang berfungsi mencampurkan udara dan bahan bakar secara mekanis sebelum masuk ke ruang bakar. Karburator bekerja berdasarkan prinsip venturi, yaitu ketika udara mengalir melalui saluran yang menyempit, kecepatan udara meningkat dan tekanan menurun sehingga bahan bakar tersedot dari mangkuk pelampung melalui spuyer (main jet dan pilot jet). Bahan bakar kemudian bercampur dengan udara membentuk kabut halus sebelum dialirkan menuju intake manifold dan silinder. Di dalam karburator terdapat beberapa bagian penting seperti pelampung, needle valve, main jet, pilot jet, dan sekrup campuran yang berfungsi mengatur suplai bahan bakar sesuai kebutuhan mesin.",
+      "function": "Mengatur perbandingan udara dan bahan bakar berdasarkan bukaan throttle dan putaran mesin sehingga menghasilkan campuran yang sesuai untuk kondisi langsam, akselerasi, dan putaran tinggi. Karburator juga menjaga kestabilan suplai bahan bakar agar proses pembakaran dapat berlangsung dengan cukup tenaga dan tetap efisien meskipun pengaturannya masih bersifat mekanis.",
+      "image": "/images/XRDCTSM-009/karburator.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-02",
+      "name": "Injektor",
+      "description": "Injektor adalah komponen utama pada sistem Electronic Fuel Injection (EFI) yang bertugas menyemprotkan bahan bakar dalam bentuk kabut sangat halus (atomisasi) ke dalam saluran masuk udara atau langsung ke intake manifold. Injektor dikontrol oleh ECU melalui sinyal listrik yang mengatur durasi dan waktu buka-tutup nozzle injektor. Proses atomisasi yang baik membuat bahan bakar lebih mudah bercampur dengan udara sehingga menghasilkan campuran homogen dan meningkatkan efisiensi pembakaran. Injektor bekerja pada tekanan bahan bakar tertentu yang dijaga oleh fuel pump dan fuel pressure regulator agar penyemprotan tetap presisi.",
+      "function": "Menyuplai bahan bakar dalam jumlah yang sangat akurat sesuai perhitungan ECU berdasarkan data sensor (TPS, MAP, O2 sensor, dll.), sehingga Air Fuel Ratio (AFR) dapat dijaga mendekati kondisi ideal. Ketepatan kerja injektor sangat menentukan efisiensi bahan bakar, respons akselerasi, kestabilan idle, serta rendahnya emisi gas buang.",
+      "image": "/images/XRDCTSM-009/injektor.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-03",
+      "name": "Throttle Body",
+      "description": "Throttle body adalah komponen pada sistem EFI yang berfungsi sebagai saluran utama masuknya udara ke mesin. Di dalam throttle body terdapat katup throttle (butterfly valve) yang membuka dan menutup sesuai putaran grip gas oleh pengendara. Besarnya bukaan throttle menentukan volume udara yang masuk ke mesin. Throttle body juga menjadi tempat pemasangan beberapa sensor seperti TPS dan kadang ISC (Idle Speed Control). Kebersihan dan kondisi throttle body sangat memengaruhi kestabilan idle dan respons mesin.",
+      "function": "Mengontrol jumlah udara yang masuk ke ruang bakar sesuai kebutuhan mesin dan menjadi dasar perhitungan ECU dalam menentukan jumlah bahan bakar yang harus disemprotkan oleh injektor. Dengan pengaturan udara yang tepat, throttle body membantu menjaga keseimbangan AFR agar pembakaran berlangsung optimal pada berbagai kondisi beban dan putaran mesin.",
+      "image": "/images/XRDCTSM-009/throttleBody.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-04",
+      "name": "Fuel Pump",
+      "description": "Fuel pump adalah pompa bahan bakar elektrik yang berfungsi menyalurkan bensin dari tangki menuju injektor dengan tekanan tertentu. Pada sistem EFI, fuel pump umumnya terpasang di dalam tangki (in-tank pump) dan bekerja secara elektrik saat kunci kontak dihidupkan. Tekanan bahan bakar yang dihasilkan harus stabil agar proses atomisasi injektor berjalan optimal. Jika tekanan terlalu rendah, campuran menjadi miskin (lean), sedangkan jika terlalu tinggi dapat menyebabkan campuran terlalu kaya (rich).",
+      "function": "Menyuplai bahan bakar dengan tekanan yang stabil dan sesuai spesifikasi sistem EFI sehingga proses penyemprotan injektor presisi dan AFR tetap terjaga dalam berbagai kondisi kerja mesin.",
+      "image": "/images/XRDCTSM-009/fuelPump.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-05",
+      "name": "ECU (Engine Control Unit)",
+      "description": "ECU adalah unit kontrol elektronik yang berfungsi sebagai pusat pengolah data dan pengendali sistem injeksi serta pengapian pada sepeda motor modern. ECU menerima input dari berbagai sensor seperti TPS, MAP sensor, dan O2 sensor, kemudian memproses data tersebut menggunakan peta injeksi (fuel map) yang telah diprogram oleh pabrikan. Berdasarkan perhitungan tersebut, ECU menentukan durasi penyemprotan injektor dan waktu pengapian agar pembakaran berlangsung optimal.",
+      "function": "Mengontrol jumlah bahan bakar yang disemprotkan serta menentukan timing pengapian secara akurat agar Air Fuel Ratio (AFR) sesuai kebutuhan mesin, performa optimal, konsumsi bahan bakar efisien, dan emisi tetap dalam batas standar.",
+      "image": "/images/XRDCTSM-009/ecu.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-06",
+      "name": "CDI (Capacitor Discharge Ignition)",
+      "description": "CDI adalah sistem pengapian elektronik yang bekerja dengan cara menyimpan energi listrik dalam kapasitor, kemudian melepaskannya secara cepat ke koil pengapian untuk menghasilkan tegangan tinggi. Sistem CDI banyak digunakan pada sepeda motor non-EFI atau sistem pengapian terpisah. CDI mengatur waktu percikan api berdasarkan sinyal dari pulser atau sensor posisi poros engkol.",
+      "function": "Mengatur waktu dan pelepasan energi listrik ke koil pengapian sehingga percikan api pada busi terjadi pada momen yang tepat, mendukung proses pembakaran yang efisien dan mencegah terjadinya knocking atau kehilangan tenaga.",
+      "image": "/images/XRDCTSM-009/cdi.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-07",
+      "name": "Koil Pengapian",
+      "description": "Koil pengapian adalah komponen kelistrikan yang berfungsi sebagai transformator step-up, yaitu menaikkan tegangan rendah dari aki atau spul menjadi tegangan tinggi hingga ribuan volt. Koil terdiri dari lilitan primer dan sekunder yang bekerja berdasarkan prinsip induksi elektromagnetik. Ketika arus listrik pada lilitan primer diputus secara tiba-tiba oleh CDI atau ECU, terjadi lonjakan tegangan tinggi pada lilitan sekunder yang kemudian dialirkan ke busi.",
+      "function": "Menghasilkan tegangan tinggi yang diperlukan untuk menciptakan percikan bunga api pada busi sehingga campuran udara dan bahan bakar dapat terbakar secara efektif di dalam ruang bakar.",
+      "image": "/images/XRDCTSM-009/koilPengapian.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-08",
+      "name": "Busi",
+      "description": "Busi adalah komponen sistem pengapian yang terpasang pada kepala silinder dan berfungsi menghasilkan percikan bunga api di dalam ruang bakar. Busi memiliki elektroda tengah dan elektroda massa dengan celah tertentu yang menjadi tempat loncatan bunga api. Kondisi elektroda, celah busi, dan tingkat kebersihan busi sangat memengaruhi kualitas percikan dan kesempurnaan pembakaran.",
+      "function": "Memicu proses pembakaran dengan menghasilkan percikan api yang stabil dan tepat waktu sehingga tekanan pembakaran optimal dan tenaga mesin maksimal.",
+      "image": "/images/XRDCTSM-009/busi.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-09",
+      "name": "TPS (Throttle Position Sensor)",
+      "description": "Throttle Position Sensor (TPS) adalah sensor pada sistem EFI yang mendeteksi sudut atau posisi bukaan katup throttle. TPS mengubah gerakan mekanis throttle menjadi sinyal tegangan yang dikirimkan ke ECU. Perubahan nilai tegangan ini menunjukkan seberapa besar pengendara membuka gas, sehingga ECU dapat menyesuaikan suplai bahan bakar dan waktu pengapian.",
+      "function": "Memberikan informasi posisi bukaan throttle kepada ECU agar sistem dapat mengatur jumlah bahan bakar dan respons mesin sesuai kebutuhan akselerasi dan beban kerja.",
+      "image": "/images/XRDCTSM-009/tps.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-10",
+      "name": "MAP Sensor (Manifold Absolute Pressure Sensor)",
+      "description": "MAP sensor adalah sensor yang mengukur tekanan absolut di dalam intake manifold sebagai indikator jumlah udara yang masuk ke mesin. Tekanan yang lebih rendah menunjukkan throttle lebih tertutup, sedangkan tekanan lebih tinggi menunjukkan throttle terbuka lebih besar. Data tekanan ini dikirimkan ke ECU untuk dihitung bersama parameter lainnya dalam menentukan kebutuhan bahan bakar.",
+      "function": "Memberikan data tekanan udara kepada ECU agar jumlah bahan bakar yang disemprotkan sesuai dengan volume udara yang masuk, sehingga AFR tetap seimbang dan pembakaran berlangsung optimal.",
+      "image": "/images/XRDCTSM-009/map.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-11",
+      "name": "O2 Sensor (Oxygen Sensor)",
+      "description": "O2 sensor adalah sensor yang terpasang pada sistem pembuangan (knalpot) dan berfungsi mendeteksi kadar oksigen yang tersisa dalam gas buang hasil pembakaran. Sensor ini bekerja dengan mengukur perbedaan kandungan oksigen antara gas buang dan udara luar, kemudian mengubahnya menjadi sinyal tegangan yang dikirim ke ECU. Pada sistem EFI modern, O2 sensor berperan dalam sistem closed-loop, yaitu ECU secara terus-menerus menyesuaikan suplai bahan bakar berdasarkan pembacaan sensor ini.",
+      "function": "Memberikan umpan balik (feedback) kepada ECU mengenai kondisi campuran pembakaran agar AFR dapat dikoreksi secara real-time mendekati nilai stoikiometri (14,7 : 1), sehingga emisi gas buang lebih rendah dan efisiensi bahan bakar meningkat.",
+      "image": "/images/XRDCTSM-009/o2.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-12",
+      "name": "Aki (Battery)",
+      "description": "Aki adalah sumber energi listrik pada sepeda motor yang menyimpan arus listrik dalam bentuk energi kimia. Aki menyuplai daya untuk sistem EFI, ECU, fuel pump, sensor, serta sistem pengapian saat mesin belum berputar atau saat putaran rendah. Tegangan aki yang stabil sangat penting untuk memastikan sistem elektronik bekerja dengan baik.",
+      "function": "Menyediakan sumber listrik utama untuk mengoperasikan sistem pengapian dan sistem EFI agar proses pembakaran dapat berlangsung secara konsisten dan stabil.",
+      "image": "/images/XRDCTSM-009/aki.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-13",
+      "name": "Spul / Alternator",
+      "description": "Spul atau alternator adalah komponen pembangkit listrik yang menghasilkan arus listrik saat mesin berputar. Spul bekerja berdasarkan prinsip induksi elektromagnetik, yaitu perubahan medan magnet yang menghasilkan arus listrik pada lilitan kawat. Arus yang dihasilkan kemudian digunakan untuk mengisi aki dan menyuplai kebutuhan listrik kendaraan saat mesin hidup.",
+      "function": "Menghasilkan dan menjaga suplai daya listrik untuk sistem pengapian dan sistem EFI selama mesin beroperasi, sehingga pembakaran tetap stabil dan komponen elektronik bekerja optimal.",
+      "image": "/images/XRDCTSM-009/spul.png",
+      "modelType": "box"
+    }
+  ]
 }

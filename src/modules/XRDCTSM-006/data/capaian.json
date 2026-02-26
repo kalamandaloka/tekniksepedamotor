@@ -1,7 +1,35 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Intake–Exhaust & Emisi Sepeda Motor",
+  "description": "Modul ini membahas sistem pemasukan (intake), sistem pembuangan (exhaust), dan sistem pengendalian emisi pada sepeda motor 4 langkah. Materi mencakup fungsi, komponen, prinsip kerja, pemeriksaan, perawatan, serta diagnosis gangguan pada sistem intake dan exhaust sesuai dengan Capaian Pembelajaran (CP), Alur Tujuan Pembelajaran (ATP), serta mengacu pada Standar Kompetensi Kerja Nasional Indonesia (SKKNI) bidang Teknik Sepeda Motor. Modul ini dirancang untuk membekali peserta didik dengan kompetensi pengetahuan, keterampilan, dan sikap kerja dalam melakukan perawatan dan perbaikan sistem pemasukan dan pembuangan sesuai prosedur kerja dan K3.",
+  "image": "/images/XRDCTSM-006/sistem-intake–exhaust-&-emisi.png",
+  "skkni": [
+    "Menerapkan prosedur Keselamatan dan Kesehatan Kerja (K3) di bengkel sepeda motor.",
+    "Melakukan pemeriksaan dan perawatan sistem pemasukan (intake system) sepeda motor.",
+    "Melakukan pemeriksaan dan perawatan sistem pembuangan (exhaust system) sepeda motor.",
+    "Mendiagnosis gangguan pada sistem intake dan exhaust sepeda motor.",
+    "Melakukan pengukuran dan pengujian emisi gas buang sesuai standar.",
+    "Menggunakan alat ukur dan peralatan servis sesuai SOP.",
+    "Menyusun laporan hasil pemeriksaan dan perbaikan sistem intake–exhaust dan emisi."
+  ],
+  "kurikulum": [
+    "CP: Peserta didik mampu memahami, menerapkan, dan menganalisis sistem pemasukan dan pembuangan serta sistem pengendalian emisi sepeda motor sesuai prosedur kerja dan standar industri.",
+    "CP: Peserta didik mampu melakukan pemeriksaan, perawatan, dan perbaikan sistem intake–exhaust dan emisi dengan memperhatikan aspek K3.",
+    "ATP 1: Menjelaskan fungsi dan prinsip kerja sistem intake pada sepeda motor.",
+    "ATP 2: Mengidentifikasi komponen sistem intake (air filter, throttle body/karburator, intake manifold).",
+    "ATP 3: Menjelaskan fungsi dan prinsip kerja sistem exhaust pada sepeda motor.",
+    "ATP 4: Mengidentifikasi komponen sistem exhaust (header, catalytic converter, muffler).",
+    "ATP 5: Menjelaskan jenis-jenis gas buang dan dampaknya terhadap lingkungan.",
+    "ATP 6: Melakukan pemeriksaan dan perawatan sistem intake dan exhaust sesuai SOP.",
+    "ATP 7: Melakukan pengujian emisi gas buang menggunakan alat uji emisi.",
+    "ATP 8: Menganalisis hasil pengujian emisi dan menentukan tindakan perbaikan."
+  ],
+  "tujuan": [
+    "Peserta didik mampu menjelaskan fungsi dan prinsip kerja sistem intake dan exhaust dengan benar.",
+    "Peserta didik mampu mengidentifikasi dan menyebutkan komponen utama sistem intake dan exhaust.",
+    "Peserta didik mampu melakukan pemeriksaan dan pembersihan filter udara sesuai prosedur.",
+    "Peserta didik mampu melakukan pemeriksaan kebocoran pada sistem exhaust.",
+    "Peserta didik mampu menggunakan alat uji emisi gas buang dengan benar.",
+    "Peserta didik mampu menganalisis hasil uji emisi dan menentukan solusi perbaikan.",
+    "Peserta didik menunjukkan sikap kerja disiplin, teliti, dan menerapkan K3 selama praktik."
+  ]
 }

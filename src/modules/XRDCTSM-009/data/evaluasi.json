@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Pembakaran pada mesin bensin merupakan proses reaksi antara ...",
+        "options": [
+          "Oli dan udara",
+          "Bahan bakar dan oksigen",
+          "Bahan bakar dan air",
+          "Udara dan oli"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Energi yang dihasilkan dari proses pembakaran diubah menjadi ...",
+        "options": [
+          "Energi listrik",
+          "Energi cahaya",
+          "Energi mekanik",
+          "Energi magnet"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Percikan api pada mesin bensin dihasilkan oleh komponen ...",
+        "options": [
+          "Karburator",
+          "Injektor",
+          "Busi",
+          "Throttle body"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Salah satu syarat terjadinya pembakaran adalah adanya ...",
+        "options": [
+          "Oli mesin",
+          "Tekanan angin ban",
+          "Oksigen",
+          "Air radiator"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "Langkah pada mesin 4 tak yang menghasilkan tenaga adalah ...",
+        "options": [
+          "Hisap",
+          "Kompresi",
+          "Usaha",
+          "Buang"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "AFR adalah perbandingan antara ...",
+        "options": [
+          "Bahan bakar dan oli",
+          "Udara dan bahan bakar",
+          "Udara dan air",
+          "Bensin dan listrik"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "Nilai AFR stoikiometri pada mesin bensin adalah ...",
+        "options": [
+          "10 : 1",
+          "12 : 1",
+          "14,7 : 1",
+          "18 : 1"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 8,
+        "question": "Campuran disebut rich jika nilai AFR ...",
+        "options": [
+          "Lebih besar dari 14,7 : 1",
+          "Sama dengan 14,7 : 1",
+          "Lebih kecil dari 14,7 : 1",
+          "Lebih besar dari 18 : 1"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Campuran lean ditandai dengan ...",
+        "options": [
+          "Bahan bakar lebih banyak dari udara",
+          "Udara lebih banyak dari bahan bakar",
+          "Tidak ada udara",
+          "Tidak ada bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Campuran terlalu kaya dapat menyebabkan ...",
+        "options": [
+          "Asap hitam",
+          "Mesin overheat",
+          "Kompresi tinggi",
+          "Tenaga meningkat drastis"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 11,
+        "question": "Campuran terlalu miskin dapat menyebabkan ...",
+        "options": [
+          "Busi berjelaga hitam",
+          "Mesin boros",
+          "Mesin cepat panas",
+          "Asap hitam pekat"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Gas buang CO tinggi biasanya disebabkan oleh campuran ...",
+        "options": [
+          "Lean",
+          "Stoikiometri",
+          "Rich",
+          "Normal"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "NOx cenderung meningkat pada kondisi campuran ...",
+        "options": [
+          "Rich",
+          "Lean",
+          "Boros",
+          "Basah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Komponen EFI yang menyemprotkan bahan bakar adalah ...",
+        "options": [
+          "Karburator",
+          "CDI",
+          "Injektor",
+          "Koil"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 15,
+        "question": "Komponen yang mengontrol kerja injektor adalah ...",
+        "options": [
+          "Busi",
+          "ECU",
+          "Spul",
+          "Aki"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Sensor yang mendeteksi kadar oksigen pada gas buang adalah ...",
+        "options": [
+          "TPS",
+          "MAP",
+          "O2 sensor",
+          "Pulser"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 17,
+        "question": "TPS berfungsi untuk mendeteksi ...",
+        "options": [
+          "Tekanan ban",
+          "Suhu mesin",
+          "Bukaan throttle",
+          "Putaran roda"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 18,
+        "question": "MAP sensor mengukur ...",
+        "options": [
+          "Tekanan udara di intake manifold",
+          "Tekanan oli",
+          "Tekanan ban",
+          "Tekanan air radiator"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 19,
+        "question": "Busi berwarna cokelat kemerahan menunjukkan ...",
+        "options": [
+          "Campuran rich",
+          "Campuran lean",
+          "Pembakaran normal",
+          "Busi rusak"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 20,
+        "question": "Busi berwarna putih pucat menunjukkan ...",
+        "options": [
+          "Campuran terlalu kaya",
+          "Campuran terlalu miskin",
+          "Normal",
+          "Oli berlebih"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Langkah kompresi terjadi saat piston bergerak dari ...",
+        "options": [
+          "TMA ke TMB",
+          "TMB ke TMA",
+          "TMA ke TMA",
+          "TMB ke TMB"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "Komponen yang menaikkan tegangan menjadi ribuan volt adalah ...",
+        "options": [
+          "Aki",
+          "Koil pengapian",
+          "Throttle body",
+          "Karburator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Campuran stoikiometri menghasilkan ...",
+        "options": [
+          "Emisi tinggi",
+          "Pembakaran paling seimbang",
+          "Asap hitam pekat",
+          "Mesin overheat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Gas HC tinggi menunjukkan ...",
+        "options": [
+          "Pembakaran sempurna",
+          "Bahan bakar tidak terbakar sempurna",
+          "Oksigen berlebih",
+          "Tekanan kompresi tinggi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 25,
+        "question": "Sistem pengapian berfungsi untuk ...",
+        "options": [
+          "Menyaring bahan bakar",
+          "Menaikkan kompresi",
+          "Menghasilkan percikan api",
+          "Mendinginkan mesin"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 26,
+        "question": "Jika injektor bocor, kemungkinan campuran menjadi ...",
+        "options": [
+          "Lean",
+          "Rich",
+          "Normal",
+          "Kering"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "AFR lebih besar dari 14,7 : 1 menunjukkan kondisi ...",
+        "options": [
+          "Rich",
+          "Stoikiometri",
+          "Lean",
+          "Normal"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Fuel pump pada sistem EFI berfungsi untuk ...",
+        "options": [
+          "Mendinginkan mesin",
+          "Menyemprotkan bahan bakar",
+          "Memompa bahan bakar bertekanan",
+          "Menghasilkan percikan api"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 29,
+        "question": "Pembakaran tidak sempurna dapat menyebabkan ...",
+        "options": [
+          "Tenaga optimal",
+          "Konsumsi BBM hemat",
+          "Emisi meningkat",
+          "Mesin stabil"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 30,
+        "question": "Closed-loop system pada EFI menggunakan data dari ...",
+        "options": [
+          "TPS",
+          "MAP sensor",
+          "O2 sensor",
+          "CDI"
+        ],
+        "correctAnswer": 3
+      }
+    ]
   }
 }

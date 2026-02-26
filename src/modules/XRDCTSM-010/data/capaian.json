@@ -1,7 +1,30 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Bahan Bakar Karburator",
+  "description": "Modul ini membahas prinsip kerja, konstruksi, dan perawatan sistem bahan bakar tipe karburator pada sepeda motor 4 langkah. Materi mencakup fungsi dan cara kerja karburator, komponen utama (float chamber, main jet, pilot jet, needle jet, throttle valve, choke), alur bahan bakar dan udara, proses pencampuran, gangguan yang sering terjadi, serta prosedur pembongkaran, pembersihan, dan penyetelan sesuai standar Kurikulum Merdeka dan SKKNI Teknik Sepeda Motor. Pembelajaran juga menekankan penerapan K3 dan prosedur kerja sesuai SOP bengkel.",
+  "image": "/images/XRDCTSM-004/sistem-bahan-bakar-karburator.png",
+  "skkni": [
+    "Memelihara Sistem Bahan Bakar Sepeda Motor",
+    "Mendiagnosis Gangguan Sistem Bahan Bakar Sepeda Motor",
+    "Menyetel Sistem Bahan Bakar Sepeda Motor",
+    "Menerapkan Prosedur Keselamatan dan Kesehatan Kerja (K3) pada Servis Sepeda Motor"
+  ],
+  "kurikulum": [
+    "CP Fase F Teknik Sepeda Motor: Peserta didik mampu memahami, memeriksa, merawat, dan menyetel sistem bahan bakar sepeda motor sesuai prosedur kerja dan standar K3.",
+    "ATP: Menjelaskan prinsip kerja sistem bahan bakar tipe karburator.",
+    "ATP: Mengidentifikasi komponen utama karburator dan fungsinya.",
+    "ATP: Menjelaskan alur bahan bakar dan udara dalam karburator.",
+    "ATP: Menganalisis proses pencampuran udara dan bahan bakar pada berbagai putaran mesin.",
+    "ATP: Mengidentifikasi gangguan umum pada sistem bahan bakar karburator.",
+    "ATP: Melakukan pembongkaran dan pemasangan karburator sesuai SOP.",
+    "ATP: Melakukan pembersihan dan pemeriksaan komponen karburator.",
+    "ATP: Melakukan penyetelan langsam dan campuran udara-bahan bakar.",
+    "ATP: Membuat laporan hasil pemeriksaan dan penyetelan karburator."
+  ],
+  "tujuan": [
+    "Peserta didik mampu menjelaskan prinsip kerja sistem bahan bakar tipe karburator.",
+    "Peserta didik mampu mengidentifikasi dan menjelaskan fungsi komponen karburator.",
+    "Peserta didik mampu memahami alur bahan bakar dan udara dalam sistem karburator.",
+    "Peserta didik mampu mendiagnosis gangguan sederhana pada sistem bahan bakar.",
+    "Peserta didik mampu melakukan pembongkaran, pembersihan, dan penyetelan karburator sesuai SOP dan standar K3."
+  ]
 }

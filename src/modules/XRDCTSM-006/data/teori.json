@@ -1,5 +1,811 @@
-{
-  "title": "Teori Modul",
+{ "title": "Sistem Intake–Exhaust & Emisi Sepeda Motor",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Analisis Potensi Risiko Sistem Intake dan Exhaust",
+      "contentL1": "Sistem intake dan exhaust merupakan dua sistem utama yang sangat mempengaruhi kualitas pembakaran pada mesin sepeda motor. Sistem intake bertugas memasukkan udara bersih dalam jumlah yang tepat ke ruang bakar, sedangkan sistem exhaust bertugas membuang gas sisa pembakaran secara efisien dan mengendalikan emisi. Apabila terjadi gangguan pada salah satu sistem tersebut, maka proses pembakaran tidak berlangsung optimal sehingga berdampak pada tenaga mesin, konsumsi bahan bakar, dan kadar emisi gas buang. Oleh karena itu, peserta didik harus mampu mengidentifikasi potensi risiko teknis sejak dini sebelum terjadi kerusakan yang lebih serius.",
+      "subSections": [
+        {
+          "title2": "Pengertian Potensi Risiko Teknis pada Sistem Mesin",
+          "content2": "Potensi risiko teknis adalah kemungkinan terjadinya gangguan, penyimpangan kerja, atau kerusakan pada komponen sistem mesin yang dapat menurunkan performa, efisiensi, dan kualitas pembakaran. Risiko teknis berfokus pada aspek fungsi dan kinerja komponen, bukan pada aspek keselamatan kerja. Risiko ini dapat muncul akibat faktor keausan, kurangnya perawatan berkala, kesalahan pemasangan komponen, pengaruh lingkungan seperti debu dan air, maupun kegagalan sistem kontrol elektronik pada sepeda motor injeksi.",
+          "items": [
+            {
+              "title3": "Karakteristik Risiko Teknis",
+              "content3": "Risiko teknis biasanya ditandai dengan gejala awal seperti tenaga mesin menurun, akselerasi lambat, mesin brebet, putaran idle tidak stabil, suara knalpot berubah, konsumsi bahan bakar meningkat, serta hasil uji emisi melebihi standar. Gejala tersebut menunjukkan adanya ketidakseimbangan dalam proses pemasukan udara atau pembuangan gas sisa pembakaran."
+            },
+            {
+              "title3": "Sumber Timbulnya Risiko Teknis",
+              "content3": "1. Keausan komponen akibat usia pakai.\n2. Penumpukan kotoran pada filter udara atau throttle body.\n3. Kebocoran pada intake manifold atau gasket.\n4. Kerusakan sensor seperti TPS, MAP, IAT, dan O2 sensor.\n5. Sumbatan pada catalytic converter.\n6. Modifikasi sistem knalpot yang tidak sesuai spesifikasi pabrikan.\nFaktor-faktor tersebut dapat menyebabkan gangguan sistem secara bertahap maupun tiba-tiba."
+            },
+            {
+              "title3": "Dampak Risiko Teknis terhadap Performa Mesin",
+              "content3": "Gangguan pada sistem intake dapat menyebabkan campuran udara dan bahan bakar menjadi terlalu kaya (rich) atau terlalu kurus (lean). Campuran rich meningkatkan konsumsi bahan bakar dan emisi CO, sedangkan campuran lean dapat menyebabkan mesin cepat panas dan berpotensi merusak piston atau katup. Sementara itu, gangguan pada sistem exhaust dapat mengubah tekanan balik (back pressure), sehingga tenaga mesin berkurang dan suhu kerja meningkat."
+            },
+            {
+              "title3": "Dampak Risiko Teknis terhadap Emisi Gas Buang",
+              "content3": "Pembakaran yang tidak sempurna akibat gangguan intake akan meningkatkan kadar CO dan HC pada gas buang. Apabila catalytic converter tidak bekerja optimal, proses netralisasi gas beracun tidak terjadi dengan sempurna sehingga emisi melebihi batas baku mutu. Kerusakan sensor O2 juga menyebabkan ECU tidak mampu mengatur perbandingan campuran ideal (sekitar 14,7:1 pada mesin bensin), sehingga efisiensi pembakaran menurun dan polusi meningkat."
+            },
+            {
+              "title3": "Pentingnya Identifikasi Risiko Sejak Dini",
+              "content3": "Identifikasi risiko teknis merupakan langkah awal dalam proses diagnosis kendaraan. Dengan analisis yang tepat, teknisi dapat menentukan sumber gangguan tanpa mengganti komponen secara sembarangan. Kemampuan ini meningkatkan efisiensi kerja, mengurangi biaya perbaikan, serta memastikan kendaraan tetap memenuhi standar performa dan emisi sesuai regulasi. Kompetensi ini merupakan bagian penting dari standar kerja teknisi sepeda motor profesional."
+            }
+          ]
+        },
+        {
+          "title2": "Identifikasi Risiko pada Sistem Intake",
+          "content2": "Sistem intake berfungsi memasukkan udara bersih ke dalam ruang bakar dengan jumlah dan tekanan yang sesuai kebutuhan mesin. Kualitas dan kuantitas udara yang masuk sangat menentukan kesempurnaan proses pembakaran. Apabila terjadi gangguan pada sistem intake, maka perbandingan campuran udara dan bahan bakar menjadi tidak ideal sehingga berdampak pada performa mesin, efisiensi bahan bakar, serta kadar emisi gas buang. Oleh karena itu, identifikasi risiko pada sistem intake merupakan langkah awal dalam proses diagnosis teknis kendaraan.",
+          "items": [
+            {
+              "title3": "Risiko Akibat Filter Udara Kotor atau Tersumbat",
+              "content3": "Filter udara berfungsi menyaring debu dan partikel kotoran sebelum udara masuk ke ruang bakar. Jika filter udara kotor atau tersumbat, aliran udara menjadi terhambat sehingga jumlah udara yang masuk berkurang.\n\nGejala:\n1. Mesin terasa berat saat akselerasi.\n2. Konsumsi bahan bakar meningkat.\n3. Asap knalpot lebih pekat.\n4. Busi cepat menghitam.\n\nDampak Teknis:\nCampuran udara–bahan bakar menjadi terlalu kaya (rich mixture). Pembakaran tidak sempurna sehingga kadar CO dan HC meningkat serta performa mesin menurun."
+            },
+            {
+              "title3": "Risiko Kebocoran Intake Manifold",
+              "content3": "Intake manifold menyalurkan udara dari throttle body atau karburator menuju ruang bakar. Kebocoran dapat terjadi akibat gasket rusak, baut kendor, atau retakan pada manifold.\n\nGejala:\n1. Putaran mesin tidak stabil (idle hunting).\n2. Mesin brebet saat langsam.\n3. Terdengar suara desisan udara.\n\nDampak Teknis:\nUdara masuk tanpa terukur sehingga campuran menjadi terlalu kurus (lean mixture). Mesin dapat mengalami overheat dan berisiko merusak katup atau piston jika tidak segera ditangani."
+            },
+            {
+              "title3": "Risiko Throttle Body atau Karburator Kotor",
+              "content3": "Throttle body (sistem injeksi) atau karburator (sistem konvensional) berfungsi mengatur jumlah udara sesuai bukaan gas. Penumpukan karbon atau kotoran dapat menghambat kerja komponen ini.\n\nGejala:\n1. Respons gas lambat.\n2. Mesin tersendat saat akselerasi.\n3. Putaran stasioner tidak stabil.\n\nDampak Teknis:\nAliran udara tidak presisi sehingga rasio campuran terganggu. Hal ini menyebabkan pembakaran tidak optimal dan meningkatkan emisi gas buang."
+            },
+            {
+              "title3": "Risiko Kerusakan Sensor Sistem Injeksi",
+              "content3": "Pada sepeda motor injeksi, sistem intake dilengkapi sensor seperti TPS, MAP, dan IAT yang mengirimkan data ke ECU.\n\nGejala:\n1. Mesin sulit dihidupkan.\n2. Tarikan tidak stabil.\n3. Lampu indikator kerusakan (MIL) menyala.\n\nDampak Teknis:\nSensor yang tidak akurat menyebabkan ECU salah menghitung jumlah bahan bakar yang disemprotkan. Akibatnya pembakaran tidak efisien, konsumsi bahan bakar meningkat, dan kadar emisi melebihi standar."
+            },
+            {
+              "title3": "Pentingnya Pemeriksaan Berkala Sistem Intake",
+              "content3": "Pemeriksaan rutin bertujuan untuk mencegah gangguan sebelum berkembang menjadi kerusakan serius.\n\nTindakan Pencegahan:\n1. Membersihkan atau mengganti filter udara sesuai jadwal servis.\n2. Memeriksa kekencangan baut dan kondisi gasket manifold.\n3. Membersihkan throttle body secara berkala.\n4. Melakukan pengecekan sensor menggunakan alat scan pada sistem injeksi.\n\nIdentifikasi risiko secara dini akan meningkatkan efisiensi perawatan, menjaga performa mesin tetap optimal, dan memastikan kendaraan memenuhi standar emisi."
+            }
+          ]
+        },
+        {
+          "title2": "Identifikasi Risiko pada Sistem Exhaust",
+          "content2": "Sistem exhaust berfungsi membuang gas sisa pembakaran dari ruang bakar menuju udara bebas, sekaligus mengurangi tingkat kebisingan dan membantu mengendalikan emisi gas buang. Sistem ini juga berperan dalam menjaga tekanan balik (back pressure) agar proses pembakaran berikutnya tetap optimal. Apabila terjadi gangguan pada sistem exhaust, maka pembuangan gas tidak berlangsung sempurna sehingga mempengaruhi tenaga mesin, suhu kerja, konsumsi bahan bakar, dan kadar emisi. Oleh karena itu, identifikasi risiko pada sistem exhaust merupakan bagian penting dalam proses diagnosis teknis sepeda motor.",
+          "items": [
+            {
+              "title3": "Risiko Kebocoran Pipa Knalpot",
+              "content3": "Kebocoran dapat terjadi pada sambungan header, gasket knalpot, atau pipa yang mengalami korosi dan retak.\n\nGejala:\n1. Suara knalpot lebih keras atau tidak normal.\n2. Terdengar suara letupan saat deselerasi.\n3. Tenaga mesin terasa menurun.\n\nDampak Teknis:\nKebocoran menyebabkan tekanan balik (back pressure) tidak stabil sehingga proses pembuangan gas terganggu. Hal ini dapat menurunkan efisiensi pembakaran dan meningkatkan kadar emisi."
+            },
+            {
+              "title3": "Risiko Catalytic Converter Tersumbat",
+              "content3": "Catalytic converter berfungsi mengubah gas beracun seperti CO dan HC menjadi gas yang lebih ramah lingkungan. Sumbatan dapat terjadi akibat penumpukan karbon atau kerusakan material katalis.\n\nGejala:\n1. Mesin terasa berat saat akselerasi.\n2. Suhu mesin meningkat.\n3. Konsumsi bahan bakar lebih boros.\n\nDampak Teknis:\nGas buang terhambat sehingga tekanan dalam sistem meningkat. Mesin kehilangan tenaga dan berpotensi mengalami overheat jika dibiarkan dalam waktu lama."
+            },
+            {
+              "title3": "Risiko Muffler Rusak atau Berkarat",
+              "content3": "Muffler berfungsi meredam suara dan membantu menjaga aliran gas buang tetap stabil. Kerusakan dapat terjadi akibat korosi atau usia pakai.\n\nGejala:\n1. Suara knalpot terlalu bising.\n2. Getaran berlebih pada sistem knalpot.\n3. Terdapat serpihan karat pada ujung knalpot.\n\nDampak Teknis:\nEfisiensi peredaman menurun dan aliran gas tidak stabil, yang dapat mempengaruhi performa mesin serta meningkatkan polusi suara."
+            },
+            {
+              "title3": "Risiko Kerusakan Sensor Oksigen (O2 Sensor)",
+              "content3": "Pada sistem injeksi modern, sensor O2 membaca kadar oksigen dalam gas buang untuk membantu ECU mengatur campuran bahan bakar.\n\nGejala:\n1. Lampu indikator kerusakan mesin menyala.\n2. Konsumsi bahan bakar meningkat.\n3. Emisi gas buang melebihi standar.\n\nDampak Teknis:\nData yang tidak akurat menyebabkan campuran udara–bahan bakar tidak ideal. Akibatnya pembakaran tidak efisien dan kadar CO atau HC meningkat."
+            },
+            {
+              "title3": "Pentingnya Pemeriksaan Berkala Sistem Exhaust",
+              "content3": "Pemeriksaan rutin pada sistem exhaust bertujuan untuk memastikan tidak ada kebocoran, sumbatan, atau kerusakan komponen.\n\nTindakan Pencegahan:\n1. Memeriksa kondisi gasket dan sambungan knalpot.\n2. Mengamati perubahan suara mesin.\n3. Memeriksa kondisi fisik catalytic converter dan muffler.\n4. Melakukan pengecekan sensor O2 menggunakan alat scan.\n\nIdentifikasi risiko secara dini akan menjaga performa mesin tetap optimal, mencegah kerusakan lanjutan, serta memastikan kendaraan memenuhi standar emisi yang berlaku."
+            }
+          ]
+        },
+        {
+          "title2": "Dampak Gangguan Intake terhadap Performa Mesin",
+          "content2": "Sistem intake berperan penting dalam menentukan kualitas pembakaran karena bertugas memasukkan udara bersih dalam jumlah yang tepat ke ruang bakar. Apabila terjadi gangguan pada sistem intake, maka perbandingan campuran udara dan bahan bakar tidak sesuai dengan kebutuhan mesin. Ketidakseimbangan campuran tersebut secara langsung mempengaruhi tenaga, respons akselerasi, kestabilan putaran mesin, serta efisiensi bahan bakar. Oleh karena itu, gangguan pada sistem intake harus segera diidentifikasi dan ditangani agar tidak menimbulkan kerusakan lanjutan.",
+          "items": [
+            {
+              "title3": "Penurunan Tenaga Mesin",
+              "content3": "Gangguan seperti filter udara tersumbat atau throttle body kotor menyebabkan aliran udara berkurang. Akibatnya campuran menjadi terlalu kaya (rich mixture) sehingga pembakaran tidak menghasilkan tenaga maksimal. Mesin terasa berat terutama saat akselerasi atau saat membawa beban."
+            },
+            {
+              "title3": "Respons Akselerasi Lambat",
+              "content3": "Jika aliran udara tidak stabil atau terjadi kebocoran pada intake manifold, suplai udara menjadi tidak terkontrol. Hal ini menyebabkan mesin tersendat atau brebet ketika tuas gas dibuka secara tiba-tiba. Respons throttle menjadi lambat dan tidak presisi."
+            },
+            {
+              "title3": "Putaran Idle Tidak Stabil",
+              "content3": "Kebocoran udara atau sensor intake yang tidak akurat dapat menyebabkan campuran terlalu kurus (lean mixture). Dampaknya putaran stasioner (idle) menjadi naik-turun (idle hunting), bahkan mesin bisa mati mendadak saat langsam."
+            },
+            {
+              "title3": "Peningkatan Konsumsi Bahan Bakar",
+              "content3": "Campuran terlalu kaya akibat kurangnya suplai udara atau kesalahan pembacaan sensor membuat bahan bakar disemprotkan lebih banyak dari kebutuhan ideal. Kondisi ini menyebabkan konsumsi bahan bakar menjadi boros dan efisiensi mesin menurun."
+            },
+            {
+              "title3": "Peningkatan Suhu Mesin",
+              "content3": "Campuran terlalu kurus (lean) akibat kebocoran intake atau suplai bahan bakar tidak seimbang dapat menyebabkan suhu ruang bakar meningkat. Dalam jangka panjang, kondisi ini berpotensi merusak piston, katup, atau menyebabkan knocking."
+            },
+            {
+              "title3": "Dampak terhadap Umur Komponen Mesin",
+              "content3": "Gangguan intake yang dibiarkan dalam waktu lama dapat mempercepat keausan komponen seperti piston, ring piston, katup, dan busi. Selain itu, pembakaran yang tidak sempurna akan menghasilkan kerak karbon yang menumpuk di ruang bakar sehingga menurunkan efisiensi mesin."
+            }
+          ]
+        },
+        {
+          "title2": "Dampak Gangguan Exhaust terhadap Emisi dan Tenaga Mesin",
+          "content2": "Sistem exhaust tidak hanya berfungsi membuang gas sisa pembakaran, tetapi juga berperan dalam menjaga kestabilan tekanan balik (back pressure) dan membantu proses pengendalian emisi. Apabila terjadi gangguan pada sistem exhaust, maka proses pembuangan gas tidak berlangsung sempurna. Hal ini akan mempengaruhi tenaga mesin, efisiensi pembakaran, suhu kerja mesin, serta kadar emisi gas buang. Oleh karena itu, analisis dampak gangguan exhaust sangat penting dalam proses diagnosis teknis sepeda motor.",
+          "items": [
+            {
+              "title3": "Penurunan Tenaga Akibat Tekanan Balik Tidak Stabil",
+              "content3": "Sistem exhaust dirancang untuk menghasilkan tekanan balik yang sesuai agar proses pembilasan (scavenging) ruang bakar berjalan optimal. Jika terjadi kebocoran atau modifikasi knalpot yang tidak sesuai standar, tekanan balik menjadi tidak stabil. Akibatnya tenaga mesin menurun, terutama pada putaran rendah hingga menengah."
+            },
+            {
+              "title3": "Sumbatan Catalytic Converter dan Dampaknya terhadap Performa",
+              "content3": "Catalytic converter yang tersumbat akibat penumpukan karbon atau kerusakan material katalis akan menghambat aliran gas buang. Mesin terasa berat, akselerasi lambat, dan suhu kerja meningkat. Dalam kondisi parah, mesin dapat mengalami overheat karena gas buang tidak keluar dengan lancar."
+            },
+            {
+              "title3": "Peningkatan Emisi Gas Beracun (CO dan HC)",
+              "content3": "Gangguan pada sistem exhaust, terutama kerusakan catalytic converter atau sensor O2, menyebabkan proses netralisasi gas beracun tidak optimal. Kadar karbon monoksida (CO) dan hidrokarbon (HC) meningkat sehingga hasil uji emisi melebihi batas baku mutu yang ditetapkan."
+            },
+            {
+              "title3": "Gangguan Sensor Oksigen terhadap Kontrol Campuran",
+              "content3": "Sensor O2 membaca kadar oksigen pada gas buang untuk membantu ECU menyesuaikan campuran udara–bahan bakar. Jika sensor rusak atau tidak akurat, sistem injeksi tidak mampu menjaga rasio campuran ideal. Dampaknya konsumsi bahan bakar meningkat, tenaga tidak stabil, dan emisi bertambah."
+            },
+            {
+              "title3": "Peningkatan Kebisingan dan Getaran",
+              "content3": "Kerusakan muffler atau sambungan knalpot yang longgar menyebabkan suara mesin menjadi lebih bising dan getaran meningkat. Selain mengganggu kenyamanan, kondisi ini menunjukkan adanya gangguan aliran gas buang yang dapat mempengaruhi efisiensi sistem exhaust."
+            },
+            {
+              "title3": "Dampak Jangka Panjang terhadap Komponen Mesin",
+              "content3": "Jika gangguan exhaust dibiarkan dalam waktu lama, suhu mesin yang tinggi dan tekanan balik tidak stabil dapat mempercepat keausan katup buang serta mempengaruhi kinerja sistem pembakaran secara keseluruhan. Hal ini dapat menimbulkan kerusakan lanjutan dan biaya perbaikan yang lebih besar."
+            }
+          ]
+        },
+        {
+          "title2": "Analisis Hubungan Kerusakan Intake–Exhaust dengan Hasil Uji Emisi",
+          "content2": "Sistem intake dan exhaust memiliki hubungan langsung dengan kualitas pembakaran di dalam ruang bakar. Kualitas pembakaran tersebut akan tercermin pada hasil uji emisi gas buang. Apabila terjadi gangguan pada sistem intake maupun exhaust, maka rasio campuran udara–bahan bakar tidak ideal dan proses netralisasi gas buang tidak berjalan optimal. Kondisi ini akan menyebabkan peningkatan kadar gas berbahaya seperti CO (Carbon Monoxide) dan HC (Hydrocarbon), serta perubahan kadar CO2 dan O2 pada hasil pengujian emisi. Oleh karena itu, teknisi harus mampu menganalisis keterkaitan antara gejala kerusakan sistem dengan data hasil uji emisi untuk menentukan sumber permasalahan secara tepat.",
+          "items": [
+            {
+              "title3": "Pengaruh Gangguan Intake terhadap Kadar CO dan HC",
+              "content3": "Gangguan pada sistem intake seperti filter udara tersumbat atau throttle body kotor menyebabkan campuran udara–bahan bakar menjadi terlalu kaya (rich mixture). Campuran kaya mengandung bahan bakar berlebih sehingga pembakaran tidak sempurna.\n\nDampak pada hasil uji emisi:\n1. Kadar CO meningkat karena pembakaran tidak sempurna.\n2. Kadar HC meningkat akibat sisa bahan bakar yang tidak terbakar.\n3. Nilai CO2 cenderung menurun karena proses pembakaran tidak maksimal.\n\nAnalisis: Jika hasil uji menunjukkan CO dan HC tinggi, teknisi perlu memeriksa kondisi filter udara, throttle body, dan sensor sistem injeksi."
+            },
+            {
+              "title3": "Pengaruh Kebocoran Intake terhadap Kadar O2 dan NOx",
+              "content3": "Kebocoran pada intake manifold menyebabkan campuran menjadi terlalu kurus (lean mixture) karena udara masuk tanpa terukur.\n\nDampak pada hasil uji emisi:\n1. Kadar O2 meningkat karena pembakaran mengandung kelebihan oksigen.\n2. Suhu ruang bakar meningkat.\n3. Potensi peningkatan NOx akibat suhu pembakaran tinggi.\n\nAnalisis: Jika kadar O2 tinggi dan mesin terasa panas atau idle tidak stabil, kemungkinan terdapat kebocoran pada sistem intake."
+            },
+            {
+              "title3": "Pengaruh Kerusakan Catalytic Converter terhadap Hasil Uji Emisi",
+              "content3": "Catalytic converter berfungsi mengubah CO dan HC menjadi CO2 serta mengurangi NOx. Jika komponen ini rusak atau tersumbat, proses konversi gas tidak berlangsung optimal.\n\nDampak pada hasil uji emisi:\n1. CO tetap tinggi meskipun sistem pembakaran normal.\n2. HC tidak mengalami penurunan signifikan.\n3. Nilai CO2 tidak stabil.\n\nAnalisis: Jika hasil uji emisi menunjukkan CO dan HC tinggi tetapi sistem intake dalam kondisi baik, pemeriksaan perlu difokuskan pada catalytic converter."
+            },
+            {
+              "title3": "Pengaruh Kerusakan Sensor O2 terhadap Stabilitas Emisi",
+              "content3": "Sensor O2 membantu ECU mengatur rasio campuran mendekati perbandingan ideal (sekitar 14,7:1 pada mesin bensin). Jika sensor tidak akurat, ECU tidak dapat mengontrol campuran dengan tepat.\n\nDampak pada hasil uji emisi:\n1. Nilai CO fluktuatif.\n2. HC tidak stabil.\n3. Konsumsi bahan bakar meningkat.\n\nAnalisis: Emisi yang tidak stabil dan indikator kerusakan mesin menyala mengarah pada kemungkinan gangguan sensor O2."
+            },
+            {
+              "title3": "Hubungan Tekanan Balik Exhaust dengan Efisiensi Pembakaran",
+              "content3": "Tekanan balik (back pressure) yang tidak sesuai akibat kebocoran atau modifikasi knalpot dapat mengganggu proses pembilasan ruang bakar.\n\nDampak pada hasil uji emisi:\n1. Kadar HC meningkat karena gas sisa tidak terbuang sempurna.\n2. CO dapat meningkat akibat pembakaran terganggu.\n3. Tenaga mesin menurun.\n\nAnalisis: Jika emisi tinggi disertai tenaga mesin lemah dan suara knalpot berubah, pemeriksaan perlu difokuskan pada sistem exhaust."
+            },
+            {
+              "title3": "Pentingnya Analisis Terpadu Intake–Exhaust dalam Diagnosis Emisi",
+              "content3": "Hasil uji emisi tidak boleh dianalisis secara terpisah dari kondisi sistem intake dan exhaust. Teknisi harus memahami bahwa pembakaran ideal memerlukan suplai udara yang tepat dan pembuangan gas yang lancar. Gangguan kecil pada salah satu sistem dapat mempengaruhi keseluruhan hasil uji emisi.\n\nLangkah analisis terpadu:\n1. Bandingkan nilai CO, HC, CO2, dan O2 dengan standar baku mutu.\n2. Identifikasi gejala performa mesin.\n3. Periksa sistem intake terlebih dahulu (filter, manifold, throttle, sensor).\n4. Lanjutkan pemeriksaan sistem exhaust (kebocoran, catalytic converter, sensor O2).\n\nKemampuan membaca dan menganalisis hubungan antara kerusakan intake–exhaust dengan hasil uji emisi merupakan kompetensi penting teknisi sepeda motor profesional sesuai standar industri."
+            }
+          ]
+        },
+        {
+          "title2": "Tindakan Pencegahan Kerusakan Sistem",
+          "content2": "Tindakan pencegahan kerusakan sistem intake dan exhaust merupakan langkah penting dalam menjaga performa mesin, efisiensi bahan bakar, serta kestabilan emisi gas buang. Pencegahan lebih efektif dan ekonomis dibandingkan perbaikan setelah terjadi kerusakan. Oleh karena itu, teknisi dan pemilik kendaraan harus memahami prosedur perawatan berkala, pemeriksaan rutin, serta analisis gejala awal gangguan. Pencegahan dilakukan melalui perawatan preventif (preventive maintenance), pemeriksaan berkala, dan penggunaan komponen sesuai spesifikasi pabrikan.",
+          "items": [
+            {
+              "title3": "Perawatan Berkala Sistem Intake",
+              "content3": "1. Membersihkan atau mengganti filter udara sesuai interval servis yang direkomendasikan.\n2. Memeriksa kondisi dan kekencangan intake manifold serta gasket untuk mencegah kebocoran udara.\n3. Membersihkan throttle body atau karburator dari kerak karbon dan kotoran.\n4. Memastikan selang vakum tidak retak atau longgar.\n5. Melakukan pemeriksaan sensor (TPS, MAP, IAT) menggunakan alat scan pada sistem injeksi.\n\nPerawatan rutin akan menjaga suplai udara tetap bersih dan stabil sehingga pembakaran berlangsung optimal."
+            },
+            {
+              "title3": "Perawatan Berkala Sistem Exhaust",
+              "content3": "1. Memeriksa kondisi pipa knalpot dari retakan atau korosi.\n2. Memastikan gasket knalpot dalam kondisi baik dan tidak bocor.\n3. Menghindari modifikasi knalpot yang tidak sesuai spesifikasi teknis.\n4. Memeriksa kondisi catalytic converter agar tidak terjadi sumbatan.\n5. Melakukan pengecekan sensor O2 untuk memastikan pembacaan kadar oksigen akurat.\n\nPerawatan exhaust yang baik menjaga tekanan balik tetap stabil dan proses netralisasi gas berjalan maksimal."
+            },
+            {
+              "title3": "Penggunaan Bahan Bakar dan Pelumas Berkualitas",
+              "content3": "Penggunaan bahan bakar dengan nilai oktan sesuai rekomendasi pabrikan membantu proses pembakaran lebih sempurna dan mengurangi penumpukan karbon. Pelumas yang berkualitas juga membantu menjaga suhu kerja mesin tetap stabil sehingga komponen intake dan exhaust tidak cepat aus."
+            },
+            {
+              "title3": "Pemeriksaan dan Analisis Gejala Sejak Dini",
+              "content3": "Teknisi harus peka terhadap gejala awal seperti suara knalpot berubah, mesin brebet, konsumsi bahan bakar meningkat, atau idle tidak stabil. Pemeriksaan dini mencegah kerusakan lanjutan pada komponen seperti piston, katup, atau catalytic converter."
+            },
+            {
+              "title3": "Penerapan Prosedur Diagnosis yang Sistematis",
+              "content3": "1. Melakukan pemeriksaan visual terlebih dahulu.\n2. Menggunakan alat ukur dan scan tool sesuai prosedur.\n3. Membandingkan hasil pengukuran dengan standar spesifikasi.\n4. Menghindari penggantian komponen tanpa analisis penyebab utama.\n\nDiagnosis sistematis meningkatkan efisiensi kerja dan mencegah kesalahan perbaikan."
+            },
+            {
+              "title3": "Edukasi Pengguna Kendaraan",
+              "content3": "Pemilik kendaraan perlu diberikan edukasi mengenai pentingnya servis berkala dan penggunaan suku cadang asli. Kebiasaan menunda servis atau menggunakan komponen tidak standar dapat mempercepat kerusakan sistem intake dan exhaust serta meningkatkan emisi gas buang."
+            },
+            {
+              "title3": "Dampak Positif Tindakan Pencegahan",
+              "content3": "1. Performa mesin tetap optimal.\n2. Konsumsi bahan bakar lebih efisien.\n3. Emisi gas buang sesuai standar.\n4. Umur komponen lebih panjang.\n5. Biaya perawatan lebih terkendali.\n\nDengan penerapan tindakan pencegahan secara konsisten, sistem intake dan exhaust akan bekerja secara maksimal serta mendukung kendaraan yang ramah lingkungan dan sesuai standar industri."
+            }
+          ]
+        }
+      ]
+    },
+    {    
+      "title": "Sistem Intake (Sistem Pemasukkan",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Pengertian dan Fungsi Sistem Intake",
+          "content2": "Sistem intake atau sistem pemasukan adalah rangkaian komponen pada sepeda motor yang berfungsi untuk memasukkan udara bersih ke dalam ruang bakar dalam jumlah dan kondisi yang sesuai kebutuhan mesin. Udara yang masuk akan dicampur dengan bahan bakar untuk menghasilkan proses pembakaran yang menghasilkan tenaga. Kualitas, volume, suhu, dan tekanan udara yang masuk sangat menentukan efisiensi pembakaran serta performa mesin secara keseluruhan.\n\nPada mesin 4 langkah, sistem intake bekerja pada langkah hisap (intake stroke), yaitu saat piston bergerak dari Titik Mati Atas (TMA) ke Titik Mati Bawah (TMB) dan katup masuk terbuka. Pada saat ini, udara mengalir dari luar melalui filter udara, melewati throttle body atau karburator, masuk ke intake manifold, kemudian menuju ruang bakar.\n\nSistem intake modern, khususnya pada sepeda motor injeksi, tidak hanya berfungsi sebagai saluran udara, tetapi juga dilengkapi sensor untuk mengukur jumlah dan kondisi udara agar ECU dapat mengatur perbandingan campuran udara–bahan bakar secara presisi.",
+          "items": [
+            {
+              "title3": "Fungsi Utama Sistem Intake",
+              "content3": "1. Menyaring udara dari debu dan partikel kotoran melalui filter udara.\n2. Mengatur jumlah udara yang masuk sesuai bukaan gas.\n3. Menyalurkan udara secara merata ke ruang bakar.\n4. Mendukung pembentukan campuran udara–bahan bakar yang ideal.\n5. Membantu menjaga efisiensi pembakaran dan tenaga mesin."
+            },
+            {
+              "title3": "Fungsi Sistem Intake pada Mesin Karburator",
+              "content3": "Pada sistem karburator, intake berfungsi mengalirkan udara yang kemudian bercampur dengan bahan bakar secara mekanis di dalam karburator. Besarnya campuran ditentukan oleh kevakuman dan ukuran spuyer. Sistem ini bekerja berdasarkan prinsip venturi untuk mencampurkan udara dan bahan bakar."
+            },
+            {
+              "title3": "Fungsi Sistem Intake pada Mesin Injeksi (EFI)",
+              "content3": "Pada sistem injeksi, udara yang masuk diukur oleh sensor seperti MAP (Manifold Absolute Pressure), IAT (Intake Air Temperature), dan TPS (Throttle Position Sensor). Data dari sensor dikirim ke ECU untuk menentukan jumlah bahan bakar yang disemprotkan oleh injektor agar mendekati rasio ideal (sekitar 14,7:1 pada mesin bensin). Sistem ini menghasilkan pembakaran yang lebih presisi dan efisien dibandingkan karburator."
+            },
+            {
+              "title3": "Pengaruh Sistem Intake terhadap Performa Mesin",
+              "content3": "Sistem intake yang bekerja optimal akan menghasilkan pembakaran sempurna sehingga tenaga maksimal dapat dicapai. Sebaliknya, gangguan seperti filter tersumbat atau kebocoran manifold menyebabkan campuran tidak ideal, yang berdampak pada penurunan tenaga, akselerasi lambat, konsumsi bahan bakar meningkat, serta kenaikan emisi gas buang."
+            },
+            {
+              "title3": "Pengaruh Sistem Intake terhadap Efisiensi dan Emisi",
+              "content3": "Jumlah udara yang masuk menentukan kualitas pembakaran. Jika udara terlalu sedikit (rich mixture), emisi CO meningkat. Jika udara terlalu banyak (lean mixture), suhu pembakaran meningkat dan berpotensi menaikkan NOx. Oleh karena itu, sistem intake berperan langsung dalam menjaga kendaraan tetap memenuhi standar emisi yang berlaku."
+            }
+          ]
+        },
+        {
+          "title2": "Prinsip Kerja Sistem Intake pada Mesin 4 Langkah",
+          "content2": "Prinsip kerja sistem intake pada mesin 4 langkah berkaitan langsung dengan proses pemasukan udara ke dalam ruang bakar pada saat langkah hisap (intake stroke). Mesin 4 langkah bekerja melalui empat tahapan utama, yaitu langkah hisap, kompresi, usaha, dan buang. Sistem intake berperan dominan pada langkah hisap, namun pengaruhnya juga berdampak pada tiga langkah lainnya karena kualitas udara yang masuk menentukan keberhasilan proses pembakaran secara keseluruhan.\n\nPada langkah hisap, piston bergerak dari Titik Mati Atas (TMA) menuju Titik Mati Bawah (TMB). Pergerakan piston ini menciptakan tekanan negatif (vakum) di dalam silinder. Pada saat yang sama, katup masuk (intake valve) terbuka akibat dorongan camshaft melalui mekanisme katup. Perbedaan tekanan antara udara luar dan ruang silinder menyebabkan udara mengalir masuk melalui saluran intake.\n\nUdara yang masuk tidak boleh sembarangan. Udara harus dalam kondisi bersih (tersaring), memiliki suhu yang sesuai, serta jumlah yang tepat agar rasio campuran udara dan bahan bakar mendekati perbandingan ideal (sekitar 14,7:1 pada mesin bensin). Pada sistem injeksi modern, jumlah udara yang masuk akan diukur oleh sensor dan diproses oleh ECU untuk menentukan durasi penyemprotan bahan bakar oleh injektor.",
+          "items": [
+            {
+              "title3": "Proses Kerja Intake pada Langkah Hisap (Intake Stroke)",
+              "content3": "1. Piston bergerak dari TMA ke TMB.\n2. Katup masuk terbuka, katup buang tertutup.\n3. Terjadi kevakuman di dalam silinder.\n4. Udara mengalir dari filter udara → throttle body/karburator → intake manifold → ruang bakar.\n5. Pada sistem injeksi, ECU menghitung jumlah bahan bakar berdasarkan data sensor.\n\nProses ini menentukan volume udara yang akan dikompresi pada langkah berikutnya. Semakin efisien aliran udara, semakin baik kualitas pembakaran."
+            },
+            {
+              "title3": "Peran Komponen dalam Prinsip Kerja Intake",
+              "content3": "1. Air Filter: Menyaring udara agar bebas dari debu dan partikel.\n2. Throttle Valve: Mengatur besar kecilnya bukaan udara sesuai putaran gas.\n3. Intake Manifold: Menyalurkan udara secara merata ke ruang bakar.\n4. Katup Masuk: Mengontrol waktu masuknya udara.\n5. Sensor (TPS, MAP, IAT): Mengukur kondisi udara pada sistem injeksi.\n\nKerja semua komponen harus sinkron agar suplai udara stabil dan sesuai kebutuhan mesin."
+            },
+            {
+              "title3": "Pengaruh Prinsip Intake terhadap Efisiensi Volumetrik",
+              "content3": "Efisiensi volumetrik adalah kemampuan silinder mengisi udara sesuai kapasitasnya. Jika aliran udara terhambat atau terjadi kebocoran, maka volume udara yang masuk lebih kecil dari kapasitas ideal. Hal ini menyebabkan tenaga mesin menurun. Sistem intake yang dirancang dengan baik akan memaksimalkan pengisian udara sehingga pembakaran lebih kuat dan efisien."
+            },
+            {
+              "title3": "Pengaruh Waktu Pembukaan Katup (Valve Timing)",
+              "content3": "Pembukaan dan penutupan katup masuk diatur oleh camshaft. Waktu pembukaan katup sangat menentukan jumlah udara yang masuk. Jika timing tidak tepat (misalnya rantai keteng aus atau loncat), maka proses hisap terganggu. Akibatnya mesin kehilangan tenaga dan konsumsi bahan bakar meningkat."
+            },
+            {
+              "title3": "Pengaruh Prinsip Kerja Intake pada Karburator dan Injeksi",
+              "content3": "Pada sistem karburator, campuran udara dan bahan bakar terjadi di dalam karburator sebelum masuk ke ruang bakar. Besarnya campuran ditentukan oleh kevakuman dan ukuran spuyer.\n\nPada sistem injeksi, udara masuk terlebih dahulu dan diukur oleh sensor. ECU kemudian menentukan jumlah bahan bakar yang disemprotkan injektor. Sistem injeksi lebih presisi karena dapat menyesuaikan campuran berdasarkan kondisi suhu, tekanan, dan bukaan gas."
+            },
+            {
+              "title3": "Pengaruh Gangguan terhadap Prinsip Kerja Intake",
+              "content3": "Jika filter udara tersumbat, throttle kotor, atau intake bocor, maka proses pemasukan udara tidak sesuai perhitungan. Campuran bisa terlalu kaya (rich) atau terlalu kurus (lean). Dampaknya meliputi:\n1. Tenaga mesin menurun.\n2. Mesin brebet saat akselerasi.\n3. Konsumsi bahan bakar meningkat.\n4. Emisi gas buang melebihi standar."
+            },
+            {
+              "title3": "Pengaruh Gangguan terhadap Prinsip Kerja Intake",
+              "content3": "Prinsip kerja sistem intake pada mesin 4 langkah adalah memanfaatkan kevakuman akibat gerakan piston untuk memasukkan udara bersih ke ruang bakar melalui mekanisme katup yang terkontrol. Kualitas dan jumlah udara yang masuk sangat menentukan keberhasilan proses pembakaran. Oleh karena itu, sistem intake harus bekerja secara presisi dan sinkron dengan sistem bahan bakar dan sistem katup agar performa mesin tetap optimal."
+            }
+          ]
+        },
+        {
+          "title2": "Komponen Sistem Intake",
+          "content2": "Sistem intake terdiri dari beberapa komponen yang bekerja secara terpadu untuk memastikan udara yang masuk ke ruang bakar dalam kondisi bersih, terukur, dan sesuai kebutuhan mesin. Setiap komponen memiliki fungsi spesifik dan saling berkaitan. Gangguan pada salah satu komponen dapat mempengaruhi keseluruhan proses pembakaran, performa mesin, serta kadar emisi gas buang.",
+          "items": [
+            {
+              "title3": "Saringan Udara (Air Filter)",
+              "content3": "![Saringan Udara](images/XRDCTSM-006/saringan-udara.png)Saringan udara berfungsi menyaring udara dari debu, pasir, dan partikel asing sebelum masuk ke sistem intake. Udara yang kotor dapat menyebabkan keausan pada dinding silinder, piston, dan katup.\n\nJenis-jenis saringan udara:\n1. Filter kertas (dry element) – umum digunakan, diganti secara berkala.\n2. Filter busa (foam) – dapat dibersihkan dan diberi oli khusus.\n3. Filter kain/performing filter – digunakan pada aplikasi tertentu.\n\nPrinsip kerja:\nUdara dari luar melewati elemen penyaring sehingga partikel tertahan. Udara bersih kemudian diteruskan ke throttle body atau karburator.\n\nDampak jika bermasalah:\n- Filter tersumbat → campuran terlalu kaya (rich), tenaga menurun.\n- Filter bocor/rusak → debu masuk ke ruang bakar, mempercepat keausan mesin."
+            },
+            {
+              "title3": "Throttle Body / Karburator",
+              "content3": "![Throttle Body / Karburator](images/XRDCTSM-006/karburator.png)Throttle body (pada sistem injeksi) atau karburator (pada sistem konvensional) berfungsi mengatur jumlah udara yang masuk sesuai bukaan gas.\n\nThrottle Body (EFI):\n- Mengatur aliran udara melalui katup throttle.\n- Dilengkapi TPS untuk membaca posisi bukaan gas.\n- Bekerja bersama ECU untuk menentukan jumlah bahan bakar.\n\nKarburator:\n- Mencampur udara dan bahan bakar secara mekanis.\n- Menggunakan prinsip venturi untuk menarik bahan bakar.\n- Dilengkapi spuyer utama, spuyer langsam, dan jarum skep.\n\nDampak jika bermasalah:\n- Throttle kotor → respons gas lambat.\n- Setelan karburator tidak tepat → campuran tidak ideal.\n- TPS rusak → ECU salah menghitung suplai bahan bakar."
+            },
+            {
+              "title3": "Intake Manifold",
+              "content3": "![Intake Manifold](images/XRDCTSM-006/intake-manifold.png)Intake manifold adalah saluran yang menghubungkan throttle body atau karburator dengan ruang bakar. Komponen ini berfungsi menyalurkan udara atau campuran udara–bahan bakar secara merata ke dalam silinder.\n\nKarakteristik intake manifold:\n- Terbuat dari karet tahan panas atau aluminium.\n- Dirancang agar aliran udara lancar dan minim turbulensi.\n- Dilengkapi gasket untuk mencegah kebocoran.\n\nDampak jika bermasalah:\n- Kebocoran gasket → campuran terlalu kurus (lean).\n- Retak atau longgar → idle tidak stabil.\n- Aliran terganggu → efisiensi volumetrik menurun."
+            },
+            {
+              "title3": "Sensor Pendukung (TPS, MAP, IAT – Sistem Injeksi)",
+              "content3": "![Sensor Pendukung](images/XRDCTSM-006/sistem-injeksi.png)Pada sistem injeksi modern, sistem intake dilengkapi sensor untuk mengukur kondisi udara dan memberikan data ke ECU.\n\n1. TPS (Throttle Position Sensor):\n   Membaca sudut bukaan throttle untuk mengetahui permintaan tenaga dari pengendara.\n\n2. MAP (Manifold Absolute Pressure):\n   Mengukur tekanan udara dalam intake manifold untuk menentukan beban mesin.\n\n3. IAT (Intake Air Temperature):\n   Mengukur suhu udara masuk karena suhu mempengaruhi kepadatan udara.\n\nPeran Sensor:\nData dari sensor digunakan ECU untuk menghitung durasi penyemprotan bahan bakar sehingga rasio campuran mendekati ideal.\n\nDampak jika bermasalah:\n- Data tidak akurat → campuran terlalu kaya atau terlalu kurus.\n- Konsumsi bahan bakar meningkat.\n- Emisi gas buang melebihi standar.\n- Lampu indikator kerusakan (MIL) menyala."
+            }
+          ]
+        },
+        {
+          "title2": "Gangguan yang Sering Terjadi pada Sistem Intake",
+          "content2": "Sistem intake memiliki peran penting dalam menjaga kualitas pembakaran melalui suplai udara yang bersih dan terukur. Namun dalam penggunaan sehari-hari, sistem ini sering mengalami gangguan akibat faktor lingkungan, keausan komponen, kurangnya perawatan, maupun kesalahan penyetelan. Gangguan pada sistem intake dapat menyebabkan penurunan performa mesin, peningkatan konsumsi bahan bakar, serta naiknya kadar emisi gas buang. Oleh karena itu, teknisi harus mampu mengenali jenis gangguan, gejala yang muncul, serta dampak teknis yang ditimbulkan.",
+          "items": [
+            {
+              "title3": "Filter Udara Kotor atau Tersumbat",
+              "content3": "Filter udara yang jarang dibersihkan akan dipenuhi debu dan kotoran sehingga aliran udara terhambat.\n\nGejala:\n1. Mesin terasa berat saat akselerasi.\n2. Konsumsi bahan bakar meningkat.\n3. Asap knalpot lebih pekat.\n\nDampak Teknis:\nCampuran udara–bahan bakar menjadi terlalu kaya (rich mixture) sehingga pembakaran tidak sempurna dan tenaga menurun."
+            },
+            {
+              "title3": "Kebocoran Intake Manifold",
+              "content3": "Kebocoran dapat terjadi akibat gasket rusak, baut kendor, atau manifold retak.\n\nGejala:\n1. Putaran idle tidak stabil (idle hunting).\n2. Mesin brebet saat langsam.\n3. Terdengar suara desisan udara.\n\nDampak Teknis:\nUdara masuk tanpa terukur sehingga campuran menjadi terlalu kurus (lean mixture). Mesin berpotensi overheat dan tenaga tidak stabil."
+            },
+            {
+              "title3": "Throttle Body atau Karburator Kotor",
+              "content3": "Penumpukan karbon dan kotoran pada throttle body atau karburator menghambat aliran udara.\n\nGejala:\n1. Respons gas lambat.\n2. Mesin tersendat saat akselerasi.\n3. Putaran stasioner tidak stabil.\n\nDampak Teknis:\nAliran udara tidak presisi sehingga pembentukan campuran terganggu dan efisiensi pembakaran menurun."
+            },
+            {
+              "title3": "Kerusakan Sensor Sistem Injeksi",
+              "content3": "Sensor seperti TPS, MAP, atau IAT yang rusak atau tidak akurat akan mengirimkan data yang salah ke ECU.\n\nGejala:\n1. Mesin sulit dihidupkan.\n2. Tarikan tidak stabil.\n3. Lampu indikator kerusakan mesin menyala.\n\nDampak Teknis:\nECU salah menghitung jumlah bahan bakar yang disemprotkan sehingga campuran terlalu kaya atau terlalu kurus."
+            },
+            {
+              "title3": "Selang Vakum Retak atau Longgar",
+              "content3": "Selang vakum yang retak atau terlepas menyebabkan kebocoran udara pada sistem intake.\n\nGejala:\n1. Idle tidak stabil.\n2. Mesin sering mati mendadak.\n\nDampak Teknis:\nTekanan dalam manifold tidak sesuai sehingga pembacaan sensor MAP terganggu dan rasio campuran tidak akurat."
+            },
+            {
+              "title3": "Penyetelan Karburator Tidak Tepat (Sistem Konvensional)",
+              "content3": "Setelan sekrup udara atau ukuran spuyer yang tidak sesuai menyebabkan campuran tidak ideal.\n\nGejala:\n1. Mesin brebet saat akselerasi.\n2. Busi cepat menghitam atau terlalu putih.\n\nDampak Teknis:\nCampuran rich menyebabkan boros bahan bakar, sedangkan campuran lean meningkatkan suhu pembakaran."
+            },
+            {
+              "title3": "Dampak Umum Gangguan Sistem Intake",
+              "content3": "Gangguan sistem intake secara umum dapat menyebabkan:\n1. Penurunan tenaga mesin.\n2. Konsumsi bahan bakar meningkat.\n3. Emisi gas buang melebihi standar.\n4. Umur komponen mesin lebih pendek akibat pembakaran tidak sempurna.\n\nIdentifikasi dini terhadap gangguan sistem intake sangat penting untuk mencegah kerusakan lanjutan pada ruang bakar dan sistem exhaust."
+            }
+          ]
+        },
+        {
+          "title2": "Pemeriksaan dan Perawatan Sistem Intake",
+          "content2": "Pemeriksaan dan perawatan sistem intake merupakan bagian dari perawatan berkala (preventive maintenance) yang bertujuan menjaga suplai udara tetap bersih, terukur, dan stabil sesuai kebutuhan mesin. Sistem intake yang terawat dengan baik akan menghasilkan pembakaran yang efisien, tenaga optimal, konsumsi bahan bakar hemat, serta emisi gas buang sesuai standar. Proses pemeriksaan harus dilakukan secara sistematis sesuai prosedur kerja bengkel dan spesifikasi pabrikan.",
+          "items": [
+            {
+              "title3": "Pemeriksaan Saringan Udara (Air Filter)",
+              "content3": "Langkah pemeriksaan:\n1. Lepaskan penutup rumah filter udara.\n2. Periksa kondisi elemen filter dari debu, kotoran, atau kerusakan.\n3. Bersihkan filter tipe busa dengan cairan pembersih khusus dan keringkan.\n4. Untuk filter tipe kertas, bersihkan dengan udara bertekanan rendah dari arah dalam ke luar atau ganti jika terlalu kotor.\n\nPerawatan berkala:\n- Dilakukan sesuai interval servis (misalnya setiap 4.000–8.000 km tergantung kondisi pemakaian).\n- Ganti filter jika elemen rusak atau sudah melewati batas pemakaian.\n\nTujuan:\nMenjaga udara yang masuk tetap bersih dan mencegah keausan komponen ruang bakar."
+            },
+            {
+              "title3": "Pemeriksaan Throttle Body (Sistem Injeksi)",
+              "content3": "Langkah pemeriksaan:\n1. Lepaskan selang intake menuju throttle body.\n2. Periksa adanya kerak karbon pada katup throttle.\n3. Bersihkan menggunakan cairan throttle body cleaner dan kain bersih.\n4. Pastikan katup throttle bergerak lancar.\n\nPerawatan tambahan:\n- Lakukan penyetelan ulang idle (jika diperlukan).\n- Gunakan scan tool untuk memastikan TPS bekerja normal.\n\nTujuan:\nMenjaga respons akselerasi tetap halus dan suplai udara presisi."
+            },
+            {
+              "title3": "Pemeriksaan Karburator (Sistem Konvensional)",
+              "content3": "Langkah pemeriksaan:\n1. Lepaskan karburator dari manifold.\n2. Bersihkan spuyer utama dan spuyer langsam.\n3. Periksa kondisi pelampung dan jarum skep.\n4. Setel ulang sekrup udara dan langsam sesuai spesifikasi.\n\nTujuan:\nMemastikan campuran udara–bahan bakar sesuai kebutuhan mesin dan mencegah pembakaran tidak sempurna."
+            },
+            {
+              "title3": "Pemeriksaan Intake Manifold dan Gasket",
+              "content3": "Langkah pemeriksaan:\n1. Periksa kondisi fisik manifold dari retak atau getas.\n2. Pastikan baut pengikat dalam kondisi kencang.\n3. Periksa gasket dari kebocoran.\n4. Lakukan tes kebocoran dengan menyemprotkan cairan khusus saat mesin hidup untuk mendeteksi perubahan putaran.\n\nTujuan:\nMencegah masuknya udara liar (unmetered air) yang menyebabkan campuran terlalu kurus."
+            },
+            {
+              "title3": "Pemeriksaan Sensor Sistem Injeksi (TPS, MAP, IAT)",
+              "content3": "Langkah pemeriksaan:\n1. Gunakan scan tool untuk membaca data sensor secara real-time.\n2. Bandingkan hasil pembacaan dengan spesifikasi standar.\n3. Periksa kabel dan konektor dari kemungkinan longgar atau korosi.\n4. Ganti sensor jika nilai pembacaan tidak sesuai.\n\nTujuan:\nMenjamin ECU menerima data akurat untuk mengatur jumlah bahan bakar secara presisi."
+            },
+            {
+              "title3": "Pemeriksaan Selang Vakum",
+              "content3": "Langkah pemeriksaan:\n1. Periksa kondisi selang dari retak atau getas.\n2. Pastikan tidak ada kebocoran atau sambungan longgar.\n3. Ganti selang jika ditemukan kerusakan.\n\nTujuan:\nMenjaga kestabilan tekanan dalam intake manifold dan memastikan sensor MAP bekerja optimal."
+            },
+            {
+              "title3": "Pemeriksaan Prinsip Perawatan Preventif Sistem Intake",
+              "content3": "1. Lakukan servis berkala sesuai jadwal pabrikan.\n2. Gunakan suku cadang asli atau sesuai spesifikasi.\n3. Hindari modifikasi sistem intake yang tidak sesuai standar.\n4. Segera lakukan pemeriksaan jika muncul gejala seperti brebet, idle tidak stabil, atau konsumsi bahan bakar meningkat.\n\nPerawatan preventif akan memperpanjang umur komponen, menjaga performa mesin tetap optimal, serta membantu kendaraan memenuhi standar emisi gas buang."
+            }
+          ]
+        },
+        {
+          "title2": "Pengertian dan Fungsi Sistem Exhaust",
+          "content2": "Sistem exhaust atau sistem pembuangan adalah rangkaian komponen pada sepeda motor yang berfungsi untuk menyalurkan dan membuang gas sisa pembakaran dari ruang bakar ke udara bebas secara terkontrol. Sistem ini tidak hanya berperan sebagai saluran pembuangan, tetapi juga berfungsi menjaga kestabilan tekanan balik (back pressure), meredam kebisingan, serta membantu proses pengendalian emisi gas buang.\n\nPada mesin 4 langkah, sistem exhaust bekerja terutama pada langkah buang (exhaust stroke), yaitu ketika piston bergerak dari Titik Mati Bawah (TMB) ke Titik Mati Atas (TMA) dan katup buang terbuka. Pada saat ini, gas hasil pembakaran didorong keluar dari silinder menuju header knalpot, melewati catalytic converter (jika ada), kemudian keluar melalui muffler.\n\nKinerja sistem exhaust sangat mempengaruhi efisiensi pembakaran pada siklus berikutnya. Jika gas sisa tidak terbuang sempurna, maka ruang bakar tidak terisi udara segar secara maksimal pada langkah hisap berikutnya. Akibatnya tenaga mesin menurun dan konsumsi bahan bakar meningkat.",
+          "items": [
+            {
+              "title3": "Pengertian Sistem Exhaust Secara Teknis",
+              "content3": "Secara teknis, sistem exhaust adalah sistem yang mengatur proses pengeluaran gas sisa pembakaran dari dalam silinder menuju atmosfer dengan tekanan, suhu, dan tingkat kebisingan yang terkontrol. Sistem ini dirancang untuk:\n1. Mengalirkan gas buang dengan hambatan minimal.\n2. Menjaga tekanan balik sesuai desain mesin.\n3. Mengurangi kandungan gas beracun sebelum dilepas ke udara.\n4. Meredam suara hasil ledakan pembakaran."
+            },
+            {
+              "title3": "Fungsi Utama Sistem Exhaust",
+              "content3": "1. Membuang gas sisa pembakaran dari ruang bakar.\n2. Menjaga tekanan balik (back pressure) agar proses scavenging optimal.\n3. Mengurangi tingkat kebisingan mesin melalui muffler.\n4. Mengurangi emisi gas beracun melalui catalytic converter.\n5. Mendukung efisiensi kerja mesin dan kestabilan suhu pembakaran."
+            },
+            {
+              "title3": "Fungsi Sistem Exhaust terhadap Performa Mesin",
+              "content3": "Tekanan balik yang sesuai membantu proses pembilasan ruang bakar (scavenging), yaitu proses keluarnya gas sisa dan masuknya udara baru secara efisien. Jika tekanan balik terlalu rendah (misalnya karena knalpot racing tanpa perhitungan teknis), tenaga pada putaran rendah bisa menurun. Sebaliknya, jika tekanan terlalu tinggi (misalnya akibat sumbatan), mesin terasa berat dan cepat panas."
+            },
+            {
+              "title3": "Fungsi Sistem Exhaust terhadap Emisi Gas Buang",
+              "content3": "Pada sepeda motor modern, sistem exhaust dilengkapi catalytic converter yang berfungsi mengubah gas beracun seperti CO (Carbon Monoxide) dan HC (Hydrocarbon) menjadi CO2 dan H2O yang lebih aman. Selain itu, beberapa sistem dilengkapi sensor O2 untuk membantu ECU mengontrol campuran udara–bahan bakar agar emisi tetap dalam batas standar."
+            },
+            {
+              "title3": "Fungsi Sistem Exhaust terhadap Pengendalian Kebisingan",
+              "content3": "Proses pembakaran menghasilkan ledakan yang menimbulkan suara keras. Muffler atau silencer dirancang dengan ruang dan sekat tertentu untuk meredam gelombang suara tersebut sehingga kendaraan memenuhi standar kebisingan yang ditetapkan oleh regulasi."
+            },
+            {
+              "title3": "Hubungan Sistem Exhaust dengan Sistem Intake",
+              "content3": "Sistem exhaust bekerja secara terintegrasi dengan sistem intake. Pembuangan gas yang lancar akan membantu proses pengisian udara baru pada langkah hisap berikutnya. Jika sistem exhaust terganggu, maka efisiensi volumetrik menurun dan kualitas pembakaran pada siklus selanjutnya ikut terpengaruh."
+            },
+            {
+              "title3": "Pentingnya Sistem Exhaust dalam Standar Industri",
+              "content3": "Dalam standar industri otomotif, sistem exhaust harus memenuhi spesifikasi teknis terkait performa, emisi, dan kebisingan. Pemeriksaan sistem exhaust menjadi bagian penting dalam proses servis berkala dan pengujian emisi kendaraan untuk memastikan kendaraan tetap layak jalan dan ramah lingkungan."
+            }
+          ]
+        },
+        {
+          "title2": "Prinsip Kerja Sistem Exhaust",
+          "content2": "Prinsip kerja sistem exhaust pada mesin 4 langkah berkaitan dengan proses pembuangan gas sisa pembakaran secara efisien dari ruang bakar menuju udara bebas. Sistem ini bekerja terutama pada langkah buang (exhaust stroke), yaitu ketika piston bergerak dari Titik Mati Bawah (TMB) ke Titik Mati Atas (TMA) dan katup buang terbuka. Proses ini bertujuan mengeluarkan gas hasil pembakaran agar ruang bakar siap menerima udara baru pada langkah hisap berikutnya.\n\nSistem exhaust tidak hanya berfungsi sebagai saluran pembuangan, tetapi juga dirancang untuk mengatur tekanan balik (back pressure), membantu proses pembilasan ruang bakar (scavenging), meredam kebisingan, serta mengurangi kadar emisi gas beracun sebelum dilepas ke atmosfer. Prinsip kerja exhaust sangat dipengaruhi oleh desain pipa, diameter saluran, panjang header, serta keberadaan catalytic converter dan muffler.",
+          "items": [
+            {
+              "title3": "Proses Kerja Exhaust pada Langkah Buang",
+              "content3": "1. Setelah langkah usaha (power stroke), piston bergerak naik dari TMB ke TMA.\n2. Katup buang terbuka akibat dorongan camshaft.\n3. Gas hasil pembakaran terdorong keluar dari ruang bakar menuju header knalpot.\n4. Gas mengalir melalui pipa knalpot, melewati catalytic converter (jika ada), lalu menuju muffler sebelum keluar ke udara bebas.\n\nProses ini harus berlangsung lancar agar tidak ada sisa gas tertinggal di dalam silinder."
+            },
+            {
+              "title3": "Prinsip Tekanan Balik (Back Pressure)",
+              "content3": "Tekanan balik adalah tekanan yang timbul akibat hambatan aliran gas dalam sistem knalpot. Tekanan balik yang tepat membantu menjaga kestabilan proses pembilasan ruang bakar. Jika tekanan terlalu tinggi (misalnya karena sumbatan), tenaga mesin menurun dan suhu meningkat. Jika terlalu rendah (misalnya knalpot terlalu bebas), tenaga pada putaran rendah dapat berkurang."
+            },
+            {
+              "title3": "Prinsip Scavenging (Pembilasan Ruang Bakar)",
+              "content3": "Scavenging adalah proses pengosongan gas sisa pembakaran agar udara baru dapat masuk secara maksimal pada langkah hisap berikutnya. Desain panjang dan diameter header knalpot mempengaruhi kecepatan aliran gas dan efektivitas proses ini. Scavenging yang baik meningkatkan efisiensi volumetrik dan tenaga mesin."
+            },
+            {
+              "title3": "Prinsip Kerja Catalytic Converter",
+              "content3": "Catalytic converter bekerja dengan menggunakan material katalis (seperti platinum, palladium, atau rhodium) untuk mempercepat reaksi kimia. Gas beracun seperti CO dan HC diubah menjadi CO2 dan H2O, sedangkan NOx direduksi menjadi nitrogen (N2). Proses ini terjadi saat gas buang melewati struktur sarang lebah (honeycomb) di dalam catalytic converter."
+            },
+            {
+              "title3": "Prinsip Peredaman Suara oleh Muffler",
+              "content3": "Muffler dirancang dengan ruang ekspansi dan sekat-sekat untuk memecah gelombang suara dari ledakan pembakaran. Gelombang suara dipantulkan dan diserap sehingga intensitas kebisingan berkurang tanpa menghambat aliran gas secara berlebihan."
+            },
+            {
+              "title3": "Hubungan Prinsip Kerja Exhaust dengan Performa dan Emisi",
+              "content3": "Sistem exhaust yang bekerja optimal memastikan gas sisa pembakaran terbuang sempurna sehingga ruang bakar siap menerima campuran baru secara maksimal. Jika terjadi gangguan seperti kebocoran atau sumbatan, maka pembakaran pada siklus berikutnya terganggu, tenaga menurun, konsumsi bahan bakar meningkat, dan kadar emisi gas buang dapat melebihi batas standar."
+            },
+            {
+              "title3": "Kesimpulan Prinsip Kerja Sistem Exhaust",
+              "content3": "Prinsip kerja sistem exhaust pada mesin 4 langkah adalah membuang gas hasil pembakaran melalui mekanisme katup buang dan saluran knalpot dengan tekanan dan aliran yang terkontrol. Sistem ini dirancang untuk menjaga keseimbangan antara performa mesin, efisiensi pembakaran, pengendalian emisi, dan tingkat kebisingan sesuai standar industri otomotif."
+            }
+          ]
+        },
+        {
+          "title2": "Komponen Sistem Exhaust",
+          "content2": "Sistem exhaust terdiri dari beberapa komponen utama yang bekerja secara terpadu untuk membuang gas sisa pembakaran, menjaga tekanan balik (back pressure), meredam kebisingan, serta mengurangi emisi gas berbahaya. Setiap komponen memiliki fungsi spesifik dan dirancang sesuai karakteristik mesin. Kerusakan atau modifikasi yang tidak sesuai pada salah satu komponen dapat mempengaruhi performa, efisiensi bahan bakar, dan kadar emisi kendaraan.",
+          "items": [
+            {
+              "title3": "Header / Pipa Knalpot",
+              "content3": "![Pipa Knalpot](images/XRDCTSM-006/pipa-knalpot.png)Header atau pipa knalpot adalah saluran pertama yang menerima gas buang langsung dari ruang bakar melalui katup buang. Komponen ini biasanya terbuat dari baja tahan panas atau stainless steel karena harus menahan suhu tinggi hasil pembakaran.\n\nFungsi header:\n1. Menyalurkan gas buang dari silinder ke sistem knalpot.\n2. Membantu menjaga kecepatan aliran gas agar proses scavenging optimal.\n3. Menentukan karakter tekanan balik berdasarkan panjang dan diameter pipa.\n\nKarakteristik teknis:\n- Panjang pipa mempengaruhi torsi pada putaran tertentu.\n- Diameter pipa mempengaruhi kecepatan aliran gas.\n- Dilengkapi gasket untuk mencegah kebocoran pada sambungan dengan kepala silinder.\n\nDampak jika bermasalah:\n- Kebocoran gasket → suara berisik dan tekanan balik tidak stabil.\n- Retak atau korosi → penurunan efisiensi pembuangan gas.\n- Diameter tidak sesuai (modifikasi ekstrem) → tenaga tidak optimal pada putaran tertentu."
+            },
+            {
+              "title3": "Catalytic Converter",
+              "content3": "![Catalytic Converter](images/XRDCTSM-006/catalytic-converter.png)Catalytic converter adalah komponen pengendali emisi yang terletak di dalam sistem knalpot. Di dalamnya terdapat material katalis seperti platinum, palladium, dan rhodium yang berfungsi mempercepat reaksi kimia tanpa ikut bereaksi secara permanen.\n\nFungsi catalytic converter:\n1. Mengubah CO (Carbon Monoxide) menjadi CO2.\n2. Mengubah HC (Hydrocarbon) menjadi H2O dan CO2.\n3. Mereduksi NOx menjadi nitrogen (N2).\n\nPrinsip kerja:\nGas buang melewati struktur berbentuk sarang lebah (honeycomb) yang dilapisi material katalis. Reaksi oksidasi dan reduksi terjadi pada suhu kerja tertentu sehingga gas beracun berkurang sebelum dilepas ke atmosfer.\n\nDampak jika bermasalah:\n- Sumbatan → mesin terasa berat dan suhu meningkat.\n- Katalis rusak → emisi CO dan HC tetap tinggi.\n- Kerusakan internal → suara gemeretak di dalam knalpot."
+            },
+            {
+              "title3": "Muffler / Silencer",
+              "content3": "![Muffler / Silencer](images/XRDCTSM-006/muffler.png)Muffler atau silencer adalah komponen akhir sistem exhaust yang berfungsi meredam kebisingan hasil ledakan pembakaran. Muffler dirancang dengan ruang ekspansi, sekat, dan material peredam untuk mengurangi intensitas gelombang suara tanpa menghambat aliran gas secara berlebihan.\n\nFungsi muffler:\n1. Meredam suara mesin agar sesuai standar kebisingan.\n2. Menstabilkan aliran gas sebelum keluar ke udara bebas.\n3. Mendukung kestabilan tekanan balik sistem exhaust.\n\nKarakteristik teknis:\n- Terdiri dari ruang resonansi dan pipa perforasi.\n- Menggunakan bahan tahan panas dan korosi.\n- Dirancang sesuai spesifikasi kapasitas mesin.\n\nDampak jika bermasalah:\n- Sekat rusak → suara terlalu bising.\n- Korosi atau lubang → kebocoran gas buang.\n- Modifikasi tidak sesuai → perubahan karakter tenaga dan peningkatan emisi."
+            }
+          ]
+        },
+        {
+          "title2": "Gangguan yang Sering Terjadi pada Sistem Exhaust",
+          "content2": "Sistem exhaust bekerja pada suhu dan tekanan tinggi sehingga rentan mengalami gangguan akibat panas berlebih, korosi, getaran, serta usia pakai. Gangguan pada sistem exhaust tidak hanya mempengaruhi suara knalpot, tetapi juga berdampak langsung pada tenaga mesin, efisiensi pembakaran, dan kadar emisi gas buang. Oleh karena itu, teknisi harus mampu mengidentifikasi jenis gangguan, gejala yang muncul, serta dampak teknis yang ditimbulkan agar dapat melakukan tindakan perbaikan secara tepat.",
+          "items": [
+            {
+              "title3": "Kebocoran pada Header atau Sambungan Knalpot",
+              "content3": "Kebocoran sering terjadi pada gasket antara kepala silinder dan header, atau pada sambungan pipa yang kendor.\n\nGejala:\n1. Suara mesin lebih keras atau terdengar 'pecah'.\n2. Terdapat jelaga hitam di sekitar sambungan.\n3. Tenaga mesin menurun.\n\nDampak Teknis:\nTekanan balik tidak stabil sehingga proses scavenging terganggu. Pembakaran pada siklus berikutnya tidak optimal dan emisi dapat meningkat."
+            },
+            {
+              "title3": "Korosi atau Karat pada Pipa Knalpot",
+              "content3": "Paparan air, panas, dan gas sisa pembakaran dalam jangka panjang dapat menyebabkan korosi pada pipa knalpot.\n\nGejala:\n1. Terdapat lubang kecil pada pipa.\n2. Suara knalpot berubah menjadi lebih kasar.\n3. Muncul serpihan karat.\n\nDampak Teknis:\nKebocoran gas buang menyebabkan aliran tidak stabil dan meningkatkan kebisingan kendaraan."
+            },
+            {
+              "title3": "Sumbatan pada Catalytic Converter",
+              "content3": "Sumbatan dapat terjadi akibat penumpukan karbon dari pembakaran tidak sempurna atau kerusakan struktur katalis.\n\nGejala:\n1. Mesin terasa berat saat akselerasi.\n2. Suhu mesin meningkat.\n3. Konsumsi bahan bakar meningkat.\n\nDampak Teknis:\nGas buang terhambat sehingga tekanan dalam sistem meningkat. Mesin kehilangan tenaga dan berpotensi mengalami overheat."
+            },
+            {
+              "title3": "Kerusakan Muffler atau Sekat Peredam",
+              "content3": "Sekat di dalam muffler dapat rusak akibat usia pakai atau benturan.\n\nGejala:\n1. Suara knalpot sangat bising.\n2. Terdengar suara gemeretak di dalam knalpot.\n3. Getaran berlebih pada bagian belakang kendaraan.\n\nDampak Teknis:\nPeredaman suara tidak optimal dan tekanan balik berubah, sehingga performa mesin bisa terganggu."
+            },
+            {
+              "title3": "Kerusakan Sensor Oksigen (O2 Sensor)",
+              "content3": "Sensor O2 yang terpasang pada sistem exhaust berfungsi membaca kadar oksigen dalam gas buang.\n\nGejala:\n1. Lampu indikator kerusakan mesin menyala.\n2. Konsumsi bahan bakar meningkat.\n3. Hasil uji emisi tidak stabil.\n\nDampak Teknis:\nECU tidak mampu mengontrol campuran udara–bahan bakar secara presisi, sehingga emisi CO dan HC meningkat."
+            },
+            {
+              "title3": "Modifikasi Knalpot Tidak Sesuai Spesifikasi",
+              "content3": "Penggunaan knalpot aftermarket tanpa perhitungan teknis dapat mengubah tekanan balik dan karakter aliran gas.\n\nGejala:\n1. Tenaga hilang pada putaran rendah.\n2. Suara terlalu keras.\n3. Emisi melebihi standar.\n\nDampak Teknis:\nPerubahan tekanan balik mengganggu proses scavenging dan efisiensi pembakaran."
+            },
+            {
+              "title3": "Dampak Umum Gangguan Sistem Exhaust",
+              "content3": "Gangguan pada sistem exhaust secara umum dapat menyebabkan:\n1. Penurunan tenaga mesin.\n2. Peningkatan suhu kerja mesin.\n3. Emisi gas buang melebihi batas baku mutu.\n4. Kebisingan kendaraan tidak sesuai regulasi.\n\nIdentifikasi dan perbaikan gangguan sistem exhaust harus dilakukan segera untuk menjaga performa mesin dan kepatuhan terhadap standar emisi."
+            }
+          ]
+        },
+        {
+          "title2": "Pemeriksaan dan Perawatan Sistem Exhaust",
+          "content2": "Pemeriksaan dan perawatan sistem exhaust bertujuan untuk memastikan proses pembuangan gas sisa pembakaran berlangsung lancar, tekanan balik (back pressure) sesuai spesifikasi, kebisingan dalam batas standar, serta emisi gas buang memenuhi regulasi yang berlaku. Sistem exhaust bekerja pada suhu tinggi dan terpapar lingkungan luar, sehingga rentan terhadap korosi, retak, kebocoran, dan sumbatan. Oleh karena itu, diperlukan pemeriksaan berkala dan tindakan perawatan preventif untuk mencegah kerusakan yang lebih serius.",
+          "items": [
+            {
+              "title3": "Pemeriksaan Visual Header dan Pipa Knalpot",
+              "content3": "Langkah pemeriksaan:\n1. Periksa kondisi fisik header dari retakan, karat, atau perubahan warna berlebihan akibat panas.\n2. Periksa sambungan antara kepala silinder dan header.\n3. Pastikan baut pengikat dalam kondisi kencang.\n4. Amati adanya jelaga hitam di sekitar sambungan (indikasi kebocoran).\n\nTujuan:\nMendeteksi kebocoran atau kerusakan dini yang dapat mengganggu tekanan balik dan performa mesin."
+            },
+            {
+              "title3": "Pemeriksaan Gasket Knalpot",
+              "content3": "Gasket knalpot berfungsi mencegah kebocoran gas buang pada sambungan.\n\nLangkah pemeriksaan:\n1. Lepaskan header jika diperlukan.\n2. Periksa kondisi gasket dari keausan atau deformasi.\n3. Ganti gasket jika ditemukan kebocoran atau kerusakan.\n\nTujuan:\nMenjaga sistem tetap kedap dan tekanan balik stabil."
+            },
+            {
+              "title3": "Pemeriksaan Catalytic Converter",
+              "content3": "Langkah pemeriksaan:\n1. Dengarkan suara abnormal (gemeretak) dari dalam knalpot.\n2. Periksa performa mesin jika terasa berat.\n3. Lakukan uji emisi untuk mengetahui efektivitas konversi gas.\n\nCatatan:\nCatalytic converter tidak dapat diperbaiki jika rusak dan umumnya harus diganti.\n\nTujuan:\nMemastikan proses konversi gas beracun berjalan optimal."
+            },
+            {
+              "title3": "Pemeriksaan Muffler / Silencer",
+              "content3": "Langkah pemeriksaan:\n1. Periksa kondisi luar muffler dari karat atau lubang.\n2. Periksa kekencangan dudukan dan bracket knalpot.\n3. Dengarkan perubahan suara knalpot saat mesin hidup.\n\nTujuan:\nMenjaga tingkat kebisingan tetap sesuai standar dan mencegah getaran berlebih."
+            },
+            {
+              "title3": "Pemeriksaan Sensor Oksigen (O2 Sensor)",
+              "content3": "Langkah pemeriksaan:\n1. Gunakan scan tool untuk membaca data sensor O2.\n2. Periksa kabel dan konektor dari kerusakan atau korosi.\n3. Bandingkan hasil pembacaan dengan spesifikasi standar.\n\nTujuan:\nMemastikan ECU menerima data akurat untuk pengaturan campuran udara–bahan bakar."
+            },
+            {
+              "title3": "Perawatan Preventif Sistem Exhaust",
+              "content3": "1. Hindari genangan air saat knalpot dalam kondisi sangat panas.\n2. Bersihkan bagian luar knalpot dari lumpur atau kotoran.\n3. Gunakan suku cadang sesuai spesifikasi pabrikan.\n4. Hindari modifikasi knalpot yang tidak sesuai perhitungan teknis.\n\nPerawatan preventif akan memperpanjang umur komponen exhaust dan menjaga performa mesin tetap optimal."
+            },
+            {
+              "title3": "Dampak Positif Pemeriksaan dan Perawatan Berkala",
+              "content3": "1. Performa mesin tetap stabil.\n2. Emisi gas buang sesuai standar.\n3. Kebisingan kendaraan terkendali.\n4. Umur komponen lebih panjang.\n5. Biaya perbaikan dapat diminimalkan.\n\nPemeriksaan dan perawatan sistem exhaust secara berkala merupakan bagian penting dalam kompetensi teknisi sepeda motor profesional sesuai standar industri dan SKKNI."
+            }
+          ]
+        }
+      ]
+    },
+    {    
+      "title": "Sistem Pengendalian Emisi",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Pengertian Emisi Gas Buang",
+          "content2": "Emisi gas buang adalah gas sisa hasil proses pembakaran di dalam ruang bakar mesin yang dikeluarkan melalui sistem exhaust ke udara bebas. Gas buang tersebut merupakan hasil reaksi kimia antara bahan bakar dan udara selama proses pembakaran. Idealnya, pembakaran yang sempurna hanya menghasilkan karbon dioksida (CO2) dan uap air (H2O). Namun dalam praktiknya, pembakaran pada mesin sepeda motor tidak pernah 100% sempurna, sehingga masih dihasilkan gas-gas lain yang berpotensi mencemari lingkungan.\n\nKualitas emisi gas buang sangat dipengaruhi oleh kondisi sistem intake, sistem bahan bakar, sistem pengapian, serta sistem exhaust. Gangguan pada salah satu sistem tersebut dapat menyebabkan pembakaran tidak sempurna dan meningkatkan kadar gas berbahaya. Oleh karena itu, pemahaman mengenai emisi gas buang menjadi dasar penting dalam sistem pengendalian emisi pada sepeda motor modern.",
+          "items": [
+            {
+              "title3": "Proses Terbentuknya Emisi Gas Buang",
+              "content3": "Emisi gas buang terbentuk dari reaksi pembakaran campuran udara dan bahan bakar di dalam ruang bakar. Prosesnya meliputi:\n1. Campuran udara dan bahan bakar dikompresi.\n2. Percikan api dari busi memicu pembakaran.\n3. Terjadi ledakan yang menghasilkan tenaga.\n4. Sisa hasil pembakaran dibuang melalui katup buang.\n\nJika rasio campuran tidak ideal (terlalu kaya atau terlalu kurus), maka pembakaran menjadi tidak sempurna dan menghasilkan gas berbahaya dalam jumlah lebih besar."
+            },
+            {
+              "title3": "Jenis-Jenis Gas Buang pada Mesin Bensin",
+              "content3": "1. CO (Carbon Monoxide): Gas beracun yang terbentuk akibat pembakaran tidak sempurna.\n2. HC (Hydrocarbon): Sisa bahan bakar yang tidak terbakar.\n3. CO2 (Carbon Dioxide): Hasil pembakaran sempurna karbon.\n4. NOx (Nitrogen Oxides): Terbentuk akibat suhu pembakaran tinggi.\n5. O2 (Oksigen): Sisa oksigen yang tidak ikut bereaksi.\n\nKomposisi gas ini digunakan sebagai indikator kualitas pembakaran saat uji emisi."
+            },
+            {
+              "title3": "Faktor yang Mempengaruhi Kadar Emisi",
+              "content3": "1. Rasio campuran udara–bahan bakar.\n2. Kondisi sistem intake dan exhaust.\n3. Kinerja sistem pengapian.\n4. Suhu kerja mesin.\n5. Kondisi catalytic converter dan sensor O2.\n\nJika salah satu faktor tidak optimal, maka kadar emisi dapat melebihi batas baku mutu yang ditetapkan."
+            },
+            {
+              "title3": "Dampak Emisi Gas Buang terhadap Lingkungan dan Kesehatan",
+              "content3": "1. CO dapat mengganggu sistem pernapasan dan berbahaya jika terhirup dalam konsentrasi tinggi.\n2. HC berkontribusi terhadap pembentukan kabut asap (smog).\n3. NOx dapat menyebabkan hujan asam dan gangguan pernapasan.\n4. CO2 berkontribusi terhadap efek rumah kaca.\n\nOleh karena itu, pengendalian emisi menjadi bagian penting dalam teknologi sepeda motor modern."
+            },
+            {
+              "title3": "Pentingnya Pengendalian Emisi pada Sepeda Motor",
+              "content3": "Pengendalian emisi bertujuan untuk:\n1. Mengurangi pencemaran udara.\n2. Memenuhi regulasi pemerintah terkait standar emisi.\n3. Meningkatkan efisiensi pembakaran.\n4. Mendukung penggunaan kendaraan yang ramah lingkungan.\n\nSepeda motor modern dilengkapi sistem injeksi elektronik, catalytic converter, dan sensor O2 untuk menjaga kadar emisi tetap dalam batas yang diperbolehkan."
+            }
+          ]
+        },
+        {
+          "title2": "Jenis-Jenis Gas Buang (CO, HC, CO2, NOx)",
+          "content2": "Gas buang pada mesin bensin terdiri dari berbagai unsur kimia yang terbentuk selama proses pembakaran campuran udara dan bahan bakar di dalam ruang bakar. Komposisi gas buang menjadi indikator penting untuk menilai kualitas pembakaran dan kondisi sistem mesin. Empat jenis gas utama yang dianalisis dalam uji emisi sepeda motor adalah CO (Carbon Monoxide), HC (Hydrocarbon), CO2 (Carbon Dioxide), dan NOx (Nitrogen Oxides). Masing-masing gas memiliki karakteristik, penyebab terbentuknya, serta dampak yang berbeda terhadap lingkungan dan performa mesin.",
+          "items": [
+            {
+              "title3": "CO (Carbon Monoxide)",
+              "content3": "CO adalah gas beracun yang tidak berwarna dan tidak berbau, terbentuk akibat pembakaran tidak sempurna ketika campuran udara–bahan bakar terlalu kaya (rich mixture).\n\nProses Terbentuknya:\nKetika oksigen tidak cukup untuk mengoksidasi karbon menjadi CO2, maka karbon hanya teroksidasi sebagian dan membentuk CO.\n\nCiri pada Uji Emisi:\n- Kadar CO tinggi menunjukkan pembakaran tidak sempurna.\n- Biasanya disebabkan oleh filter udara tersumbat, setelan karburator terlalu kaya, atau sensor injeksi bermasalah.\n\nDampak:\n- Berbahaya bagi kesehatan karena mengikat hemoglobin dalam darah.\n- Menunjukkan efisiensi pembakaran rendah dan konsumsi bahan bakar boros."
+            },
+            {
+              "title3": "HC (Hydrocarbon)",
+              "content3": "HC adalah sisa bahan bakar yang tidak terbakar dan keluar bersama gas buang. HC berbentuk uap bahan bakar atau partikel karbon yang belum bereaksi.\n\nPenyebab Terbentuknya:\n1. Campuran terlalu kaya.\n2. Pengapian tidak sempurna (misfire).\n3. Kebocoran kompresi.\n4. Pembakaran tidak merata di dalam ruang bakar.\n\nCiri pada Uji Emisi:\n- Nilai HC tinggi menunjukkan adanya bahan bakar yang tidak terbakar sempurna.\n- Biasanya diukur dalam satuan ppm (parts per million).\n\nDampak:\n- Berkontribusi terhadap pembentukan kabut asap (smog).\n- Mengindikasikan sistem pengapian atau pembakaran bermasalah."
+            },
+            {
+              "title3": "CO2 (Carbon Dioxide)",
+              "content3": "CO2 adalah hasil pembakaran sempurna dari karbon dalam bahan bakar. Gas ini terbentuk ketika karbon bereaksi sepenuhnya dengan oksigen.\n\nKarakteristik:\n- Tidak beracun dalam konsentrasi normal.\n- Menjadi indikator pembakaran yang efisien.\n\nCiri pada Uji Emisi:\n- Nilai CO2 tinggi biasanya menunjukkan pembakaran relatif baik.\n- Jika CO2 rendah sementara CO dan HC tinggi, berarti pembakaran tidak sempurna.\n\nDampak:\n- Berkontribusi terhadap efek rumah kaca jika jumlahnya berlebihan di atmosfer.\n- Secara teknis menunjukkan tingkat efisiensi pembakaran mesin."
+            },
+            {
+              "title3": "NOx (Nitrogen Oxides)",
+              "content3": "NOx adalah senyawa nitrogen oksida yang terbentuk akibat reaksi antara nitrogen dan oksigen pada suhu pembakaran sangat tinggi (di atas ±2.000°C).\n\nPenyebab Terbentuknya:\n1. Campuran terlalu kurus (lean mixture).\n2. Suhu pembakaran tinggi.\n3. Sistem pendinginan tidak optimal.\n\nCiri pada Uji Emisi:\n- Nilai NOx meningkat pada mesin dengan suhu ruang bakar tinggi.\n- Umumnya dikendalikan melalui catalytic converter dan pengaturan rasio campuran.\n\nDampak:\n- Menyebabkan iritasi saluran pernapasan.\n- Berkontribusi terhadap hujan asam dan pencemaran udara.\n- Menunjukkan pembakaran dengan suhu terlalu tinggi."
+            },
+            {
+              "title3": "Hubungan Antar Gas dalam Analisis Emisi",
+              "content3": "1. CO dan HC tinggi → pembakaran tidak sempurna (campuran kaya atau misfire).\n2. CO2 tinggi → pembakaran relatif sempurna.\n3. NOx tinggi → suhu pembakaran terlalu tinggi (campuran kurus).\n\nAnalisis kombinasi nilai gas-gas tersebut membantu teknisi menentukan sumber gangguan pada sistem intake, bahan bakar, pengapian, atau exhaust."
+            }
+          ]
+        },
+        {
+          "title2": "Dampak Emisi terhadap Lingkungan dan Kesehatan",
+          "content2": "Emisi gas buang dari sepeda motor mengandung berbagai zat yang dapat berdampak negatif terhadap lingkungan dan kesehatan manusia apabila kadarnya melebihi batas yang ditentukan. Gas-gas seperti CO, HC, NOx, dan CO2 memiliki karakteristik berbeda, namun secara umum dapat menyebabkan pencemaran udara, gangguan pernapasan, serta berkontribusi terhadap perubahan iklim. Oleh karena itu, pengendalian emisi menjadi bagian penting dalam teknologi otomotif modern dan regulasi pemerintah.",
+          "items": [
+            {
+              "title3": "Dampak terhadap Kesehatan Manusia",
+              "content3": "1. Carbon Monoxide (CO):\n   CO adalah gas beracun yang dapat mengikat hemoglobin dalam darah lebih kuat dibandingkan oksigen. Paparan CO dalam konsentrasi tinggi dapat menyebabkan pusing, mual, sesak napas, bahkan kehilangan kesadaran.\n\n2. Hydrocarbon (HC):\n   HC dapat menyebabkan iritasi mata dan saluran pernapasan. Dalam jangka panjang, beberapa senyawa hidrokarbon bersifat karsinogenik (berpotensi menyebabkan kanker).\n\n3. Nitrogen Oxides (NOx):\n   NOx dapat menyebabkan iritasi paru-paru, memperburuk penyakit asma, serta menurunkan fungsi sistem pernapasan.\n\nPaparan jangka panjang terhadap polusi udara dari kendaraan bermotor dapat meningkatkan risiko penyakit pernapasan kronis."
+            },
+            {
+              "title3": "Dampak terhadap Lingkungan",
+              "content3": "1. Pembentukan Kabut Asap (Smog):\n   HC dan NOx bereaksi di bawah sinar matahari membentuk kabut asap fotokimia yang mengurangi jarak pandang dan mencemari udara perkotaan.\n\n2. Hujan Asam:\n   NOx dapat bereaksi dengan uap air di atmosfer membentuk asam nitrat yang turun bersama hujan dan merusak tanaman, tanah, serta bangunan.\n\n3. Efek Rumah Kaca:\n   CO2 merupakan salah satu gas rumah kaca yang berkontribusi terhadap pemanasan global dan perubahan iklim.\n\n4. Kerusakan Ekosistem:\n   Polusi udara dapat mengganggu keseimbangan ekosistem, mempengaruhi pertumbuhan tanaman, serta mencemari sumber air."
+            },
+            {
+              "title3": "Dampak terhadap Kualitas Udara Perkotaan",
+              "content3": "Kendaraan bermotor merupakan salah satu sumber utama pencemaran udara di perkotaan. Emisi yang tinggi dapat meningkatkan indeks polusi udara (AQI) sehingga kualitas udara menurun dan berdampak langsung pada kesehatan masyarakat. Oleh karena itu, uji emisi kendaraan menjadi langkah penting dalam menjaga kualitas udara tetap dalam batas aman."
+            },
+            {
+              "title3": "Pentingnya Pengendalian Emisi",
+              "content3": "Untuk mengurangi dampak negatif tersebut, sepeda motor modern dilengkapi dengan sistem injeksi elektronik, catalytic converter, serta sensor O2 guna menjaga pembakaran tetap efisien dan emisi tetap rendah. Selain itu, perawatan berkala dan kepatuhan terhadap standar baku mutu emisi sangat penting untuk mendukung lingkungan yang lebih bersih dan sehat."
+            }
+          ]
+        },
+        {
+          "title2": "Sistem Pengendalian Emisi pada Sepeda Motor",
+          "content2": "Untuk memenuhi standar baku mutu emisi dan mengurangi dampak pencemaran udara, sepeda motor modern dilengkapi berbagai sistem pengendalian emisi. Sistem ini dirancang untuk menekan pembentukan gas berbahaya sejak proses pembakaran hingga sebelum gas dilepas ke atmosfer. Pengendalian emisi dilakukan melalui perbaikan kualitas pembakaran (primary control) dan pengolahan gas buang setelah pembakaran (secondary control).",
+          "items": [
+            {
+              "title3": "Secondary Air System (PAIR)",
+              "content3": "![Secondary Air System (PAIR)](images/XRDCTSM-006/pair.png)Secondary Air System atau PAIR (Pulsed Secondary Air Injection System) adalah sistem yang memasukkan udara tambahan ke saluran exhaust sebelum catalytic converter.\n\nPrinsip Kerja:\nUdara segar dari air cleaner dialirkan ke saluran knalpot melalui katup reed atau katup kontrol yang bekerja berdasarkan kevakuman mesin. Udara tambahan ini membantu proses oksidasi sisa HC dan CO di dalam saluran exhaust.\n\nFungsi:\n1. Membantu pembakaran lanjutan gas sisa yang belum terbakar.\n2. Menurunkan kadar HC dan CO sebelum masuk catalytic converter.\n3. Membantu catalytic converter bekerja lebih efektif.\n\nDampak Jika Bermasalah:\n- Emisi HC dan CO meningkat.\n- Suara letupan kecil pada knalpot saat deselerasi.\n- Efektivitas konversi gas menurun."
+            },
+            {
+              "title3": "Catalytic Converter",
+              "content3": "Catalytic converter adalah komponen utama pengendali emisi yang terletak di dalam sistem knalpot. Komponen ini menggunakan material katalis seperti platinum, palladium, dan rhodium untuk mempercepat reaksi kimia tanpa ikut habis bereaksi.\n\nPrinsip Kerja:\nGas buang melewati struktur berbentuk sarang lebah (honeycomb) yang dilapisi katalis. Di dalamnya terjadi reaksi oksidasi dan reduksi:\n- CO diubah menjadi CO2.\n- HC diubah menjadi H2O dan CO2.\n- NOx direduksi menjadi nitrogen (N2).\n\nFungsi:\n1. Mengurangi gas beracun sebelum dilepas ke udara.\n2. Membantu kendaraan memenuhi standar emisi.\n3. Menjaga kualitas udara tetap lebih bersih.\n\nDampak Jika Bermasalah:\n- CO dan HC tetap tinggi pada uji emisi.\n- Mesin terasa berat jika terjadi sumbatan.\n- Suhu knalpot meningkat."
+            },
+            {
+              "title3": "Sistem Injeksi dan Sensor O2",
+              "content3": "![Sistem Injeksi dan Sensor O2](images/XRDCTSM-006/sistem-injeksi-&-sensor-o2.png)Sistem injeksi elektronik (EFI) merupakan sistem pengendalian emisi berbasis kontrol pembakaran. Sistem ini bekerja dengan mengatur rasio campuran udara–bahan bakar agar mendekati perbandingan stoikiometri (±14,7:1 pada mesin bensin).\n\nPeran Sensor O2:\nSensor oksigen yang terletak di saluran exhaust membaca kadar oksigen dalam gas buang dan mengirimkan data ke ECU. Berdasarkan data tersebut, ECU akan menyesuaikan durasi penyemprotan bahan bakar agar campuran tetap ideal.\n\nFungsi:\n1. Menjaga pembakaran lebih presisi.\n2. Mengurangi pembentukan CO dan HC akibat campuran kaya.\n3. Mengendalikan suhu pembakaran agar NOx tidak berlebihan.\n\nDampak Jika Bermasalah:\n- Konsumsi bahan bakar meningkat.\n- Emisi tidak stabil.\n- Lampu indikator kerusakan mesin menyala.\n\nDengan kombinasi sistem PAIR, catalytic converter, dan sistem injeksi berbasis sensor O2, sepeda motor modern mampu menekan emisi gas buang secara signifikan dibandingkan sistem konvensional."
+            }
+          ]
+        },
+        {
+          "title2": "Standar Baku Mutu Emisi Sepeda Motor",
+          "content2": "Standar baku mutu emisi sepeda motor adalah batas maksimum kandungan zat pencemar dalam gas buang kendaraan bermotor yang ditetapkan oleh pemerintah. Standar ini bertujuan untuk mengendalikan pencemaran udara, melindungi kesehatan masyarakat, serta mendorong penggunaan teknologi kendaraan yang lebih ramah lingkungan.\n\nBaku mutu emisi menjadi acuan dalam pelaksanaan uji emisi kendaraan bermotor. Jika hasil pengujian melebihi batas yang ditentukan, maka kendaraan dinyatakan tidak memenuhi persyaratan dan perlu dilakukan perbaikan pada sistem pembakaran atau sistem pengendalian emisi.",
+          "items": [
+            {
+              "title3": "Tujuan Penetapan Standar Emisi",
+              "content3": "1. Mengurangi pencemaran udara akibat kendaraan bermotor.\n2. Melindungi kesehatan masyarakat dari paparan gas berbahaya.\n3. Mendorong produsen kendaraan menerapkan teknologi pengendalian emisi.\n4. Menekan dampak pemanasan global dan kerusakan lingkungan."
+            },
+            {
+              "title3": "Parameter yang Diukur dalam Uji Emisi",
+              "content3": "Parameter utama yang diukur pada sepeda motor bensin meliputi:\n1. CO (Carbon Monoxide) dalam persentase (% volume).\n2. HC (Hydrocarbon) dalam satuan ppm (parts per million).\n3. CO2 (Carbon Dioxide) sebagai indikator efisiensi pembakaran.\n4. O2 (Oksigen) untuk analisis campuran.\n\nPada pengujian tipe tertentu, NOx juga dapat dianalisis terutama pada standar emisi tingkat lanjut."
+            },
+            {
+              "title3": "Contoh Batas Maksimum Emisi (Sepeda Motor Bensin – Idle Test)",
+              "content3": "Batas maksimum dapat berbeda tergantung tahun produksi dan regulasi yang berlaku. Secara umum:\n- Sepeda motor lama (karburator): CO maksimal sekitar 4,5% dan HC maksimal sekitar 2.000 ppm.\n- Sepeda motor injeksi modern: CO maksimal sekitar 0,5–3% dan HC maksimal sekitar 200–500 ppm tergantung standar.\n\nNilai tersebut dapat berubah sesuai regulasi terbaru dan standar yang diterapkan (misalnya standar emisi Euro)."
+            },
+            {
+              "title3": "Standar Emisi Internasional (Contoh Euro)",
+              "content3": "Beberapa standar emisi internasional yang mempengaruhi regulasi nasional antara lain:\n- Euro 2\n- Euro 3\n- Euro 4\n- Euro 5\n\nSemakin tinggi tingkat Euro, semakin ketat batas emisi yang diperbolehkan. Standar ini mengatur batas maksimum CO, HC, NOx, dan kombinasi HC+NOx per kilometer kendaraan."
+            },
+            {
+              "title3": "Hubungan Standar Emisi dengan Teknologi Sepeda Motor",
+              "content3": "Untuk memenuhi standar emisi yang semakin ketat, sepeda motor modern dilengkapi dengan:\n1. Sistem injeksi elektronik (EFI).\n2. Catalytic converter.\n3. Sensor O2.\n4. Sistem Secondary Air (PAIR).\n\nTeknologi tersebut membantu menekan kadar CO, HC, dan NOx agar tetap berada dalam batas baku mutu."
+            },
+            {
+              "title3": "Peran Teknisi dalam Memenuhi Standar Emisi",
+              "content3": "Teknisi sepeda motor memiliki tanggung jawab untuk memastikan kendaraan yang diservis memenuhi standar baku mutu emisi. Hal ini dilakukan melalui:\n1. Pemeriksaan sistem intake dan exhaust.\n2. Penyetelan campuran udara–bahan bakar.\n3. Pemeriksaan sensor dan catalytic converter.\n4. Pelaksanaan uji emisi sesuai prosedur.\n\nPemahaman terhadap standar baku mutu emisi merupakan bagian penting dari kompetensi teknisi sesuai standar industri dan SKKNI."
+            }
+          ]
+        }
+      ]
+    },
+    {    
+      "title": "Prosedur Pemeriksaan & Pengujian Emisi",
+      "contentL1": "",
+      "subSections": [
+        {
+          "title2": "Persiapan Alat dan Bahan",
+          "content2": "Sebelum melakukan pemeriksaan dan pengujian emisi gas buang sepeda motor, teknisi harus melakukan persiapan alat dan bahan secara lengkap dan sistematis. Persiapan yang baik akan memastikan hasil pengujian akurat, menghindari kesalahan pembacaan data, serta menjaga prosedur kerja sesuai standar industri. Tahap persiapan meliputi pengecekan kondisi kendaraan, kesiapan alat uji, serta kelengkapan administrasi dan prosedur operasional.",
+          "items": [
+            {
+              "title3": "Alat Utama Pengujian Emisi",
+              "content3": "1. Gas Analyzer (Alat Uji Emisi): Digunakan untuk mengukur kadar CO, HC, CO2, dan O2 dalam gas buang.\n2. Tachometer (jika tidak terintegrasi): Untuk memastikan putaran mesin sesuai standar pengujian.\n3. Thermometer Mesin: Untuk memastikan suhu kerja mesin telah mencapai suhu operasional normal.\n4. Scan Tool (untuk motor injeksi): Untuk memantau data sensor dan memastikan tidak ada fault code."
+            },
+            {
+              "title3": "Alat Pendukung",
+              "content3": "1. Selang probe gas analyzer dalam kondisi baik dan tidak bocor.\n2. Kunci standar untuk membuka atau melepas komponen jika diperlukan.\n3. Stopwatch untuk memastikan waktu stabilisasi mesin.\n4. Kain lap dan cairan pembersih ringan untuk membersihkan ujung knalpot sebelum pengujian."
+            },
+            {
+              "title3": "Bahan yang Diperlukan",
+              "content3": "1. Bahan bakar sesuai spesifikasi pabrikan.\n2. Oli mesin dalam kondisi dan volume sesuai standar.\n3. Form lembar hasil uji emisi atau sistem pencatatan digital."
+            },
+            {
+              "title3": "Persiapan Kendaraan Sebelum Uji Emisi",
+              "content3": "1. Pastikan mesin dalam kondisi standar dan tidak dimodifikasi secara ekstrem.\n2. Periksa sistem intake dan exhaust dari kebocoran.\n3. Pastikan tidak ada kerusakan pada sensor atau indikator kerusakan mesin.\n4. Panaskan mesin hingga mencapai suhu kerja normal (idle stabil).\n5. Pastikan putaran stasioner sesuai spesifikasi pabrikan."
+            },
+            {
+              "title3": "Pemeriksaan Kelayakan Alat Uji",
+              "content3": "1. Pastikan gas analyzer telah dikalibrasi sesuai jadwal.\n2. Lakukan proses zero calibration sebelum digunakan.\n3. Periksa kondisi probe dan pastikan tidak tersumbat.\n4. Pastikan layar dan sistem pencatatan data berfungsi dengan baik."
+            },
+            {
+              "title3": "Tujuan Tahap Persiapan",
+              "content3": "1. Menjamin hasil pengujian akurat dan dapat dipertanggungjawabkan.\n2. Menghindari kesalahan analisis akibat alat tidak siap.\n3. Menjaga prosedur sesuai standar pengujian industri.\n4. Mendukung proses diagnosis yang tepat berdasarkan data emisi."
+            }
+          ]
+        },
+        {
+          "title2": "Langkah-Langkah Pengujian Emisi Gas Buang",
+          "content2": "Pengujian emisi gas buang pada sepeda motor bertujuan untuk mengetahui kadar zat pencemar yang dihasilkan dari proses pembakaran. Pengujian umumnya dilakukan dengan metode idle test (pengujian pada putaran stasioner) menggunakan alat gas analyzer. Prosedur harus dilakukan secara sistematis agar hasil pengukuran akurat dan dapat dijadikan dasar analisis kondisi mesin.",
+          "items": [
+            {
+              "title3": "Stabilisasi Kondisi Mesin",
+              "content3": "1. Pastikan kendaraan dalam kondisi standar dan tidak mengalami kebocoran pada sistem exhaust.\n2. Hidupkan mesin dan panaskan hingga mencapai suhu kerja normal.\n3. Pastikan putaran idle sesuai spesifikasi pabrikan.\n4. Matikan semua beban tambahan (lampu tambahan, aksesoris listrik) agar hasil stabil.\n\nTujuan tahap ini adalah memastikan pembakaran berada dalam kondisi normal sebelum pengukuran dilakukan."
+            },
+            {
+              "title3": "Persiapan dan Kalibrasi Alat",
+              "content3": "1. Nyalakan gas analyzer dan lakukan proses pemanasan alat sesuai petunjuk pabrik.\n2. Lakukan zero calibration untuk memastikan pembacaan awal akurat.\n3. Periksa kondisi probe dan selang dari kebocoran atau sumbatan.\n\nTahap ini penting untuk menghindari kesalahan pembacaan data emisi."
+            },
+            {
+              "title3": "Pemasangan Probe pada Knalpot",
+              "content3": "1. Masukkan probe gas analyzer ke dalam ujung knalpot dengan kedalaman yang cukup.\n2. Pastikan probe terpasang rapat agar tidak ada udara luar yang masuk.\n3. Hindari posisi miring atau longgar yang dapat mempengaruhi hasil pembacaan."
+            },
+            {
+              "title3": "Proses Pengukuran Emisi",
+              "content3": "1. Biarkan mesin dalam kondisi idle stabil.\n2. Amati nilai CO (%), HC (ppm), CO2 (%), dan O2 (%) pada layar gas analyzer.\n3. Tunggu hingga angka stabil (biasanya 30–60 detik).\n4. Catat hasil pengukuran pada lembar kerja atau sistem digital.\n\nJika diperlukan, lakukan pengukuran ulang untuk memastikan konsistensi data."
+            },
+            {
+              "title3": "Analisis Awal Hasil Pengujian",
+              "content3": "1. Bandingkan nilai CO dan HC dengan standar baku mutu emisi yang berlaku.\n2. Perhatikan hubungan antara CO, HC, CO2, dan O2 untuk menilai kualitas pembakaran.\n3. Jika hasil melebihi standar, lakukan pemeriksaan pada sistem intake, bahan bakar, pengapian, atau exhaust."
+            },
+            {
+              "title3": "Penutupan Proses Pengujian",
+              "content3": "1. Lepaskan probe dari knalpot dengan hati-hati.\n2. Matikan gas analyzer sesuai prosedur.\n3. Simpan alat pada tempat yang aman.\n4. Dokumentasikan hasil uji sebagai bagian dari laporan servis.\n\nTahap penutupan memastikan alat tetap dalam kondisi baik dan data pengujian terdokumentasi dengan benar."
+            },
+            {
+              "title3": "Tujuan Pelaksanaan Prosedur yang Sistematis",
+              "content3": "1. Menjamin hasil pengujian akurat dan dapat dipercaya.\n2. Mempermudah proses diagnosis kerusakan.\n3. Memastikan kendaraan memenuhi standar emisi.\n4. Mendukung praktik kerja sesuai standar industri dan SKKNI."
+            }
+          ]
+        },
+        {
+          "title2": "Analisis Hasil Uji Emisi",
+          "content2": "Analisis hasil uji emisi merupakan tahap penting setelah proses pengukuran kadar gas buang dilakukan. Pada tahap ini, teknisi tidak hanya membaca angka yang muncul pada gas analyzer, tetapi juga menafsirkan hubungan antar parameter untuk mengetahui kondisi pembakaran dan kemungkinan gangguan pada sistem mesin. Parameter utama yang dianalisis meliputi CO (%), HC (ppm), CO2 (%), dan O2 (%). Kombinasi nilai-nilai tersebut menjadi dasar diagnosis terhadap sistem intake, bahan bakar, pengapian, dan exhaust.",
+          "items": [
+            {
+              "title3": "Analisis Kadar CO (Carbon Monoxide)",
+              "content3": "CO tinggi menunjukkan pembakaran tidak sempurna akibat campuran terlalu kaya (rich mixture).\n\nKemungkinan penyebab:\n1. Filter udara kotor atau tersumbat.\n2. Setelan karburator terlalu kaya.\n3. Injektor menyemprot berlebihan.\n4. Sensor MAP/TPS tidak akurat.\n\nCO rendah biasanya menunjukkan campuran mendekati ideal, tetapi harus dianalisis bersama parameter lain."
+            },
+            {
+              "title3": "Analisis Kadar HC (Hydrocarbon)",
+              "content3": "HC tinggi menunjukkan adanya bahan bakar yang tidak terbakar sempurna.\n\nKemungkinan penyebab:\n1. Busi lemah atau pengapian tidak stabil.\n2. Kompresi bocor.\n3. Misfire (pembakaran gagal).\n4. Campuran terlalu kaya.\n\nHC tinggi disertai CO tinggi → indikasi campuran kaya.\nHC tinggi dengan CO normal → kemungkinan masalah pengapian."
+            },
+            {
+              "title3": "Analisis Kadar CO2 (Carbon Dioxide)",
+              "content3": "CO2 merupakan indikator pembakaran sempurna.\n\nInterpretasi:\n- CO2 tinggi → pembakaran relatif efisien.\n- CO2 rendah disertai CO dan HC tinggi → pembakaran tidak sempurna.\n\nNilai CO2 membantu menilai seberapa optimal proses pembakaran berlangsung."
+            },
+            {
+              "title3": "Analisis Kadar O2 (Oksigen)",
+              "content3": "O2 menunjukkan sisa oksigen dalam gas buang.\n\nInterpretasi:\n- O2 tinggi → campuran terlalu kurus (lean) atau ada kebocoran exhaust.\n- O2 rendah → campuran terlalu kaya.\n\nO2 harus dianalisis bersama CO dan HC untuk mendapatkan gambaran kondisi pembakaran."
+            },
+            {
+              "title3": "Analisis Kombinasi Parameter Emisi",
+              "content3": "Beberapa pola analisis umum:\n1. CO tinggi + HC tinggi + CO2 rendah → campuran kaya, pembakaran tidak sempurna.\n2. HC tinggi + CO normal → gangguan sistem pengapian atau misfire.\n3. O2 tinggi + NOx tinggi (jika diukur) → campuran terlalu kurus dan suhu tinggi.\n4. Semua nilai stabil dalam batas standar → mesin dalam kondisi baik.\n\nAnalisis kombinasi membantu teknisi menentukan sistem mana yang perlu diperiksa lebih lanjut."
+            },
+            {
+              "title3": "Langkah Tindak Lanjut Berdasarkan Hasil Analisis",
+              "content3": "1. Periksa sistem intake jika CO tinggi.\n2. Periksa sistem pengapian jika HC tinggi.\n3. Periksa sensor O2 dan catalytic converter jika nilai emisi tidak stabil.\n4. Lakukan penyetelan ulang atau perbaikan sesuai hasil diagnosis.\n\nKemampuan menganalisis hasil uji emisi secara tepat merupakan kompetensi penting teknisi sepeda motor profesional sesuai standar industri dan SKKNI."
+            }
+          ]
+        },
+        {
+          "title2": "Tindakan Perbaikan Berdasarkan Hasil Uji",
+          "content2": "Tindakan perbaikan dilakukan setelah teknisi menganalisis hasil uji emisi dan menemukan nilai yang melebihi standar baku mutu. Perbaikan harus dilakukan berdasarkan penyebab utama (root cause), bukan hanya berdasarkan gejala. Oleh karena itu, teknisi wajib menghubungkan hasil uji emisi dengan kondisi sistem intake, sistem bahan bakar, sistem pengapian, serta sistem exhaust. Proses perbaikan harus mengikuti prosedur kerja yang sistematis agar hasil optimal dan tidak terjadi penggantian komponen yang tidak perlu.",
+          "items": [
+            {
+              "title3": "Tindakan Perbaikan Jika CO Tinggi",
+              "content3": "CO tinggi menunjukkan campuran terlalu kaya (rich mixture).\n\nLangkah perbaikan:\n1. Bersihkan atau ganti filter udara jika tersumbat.\n2. Periksa dan bersihkan throttle body.\n3. Setel ulang karburator (pada sistem konvensional).\n4. Periksa injektor dari kemungkinan bocor atau menyemprot berlebihan.\n5. Periksa sensor MAP, TPS, dan IAT menggunakan scan tool.\n\nTujuan: Mengembalikan rasio campuran udara–bahan bakar mendekati ideal."
+            },
+            {
+              "title3": "Tindakan Perbaikan Jika HC Tinggi",
+              "content3": "HC tinggi menunjukkan adanya bahan bakar yang tidak terbakar sempurna.\n\nLangkah perbaikan:\n1. Periksa kondisi busi (celah dan warna elektroda).\n2. Periksa koil pengapian dan kabel busi.\n3. Periksa kompresi silinder.\n4. Pastikan tidak terjadi misfire.\n5. Periksa kondisi catalytic converter.\n\nTujuan: Memastikan pembakaran berlangsung sempurna dan stabil."
+            },
+            {
+              "title3": "Tindakan Perbaikan Jika O2 Tinggi",
+              "content3": "O2 tinggi dapat menunjukkan campuran terlalu kurus (lean) atau adanya kebocoran.\n\nLangkah perbaikan:\n1. Periksa kebocoran pada intake manifold.\n2. Periksa selang vakum.\n3. Periksa kebocoran pada sistem exhaust.\n4. Periksa sensor O2 apakah berfungsi normal.\n\nTujuan: Menghilangkan udara liar (unmetered air) dan menstabilkan pembakaran."
+            },
+            {
+              "title3": "Tindakan Perbaikan Jika Mesin Terasa Berat dan Emisi Tidak Turun",
+              "content3": "Jika setelah perbaikan dasar emisi masih tinggi dan mesin terasa berat, kemungkinan terdapat sumbatan pada catalytic converter.\n\nLangkah perbaikan:\n1. Lakukan pemeriksaan tekanan balik (back pressure).\n2. Periksa kondisi catalytic converter.\n3. Ganti catalytic converter jika terbukti rusak atau tersumbat.\n\nTujuan: Memastikan gas buang mengalir lancar dan proses konversi gas berjalan optimal."
+            },
+            {
+              "title3": "Penyetelan Ulang dan Pengujian Ulang",
+              "content3": "Setelah tindakan perbaikan dilakukan:\n1. Lakukan penyetelan ulang idle sesuai spesifikasi.\n2. Pastikan tidak ada kode kerusakan pada ECU.\n3. Lakukan uji emisi ulang untuk memastikan hasil sudah sesuai standar.\n\nPengujian ulang penting untuk memastikan perbaikan berhasil dan kendaraan memenuhi baku mutu emisi."
+            },
+            {
+              "title3": "Prinsip Perbaikan Sesuai Standar Industri",
+              "content3": "1. Perbaikan dilakukan berdasarkan analisis data, bukan perkiraan.\n2. Gunakan suku cadang sesuai spesifikasi pabrikan.\n3. Hindari penggantian komponen tanpa pemeriksaan menyeluruh.\n4. Dokumentasikan hasil sebelum dan sesudah perbaikan.\n\nKemampuan menentukan tindakan perbaikan yang tepat merupakan bagian dari kompetensi teknisi sepeda motor profesional sesuai SKKNI."
+            }
+          ]
+        },
+        {
+          "title2": "Penyusunan Laporan Hasil Pemeriksaan",
+          "content2": "Penyusunan laporan hasil pemeriksaan dan pengujian emisi merupakan tahap akhir dari proses diagnosis. Laporan berfungsi sebagai bukti administrasi, bahan evaluasi teknis, serta dasar pengambilan keputusan perbaikan lanjutan. Dalam standar industri dan SKKNI, teknisi tidak hanya dituntut mampu melakukan pemeriksaan, tetapi juga harus mampu mendokumentasikan hasil kerja secara sistematis, jelas, dan dapat dipertanggungjawabkan.\n\nLaporan harus disusun berdasarkan data aktual hasil pengukuran, bukan perkiraan. Isi laporan harus memuat identitas kendaraan, hasil uji emisi, analisis kondisi mesin, tindakan perbaikan yang dilakukan, serta kesimpulan akhir.",
+          "items": [
+            {
+              "title3": "Komponen Utama dalam Laporan",
+              "content3": "Laporan hasil pemeriksaan minimal memuat:\n1. Identitas kendaraan (merek, tipe, tahun produksi, nomor polisi).\n2. Data pemilik kendaraan.\n3. Tanggal dan lokasi pemeriksaan.\n4. Nama teknisi yang melakukan pengujian.\n5. Kondisi awal kendaraan sebelum pengujian."
+            },
+            {
+              "title3": "Pencatatan Hasil Uji Emisi",
+              "content3": "Hasil uji emisi dicatat secara lengkap meliputi:\n1. Kadar CO (%).\n2. Kadar HC (ppm).\n3. Kadar CO2 (%).\n4. Kadar O2 (%).\n5. Putaran mesin saat pengujian (rpm).\n\nData harus dibandingkan dengan standar baku mutu emisi yang berlaku dan diberi keterangan \"Memenuhi\" atau \"Tidak Memenuhi\"."
+            },
+            {
+              "title3": "Analisis dan Diagnosis",
+              "content3": "Bagian ini berisi penjelasan teknis mengenai:\n1. Interpretasi hasil uji emisi.\n2. Indikasi gangguan pada sistem intake, bahan bakar, pengapian, atau exhaust.\n3. Hubungan antara gejala mesin dan data emisi.\n\nAnalisis harus logis dan berdasarkan data pengukuran."
+            },
+            {
+              "title3": "Tindakan Perbaikan yang Dilakukan",
+              "content3": "Tuliskan secara rinci tindakan perbaikan yang telah dilakukan, seperti:\n1. Pembersihan throttle body.\n2. Penggantian filter udara.\n3. Penyetelan karburator.\n4. Penggantian busi atau sensor.\n\nJika dilakukan uji ulang, cantumkan hasil sebelum dan sesudah perbaikan."
+            },
+            {
+              "title3": "Kesimpulan dan Rekomendasi",
+              "content3": "Bagian kesimpulan memuat:\n1. Status akhir kendaraan (layak atau perlu perbaikan lanjutan).\n2. Saran perawatan berkala kepada pemilik kendaraan.\n3. Rekomendasi penggantian komponen jika diperlukan.\n\nKesimpulan harus singkat, jelas, dan sesuai hasil analisis."
+            },
+            {
+              "title3": "Tujuan Penyusunan Laporan",
+              "content3": "1. Menjadi bukti tertulis hasil pemeriksaan.\n2. Memudahkan evaluasi dan tindak lanjut perbaikan.\n3. Mendukung profesionalisme teknisi.\n4. Memenuhi standar administrasi bengkel dan kompetensi kerja sesuai SKKNI.\n\nLaporan yang baik mencerminkan kemampuan teknis dan tanggung jawab profesional seorang teknisi sepeda motor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

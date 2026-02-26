@@ -1,5 +1,153 @@
-{
-  "title": "Teori Modul",
+{ "title": "Sistem Pelumasan Mesin Sepeda Motor",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Konsep Dasar Sistem Pelumasan",
+      "contentL1": "Sistem pelumasan merupakan salah satu sistem utama pada mesin sepeda motor yang berperan penting dalam menjaga performa, keawetan, dan keselamatan kerja mesin. Tanpa pelumasan yang baik, komponen mesin akan mengalami gesekan berlebihan yang dapat menyebabkan keausan, panas tinggi, hingga kerusakan berat.",
+      "subSections": [
+        {
+          "title2": "Pengertian Sistem Pelumasan",
+          "content2": "Sistem pelumasan adalah sistem yang berfungsi untuk menyalurkan oli ke seluruh bagian mesin yang bergerak guna mengurangi gesekan, mendinginkan, membersihkan, dan melindungi komponen mesin dari keausan dan korosi.\n\nPada mesin 4 langkah, komponen seperti piston, ring piston, poros engkol, camshaft, dan rocker arm bekerja dengan kecepatan tinggi sehingga membutuhkan lapisan oli sebagai pelindung.\n\nPrinsip dasar sistem pelumasan:\n1. Oli ditampung di bak oli (oil pan).\n2. Pompa oli menghisap dan menekan oli ke seluruh saluran pelumasan.\n3. Oli melewati filter untuk menyaring kotoran.\n4. Oli melumasi komponen mesin.\n5. Oli kembali ke bak oli dan bersirkulasi kembali selama mesin hidup."
+        },
+        {
+          "title2": "Fungsi Sistem Pelumasan pada Mesin 4 Langkah",
+          "content2": "Sistem pelumasan memiliki beberapa fungsi utama sebagai berikut:\n\n1. Mengurangi gesekan antar komponen yang bergerak seperti piston dan crankshaft.\n2. Mendinginkan komponen mesin dengan menyerap dan memindahkan panas.\n3. Membersihkan serpihan logam dan kotoran hasil pembakaran.\n4. Mencegah karat dan korosi pada permukaan logam.\n5. Meredam getaran dan suara mesin agar bekerja lebih halus."
+        },
+        {
+          "title2": "Tujuan Pelumasan Mesin",
+          "content2": "Pelumasan mesin bertujuan untuk menjaga mesin tetap bekerja optimal dalam jangka panjang.\n\n1. Memperpanjang umur komponen mesin.\n2. Menjaga performa dan tenaga mesin tetap stabil.\n3. Meningkatkan efisiensi bahan bakar.\n4. Mencegah overheating akibat gesekan berlebihan.\n5. Menjamin keamanan dan kenyamanan operasional kendaraan."
+        },
+        {
+          "title2": "Dampak Kekurangan dan Kelebihan Oli Mesin",
+          "content2": "Volume oli mesin harus sesuai dengan standar pabrikan. Kekurangan maupun kelebihan oli dapat menimbulkan gangguan.\n\nDampak kekurangan oli:\n1. Mesin cepat panas (overheating).\n2. Komponen aus lebih cepat.\n3. Suara mesin kasar dan berisik.\n4. Risiko piston macet atau mesin jebol.\n\nDampak kelebihan oli:\n1. Oli dapat berbusa karena teraduk poros engkol.\n2. Tekanan di dalam mesin meningkat.\n3. Seal dan gasket berpotensi bocor.\n4. Asap putih dapat keluar dari knalpot akibat oli masuk ke ruang bakar."
+        }
+      ]
+    },
+    {
+      "title": "Jenis Sistem Pelumasan",
+      "contentL1": "Sistem pelumasan pada sepeda motor dirancang untuk memastikan seluruh komponen mesin mendapatkan suplai oli secara merata. Berdasarkan cara penyimpanan dan sirkulasi oli, sistem pelumasan dibedakan menjadi dua jenis utama, yaitu sistem pelumasan basah (wet sump) dan sistem pelumasan kering (dry sump).",
+      "subSections": [
+        {
+          "title2": "Sistem Pelumasan Basah (Wet Sump)",
+          "content2": "Sistem pelumasan basah (wet sump) adalah sistem pelumasan yang menempatkan oli mesin langsung di dalam bak oli (oil pan) yang berada di bagian bawah mesin.\n\nPada sistem ini, oli yang telah melumasi komponen mesin akan kembali jatuh ke bak oli karena gravitasi, kemudian dipompa kembali oleh pompa oli untuk disirkulasikan.\n\nKarakteristik sistem wet sump:\n1. Oli ditampung di bagian bawah mesin (crankcase).\n2. Menggunakan satu pompa oli untuk mengalirkan oli.\n3. Konstruksi lebih sederhana dan umum digunakan pada sepeda motor harian.\n4. Perawatan lebih mudah dan biaya produksi lebih rendah.\n\nKelebihan sistem wet sump:\n1. Desain sederhana dan ekonomis.\n2. Perawatan mudah.\n3. Cocok untuk penggunaan normal dan harian.\n\nKekurangan sistem wet sump:\n1. Kurang optimal pada kondisi ekstrem atau kecepatan tinggi.\n2. Risiko oli berpindah posisi saat motor miring tajam.\n3. Pendinginan oli relatif terbatas."
+        },
+        {
+          "title2": "Sistem Pelumasan Kering (Dry Sump)",
+          "content2": "Sistem pelumasan kering (dry sump) adalah sistem pelumasan yang menempatkan oli pada tangki terpisah di luar mesin.\n\nPada sistem ini, oli tidak disimpan di bak oli bagian bawah mesin. Oli yang kembali dari mesin akan dipompa keluar menuju tangki khusus, kemudian dipompa kembali ke dalam mesin melalui pompa tekanan.\n\nKarakteristik sistem dry sump:\n1. Oli disimpan dalam tangki terpisah.\n2. Menggunakan dua pompa oli (pompa tekanan dan pompa pengembali).\n3. Umumnya digunakan pada motor performa tinggi atau balap.\n4. Sirkulasi oli lebih stabil pada kondisi ekstrem.\n\nKelebihan sistem dry sump:\n1. Pelumasan lebih stabil saat motor miring atau kecepatan tinggi.\n2. Pendinginan oli lebih baik.\n3. Performa mesin lebih optimal.\n\nKekurangan sistem dry sump:\n1. Konstruksi lebih kompleks.\n2. Biaya produksi dan perawatan lebih tinggi.\n3. Membutuhkan ruang tambahan untuk tangki oli."
+        },
+        {
+          "title2": "Perbandingan Sistem Basah dan Kering",
+          "content2": "Perbedaan utama antara sistem wet sump dan dry sump terletak pada lokasi penyimpanan oli dan sistem pemompaannya.\n\nPerbandingan utama:\n1. Wet sump menyimpan oli di dalam mesin, sedangkan dry sump menyimpan oli di tangki terpisah.\n2. Wet sump menggunakan satu pompa oli, sedangkan dry sump menggunakan dua pompa.\n3. Wet sump lebih sederhana dan ekonomis, dry sump lebih kompleks namun lebih stabil pada kondisi ekstrem.\n4. Wet sump cocok untuk motor harian, sedangkan dry sump cocok untuk motor performa tinggi.\n\nPemilihan sistem pelumasan disesuaikan dengan kebutuhan performa, desain mesin, serta tujuan penggunaan kendaraan."
+        }
+      ]
+    },
+    {
+      "title": "Komponen Sistem Pelumasan",
+      "contentL1": "Sistem pelumasan pada sepeda motor terdiri dari beberapa komponen yang saling berhubungan dan bekerja secara berkesinambungan. Setiap komponen memiliki fungsi spesifik dalam menyimpan, memompa, menyaring, mengatur tekanan, mendinginkan, dan mendistribusikan oli ke seluruh bagian mesin. Kerusakan atau gangguan pada salah satu komponen dapat menyebabkan penurunan performa hingga kerusakan serius pada mesin.",
+      "subSections": [
+        {
+          "title2": "Bak Oli (Oil Pan)",
+          "content2": "![Bak Oli (Oil Pan)](images/XRDCTSM-007/bak-oli.png)Bak oli (oil pan) adalah komponen yang berfungsi sebagai tempat penampungan utama oli mesin pada sistem pelumasan basah (wet sump). Komponen ini terletak di bagian paling bawah mesin dan menyatu dengan crankcase.\n\nFungsi utama bak oli:\n1. Menyimpan cadangan oli sesuai kapasitas mesin.\n2. Menampung oli yang kembali setelah melumasi komponen mesin.\n3. Membantu proses pendinginan oli melalui pelepasan panas ke udara luar.\n4. Menjadi tempat pengendapan kotoran sebelum oli disaring kembali.\n\nBak oli biasanya terbuat dari aluminium atau baja yang tahan panas. Pada bagian bawahnya terdapat baut pembuangan (drain bolt) yang digunakan saat proses penggantian oli. Pada beberapa mesin, bak oli juga dilengkapi magnet untuk menangkap serpihan logam halus hasil gesekan komponen."
+        },
+        {
+          "title2": "Pompa Oli (Oil Pump)",
+          "content2": "![Pompa Oli (Oil Pump](images/XRDCTSM-007/pompa-oli.png)Pompa oli merupakan komponen vital dalam sistem pelumasan karena bertugas mengalirkan dan memberikan tekanan pada oli agar dapat bersirkulasi ke seluruh bagian mesin.\n\nPrinsip kerja pompa oli adalah menghisap oli dari bak oli kemudian menekannya ke saluran pelumasan melalui tekanan tertentu.\n\nFungsi pompa oli:\n1. Menghisap oli dari bak oli atau tangki oli.\n2. Menyalurkan oli ke filter dan saluran pelumasan.\n3. Menjaga tekanan oli tetap stabil sesuai spesifikasi mesin.\n\nJenis pompa oli yang umum digunakan:\n1. Pompa tipe gear (roda gigi).\n2. Pompa tipe trochoid (rotor dalam dan luar).\n\nPompa oli digerakkan oleh poros engkol atau camshaft. Jika pompa oli mengalami keausan, tekanan oli akan menurun dan dapat menyebabkan pelumasan tidak optimal."
+        },
+        {
+          "title2": "Saringan Oli (Oil Strainer)",
+          "content2": "![Saringan Oli (Oil Strainer)](images/XRDCTSM-007/saringan-oli.png)Saringan oli atau oil strainer adalah saringan kasar yang terletak sebelum pompa oli.\n\nFungsi oil strainer:\n1. Menyaring partikel besar seperti serpihan logam kasar.\n2. Mencegah benda asing masuk ke dalam pompa oli.\n3. Melindungi pompa oli dari kerusakan akibat kotoran.\n\nOil strainer berbentuk jaring (mesh) dan dapat dibersihkan saat servis berkala. Jika saringan ini tersumbat, aliran oli ke pompa akan terhambat dan tekanan oli bisa turun."
+        },
+        {
+          "title2": "Filter Oli (Oil Filter)",
+          "content2": "![Filter Oli (Oil Filter)](images/XRDCTSM-007/filter-oli.png)Filter oli adalah komponen penyaring halus yang berfungsi menyaring partikel kecil yang tidak tertahan oleh oil strainer.\n\nFungsi filter oli:\n1. Menyaring partikel logam halus akibat gesekan komponen mesin.\n2. Menjaga kebersihan oli agar tetap optimal.\n3. Mencegah penyumbatan pada saluran oli kecil.\n\nJenis filter oli:\n1. Tipe kertas (paper element).\n2. Tipe sentrifugal (centrifugal filter).\n\nFilter oli harus diganti secara berkala sesuai interval servis. Filter yang tersumbat dapat menyebabkan tekanan oli turun atau oli tidak tersirkulasi dengan baik."
+        },
+        {
+          "title2": "Katup Pengatur Tekanan Oli (Relief Valve)",
+          "content2": "![Katup Pengatur Tekanan Oli (Relief Valve)](images/XRDCTSM-007/relief-valve.png)Relief valve adalah komponen yang berfungsi untuk mengatur dan membatasi tekanan oli dalam sistem pelumasan.\n\nSaat tekanan oli melebihi batas tertentu, relief valve akan membuka dan mengalirkan kembali sebagian oli ke bak oli.\n\nFungsi relief valve:\n1. Menjaga tekanan oli tetap dalam batas aman.\n2. Mencegah kerusakan seal dan gasket akibat tekanan berlebih.\n3. Menstabilkan sistem pelumasan pada putaran mesin tinggi.\n\nRelief valve biasanya menggunakan pegas sebagai pengatur tekanan. Jika pegas melemah, tekanan oli bisa menjadi tidak stabil."
+        },
+        {
+          "title2": "Oil Cooler",
+          "content2": "![Oil Cooler](images/XRDCTSM-007/oil-cooler.png)Oil cooler adalah komponen tambahan yang berfungsi untuk menurunkan suhu oli sebelum bersirkulasi kembali ke dalam mesin.\n\nPada mesin performa tinggi, suhu oli dapat meningkat drastis sehingga memerlukan pendinginan tambahan.\n\nFungsi oil cooler:\n1. Menurunkan temperatur oli.\n2. Menjaga viskositas oli tetap stabil.\n3. Meningkatkan umur pakai oli dan komponen mesin.\n\nOil cooler bekerja dengan prinsip pertukaran panas antara oli dan udara luar. Komponen ini umumnya digunakan pada motor sport atau kapasitas mesin besar."
+        },
+        {
+          "title2": "Jalur dan Saluran Oli",
+          "content2": "![Jalur dan Saluran Oli](images/XRDCTSM-007/saluran-oli.png)Jalur dan saluran oli adalah sistem saluran internal di dalam blok mesin yang berfungsi mendistribusikan oli ke seluruh komponen yang membutuhkan pelumasan.\n\nFungsi jalur dan saluran oli:\n1. Mengalirkan oli dari pompa menuju crankshaft, piston, camshaft, dan komponen lainnya.\n2. Menjamin setiap bagian mesin mendapatkan pelumasan merata.\n3. Mengembalikan oli ke bak oli setelah proses pelumasan.\n\nSaluran oli dibuat dengan presisi tinggi. Jika terjadi penyumbatan akibat lumpur oli atau kotoran, maka komponen tertentu dapat mengalami kekurangan pelumasan dan berisiko rusak."
+        }
+      ]
+    },
+    {
+      "title": "Perinsip Kerja dan Alur Sirkulasi Oli",
+      "contentL1": "Sistem pelumasan bekerja berdasarkan prinsip sirkulasi oli secara terus-menerus selama mesin hidup. Oli dialirkan dengan tekanan tertentu untuk memastikan seluruh komponen yang bergerak mendapatkan pelumasan yang cukup. Proses ini melibatkan pompa oli, saluran distribusi, katup pengatur tekanan, serta sistem penyaringan agar oli tetap bersih dan efektif dalam melindungi mesin.",
+      "subSections": [
+        {
+          "title2": "Alur Sirkulasi Oli pada Mesin 4 Tak",
+          "content2": "Pada mesin 4 tak dengan sistem pelumasan basah (wet sump), oli bersirkulasi melalui tahapan tertentu.\n\nAlur sirkulasi oli adalah sebagai berikut:\n1. Oli ditampung di dalam bak oli (oil pan) pada bagian bawah mesin.\n2. Saat mesin hidup, pompa oli menghisap oli melalui saringan kasar (oil strainer).\n3. Oli dipompa menuju filter oli untuk disaring dari kotoran halus.\n4. Setelah melewati filter, oli bertekanan dialirkan ke saluran utama (main oil gallery).\n5. Dari saluran utama, oli didistribusikan ke poros engkol (crankshaft), bantalan (bearing), piston, noken as (camshaft), dan rocker arm.\n6. Setelah melumasi komponen, oli kembali ke bak oli melalui gravitasi.\n\nProses ini berlangsung berulang selama mesin menyala. Pada sistem dry sump, alur hampir sama, namun oli disimpan dalam tangki terpisah dan menggunakan dua pompa (pompa tekanan dan pompa pengembali)."
+        },
+        {
+          "title2": "Proses Pendinginan dan Pelumasan Komponen Mesin",
+          "content2": "Selain mengurangi gesekan, oli juga berfungsi sebagai media pendingin tambahan pada mesin.\n\nProses pelumasan terjadi ketika oli membentuk lapisan tipis (oil film) di antara dua permukaan logam yang bergerak. Lapisan ini mencegah kontak langsung antar logam sehingga gesekan berkurang.\n\nProses pendinginan terjadi melalui tahapan berikut:\n1. Oli menyerap panas dari piston, dinding silinder, dan poros engkol.\n2. Oli yang panas mengalir kembali ke bak oli atau tangki oli.\n3. Panas dilepaskan melalui permukaan bak oli atau melalui oil cooler.\n4. Oli yang suhunya lebih stabil kembali bersirkulasi.\n\nPelumasan yang baik menjaga suhu kerja mesin tetap stabil, mencegah overheating, serta mempertahankan viskositas oli agar tetap sesuai spesifikasi."
+        },
+        {
+          "title2": "Tekanan dan Distribusi Oli",
+          "content2": "Tekanan oli sangat penting dalam sistem pelumasan karena menentukan kemampuan oli untuk menjangkau seluruh bagian mesin.\n\nTekanan oli dihasilkan oleh pompa oli dan dipengaruhi oleh:\n1. Putaran mesin (RPM).\n2. Kondisi pompa oli.\n3. Kekentalan (viskositas) oli.\n4. Kondisi saluran dan filter oli.\n\nRelief valve berfungsi menjaga tekanan agar tidak melebihi batas aman. Jika tekanan terlalu rendah, pelumasan menjadi tidak optimal dan dapat menyebabkan keausan. Jika tekanan terlalu tinggi, seal dan gasket dapat rusak.\n\nDistribusi oli dilakukan melalui saluran utama (main gallery) yang bercabang ke berbagai komponen mesin. Desain saluran ini dibuat presisi agar aliran oli merata dan tidak terjadi kekurangan pelumasan pada bagian tertentu.\n\nTekanan oli yang ideal memastikan:\n1. Komponen mesin terlindungi dari gesekan langsung.\n2. Pendinginan berlangsung efektif.\n3. Umur mesin lebih panjang.\n4. Performa mesin tetap stabil dalam berbagai kondisi kerja."
+        }
+      ]
+    },
+    {
+      "title": "Pemeriksaan dan Perawatan Sistem Pelumasan",
+      "contentL1": "Perawatan sistem pelumasan merupakan bagian dari servis berkala sepeda motor yang bertujuan menjaga performa dan umur mesin. Pemeriksaan dan penggantian oli harus dilakukan sesuai interval yang ditentukan pabrikan serta mengikuti prosedur kerja dan standar keselamatan (K3).",
+      "subSections": [
+        {
+          "title2": "Pemeriksaan Volume Oli Mesin",
+          "content2": "Pemeriksaan volume oli dilakukan untuk memastikan jumlah oli sesuai standar kapasitas mesin.\n\nLangkah pemeriksaan volume oli:\n1. Pastikan sepeda motor dalam posisi tegak dan berada di permukaan rata.\n2. Hidupkan mesin selama 2–3 menit lalu matikan, tunggu beberapa saat agar oli turun ke bak oli.\n3. Periksa melalui dipstick atau kaca pengintai (oil level gauge).\n4. Pastikan permukaan oli berada di antara tanda batas bawah (LOW) dan batas atas (FULL).\n5. Jika kurang, tambahkan oli sesuai spesifikasi.\n\nVolume oli yang tidak sesuai dapat menyebabkan pelumasan tidak optimal atau tekanan berlebih pada mesin."
+        },
+        {
+          "title2": "Pemeriksaan Kualitas Oli",
+          "content2": "Selain volume, kualitas oli juga harus diperiksa untuk mengetahui apakah oli masih layak digunakan.\n\nIndikator oli harus diganti:\n1. Warna oli berubah menjadi sangat hitam pekat.\n2. Oli terasa encer berlebihan atau terlalu kental.\n3. Tercium bau terbakar.\n4. Terdapat serpihan logam halus.\n5. Kilometer pemakaian sudah melewati batas servis.\n\nOli yang sudah rusak tidak mampu melumasi dengan baik dan dapat menyebabkan keausan komponen mesin."
+        },
+        {
+          "title2": "Prosedur Penggantian Oli Mesin",
+          "content2": "Penggantian oli harus dilakukan sesuai prosedur agar tidak terjadi kesalahan teknis.\n\nLangkah penggantian oli:\n1. Panaskan mesin selama beberapa menit agar oli lebih encer.\n2. Matikan mesin dan siapkan wadah penampung oli bekas.\n3. Buka baut pembuangan (drain bolt) dan biarkan oli keluar seluruhnya.\n4. Bersihkan baut pembuangan dan periksa kondisi ring atau washer.\n5. Pasang kembali baut pembuangan sesuai torsi yang dianjurkan.\n6. Isi oli baru sesuai kapasitas yang ditentukan pabrikan.\n7. Hidupkan mesin beberapa saat lalu periksa kembali volume oli.\n\nPastikan tidak ada kebocoran setelah proses penggantian selesai."
+        },
+        {
+          "title2": "Prosedur Penggantian Filter Oli",
+          "content2": "Filter oli diganti secara berkala untuk menjaga kebersihan oli.\n\nLangkah penggantian filter oli:\n1. Kuras oli mesin terlebih dahulu.\n2. Lepaskan penutup atau rumah filter oli.\n3. Keluarkan filter lama dan bersihkan area sekitarnya.\n4. Pasang filter baru sesuai arah pemasangan.\n5. Periksa kondisi O-ring atau seal.\n6. Pasang kembali penutup filter sesuai standar torsi.\n7. Isi kembali oli mesin dan periksa kebocoran.\n\nFilter yang tidak diganti dapat menyebabkan sirkulasi oli terganggu."
+        },
+        {
+          "title2": "Standar Torsi dan Spesifikasi Oli",
+          "content2": "Setiap sepeda motor memiliki standar torsi pengencangan dan spesifikasi oli yang berbeda sesuai rekomendasi pabrikan.\n\nHal yang harus diperhatikan:\n1. Gunakan oli dengan viskositas sesuai spesifikasi (misalnya SAE 10W-30 atau 10W-40).\n2. Pastikan oli memenuhi standar API dan JASO yang dianjurkan.\n3. Kencangkan baut pembuangan dan penutup filter sesuai nilai torsi (Nm) pada buku manual servis.\n4. Jangan mengencangkan baut secara berlebihan karena dapat merusak ulir crankcase.\n\nMengikuti spesifikasi yang benar memastikan sistem pelumasan bekerja optimal."
+        },
+        {
+          "title2": "Penerapan K3 dalam Perawatan Sistem Pelumasan",
+          "content2": "Keselamatan dan Kesehatan Kerja (K3) wajib diterapkan saat melakukan perawatan sistem pelumasan.\n\nPenerapan K3 meliputi:\n1. Menggunakan sarung tangan dan kacamata kerja.\n2. Memastikan mesin dalam kondisi mati sebelum bekerja.\n3. Menghindari kontak langsung dengan oli panas.\n4. Menyediakan wadah khusus untuk oli bekas.\n5. Membuang oli bekas sesuai prosedur lingkungan.\n6. Membersihkan area kerja dari tumpahan oli agar tidak licin.\n\nPenerapan K3 bertujuan mencegah kecelakaan kerja dan menjaga lingkungan tetap aman."
+        }
+      ]
+    },
+    {
+      "title": "Diagnosis Gangguan Sistem Pelumasan",
+      "contentL1": "Diagnosis gangguan sistem pelumasan merupakan kemampuan penting yang harus dimiliki teknisi sepeda motor. Gangguan pada sistem pelumasan dapat menyebabkan penurunan performa, keausan komponen, hingga kerusakan total mesin. Oleh karena itu, identifikasi gejala, analisis penyebab, serta langkah perbaikan harus dilakukan secara sistematis dan sesuai prosedur kerja.",
+      "subSections": [
+        {
+          "title2": "Gejala Kerusakan Sistem Pelumasan",
+          "content2": "Gangguan pada sistem pelumasan biasanya ditandai dengan beberapa gejala yang dapat dirasakan atau diamati.\n\nGejala umum kerusakan sistem pelumasan:\n1. Suara mesin kasar atau berisik terutama pada bagian atas mesin.\n2. Mesin cepat panas (overheating).\n3. Lampu indikator tekanan oli menyala.\n4. Tenaga mesin menurun.\n5. Asap berlebihan dari knalpot.\n6. Terdapat kebocoran oli di sekitar mesin.\n\nGejala-gejala tersebut harus segera diperiksa untuk mencegah kerusakan yang lebih parah."
+        },
+        {
+          "title2": "Penyebab Tekanan Oli Rendah",
+          "content2": "Tekanan oli yang rendah menyebabkan distribusi pelumasan tidak maksimal sehingga komponen mesin berisiko aus.\n\nPenyebab tekanan oli rendah antara lain:\n1. Volume oli kurang dari batas minimum.\n2. Pompa oli aus atau rusak.\n3. Filter oli tersumbat.\n4. Saluran oli tersumbat oleh kotoran atau lumpur oli.\n5. Relief valve macet dalam posisi terbuka.\n6. Oli terlalu encer akibat penggunaan oli tidak sesuai spesifikasi.\n\nTekanan oli yang rendah dalam jangka panjang dapat menyebabkan kerusakan bantalan (bearing) dan poros engkol."
+        },
+        {
+          "title2": "Kebocoran Oli Mesin",
+          "content2": "Kebocoran oli merupakan masalah yang sering terjadi dan dapat menyebabkan berkurangnya volume oli secara signifikan.\n\nPenyebab kebocoran oli:\n1. Seal poros engkol aus atau retak.\n2. Gasket penutup mesin rusak.\n3. Baut pembuangan tidak kencang atau ring rusak.\n4. Retakan pada crankcase.\n5. Tekanan oli berlebihan akibat kerusakan relief valve.\n\nKebocoran oli harus segera diperbaiki karena dapat menyebabkan pelumasan tidak optimal dan membahayakan pengendara jika oli menetes ke permukaan jalan."
+        },
+        {
+          "title2": "Overheating Akibat Gangguan Pelumasan",
+          "content2": "Overheating atau panas berlebih dapat terjadi jika sistem pelumasan tidak bekerja dengan baik.\n\nPenyebab overheating akibat gangguan pelumasan:\n1. Kekurangan oli mesin.\n2. Oli sudah rusak dan kehilangan viskositas.\n3. Sirkulasi oli terhambat.\n4. Oil cooler tidak berfungsi dengan baik.\n\nAkibat overheating:\n1. Piston memuai dan berisiko macet (seizure).\n2. Ring piston aus lebih cepat.\n3. Kepala silinder dapat melengkung.\n4. Kerusakan permanen pada komponen mesin.\n\nOverheating yang tidak segera ditangani dapat menyebabkan mesin harus turun mesin (overhaul)."
+        },
+        {
+          "title2": "Langkah Perbaikan",
+          "content2": "Langkah perbaikan harus dilakukan secara sistematis berdasarkan hasil diagnosis.\n\nProsedur umum langkah perbaikan:\n1. Periksa volume dan kualitas oli mesin.\n2. Periksa kemungkinan kebocoran pada seal dan gasket.\n3. Periksa kondisi filter dan saringan oli.\n4. Ukur tekanan oli menggunakan alat pengukur tekanan oli (oil pressure gauge).\n5. Periksa kondisi pompa oli dan relief valve.\n6. Bersihkan saluran oli jika terdapat penyumbatan.\n7. Ganti komponen yang rusak sesuai standar pabrikan.\n\nSetelah perbaikan, lakukan uji coba mesin dan pastikan tidak ada kebocoran serta tekanan oli kembali normal. Semua pekerjaan harus dilakukan dengan menerapkan prosedur K3."
+        }
+      ]
+    }
+  ]
 }

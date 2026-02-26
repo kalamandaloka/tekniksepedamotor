@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Intake–Exhaust & Emisi",
+  "simulations": [
+    {
+      "id": "sim_intake_diagnosis",
+      "title": "Simulasi Diagnosis Gangguan Sistem Intake",
+      "description": "Gunakan pakaian praktik dan pastikan area kerja aman. Siapkan gas analyzer dan pastikan alat telah dikalibrasi. Periksa kondisi awal kendaraan dan pastikan tidak ada kebocoran pada sistem exhaust. Nyalakan mesin dan panaskan hingga mencapai suhu kerja normal. Pastikan putaran idle sesuai spesifikasi pabrikan. Pasang probe gas analyzer ke ujung knalpot dengan posisi rapat dan stabil. Lakukan pengujian emisi pada kondisi idle dan catat nilai CO, HC, CO2, dan O2.\n\nAnalisis hasil pengukuran dengan membandingkan terhadap standar baku mutu emisi. Jika nilai CO dan HC tinggi, identifikasi indikasi campuran terlalu kaya. Matikan mesin. Lakukan pemeriksaan saringan udara, periksa apakah terdapat kotoran atau sumbatan. Periksa throttle body dari kerak karbon dan bersihkan jika diperlukan. Gunakan scan tool untuk memeriksa data sensor TPS dan MAP. Catat hasil pemeriksaan.\n\nTentukan penyebab gangguan berdasarkan data yang diperoleh. Lakukan tindakan perbaikan yang sesuai, seperti membersihkan throttle body atau mengganti filter udara. Setelah perbaikan selesai, hidupkan kembali mesin dan lakukan pengujian emisi ulang. Bandingkan hasil sebelum dan sesudah perbaikan. Buat kesimpulan apakah sistem intake telah bekerja normal sesuai standar.",
+      "image": "/images/XRDCTSM-006/sim_intake_diagnosis.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_exhaust_diagnosis",
+      "title": "Simulasi Diagnosis Gangguan Sistem Exhaust",
+      "description": "Gunakan pakaian praktik dan siapkan alat uji emisi. Pastikan kendaraan dalam kondisi standar. Nyalakan mesin dan panaskan hingga suhu kerja normal. Periksa suara knalpot dan rasakan performa mesin pada putaran idle dan sedikit akselerasi. Lakukan pengujian emisi menggunakan gas analyzer dan catat nilai CO, HC, CO2, dan O2.\n\nAnalisis hasil uji emisi dan hubungkan dengan gejala mesin terasa berat atau suhu meningkat. Jika hasil emisi tidak sesuai standar atau mesin terasa tertahan, lakukan pemeriksaan sistem exhaust. Periksa kondisi header dari kebocoran atau retakan. Periksa gasket knalpot. Periksa kondisi catalytic converter dengan memperhatikan gejala sumbatan atau suara abnormal. Periksa kondisi muffler dari kemungkinan sekat rusak.\n\nIdentifikasi kemungkinan gangguan berdasarkan hasil pemeriksaan. Tentukan tindakan perbaikan yang sesuai, seperti mengganti gasket atau catalytic converter jika diperlukan. Setelah tindakan dilakukan, hidupkan kembali mesin dan lakukan uji emisi ulang. Bandingkan hasil sebelum dan sesudah perbaikan. Buat laporan singkat mengenai penyebab gangguan dan hasil akhir pengujian.",
+      "image": "/images/XRDCTSM-006/sim_exhaust_diagnosis.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

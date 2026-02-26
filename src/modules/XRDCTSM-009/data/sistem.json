@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Pembakaran & AFR",
+  "simulations": [
+    {
+      "id": "sim_pemeriksaan_busi",
+      "title": "Simulasi Pemeriksaan Kondisi Busi",
+      "description": "Gunakan alat pelindung diri (APD) berupa sarung tangan dan kacamata pelindung sebelum memulai pekerjaan untuk mencegah cedera.\n\nPastikan mesin dalam kondisi mati dan benar-benar dingin sebelum melepas busi.\n\nLepaskan tutup busi dan kabel tegangan tinggi dengan hati-hati agar tidak merusak kabel.\n\nGunakan kunci busi yang sesuai untuk melepas busi dari kepala silinder.\n\nAmati warna dan kondisi elektroda busi secara teliti.\n\nIdentifikasi kondisi pembakaran berdasarkan warna busi:\n- Jika warna cokelat kemerahan atau abu-abu → simpulkan pembakaran normal.\n- Jika busi berwarna hitam berjelaga → simpulkan campuran terlalu kaya (rich).\n- Jika busi berwarna putih pucat → simpulkan campuran terlalu miskin (lean) atau mesin terlalu panas.\n- Jika busi basah oleh bensin → periksa kemungkinan misfire atau gangguan sistem pengapian.\n\nUkur celah elektroda menggunakan feeler gauge dan bandingkan dengan spesifikasi standar pabrikan.\n\nBersihkan busi menggunakan sikat kawat halus jika masih layak pakai, atau ganti dengan busi baru jika elektroda aus atau rusak.\n\nPasang kembali busi sesuai torsi standar dan hubungkan kembali kabel busi dengan benar.\n\nCatat hasil pemeriksaan dan buat kesimpulan mengenai kondisi pembakaran mesin.",
+      "image": "/images/XRDCTSM-009/simulasi-pemeriksaan-busi.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_analisis_warna_busi",
+      "title": "Simulasi Analisis Warna Busi untuk Mengetahui Kondisi AFR",
+      "description": "Gunakan alat pelindung diri (APD) berupa sarung tangan dan kacamata pelindung sebelum melakukan pemeriksaan.\n\nPastikan mesin dalam kondisi mati dan sudah dingin sebelum melepas busi.\n\nLepaskan busi menggunakan kunci busi yang sesuai.\n\nBersihkan bagian luar busi dari kotoran agar pemeriksaan lebih jelas.\n\nAmati warna elektroda tengah dan ujung isolator busi dengan teliti di bawah pencahayaan yang cukup.\n\nBandingkan warna busi dengan indikator berikut:\n- Jika warna cokelat kemerahan atau abu-abu muda → simpulkan AFR mendekati stoikiometri (14,7 : 1).\n- Jika warna hitam kering dan berjelaga → simpulkan campuran terlalu kaya (rich).\n- Jika warna hitam basah → periksa kemungkinan kelebihan bahan bakar atau gangguan pengapian.\n- Jika warna putih pucat atau elektroda terlihat terbakar → simpulkan campuran terlalu miskin (lean) atau suhu pembakaran terlalu tinggi.\n\nAnalisis kemungkinan penyebab berdasarkan hasil pengamatan, seperti setelan bahan bakar, kondisi injektor, sensor EFI, atau sistem pengapian.\n\nTuliskan hasil analisis dan simpulkan kondisi AFR mesin berdasarkan warna busi yang diamati.\n\nPasang kembali busi sesuai prosedur dan pastikan terpasang dengan torsi yang sesuai.",
+      "image": "/images/XRDCTSM-009/simulasi-analisis-warna-busi.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

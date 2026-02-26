@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Pelumasan Mesin Sepeda Motor",
+  "simulations": [
+    {
+      "id": "sim_pemeriksaan_volume_oli",
+      "title": "Simulasi Pemeriksaan Volume Oli Mesin",
+      "description": "Gunakan alat pelindung diri (APD) yang sesuai seperti sarung tangan dan kacamata kerja sebelum memulai.\n\nPastikan sepeda motor dalam kondisi mati dan berada di permukaan yang rata.\n\nLakukan langkah-langkah berikut:\n1. Posisikan sepeda motor dalam keadaan tegak menggunakan standar tengah.\n2. Hidupkan mesin selama 2–3 menit untuk mensirkulasikan oli.\n3. Matikan mesin dan tunggu 2–5 menit agar oli kembali ke bak oli.\n4. Lepaskan dipstick atau amati kaca pengintai (oil level gauge).\n5. Bersihkan dipstick menggunakan kain bersih.\n6. Masukkan kembali dipstick tanpa diputar (sesuai prosedur pabrikan), lalu tarik kembali untuk membaca level oli.\n7. Periksa apakah permukaan oli berada di antara tanda MIN–MAX atau LOWER–UPPER.\n8. Tambahkan oli jika berada di bawah batas minimum dengan menggunakan spesifikasi yang sesuai.\n9. Pasang kembali dipstick dengan benar.\n10. Periksa area sekitar mesin dan pastikan tidak ada kebocoran oli.\n\nCatat hasil pemeriksaan volume oli dan simpulkan apakah kondisi oli dalam keadaan normal atau perlu penambahan.",
+      "image": "/images/XRDCTSM-007/simulasi-pemeriksaan-volume-oli.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_penggantian_oli_dan_filter",
+      "title": "Simulasi Penggantian Oli dan Filter Oli",
+      "description": "Gunakan alat pelindung diri (APD) seperti sarung tangan dan kacamata kerja sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam kondisi mati dan berada di permukaan yang rata.\n\nLakukan langkah-langkah berikut:\n1. Siapkan alat dan bahan seperti kunci ring/pas, kunci sok, wadah penampung oli bekas, kain lap, oli baru sesuai spesifikasi, dan filter oli baru.\n2. Hidupkan mesin selama 2–3 menit untuk menghangatkan oli agar lebih encer.\n3. Matikan mesin dan posisikan motor pada standar tengah.\n4. Letakkan wadah penampung di bawah baut pembuangan oli (drain bolt).\n5. Buka baut pembuangan menggunakan kunci yang sesuai dan biarkan oli keluar seluruhnya.\n6. Periksa kondisi baut dan ring/washer, ganti jika rusak.\n7. Lepaskan penutup atau rumah filter oli.\n8. Keluarkan filter oli lama dan bersihkan area dudukan filter.\n9. Pasang filter oli baru sesuai arah pemasangan.\n10. Pasang kembali penutup filter dan kencangkan sesuai standar torsi.\n11. Pasang kembali baut pembuangan dan kencangkan sesuai spesifikasi torsi.\n12. Isi oli baru sesuai kapasitas yang dianjurkan pabrikan.\n13. Pasang kembali dipstick atau tutup pengisian oli.\n14. Hidupkan mesin selama 1–2 menit lalu matikan kembali.\n15. Periksa kemungkinan kebocoran di sekitar baut pembuangan dan filter oli.\n16. Periksa kembali volume oli dan tambahkan jika diperlukan.\n17. Bersihkan area kerja dan buang oli bekas sesuai prosedur lingkungan.\n\nCatat hasil pekerjaan dan pastikan sistem pelumasan bekerja normal tanpa kebocoran.",
+      "image": "/images/XRDCTSM-007/simulasi-penggantian-oli-filter.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }
