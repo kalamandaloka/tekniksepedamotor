@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sistem bahan bakar pada sepeda motor berfungsi untuk ...",
+        "options": [
+          "Mendinginkan mesin",
+          "Menyalurkan dan mencampur bahan bakar dengan udara",
+          "Mengatur percikan api",
+          "Mengurangi gesekan piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Komponen yang mencampurkan udara dan bahan bakar pada sistem konvensional adalah ...",
+        "options": [
+          "Injector",
+          "Fuel pump",
+          "Karburator",
+          "Radiator"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Prinsip kerja karburator berdasarkan hukum ...",
+        "options": [
+          "Ohm",
+          "Pascal",
+          "Bernoulli",
+          "Newton"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Bagian karburator yang berbentuk penyempitan untuk meningkatkan kecepatan udara disebut ...",
+        "options": [
+          "Float chamber",
+          "Venturi",
+          "Pilot jet",
+          "Main jet"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Komponen yang menjaga tinggi bahan bakar tetap stabil di dalam karburator adalah ...",
+        "options": [
+          "Main jet",
+          "Pelampung dan needle valve",
+          "Throttle valve",
+          "Air screw"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Main jet bekerja dominan pada kondisi ...",
+        "options": [
+          "Putaran rendah",
+          "Putaran menengah hingga tinggi",
+          "Saat mesin mati",
+          "Saat idle"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "Pilot jet berfungsi saat mesin dalam kondisi ...",
+        "options": [
+          "Putaran tinggi",
+          "Langsam (idle)",
+          "Overheat",
+          "Kecepatan maksimum"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Proses perubahan bahan bakar menjadi kabut halus disebut ...",
+        "options": [
+          "Kompresi",
+          "Atomisasi",
+          "Evaporasi",
+          "Induksi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 9,
+        "question": "Campuran terlalu kaya ditandai dengan warna busi ...",
+        "options": [
+          "Putih pucat",
+          "Cokelat bata",
+          "Hitam berkerak",
+          "Biru"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 10,
+        "question": "Campuran terlalu kurus dapat menyebabkan mesin ...",
+        "options": [
+          "Lebih irit",
+          "Overheat",
+          "Tenaga maksimal",
+          "Putaran stabil"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Choke digunakan saat ...",
+        "options": [
+          "Mesin panas",
+          "Putaran tinggi",
+          "Mesin dingin",
+          "Akselerasi penuh"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Idle speed screw berfungsi untuk ...",
+        "options": [
+          "Mengatur tinggi permukaan bensin",
+          "Mengatur putaran mesin saat idle",
+          "Mengatur ukuran main jet",
+          "Mengatur suhu mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Air screw digunakan untuk mengatur ...",
+        "options": [
+          "Campuran udara pada putaran rendah",
+          "Tekanan bensin",
+          "Putaran tinggi",
+          "Bukaan choke"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 14,
+        "question": "Jika pilot jet tersumbat, mesin akan ...",
+        "options": [
+          "Stabil saat idle",
+          "Sulit hidup saat langsam",
+          "Lebih hemat",
+          "Tenaga meningkat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Urutan alur bahan bakar yang benar adalah ...",
+        "options": [
+          "Tangki → Kran → Float chamber → Jet → Venturi",
+          "Tangki → Venturi → Jet → Ruang bakar",
+          "Jet → Tangki → Venturi",
+          "Venturi → Float chamber"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 16,
+        "question": "Venturi effect terjadi karena ...",
+        "options": [
+          "Tekanan meningkat saat saluran menyempit",
+          "Tekanan menurun saat saluran menyempit",
+          "Kecepatan udara menurun",
+          "Bahan bakar menguap"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Membersihkan lubang jet sebaiknya menggunakan ...",
+        "options": [
+          "Kawat baja",
+          "Paku",
+          "Carb cleaner dan udara bertekanan",
+          "Pisau"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 18,
+        "question": "Jika pelampung bocor, kemungkinan terjadi ...",
+        "options": [
+          "Campuran kurus",
+          "Banjir bensin",
+          "Mesin irit",
+          "Tenaga bertambah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Putaran idle standar umumnya berada pada kisaran ...",
+        "options": [
+          "500 rpm",
+          "800 rpm",
+          "1.300–1.500 rpm",
+          "3.000 rpm"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 20,
+        "question": "Karburator termasuk sistem ...",
+        "options": [
+          "Elektronik penuh",
+          "Mekanis",
+          "Digital",
+          "Hidrolik"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Jet needle bekerja dominan pada ...",
+        "options": [
+          "Putaran menengah",
+          "Putaran rendah",
+          "Mesin mati",
+          "Idle saja"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 22,
+        "question": "Campuran ideal menghasilkan warna busi ...",
+        "options": [
+          "Putih",
+          "Hitam",
+          "Cokelat bata",
+          "Basah"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 23,
+        "question": "Jika terjadi backfire akibat campuran kurus, kemungkinan penyebabnya adalah ...",
+        "options": [
+          "Main jet terlalu besar",
+          "Kebocoran udara",
+          "Choke tertutup",
+          "Filter bersih"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Throttle valve berfungsi untuk ...",
+        "options": [
+          "Mengatur aliran udara masuk",
+          "Mengatur tinggi bahan bakar",
+          "Mengatur suhu mesin",
+          "Mengatur percikan api"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Jika main jet terlalu kecil, campuran menjadi ...",
+        "options": [
+          "Kaya",
+          "Ideal",
+          "Kurus",
+          "Normal"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 26,
+        "question": "Komponen pertama yang menerima bahan bakar dari tangki adalah ...",
+        "options": [
+          "Float chamber",
+          "Venturi",
+          "Busi",
+          "Throttle"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 27,
+        "question": "Jika choke tidak kembali saat mesin panas, campuran menjadi ...",
+        "options": [
+          "Kurus",
+          "Ideal",
+          "Kaya",
+          "Netral"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Analisis kerusakan sistem bahan bakar sebaiknya dilakukan secara ...",
+        "options": [
+          "Acak",
+          "Tebakan",
+          "Sistematis",
+          "Mengganti semua komponen"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 29,
+        "question": "Tujuan utama penyetelan karburator adalah ...",
+        "options": [
+          "Meningkatkan kebisingan",
+          "Menyesuaikan campuran agar pembakaran optimal",
+          "Memperbesar venturi",
+          "Mengurangi kapasitas mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Jika mesin mati saat idle, kemungkinan penyebabnya adalah ...",
+        "options": [
+          "Pilot jet tersumbat",
+          "Main jet besar",
+          "Throttle penuh",
+          "Choke aktif"
+        ],
+        "correctAnswer": 1
+      }
+    ]
   }
 }

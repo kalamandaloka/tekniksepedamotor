@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama sistem pengapian pada sepeda motor adalah ...",
+        "options": [
+          "Mengatur sistem pendinginan mesin",
+          "Menghasilkan percikan bunga api pada busi",
+          "Melumasi komponen mesin",
+          "Mengatur suplai oli ke silinder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Percikan bunga api terjadi karena adanya ...",
+        "options": [
+          "Tekanan bahan bakar tinggi",
+          "Gesekan piston",
+          "Loncatan listrik bertegangan tinggi pada busi",
+          "Putaran roda gigi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Komponen yang berfungsi menaikkan tegangan menjadi puluhan ribu volt adalah ...",
+        "options": [
+          "CDI",
+          "Pulser",
+          "Koil pengapian",
+          "Kunci kontak"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Sistem pengapian konvensional menggunakan komponen pemutus arus berupa ...",
+        "options": [
+          "Transistor",
+          "Kapasitor",
+          "Platina",
+          "Sensor CKP"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "CDI merupakan singkatan dari ...",
+        "options": [
+          "Capacitor Discharge Ignition",
+          "Current Distribution Ignition",
+          "Control Direct Injection",
+          "Central Drive Ignition"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 6,
+        "question": "Waktu pengapian ideal terjadi saat piston berada ...",
+        "options": [
+          "Pada langkah buang",
+          "Sesudah TMA jauh",
+          "Beberapa derajat sebelum TMA langkah kompresi",
+          "Saat langkah hisap"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "Jika ignition timing terlalu maju, mesin dapat mengalami ...",
+        "options": [
+          "Konsumsi oli turun",
+          "Knocking atau detonasi",
+          "Pendinginan berlebih",
+          "Putaran idle stabil"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Pulser berfungsi untuk ...",
+        "options": [
+          "Menyimpan arus listrik",
+          "Menaikkan tegangan",
+          "Mendeteksi posisi poros engkol",
+          "Menyaring bahan bakar"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Komponen yang menghasilkan percikan api langsung di ruang bakar adalah ...",
+        "options": [
+          "Koil",
+          "CDI",
+          "Busi",
+          "Pulser"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 10,
+        "question": "Warna percikan api yang baik saat pengujian adalah ...",
+        "options": [
+          "Merah redup",
+          "Biru terang",
+          "Kuning pucat",
+          "Putih asap"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Alat ukur yang digunakan untuk mengukur resistansi koil adalah ...",
+        "options": [
+          "Tachometer",
+          "Multimeter",
+          "Feeler gauge",
+          "Compression tester"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 12,
+        "question": "Jika tidak ada percikan api, langkah awal yang dilakukan adalah ...",
+        "options": [
+          "Mengganti piston",
+          "Memeriksa percikan busi",
+          "Mengganti oli",
+          "Membersihkan karburator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Sistem pengapian elektronik tidak memerlukan penyetelan karena ...",
+        "options": [
+          "Menggunakan komponen mekanis",
+          "Menggunakan transistor atau kapasitor",
+          "Tidak menggunakan arus listrik",
+          "Tidak memakai koil"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Kabel tegangan tinggi berfungsi untuk ...",
+        "options": [
+          "Menyalurkan arus rendah ke aki",
+          "Menyalurkan tegangan tinggi ke busi",
+          "Menghubungkan aki ke spul",
+          "Mengatur timing pengapian"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Flywheel pada sistem pengapian berfungsi untuk ...",
+        "options": [
+          "Menghasilkan tekanan bahan bakar",
+          "Mengatur pelumasan",
+          "Membangkitkan arus listrik dan menstabilkan putaran",
+          "Menyaring udara"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 16,
+        "question": "Jika koil rusak, gejala yang muncul adalah ...",
+        "options": [
+          "Lampu redup",
+          "Percikan api lemah atau tidak ada",
+          "Rem tidak berfungsi",
+          "Suspensi keras"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Pengapian mundur menyebabkan ...",
+        "options": [
+          "Tenaga mesin lemah",
+          "Knocking keras",
+          "RPM meningkat drastis",
+          "Busi terbakar"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 18,
+        "question": "Komponen yang menyimpan energi listrik pada sistem CDI adalah ...",
+        "options": [
+          "Resistor",
+          "Transistor",
+          "Kapasitor",
+          "Relay"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 19,
+        "question": "Langkah pertama sebelum melakukan pengujian adalah ...",
+        "options": [
+          "Menstarter mesin",
+          "Mengisi bahan bakar",
+          "Menggunakan APD dan mematikan mesin",
+          "Mengganti busi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 20,
+        "question": "Celah busi yang tidak sesuai dapat menyebabkan ...",
+        "options": [
+          "Pendinginan maksimal",
+          "Percikan api tidak optimal",
+          "Oli cepat habis",
+          "Rantai kendur"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "TCI menggunakan komponen utama berupa ...",
+        "options": [
+          "Platina",
+          "Transistor",
+          "Karburator",
+          "Kondensor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "Knocking terjadi akibat ...",
+        "options": [
+          "Pengapian terlalu maju",
+          "Pengapian terlalu mundur",
+          "Busi kotor ringan",
+          "Kabel panjang"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "question": "Jika pulser rusak maka ...",
+        "options": [
+          "Timing pengapian tidak terdeteksi",
+          "Oli cepat habis",
+          "Aki mengisi berlebih",
+          "Rem blong"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 24,
+        "question": "Misfire adalah kondisi ...",
+        "options": [
+          "Pembakaran tidak sempurna",
+          "Tekanan kompresi naik",
+          "Oli terbakar",
+          "Sistem pendinginan rusak"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Sumber arus listrik pada sistem pengapian dapat berasal dari ...",
+        "options": [
+          "Radiator",
+          "Aki atau spul",
+          "Karburator",
+          "Filter udara"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Tujuan troubleshooting sistematis adalah ...",
+        "options": [
+          "Mengganti semua komponen",
+          "Menemukan kerusakan secara tepat dan efisien",
+          "Mempercepat mesin",
+          "Mengurangi kompresi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Sistem pengapian modern lebih stabil karena ...",
+        "options": [
+          "Menggunakan platina",
+          "Tidak menggunakan listrik",
+          "Menggunakan kontrol elektronik",
+          "Tidak memakai busi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Saat mengukur resistansi, multimeter diatur pada skala ...",
+        "options": [
+          "Volt",
+          "Ampere",
+          "Ohm",
+          "RPM"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 29,
+        "question": "Jika percikan api merah dan lemah, kemungkinan penyebabnya adalah ...",
+        "options": [
+          "Koil lemah atau aki drop",
+          "Busi baru",
+          "Timing tepat",
+          "Spul normal"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 30,
+        "question": "Percikan api yang kuat akan menghasilkan ...",
+        "options": [
+          "Pembakaran optimal",
+          "Pendinginan maksimal",
+          "Oli cepat panas",
+          "Getaran berlebih"
+        ],
+        "correctAnswer": 1
+      }
+    ]
   }
 }

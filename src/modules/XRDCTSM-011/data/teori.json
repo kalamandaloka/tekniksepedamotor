@@ -1,5 +1,180 @@
-{
-  "title": "Teori Modul",
+{ "title": "Sistem Bahan Bakar Injeksi (EFI)",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Dasar Teori Sistem EFI",
+      "contentL1": "Sistem Bahan Bakar Injeksi atau Electronic Fuel Injection (EFI) merupakan sistem penyaluran bahan bakar pada sepeda motor yang dikontrol secara elektronik untuk menghasilkan campuran udara dan bahan bakar yang tepat sesuai kondisi kerja mesin. Sistem ini menggantikan sistem karburator konvensional dengan memanfaatkan sensor, Electronic Control Unit (ECU), dan aktuator untuk mengatur jumlah serta waktu penyemprotan bahan bakar secara presisi.\n\nPada sistem EFI, proses pencampuran bahan bakar dan udara tidak lagi mengandalkan kevakuman seperti pada karburator, melainkan dikendalikan oleh ECU berdasarkan data dari berbagai sensor. Dengan teknologi ini, pembakaran menjadi lebih efisien, emisi gas buang lebih rendah, konsumsi bahan bakar lebih hemat, dan performa mesin lebih stabil pada berbagai kondisi operasi.",
+      "subSections": [
+        {
+          "title2": "Pengertian Sistem Bahan Bakar Injeksi (EFI)",
+          "content2": "Electronic Fuel Injection (EFI) adalah sistem penyemprotan bahan bakar yang dikontrol secara elektronik menggunakan injektor. Sistem ini bekerja dengan cara membaca kondisi mesin melalui sensor seperti Throttle Position Sensor (TPS), Manifold Absolute Pressure (MAP), Intake Air Temperature (IAT), Engine Coolant Temperature (ECT), Oxygen Sensor (O2), dan Crankshaft Position Sensor (CKP). Data dari sensor tersebut dikirim ke ECU untuk diproses, kemudian ECU menentukan durasi dan waktu penyemprotan bahan bakar melalui injektor.\n\nTujuan utama sistem EFI adalah menghasilkan perbandingan campuran udara dan bahan bakar (Air Fuel Ratio/AFR) yang ideal agar proses pembakaran berlangsung sempurna. Perbandingan ideal secara teoritis adalah sekitar 14,7 : 1 (14,7 bagian udara dan 1 bagian bahan bakar) untuk mesin bensin. Dengan pengaturan elektronik yang presisi, sistem EFI mampu menyesuaikan suplai bahan bakar secara otomatis saat kondisi starting, idle, akselerasi, maupun kecepatan tinggi.\n\nSecara umum, sistem EFI terdiri dari tiga bagian utama, yaitu:\n1. Sistem suplai bahan bakar (fuel pump, fuel filter, fuel injector).\n2. Sistem pemasukan udara (air filter dan throttle body).\n3. Sistem kontrol elektronik (ECU dan sensor-sensor).\n\nDengan teknologi ini, sepeda motor modern mampu memenuhi standar emisi, meningkatkan efisiensi bahan bakar, serta memberikan respons akselerasi yang lebih baik dibandingkan sistem karburator."
+        },
+        {
+          "title2": "Perbedaan Sistem Karburator dan EFI",
+          "content2": "Sistem karburator dan sistem Electronic Fuel Injection (EFI) memiliki perbedaan mendasar dalam cara mencampurkan udara dan bahan bakar sebelum masuk ke ruang bakar.\n\nPada sistem karburator, pencampuran udara dan bahan bakar terjadi secara mekanis dengan memanfaatkan efek venturi (kevakuuman). Jumlah bahan bakar yang masuk ditentukan oleh ukuran main jet, pilot jet, dan kevakuman mesin. Sistem ini tidak menggunakan kontrol elektronik sehingga penyesuaian campuran dilakukan secara manual.\n\nSedangkan pada sistem EFI, pencampuran bahan bakar dikontrol secara elektronik oleh Electronic Control Unit (ECU). ECU menerima data dari berbagai sensor seperti Throttle Position Sensor (TPS), Manifold Absolute Pressure (MAP), Intake Air Temperature (IAT), Engine Coolant Temperature (ECT), Oxygen Sensor (O2), dan Crankshaft Position Sensor (CKP). Berdasarkan data tersebut, ECU mengatur durasi dan waktu penyemprotan bahan bakar melalui injector sehingga campuran lebih presisi.\n\nPerbedaan utama antara sistem karburator dan EFI meliputi:\n\n1. Sistem Pengaturan\n   - Karburator: Mekanis (mengandalkan kevakuman dan ukuran jet).\n   - EFI: Elektronik (dikontrol ECU berdasarkan input sensor).\n\n2. Akurasi Campuran Udara dan Bahan Bakar\n   - Karburator: Kurang presisi saat perubahan suhu, beban, dan ketinggian.\n   - EFI: Lebih presisi karena menyesuaikan kondisi mesin secara real-time.\n\n3. Konsumsi Bahan Bakar\n   - Karburator: Cenderung lebih boros.\n   - EFI: Lebih hemat dan efisien.\n\n4. Emisi Gas Buang\n   - Karburator: Emisi lebih tinggi.\n   - EFI: Lebih ramah lingkungan dan memenuhi standar emisi.\n\n5. Perawatan dan Diagnosis\n   - Karburator: Penyetelan dapat dilakukan secara manual.\n   - EFI: Memerlukan alat diagnosis seperti scan tool untuk membaca kode kerusakan (DTC).\n\nDengan demikian, sistem EFI merupakan pengembangan teknologi yang memberikan efisiensi pembakaran, performa mesin yang lebih stabil, serta pengendalian emisi yang lebih baik dibandingkan sistem karburator."
+        },
+        {
+          "title2": "Keunggulan dan Kekurangan Sistem EFI",
+          "content2": "Sistem Electronic Fuel Injection (EFI) merupakan pengembangan teknologi sistem bahan bakar yang dirancang untuk meningkatkan efisiensi pembakaran dan mengurangi emisi gas buang. Meskipun memiliki banyak keunggulan dibandingkan sistem karburator, sistem EFI juga memiliki beberapa kekurangan yang perlu dipahami.\n\nKeunggulan Sistem EFI:\n\n1. Campuran Udara dan Bahan Bakar Lebih Presisi\n   Sistem EFI mengatur jumlah bahan bakar berdasarkan data sensor sehingga menghasilkan Air Fuel Ratio (AFR) yang lebih tepat sesuai kondisi mesin.\n\n2. Konsumsi Bahan Bakar Lebih Hemat\n   Karena penyemprotan bahan bakar dikontrol secara elektronik, penggunaan bahan bakar menjadi lebih efisien.\n\n3. Emisi Gas Buang Lebih Rendah\n   Pembakaran yang lebih sempurna menghasilkan emisi yang lebih ramah lingkungan dan memenuhi standar regulasi emisi.\n\n4. Performa Mesin Lebih Stabil\n   Mesin lebih mudah dihidupkan (starting), idle lebih stabil, serta respons akselerasi lebih baik.\n\n5. Penyesuaian Otomatis terhadap Kondisi Lingkungan\n   Sistem EFI mampu menyesuaikan suplai bahan bakar terhadap perubahan suhu, tekanan udara, dan beban mesin.\n\nKekurangan Sistem EFI:\n\n1. Sistem Lebih Kompleks\n   Terdiri dari banyak sensor dan komponen elektronik sehingga membutuhkan pemahaman teknis yang lebih tinggi.\n\n2. Membutuhkan Alat Khusus untuk Diagnosis\n   Pemeriksaan kerusakan memerlukan scan tool untuk membaca kode kerusakan (DTC).\n\n3. Biaya Perawatan Relatif Lebih Tinggi\n   Komponen seperti ECU dan injector memiliki harga yang lebih mahal dibandingkan komponen karburator.\n\n4. Sensitif terhadap Kelistrikan\n   Sistem EFI sangat bergantung pada kondisi aki dan sistem kelistrikan yang baik.\n\nDengan memahami keunggulan dan kekurangan tersebut, peserta didik diharapkan mampu menganalisis karakteristik sistem EFI serta menerapkan prosedur perawatan dan diagnosis sesuai standar K3 dan SOP bengkel."
+        },
+        {
+          "title2": "Prinsip Kerja Sistem EFI",
+          "content2": "Prinsip kerja sistem Electronic Fuel Injection (EFI) adalah mengatur jumlah dan waktu penyemprotan bahan bakar secara elektronik agar sesuai dengan kebutuhan mesin. Sistem ini bekerja berdasarkan input data dari berbagai sensor yang mendeteksi kondisi mesin secara real-time, kemudian diproses oleh Electronic Control Unit (ECU) untuk menentukan durasi penyemprotan injector.\n\nSecara umum, alur kerja sistem EFI adalah sebagai berikut:\n\n1. Pembacaan Kondisi Mesin\n   Sensor seperti Throttle Position Sensor (TPS), Manifold Absolute Pressure (MAP), Intake Air Temperature (IAT), Engine Coolant Temperature (ECT), Oxygen Sensor (O2), dan Crankshaft Position Sensor (CKP) mendeteksi kondisi mesin (bukaan throttle, tekanan udara, suhu mesin, kandungan oksigen gas buang, dan posisi poros engkol).\n\n2. Pemrosesan Data oleh ECU\n   Data dari sensor dikirim ke ECU. ECU kemudian menghitung kebutuhan bahan bakar berdasarkan peta injeksi (fuel map) yang telah diprogram oleh pabrikan.\n\n3. Penyemprotan Bahan Bakar oleh Injector\n   Berdasarkan perhitungan ECU, injector akan membuka dalam waktu tertentu (pulse width) untuk menyemprotkan bahan bakar ke intake manifold atau langsung ke ruang bakar (tergantung tipe sistem).\n\n4. Proses Pembakaran\n   Campuran udara dan bahan bakar masuk ke ruang bakar dan dibakar oleh percikan api dari busi sehingga menghasilkan tenaga.\n\nDalam kondisi ideal, sistem EFI berusaha menjaga perbandingan udara dan bahan bakar (Air Fuel Ratio/AFR) mendekati 14,7 : 1 untuk pembakaran sempurna pada mesin bensin. Namun, ECU dapat menyesuaikan campuran menjadi lebih kaya (rich) saat akselerasi atau starting, dan lebih miskin (lean) saat kondisi jelajah untuk efisiensi bahan bakar.\n\nDengan prinsip kerja berbasis kontrol elektronik ini, sistem EFI mampu meningkatkan efisiensi, performa, serta mengurangi emisi gas buang dibandingkan sistem karburator."
+        },
+        {
+          "title2": "Konsep Dasar Air Fuel Ratio (AFR)",
+          "content2": "Air Fuel Ratio (AFR) adalah perbandingan antara jumlah udara dan jumlah bahan bakar yang dicampurkan sebelum proses pembakaran di dalam ruang bakar mesin. AFR dinyatakan dalam bentuk rasio, misalnya 14,7 : 1 yang berarti 14,7 bagian udara dicampur dengan 1 bagian bahan bakar (bensin).\n\nPada mesin bensin, perbandingan teoritis yang dianggap ideal untuk pembakaran sempurna disebut stoichiometric ratio, yaitu sekitar 14,7 : 1. Pada rasio ini, bahan bakar dapat terbakar secara optimal dengan kandungan oksigen yang cukup, sehingga menghasilkan tenaga yang baik dan emisi yang lebih rendah.\n\nDalam praktiknya, AFR dapat berubah sesuai kondisi kerja mesin, yaitu:\n\n1. Campuran Kaya (Rich Mixture)\n   AFR lebih kecil dari 14,7 : 1 (misalnya 12 : 1).\n   Kondisi ini terjadi saat akselerasi atau starting dingin, di mana mesin membutuhkan lebih banyak bahan bakar untuk menghasilkan tenaga lebih besar.\n\n2. Campuran Ideal (Stoichiometric)\n   AFR sekitar 14,7 : 1.\n   Digunakan pada kondisi normal untuk menjaga keseimbangan antara tenaga, efisiensi, dan emisi gas buang.\n\n3. Campuran Miskin (Lean Mixture)\n   AFR lebih besar dari 14,7 : 1 (misalnya 16 : 1 atau lebih).\n   Digunakan saat kecepatan konstan atau jelajah untuk meningkatkan efisiensi bahan bakar, namun jika terlalu miskin dapat menyebabkan mesin panas berlebih.\n\nPada sistem EFI, pengaturan AFR dilakukan secara otomatis oleh Electronic Control Unit (ECU) berdasarkan data dari sensor, terutama Oxygen Sensor (O2). Sensor ini membaca kandungan oksigen pada gas buang untuk memastikan campuran tetap berada pada rasio yang sesuai.\n\nPemahaman konsep AFR sangat penting dalam diagnosis sistem EFI, karena campuran yang terlalu kaya atau terlalu miskin dapat menyebabkan gejala seperti mesin brebet, boros bahan bakar, tenaga menurun, atau emisi tinggi."
+        }
+      ]
+    },
+    {
+      "title": "Komponen Sistem EFI",
+      "contentL1": "Sistem Electronic Fuel Injection (EFI) terdiri dari beberapa komponen utama yang saling terhubung dan bekerja secara terintegrasi. Salah satu bagian penting dalam sistem EFI adalah sistem suplai bahan bakar, yang berfungsi menyalurkan bahan bakar dari tangki hingga ke injector dengan tekanan dan kualitas yang sesuai spesifikasi. Kinerja sistem suplai sangat menentukan kestabilan tekanan bahan bakar serta ketepatan proses penyemprotan.",
+      "subSections": [
+        {
+          "title2": "Sistem Suplai Bahan Bakar",
+          "content2": "Sistem suplai bahan bakar berfungsi menyediakan dan menjaga aliran bahan bakar agar sampai ke injector dengan tekanan yang stabil. Pada sistem EFI, bahan bakar dipompa secara elektrik dan dikontrol oleh ECU sehingga suplai dapat menyesuaikan kebutuhan mesin pada berbagai kondisi kerja seperti starting, idle, akselerasi, dan kecepatan tinggi.",
+          "items": [
+            {
+              "title3": "Fuel Tank",
+              "content3": "![Fuel Tank](images/XRDCTSM-011/fuelTank.png)Fuel tank (tangki bahan bakar) berfungsi sebagai tempat penyimpanan bahan bakar sebelum disalurkan ke sistem injeksi. Pada sepeda motor EFI modern, di dalam tangki biasanya terdapat modul fuel pump yang menyatu dengan filter dan sensor level bahan bakar. Tangki dirancang kedap untuk mencegah kebocoran dan kontaminasi."
+            },
+            {
+              "title3": "Fuel Pump",
+              "content3": "![Fuel Pump](images/XRDCTSM-011/fuelPump.png)Fuel pump (pompa bahan bakar) berfungsi memompa bahan bakar dari tangki menuju injector melalui saluran bahan bakar dengan tekanan tertentu. Pompa digerakkan oleh motor listrik dan diaktifkan oleh ECU. Tekanan bahan bakar harus sesuai spesifikasi pabrikan agar proses penyemprotan optimal."
+            },
+            {
+              "title3": "Fuel Filter",
+              "content3": "![Fuel Filter](images/XRDCTSM-011/fuelFilter.png)Fuel filter (saringan bahan bakar) berfungsi menyaring kotoran atau partikel asing yang terdapat dalam bahan bakar. Penyaringan ini penting untuk melindungi injector dari penyumbatan dan menjaga kualitas atomisasi bahan bakar."
+            },
+            {
+              "title3": "Fuel Injector",
+              "content3": "![Fuel Injector](images/XRDCTSM-011/fuelInjector.png)Fuel injector adalah komponen yang menyemprotkan bahan bakar dalam bentuk kabut halus ke intake manifold atau ruang bakar. Injector bekerja berdasarkan sinyal dari ECU dengan membuka dalam durasi tertentu (pulse width). Durasi pembukaan menentukan banyaknya bahan bakar yang disemprotkan."
+            },
+            {
+              "title3": "Fuel Pressure Regulator",
+              "content3": "![Fuel Pressure Regulator](images/XRDCTSM-011/fuelPressureRegulator.png)Fuel pressure regulator berfungsi menjaga tekanan bahan bakar tetap stabil agar sesuai dengan kebutuhan sistem. Jika tekanan terlalu tinggi atau terlalu rendah, performa mesin dapat terganggu. Pada beberapa sistem EFI modern, regulator sudah terintegrasi dalam modul fuel pump."
+            }
+          ]
+        },
+        {
+          "title2": "Sistem Kontrol Elektronik",
+          "content2": "Sistem kontrol elektronik bertugas menerima informasi dari sensor, mengolah data tersebut, lalu mengendalikan aktuator seperti injector dan fuel pump. Sistem ini memungkinkan mesin bekerja lebih efisien, responsif, dan ramah lingkungan karena suplai bahan bakar disesuaikan dengan kondisi aktual mesin.",
+          "items": [
+            {
+              "title3": "ECU/ECM (Electronic Control Unit / Engine Control Module)",
+              "content3": "![ECU/ECM](images/XRDCTSM-011/ecu.png)ECU atau ECM adalah pusat pengendali sistem EFI. Komponen ini menerima sinyal dari berbagai sensor, memprosesnya berdasarkan peta injeksi (fuel map), kemudian mengirimkan perintah ke injector dan komponen lainnya. ECU menentukan durasi penyemprotan bahan bakar (pulse width), waktu pengapian, serta fungsi kontrol lainnya."
+            },
+            {
+              "title3": "Sensor TPS (Throttle Position Sensor)",
+              "content3": "![TPS](images/XRDCTSM-011/tps.png)Throttle Position Sensor (TPS) berfungsi mendeteksi sudut bukaan throttle valve. Data dari TPS digunakan ECU untuk mengetahui seberapa besar permintaan tenaga dari pengendara, sehingga jumlah bahan bakar dapat disesuaikan terutama saat akselerasi."
+            },
+            {
+              "title3": "Sensor MAP (Manifold Absolute Pressure)",
+              "content3": "![MAP](images/XRDCTSM-011/map.png)Manifold Absolute Pressure (MAP) sensor berfungsi mengukur tekanan udara di intake manifold. Informasi ini digunakan ECU untuk menghitung jumlah udara yang masuk ke mesin sehingga dapat menentukan jumlah bahan bakar yang tepat."
+            },
+            {
+              "title3": "Sensor IAT (Intake Air Temperature)",
+              "content3": "![IAT](images/XRDCTSM-011/iat.png)Intake Air Temperature (IAT) sensor berfungsi mendeteksi suhu udara yang masuk ke mesin. Karena kerapatan udara dipengaruhi oleh suhu, data ini membantu ECU menyesuaikan campuran udara dan bahan bakar agar tetap ideal."
+            },
+            {
+              "title3": "Sensor ECT (Engine Coolant Temperature)",
+              "content3": "![ECT](images/XRDCTSM-011/ect.png)Engine Coolant Temperature (ECT) sensor mendeteksi suhu mesin melalui cairan pendingin atau suhu blok mesin. Saat mesin dingin, ECU akan memperkaya campuran bahan bakar untuk memudahkan proses starting."
+            },
+            {
+              "title3": "Sensor O2 (Oxygen Sensor)",
+              "content3": "![O2](images/XRDCTSM-011/o2.png)Oxygen Sensor (O2) berfungsi mendeteksi kadar oksigen dalam gas buang. Sensor ini membantu ECU menjaga Air Fuel Ratio (AFR) tetap mendekati rasio ideal dengan melakukan koreksi campuran secara terus-menerus (closed loop system)."
+            },
+            {
+              "title3": "Sensor CKP (Crankshaft Position Sensor)",
+              "content3": "![CKP](images/XRDCTSM-011/ckp.png)Crankshaft Position Sensor (CKP) berfungsi mendeteksi posisi dan kecepatan putaran poros engkol. Informasi ini sangat penting untuk menentukan waktu penyemprotan bahan bakar dan waktu pengapian secara tepat."
+            }
+          ]
+        },
+        {
+          "title2": "Sistem Intake dan Throttle Body",
+          "content2": "Sistem intake berfungsi menyalurkan udara dari luar menuju intake manifold dan ruang bakar. Udara yang masuk harus bersih dan jumlahnya terkontrol agar proses pembakaran berlangsung optimal. Pengaturan jumlah udara dilakukan oleh throttle body yang dikendalikan melalui putaran grip gas.\n\nKomponen utama dalam sistem intake dan throttle body meliputi air filter, throttle valve, dan intake manifold. Air filter berfungsi menyaring udara dari debu dan kotoran sebelum masuk ke mesin. Throttle body merupakan rumah katup gas (throttle valve) yang mengatur besar kecilnya aliran udara sesuai bukaan grip gas. Saat throttle dibuka lebih besar, udara yang masuk bertambah sehingga ECU akan menambah jumlah bahan bakar melalui injector.\n\nPada sistem EFI modern, throttle body juga dilengkapi dengan sensor seperti Throttle Position Sensor (TPS) dan Idle Speed Control (ISC) atau Idle Air Control (IAC) untuk mengatur putaran langsam (idle) secara otomatis. Dengan adanya sistem intake dan throttle body yang terintegrasi dengan kontrol elektronik, mesin mampu menghasilkan performa yang stabil, responsif, dan efisien dalam berbagai kondisi operasi."
+        }
+      ]
+    },
+    {
+      "title": "Sistem Kerja dan Alur EFI",
+      "contentL1": "Sistem Electronic Fuel Injection (EFI) bekerja secara terintegrasi antara sistem suplai bahan bakar, sistem intake udara, dan sistem kontrol elektronik. Alur kerja ini memastikan bahan bakar yang disemprotkan sesuai dengan kebutuhan mesin pada setiap kondisi operasi seperti starting, idle, akselerasi, dan kecepatan tinggi.",
+      "subSections": [
+        {
+          "title2": "Alur Suplai Bahan Bakar",
+          "content2": "Alur suplai bahan bakar pada sistem EFI dimulai dari tangki bahan bakar hingga bahan bakar disemprotkan oleh injector ke intake manifold atau ruang bakar.\n\nSecara umum, alur suplai bahan bakar adalah sebagai berikut:\n\n1. Bahan bakar disimpan di dalam fuel tank.\n2. Saat kunci kontak ON, ECU mengaktifkan fuel pump untuk membangun tekanan dalam sistem.\n3. Fuel pump memompa bahan bakar melalui fuel filter untuk menyaring kotoran.\n4. Bahan bakar bertekanan dialirkan melalui selang bahan bakar menuju fuel injector.\n5. Fuel pressure regulator menjaga tekanan tetap stabil sesuai spesifikasi.\n6. Injector menyemprotkan bahan bakar dalam bentuk kabut halus berdasarkan perintah ECU.\n\nTekanan bahan bakar yang stabil sangat penting agar volume bahan bakar yang disemprotkan sesuai dengan perhitungan ECU. Jika tekanan terlalu rendah, campuran menjadi miskin (lean), sedangkan jika terlalu tinggi, campuran menjadi kaya (rich). Oleh karena itu, pemeriksaan tekanan bahan bakar merupakan bagian penting dalam diagnosis sistem EFI.\n\nDengan alur suplai yang terkontrol secara elektrik dan presisi, sistem EFI mampu menghasilkan pembakaran yang lebih efisien dibandingkan sistem karburator."
+        },
+        {
+          "title2": "Alur Data Sensor ke ECU",
+          "content2": "Pada sistem Electronic Fuel Injection (EFI), sensor berfungsi sebagai pendeteksi kondisi mesin dan lingkungan kerja. Data dari sensor dikirimkan dalam bentuk sinyal listrik ke Electronic Control Unit (ECU) untuk diproses dan digunakan sebagai dasar perhitungan jumlah serta waktu penyemprotan bahan bakar.\n\nAlur data sensor ke ECU secara umum adalah sebagai berikut:\n\n1. Sensor Mendeteksi Kondisi Mesin\n   Sensor seperti TPS (Throttle Position Sensor), MAP (Manifold Absolute Pressure), IAT (Intake Air Temperature), ECT (Engine Coolant Temperature), O2 Sensor, dan CKP (Crankshaft Position Sensor) mendeteksi parameter seperti bukaan throttle, tekanan udara, suhu udara, suhu mesin, kandungan oksigen gas buang, serta posisi dan putaran poros engkol.\n\n2. Pengiriman Sinyal Listrik\n   Sensor mengubah kondisi fisik (tekanan, suhu, posisi, putaran) menjadi sinyal listrik berupa tegangan atau frekuensi tertentu. Sinyal ini dikirim melalui kabel menuju ECU.\n\n3. Pemrosesan oleh ECU\n   ECU menerima seluruh data sensor, kemudian membandingkannya dengan data peta injeksi (fuel map) yang telah diprogram. ECU menghitung kebutuhan bahan bakar berdasarkan kombinasi data tersebut.\n\n4. Perintah ke Aktuator\n   Setelah melakukan perhitungan, ECU mengirimkan sinyal ke aktuator seperti fuel injector untuk menentukan durasi penyemprotan (pulse width), serta ke komponen lain seperti sistem pengapian atau idle control.\n\nPada kondisi tertentu, terutama saat mesin sudah mencapai suhu kerja, sistem bekerja dalam mode closed loop dengan bantuan O2 sensor untuk melakukan koreksi campuran secara terus-menerus agar Air Fuel Ratio (AFR) tetap mendekati rasio ideal.\n\nDengan alur data yang cepat dan akurat, sistem EFI mampu menyesuaikan suplai bahan bakar secara real-time sehingga performa mesin lebih stabil, efisien, dan ramah lingkungan."
+        },
+        {
+          "title2": "Proses Perhitungan dan Penginjeksian Bahan Bakar",
+          "content2": "Pada sistem Electronic Fuel Injection (EFI), proses perhitungan dan penginjeksian bahan bakar dilakukan secara elektronik oleh Electronic Control Unit (ECU). ECU menentukan jumlah bahan bakar yang harus disemprotkan berdasarkan data dari berbagai sensor serta peta injeksi (fuel map) yang telah diprogram oleh pabrikan.\n\nProses ini berlangsung dalam beberapa tahapan sebagai berikut:\n\n1. Pengumpulan Data Sensor\n   ECU menerima data dari sensor seperti TPS (bukaan throttle), MAP (tekanan udara intake), IAT (suhu udara masuk), ECT (suhu mesin), CKP (posisi dan putaran poros engkol), serta O2 sensor (kadar oksigen gas buang).\n\n2. Perhitungan Beban Mesin\n   Berdasarkan kombinasi data tersebut, ECU menghitung beban mesin (engine load) dan menentukan kebutuhan bahan bakar sesuai kondisi seperti starting, idle, akselerasi, atau kecepatan tinggi.\n\n3. Penentuan Durasi Penyemprotan (Pulse Width)\n   ECU menentukan lama waktu injector membuka yang disebut pulse width. Semakin lama injector membuka, semakin banyak bahan bakar yang disemprotkan. Perhitungan ini mempertimbangkan putaran mesin (RPM) dan beban mesin.\n\n4. Penginjeksian Bahan Bakar\n   ECU mengirimkan sinyal listrik ke injector sehingga solenoid di dalam injector membuka dan menyemprotkan bahan bakar dalam bentuk kabut halus (atomisasi) ke intake manifold atau ruang bakar.\n\n5. Koreksi Campuran (Closed Loop System)\n   Pada kondisi mesin normal, O2 sensor memberikan umpan balik ke ECU untuk melakukan koreksi agar Air Fuel Ratio (AFR) tetap mendekati rasio ideal (sekitar 14,7 : 1). Jika campuran terlalu kaya atau terlalu miskin, ECU akan menyesuaikan durasi penyemprotan.\n\nDengan proses perhitungan yang cepat dan presisi, sistem EFI mampu menghasilkan pembakaran yang lebih efisien, tenaga yang optimal, serta emisi gas buang yang lebih rendah dibandingkan sistem bahan bakar konvensional."
+        },
+        {
+          "title2": "Mode Kerja EFI (Starting, Idle, Acceleration, High Speed)",
+          "content2": "Sistem Electronic Fuel Injection (EFI) mampu menyesuaikan suplai bahan bakar sesuai kondisi kerja mesin. ECU mengatur jumlah dan waktu penyemprotan injector berdasarkan data sensor sehingga mesin dapat bekerja optimal pada berbagai mode operasi.\n\nBerikut adalah mode kerja utama sistem EFI:\n\n1. Mode Starting (Saat Mesin Dihidupkan)\n   Pada saat mesin pertama kali dihidupkan, terutama dalam kondisi dingin, ECU memperkaya campuran bahan bakar (rich mixture). Hal ini dilakukan karena bahan bakar lebih sulit menguap pada suhu rendah. Sensor ECT dan IAT memberikan informasi suhu kepada ECU sehingga suplai bahan bakar dapat ditambah sementara untuk memudahkan proses pembakaran awal.\n\n2. Mode Idle (Langsam)\n   Saat mesin hidup tanpa beban atau dalam kondisi stasioner, ECU menjaga putaran mesin tetap stabil dengan mengatur jumlah bahan bakar dan udara. Sistem idle control atau ISC/IAC membantu mengontrol suplai udara tambahan agar putaran tidak naik turun. Pada kondisi ini, sistem biasanya bekerja dalam mode closed loop dengan bantuan O2 sensor.\n\n3. Mode Acceleration (Akselerasi)\n   Saat throttle dibuka secara cepat, sensor TPS mendeteksi perubahan posisi throttle dan mengirimkan sinyal ke ECU. ECU akan segera menambah durasi penyemprotan (enrichment) agar mesin tidak mengalami kekurangan bahan bakar. Campuran menjadi lebih kaya untuk menghasilkan tenaga yang lebih besar dan respons yang cepat.\n\n4. Mode High Speed (Kecepatan Tinggi/Jelajah)\n   Pada kecepatan tinggi atau putaran mesin stabil, ECU mengatur campuran mendekati rasio ideal (sekitar 14,7 : 1) untuk menjaga efisiensi bahan bakar dan mengontrol emisi. Sistem dapat bekerja dalam mode closed loop atau open loop tergantung kondisi beban dan putaran mesin.\n\nDengan pengaturan mode kerja yang otomatis dan presisi, sistem EFI mampu memberikan performa yang stabil, konsumsi bahan bakar yang efisien, serta emisi gas buang yang lebih rendah dibandingkan sistem karburator."
+        }
+      ]
+    },
+    {
+      "title": "Pemeriksaan dan Diagnosis Sistem EFI",
+      "contentL1": "Pemeriksaan dan diagnosis sistem Electronic Fuel Injection (EFI) dilakukan untuk memastikan seluruh komponen bekerja sesuai spesifikasi. Proses ini harus dilakukan secara sistematis dan mengikuti prosedur kerja yang benar agar hasil diagnosis akurat serta mencegah kerusakan tambahan. Selain itu, penerapan Keselamatan dan Kesehatan Kerja (K3) menjadi hal yang wajib dalam setiap pekerjaan servis sistem EFI.",
+      "subSections": [
+        {
+          "title2": "Penerapan K3 dalam Servis EFI",
+          "content2": "Servis sistem EFI melibatkan bahan bakar yang mudah terbakar serta sistem kelistrikan elektronik, sehingga memiliki potensi bahaya jika tidak dilakukan dengan prosedur yang benar. Oleh karena itu, penerapan K3 wajib dilakukan selama proses pemeriksaan dan perbaikan.\n\nBerikut prinsip K3 dalam servis EFI:\n\n1. Menggunakan Alat Pelindung Diri (APD)\n   Teknisi wajib menggunakan sarung tangan, kacamata pelindung, dan pakaian kerja (wearpack) untuk melindungi diri dari percikan bahan bakar dan kotoran.\n\n2. Memastikan Area Kerja Aman\n   Area kerja harus memiliki ventilasi yang baik dan bebas dari sumber api seperti rokok atau percikan api karena bahan bakar bersifat mudah terbakar.\n\n3. Mematikan Kontak dan Melepas Terminal Aki\n   Sebelum melakukan pembongkaran komponen EFI, pastikan kunci kontak dalam posisi OFF dan lepaskan terminal negatif aki untuk mencegah hubungan arus pendek.\n\n4. Menghindari Tekanan Bahan Bakar Berlebih\n   Sebelum melepas saluran bahan bakar, pastikan tekanan dalam sistem telah dilepas sesuai prosedur agar tidak terjadi semburan bahan bakar.\n\n5. Menggunakan Alat Sesuai Standar\n   Gunakan multimeter, fuel pressure gauge, dan scan tool sesuai prosedur penggunaan untuk menghindari kesalahan diagnosis.\n\n6. Menjaga Kebersihan Komponen\n   Sistem EFI sangat sensitif terhadap kotoran. Pastikan area kerja dan komponen dalam kondisi bersih agar tidak terjadi kontaminasi pada injector atau sensor.\n\nDengan menerapkan prinsip K3 secara disiplin, pekerjaan servis EFI dapat dilakukan dengan aman, efektif, dan sesuai standar operasional bengkel."
+        },
+        {
+          "title2": "Pemeriksaan Tekanan Bahan Bakar",
+          "content2": "Pemeriksaan tekanan bahan bakar pada sistem Electronic Fuel Injection (EFI) bertujuan untuk memastikan fuel pump dan fuel pressure regulator bekerja sesuai spesifikasi pabrikan. Tekanan bahan bakar yang tidak sesuai dapat menyebabkan campuran terlalu miskin (lean) atau terlalu kaya (rich), sehingga berdampak pada performa mesin.\n\nAlat yang digunakan:\n- Fuel pressure gauge (alat ukur tekanan bahan bakar)\n- Kunci dan alat bantu sesuai kebutuhan\n- APD (sarung tangan dan kacamata pelindung)\n\nProsedur pemeriksaan:\n\n1. Persiapan\n   Pastikan sepeda motor dalam kondisi mati dan area kerja aman. Gunakan APD sebelum memulai pekerjaan.\n\n2. Melepas Tekanan Sistem\n   Lepaskan tekanan bahan bakar sesuai prosedur (misalnya dengan melepas sekring fuel pump dan menghidupkan mesin hingga mati sendiri).\n\n3. Pemasangan Fuel Pressure Gauge\n   Pasang fuel pressure gauge pada saluran bahan bakar sesuai titik pengukuran yang direkomendasikan pabrikan.\n\n4. Menghidupkan Kontak\n   Putar kunci kontak ke posisi ON untuk mengaktifkan fuel pump dan perhatikan angka tekanan pada gauge.\n\n5. Membandingkan dengan Spesifikasi\n   Bandingkan hasil pengukuran dengan spesifikasi standar (umumnya sekitar 250–300 kPa, tergantung tipe sepeda motor).\n\nAnalisis hasil pemeriksaan:\n- Tekanan lebih rendah dari standar: kemungkinan fuel pump lemah, filter tersumbat, atau kebocoran saluran.\n- Tekanan terlalu tinggi: kemungkinan fuel pressure regulator bermasalah.\n- Tekanan tidak stabil: kemungkinan suplai listrik fuel pump terganggu atau terdapat udara dalam sistem.\n\nSetelah pemeriksaan selesai, lepaskan alat ukur dengan hati-hati dan pastikan tidak ada kebocoran bahan bakar sebelum kendaraan dioperasikan kembali."
+        },
+        {
+          "title2": "Pemeriksaan Sensor Menggunakan Multimeter",
+          "content2": "Pemeriksaan sensor bertujuan untuk mengetahui apakah sensor bekerja sesuai spesifikasi. Multimeter digunakan untuk mengukur tegangan (volt), hambatan (ohm), dan kontinuitas rangkaian.\n\nLangkah umum pemeriksaan:\n1. Pastikan kontak OFF dan terminal aki aman sebelum melepas konektor sensor.\n2. Atur multimeter sesuai jenis pengukuran (DC Volt atau Ohm).\n3. Hubungkan probe multimeter pada terminal sensor sesuai wiring diagram.\n4. Bandingkan hasil pengukuran dengan spesifikasi pabrikan.\n\nContoh: TPS umumnya memiliki tegangan sekitar 0,5 volt saat throttle tertutup dan meningkat hingga ±4,5 volt saat throttle terbuka penuh. Jika nilai tidak sesuai atau tidak berubah, sensor atau rangkaian kemungkinan bermasalah."
+        },
+        {
+          "title2": "Pembacaan Kode Kerusakan (DTC)",
+          "content2": "Diagnostic Trouble Code (DTC) adalah kode kerusakan yang tersimpan dalam memori ECU ketika terjadi gangguan pada sistem. Kode ini membantu teknisi mengidentifikasi sumber masalah dengan lebih cepat.\n\nKode kerusakan dapat dibaca melalui indikator MIL (Malfunction Indicator Lamp) atau menggunakan scan tool. Setiap kode mewakili komponen atau sistem tertentu, misalnya gangguan pada TPS, MAP, atau O2 sensor. Setelah perbaikan dilakukan, kode kerusakan perlu dihapus untuk memastikan sistem kembali normal."
+        },
+        {
+          "title2": "Penggunaan Scan Tool",
+          "content2": "Scan tool adalah alat diagnosis elektronik yang digunakan untuk membaca data sensor secara real-time, membaca dan menghapus DTC, serta memantau parameter kerja mesin.\n\nLangkah penggunaan scan tool:\n1. Hubungkan scan tool ke konektor diagnosis (DLC).\n2. Putar kunci kontak ke posisi ON.\n3. Pilih tipe kendaraan dan sistem yang akan diperiksa.\n4. Baca data live data atau kode kerusakan yang muncul.\n5. Lakukan analisis berdasarkan data yang ditampilkan.\n\nDengan scan tool, teknisi dapat mengetahui kondisi sensor dan sistem EFI secara lebih akurat dibandingkan pemeriksaan manual."
+        },
+        {
+          "title2": "Analisis Gejala Kerusakan",
+          "content2": "Analisis gejala kerusakan dilakukan dengan menghubungkan keluhan pengguna dengan data hasil pemeriksaan. Beberapa gejala umum pada sistem EFI antara lain:\n\n1. Mesin sulit hidup → kemungkinan tekanan bahan bakar rendah, sensor ECT bermasalah, atau aki lemah.\n2. Mesin brebet saat akselerasi → kemungkinan TPS atau injector kotor.\n3. Konsumsi bahan bakar boros → kemungkinan O2 sensor rusak atau campuran terlalu kaya.\n4. Idle tidak stabil → kemungkinan ISC/IAC atau throttle body kotor.\n\nDiagnosis yang tepat dilakukan dengan langkah sistematis: identifikasi gejala, lakukan pemeriksaan visual, ukur komponen terkait, baca DTC, lalu simpulkan penyebab kerusakan. Pendekatan ini membantu menghindari kesalahan penggantian komponen yang tidak perlu."
+        }
+      ]
+    },
+    {
+      "title": "Perawatan dan Perbaikan Sistem EFI",
+      "contentL1": "Perawatan dan perbaikan sistem Electronic Fuel Injection (EFI) bertujuan menjaga performa mesin tetap optimal, efisien, dan sesuai standar emisi. Perawatan dilakukan secara berkala sesuai jadwal servis pabrikan, sedangkan perbaikan dilakukan berdasarkan hasil diagnosis. Seluruh pekerjaan harus mengikuti SOP bengkel dan menerapkan prinsip K3.",
+      "subSections": [
+        {
+          "title2": "Perawatan Berkala Sistem EFI",
+          "content2": "Perawatan berkala sistem EFI dilakukan untuk mencegah gangguan dan menjaga kestabilan kinerja mesin. Kegiatan perawatan meliputi:\n\n1. Pemeriksaan kondisi aki dan sistem kelistrikan.\n2. Pemeriksaan dan pembersihan filter udara.\n3. Pemeriksaan tekanan bahan bakar.\n4. Pemeriksaan kondisi throttle body.\n5. Pemeriksaan konektor dan kabel sensor.\n6. Pemeriksaan kode kerusakan (DTC) menggunakan scan tool.\n\nPerawatan berkala membantu mendeteksi gangguan lebih awal sehingga kerusakan yang lebih besar dapat dicegah."
+        },
+        {
+          "title2": "Pembersihan Throttle Body dan Injector",
+          "content2": "Throttle body dan injector dapat mengalami penumpukan karbon atau kotoran yang menyebabkan idle tidak stabil atau mesin brebet.\n\nProsedur umum pembersihan throttle body:\n1. Matikan mesin dan lepaskan terminal negatif aki.\n2. Lepaskan saluran intake udara.\n3. Bersihkan bagian dalam throttle body menggunakan cairan pembersih khusus (throttle body cleaner).\n4. Pasang kembali komponen sesuai prosedur.\n\nPembersihan injector dapat dilakukan dengan metode injector cleaner atau menggunakan alat injector tester untuk hasil lebih optimal. Kebersihan komponen sangat penting agar atomisasi bahan bakar tetap baik."
+        },
+        {
+          "title2": "Reset ECU",
+          "content2": "Reset ECU dilakukan untuk menghapus data adaptasi atau kode kerusakan setelah perbaikan. Prosedur reset dapat berbeda tergantung tipe sepeda motor, namun secara umum dapat dilakukan dengan:\n\n1. Menggunakan scan tool untuk menghapus DTC.\n2. Melepas terminal aki selama beberapa menit (sesuai prosedur pabrikan).\n\nSetelah reset, ECU akan melakukan proses pembelajaran ulang (self learning) untuk menyesuaikan kondisi mesin."
+        },
+        {
+          "title2": "Prosedur Penggantian Komponen",
+          "content2": "Penggantian komponen sistem EFI dilakukan berdasarkan hasil diagnosis yang akurat. Prosedur umum meliputi:\n\n1. Pastikan komponen pengganti sesuai spesifikasi pabrikan.\n2. Matikan kontak dan lepaskan terminal aki.\n3. Lepaskan konektor dan komponen dengan hati-hati.\n4. Pasang komponen baru dan pastikan konektor terpasang dengan benar.\n5. Lakukan pemeriksaan ulang dan uji fungsi.\n\nPenggantian komponen harus dilakukan dengan teliti untuk menghindari kerusakan tambahan."
+        },
+        {
+          "title2": "Penyusunan Laporan Servis",
+          "content2": "Laporan servis dibuat sebagai dokumentasi hasil pemeriksaan dan perbaikan. Laporan umumnya memuat:\n\n1. Identitas kendaraan dan pelanggan.\n2. Keluhan awal.\n3. Hasil pemeriksaan dan diagnosis.\n4. Tindakan perbaikan atau penggantian komponen.\n5. Hasil akhir dan rekomendasi tindak lanjut.\n\nPenyusunan laporan yang sistematis membantu menjaga profesionalisme kerja serta menjadi referensi untuk servis berikutnya."
+        }
+      ]
+    }
+  ]
 }
+          

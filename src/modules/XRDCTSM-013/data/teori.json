@@ -1,5 +1,196 @@
 {
-  "title": "Teori Modul",
+  "title": "Sistem Kelistrikan (Aki–Sekring–Relay–Ground)",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "KeSelamatan dan Kesehatan Kerja (K3) Sistem Kelistrikan",
+      "contentL1": "Keselamatan dan Kesehatan Kerja (K3) merupakan aspek penting dalam pekerjaan sistem kelistrikan sepeda motor. Sistem kelistrikan melibatkan arus listrik, komponen elektronik, dan bahan kimia seperti cairan elektrolit pada aki yang berpotensi menimbulkan bahaya jika tidak ditangani dengan benar. Setiap kegiatan pemeriksaan, perawatan, maupun perbaikan harus mengikuti prosedur K3 sesuai standar industri dan SKKNI agar pekerjaan aman, efektif, dan profesional.",
+      "subSections": [
+        {
+          "title2": "Identifikasi Potensi Bahaya Kelistrikan",
+          "content2": "Dalam pekerjaan sistem kelistrikan sepeda motor terdapat berbagai potensi bahaya yang perlu dikenali sebelum memulai pekerjaan. Bahaya tersebut meliputi risiko sengatan listrik akibat hubungan arus pendek atau kabel terbuka, percikan api yang dapat memicu kebakaran terutama di area yang terdapat uap bahan bakar, ledakan aki akibat kesalahan pemasangan terminal, serta paparan cairan elektrolit aki yang bersifat asam dan dapat menyebabkan iritasi kulit maupun mata. Selain itu, kesalahan penggunaan alat ukur juga dapat merusak komponen elektronik. Identifikasi bahaya dilakukan dengan memeriksa kondisi kabel, konektor, terminal, sekring, serta memastikan tidak ada kebocoran pada aki sebelum pekerjaan dimulai."
+        },
+        {
+          "title2": "Penggunaan Alat Pelindung Diri (APD)",
+          "content2": "Penggunaan Alat Pelindung Diri wajib dilakukan saat bekerja pada sistem kelistrikan sepeda motor. APD yang digunakan meliputi sarung tangan kerja untuk melindungi tangan dari kontak langsung dengan arus listrik ringan dan cairan aki, kacamata pelindung untuk mencegah percikan cairan atau debu masuk ke mata, wearpack atau pakaian kerja untuk melindungi tubuh, serta sepatu keselamatan untuk mengurangi risiko cedera akibat benda jatuh atau kondisi lantai yang licin. Seluruh APD harus dalam kondisi baik dan digunakan dengan benar selama proses pekerjaan berlangsung."
+        },
+        {
+          "title2": "Prosedur Kerja Aman pada Sistem Kelistrikan",
+          "content2": "Prosedur kerja aman dimulai dengan memastikan kunci kontak dalam posisi mati sebelum melakukan pemeriksaan. Terminal negatif aki dilepas terlebih dahulu sebelum melepas terminal positif guna menghindari hubungan arus pendek. Penggunaan alat ukur harus sesuai dengan fungsi dan batas ukur yang tepat. Hindari menyentuh kabel terbuka ketika sistem masih terhubung dengan sumber listrik. Pastikan penggunaan sekring sesuai dengan kapasitas yang dianjurkan pabrikan. Area kerja harus bersih, kering, dan memiliki ventilasi yang baik. Setelah pekerjaan selesai, seluruh komponen dipasang kembali sesuai prosedur dan dilakukan pengujian akhir untuk memastikan sistem bekerja dengan normal."
+        },
+        {
+          "title2": "Penanganan Aki dan Limbah Baterai",
+          "content2": "Aki mengandung cairan elektrolit berupa asam sulfat yang bersifat korosif dan berbahaya bagi kesehatan serta lingkungan. Dalam penanganannya, aki tidak boleh dimiringkan atau dijatuhkan karena dapat menyebabkan kebocoran. Apabila terjadi tumpahan cairan, segera bersihkan menggunakan larutan penetral seperti campuran air dan soda kue. Limbah aki tidak boleh dibuang sembarangan dan harus diserahkan kepada pengelola limbah berizin atau program daur ulang resmi. Penanganan yang benar mendukung keselamatan kerja sekaligus menjaga kelestarian lingkungan."
+        }
+      ]
+    },
+    {
+      "title": "Aki (Battery) Sepeda Motor",
+      "contentL1": "![Aki (Battery)](images/XRDCTSM-013/aki.png)Aki merupakan komponen utama dalam sistem kelistrikan sepeda motor yang berfungsi sebagai sumber dan penyimpan energi listrik. Pada sepeda motor modern, peran aki sangat penting karena hampir seluruh sistem elektronik seperti starter elektrik, sistem injeksi (EFI), lampu, panel instrumen digital, klakson, hingga sistem pengapian elektronik membutuhkan suplai tegangan yang stabil. Oleh karena itu, pemahaman mengenai konstruksi, prinsip kerja, spesifikasi, pemeriksaan, perawatan, dan analisis gangguan aki menjadi kompetensi dasar yang harus dikuasai peserta didik SMK Teknik Sepeda Motor.",
+      "subSections": [
+        {
+          "title2": "Pengertian dan fungsi aki",
+          "content2": "Aki adalah alat penyimpan energi listrik dalam bentuk energi kimia yang dapat diubah kembali menjadi energi listrik melalui proses reaksi elektrokimia. Pada sepeda motor, aki berfungsi sebagai sumber tenaga awal saat mesin dihidupkan menggunakan starter elektrik, menyuplai arus untuk sistem pengapian dan sistem injeksi, menstabilkan tegangan agar komponen elektronik bekerja dengan baik, serta sebagai cadangan energi ketika beban listrik meningkat. Aki juga berfungsi meredam lonjakan tegangan yang dapat merusak komponen elektronik sensitif seperti ECU pada motor injeksi."
+        },
+        {
+          "title2": "Jenis-jenis aki",
+          "content2": "Aki sepeda motor dibedakan berdasarkan konstruksi dan jenis elektrolitnya. Aki basah menggunakan cairan elektrolit berupa campuran asam sulfat dan air suling, sehingga memerlukan perawatan rutin berupa pengecekan dan penambahan air aki. Aki maintenance free (MF) dirancang tertutup dan tidak memerlukan penambahan cairan secara berkala sehingga lebih praktis dan minim perawatan. Aki gel menggunakan elektrolit berbentuk gel sehingga lebih tahan terhadap getaran dan memiliki risiko kebocoran lebih kecil. Pemilihan jenis aki harus disesuaikan dengan spesifikasi kendaraan dan rekomendasi pabrikan."
+        },
+        {
+          "title2": "Prinsip kerja aki",
+          "content2": "Prinsip kerja aki didasarkan pada reaksi kimia antara pelat positif berbahan timbal dioksida dan pelat negatif berbahan timbal yang direndam dalam larutan elektrolit asam sulfat. Saat aki digunakan atau mengalami proses discharge, terjadi reaksi kimia yang menghasilkan arus listrik dan membentuk timbal sulfat pada kedua pelat. Ketika mesin hidup dan sistem pengisian bekerja, alternator menghasilkan arus listrik yang diatur oleh regulator/rectifier untuk mengisi kembali aki melalui proses charge. Proses ini mengubah timbal sulfat kembali menjadi bahan aktif semula sehingga energi kimia tersimpan kembali. Siklus ini terjadi secara berulang selama aki digunakan."
+        },
+        {
+          "title2": "Spesifikasi tegangan dan kapasitas",
+          "content2": "Sebagian besar sepeda motor menggunakan aki dengan tegangan nominal 12 volt yang terdiri dari enam sel, masing-masing menghasilkan sekitar 2 volt. Kapasitas aki dinyatakan dalam satuan ampere hour (Ah), yang menunjukkan kemampuan aki menyuplai arus dalam jangka waktu tertentu. Tegangan aki dalam kondisi normal tanpa beban berkisar antara 12,4 hingga 12,8 volt. Saat mesin hidup, tegangan pengisian normal berada pada kisaran 13,5 hingga 14,5 volt. Tegangan di bawah standar menunjukkan aki lemah atau sistem pengisian bermasalah, sedangkan tegangan terlalu tinggi dapat merusak aki dan komponen elektronik."
+        },
+        {
+          "title2": "Prosedur pemeriksaan tegangan aki",
+          "content2": "Pemeriksaan tegangan aki dilakukan menggunakan multimeter digital pada posisi DC volt. Pastikan kunci kontak dalam posisi mati sebelum melakukan pengukuran. Hubungkan probe merah ke terminal positif dan probe hitam ke terminal negatif, kemudian baca hasil pengukuran. Selanjutnya hidupkan mesin dan ukur kembali tegangan untuk memastikan sistem pengisian bekerja dengan baik. Pemeriksaan tambahan dapat dilakukan dengan mengaktifkan starter untuk melihat penurunan tegangan saat diberi beban. Jika tegangan turun drastis, hal tersebut menunjukkan kapasitas aki melemah. Periksa juga kondisi fisik seperti terminal berkarat, casing retak, atau kebocoran."
+        },
+        {
+          "title2": "Perawatan dan penggantian aki",
+          "content2": "Perawatan aki meliputi menjaga kebersihan terminal dari korosi, memastikan sambungan kabel terpasang kuat, serta memeriksa kondisi fisik secara berkala. Pada aki basah, ketinggian cairan elektrolit harus berada pada batas yang dianjurkan dan ditambahkan air suling jika kurang. Jika aki sudah tidak mampu menyimpan daya dengan baik atau tegangan cepat turun setelah pengisian, maka perlu dilakukan penggantian dengan aki baru sesuai spesifikasi. Proses penggantian dilakukan dengan melepas terminal negatif terlebih dahulu untuk mencegah hubungan arus pendek."
+        },
+        {
+          "title2": "Analisis gangguan pada aki",
+          "content2": "Gangguan pada aki dapat ditandai dengan starter lemah, lampu redup, bunyi klik pada relay starter, atau mesin sulit dihidupkan. Penyebabnya dapat berupa tegangan rendah, sel aki rusak, terminal kendor atau berkarat, maupun sistem pengisian yang tidak bekerja optimal. Analisis dilakukan dengan mengukur tegangan dalam kondisi mati dan hidup, memeriksa kondisi fisik, serta memastikan sistem pengisian berfungsi normal. Diagnosis yang tepat membantu menentukan apakah aki cukup diisi ulang atau perlu diganti."
+        }
+      ]
+    },
+    {
+      "title": "Sekring (Fuse)",
+      "contentL1": "![Sekring (Fuse)](images/XRDCTSM-013/sekring.png)Sekring merupakan komponen pengaman pada sistem kelistrikan sepeda motor yang berfungsi melindungi rangkaian dari arus berlebih atau hubungan arus pendek. Keberadaan sekring sangat penting karena dapat mencegah kerusakan komponen elektronik, kabel terbakar, bahkan risiko kebakaran. Pemahaman mengenai jenis, kapasitas, simbol pada wiring diagram, serta prosedur pemeriksaan dan penggantian sekring menjadi kompetensi dasar yang harus dikuasai peserta didik SMK Teknik Sepeda Motor.",
+      "subSections": [
+        {
+          "title2": "Pengertian dan fungsi sekring",
+          "content2": "Sekring adalah komponen pengaman listrik yang dirancang untuk memutus aliran arus secara otomatis ketika terjadi arus berlebih. Di dalam sekring terdapat elemen logam tipis yang akan meleleh jika arus melebihi kapasitas yang ditentukan. Fungsi utama sekring adalah melindungi kabel dan komponen kelistrikan dari kerusakan akibat korsleting atau beban berlebih. Dengan adanya sekring, kerusakan dapat dibatasi hanya pada elemen pengaman tersebut tanpa merusak sistem secara keseluruhan."
+        },
+        {
+          "title2": "Jenis dan kapasitas sekring",
+          "content2": "Pada sepeda motor umumnya digunakan sekring tipe blade (pipih) yang memiliki kode warna sesuai kapasitas arusnya. Selain itu terdapat juga sekring tabung pada beberapa model lama. Kapasitas sekring dinyatakan dalam satuan ampere (A), seperti 5A, 10A, 15A, atau 20A. Pemilihan kapasitas harus sesuai dengan spesifikasi rangkaian. Penggunaan sekring dengan kapasitas lebih besar dari standar dapat menyebabkan kabel atau komponen rusak sebelum sekring putus. Sebaliknya, penggunaan kapasitas terlalu kecil dapat menyebabkan sekring mudah putus meskipun sistem normal."
+        },
+        {
+          "title2": "Simbol sekring pada wiring diagram",
+          "content2": "Dalam wiring diagram sepeda motor, sekring dilambangkan dengan simbol khusus berupa garis yang terputus atau simbol kotak kecil dengan garis di tengahnya. Pemahaman simbol ini penting agar teknisi dapat menelusuri jalur arus listrik dan mengetahui posisi sekring dalam rangkaian. Sekring biasanya ditempatkan setelah sumber tegangan dari aki dan sebelum beban listrik untuk memberikan perlindungan maksimal terhadap seluruh sistem."
+        },
+        {
+          "title2": "Prosedur pemeriksaan sekring",
+          "content2": "Pemeriksaan sekring dilakukan dengan mematikan kunci kontak terlebih dahulu untuk memastikan keamanan. Sekring dilepas dari dudukannya dan diperiksa secara visual untuk melihat apakah elemen logam di dalamnya putus atau meleleh. Untuk pemeriksaan lebih akurat, gunakan multimeter pada posisi continuity atau ohm. Jika jarum atau indikator menunjukkan hubungan terhubung, maka sekring dalam kondisi baik. Jika tidak ada kontinuitas, berarti sekring putus dan perlu diganti. Selain itu, periksa juga dudukan sekring dari kemungkinan karat atau longgar."
+        },
+        {
+          "title2": "Penggantian sekring sesuai standar",
+          "content2": "Penggantian sekring harus menggunakan tipe dan kapasitas yang sama dengan spesifikasi pabrikan. Jangan pernah mengganti sekring dengan kawat atau bahan lain karena dapat menghilangkan fungsi pengaman dan berisiko menyebabkan kebakaran. Pastikan dudukan sekring bersih dan kering sebelum memasang yang baru. Setelah penggantian, lakukan pemeriksaan ulang dengan menghidupkan sistem untuk memastikan tidak terjadi korsleting berulang."
+        },
+        {
+          "title2": "Analisis kerusakan akibat sekring putus",
+          "content2": "Sekring yang putus menandakan adanya gangguan dalam sistem kelistrikan seperti hubungan arus pendek, kabel terkelupas, atau beban berlebih. Jika sekring sering putus setelah diganti, maka perlu dilakukan pemeriksaan menyeluruh pada jalur kabel dan komponen yang terhubung. Analisis dilakukan dengan menelusuri wiring diagram, memeriksa kondisi isolasi kabel, serta memastikan tidak ada komponen yang mengalami korsleting. Diagnosis yang tepat membantu mencegah kerusakan berulang dan menjaga keamanan sistem kelistrikan."
+        }
+      ]
+    },
+     {
+      "title": "Relay",
+      "contentL1": "![Relay](images/XRDCTSM-013/Relay.png)Relay merupakan komponen kelistrikan yang berfungsi sebagai saklar elektromagnetik untuk mengendalikan arus listrik berkapasitas besar menggunakan arus kecil. Pada sepeda motor, relay banyak digunakan pada sistem starter, lampu utama, kipas pendingin, dan beberapa sistem kelistrikan lainnya. Penggunaan relay bertujuan untuk meningkatkan efisiensi kerja saklar, menjaga kestabilan arus, serta melindungi komponen dari kerusakan akibat beban berlebih.",
+      "subSections": [
+        {
+          "title2": "Pengertian dan fungsi relay",
+          "content2": "Relay adalah saklar listrik yang bekerja berdasarkan prinsip elektromagnetik. Ketika kumparan relay dialiri arus listrik kecil, akan terbentuk medan magnet yang menarik kontak sehingga arus listrik yang lebih besar dapat mengalir ke beban. Fungsi relay pada sepeda motor adalah menghubungkan dan memutus arus berdaya besar tanpa harus melewati saklar utama secara langsung. Dengan demikian, saklar lebih awet dan sistem kelistrikan bekerja lebih aman."
+        },
+        {
+          "title2": "Prinsip kerja relay elektromagnetik",
+          "content2": "Relay elektromagnetik bekerja ketika arus kecil mengalir melalui kumparan (coil), sehingga menghasilkan medan magnet. Medan magnet tersebut menarik armature atau tuas logam yang menghubungkan kontak utama. Saat arus pada kumparan dihentikan, medan magnet hilang dan pegas akan mengembalikan kontak ke posisi semula. Proses ini memungkinkan arus kecil mengontrol arus besar secara efisien. Pada sepeda motor, contoh penerapannya adalah relay starter yang memungkinkan tombol starter mengaktifkan motor starter yang membutuhkan arus besar dari aki."
+        },
+        {
+          "title2": "Terminal dan diagram relay",
+          "content2": "Relay pada sepeda motor umumnya memiliki beberapa terminal dengan kode standar seperti 30, 85, 86, dan 87. Terminal 85 dan 86 biasanya terhubung ke kumparan, sedangkan terminal 30 dan 87 berfungsi sebagai kontak utama arus beban. Pada wiring diagram, relay digambarkan dengan simbol kumparan dan saklar yang terhubung secara mekanis. Pemahaman terhadap terminal dan diagram relay sangat penting agar teknisi dapat melakukan pemasangan dan diagnosis dengan benar tanpa menyebabkan kesalahan sambungan."
+        },
+        {
+          "title2": "Pengujian relay menggunakan multimeter",
+          "content2": "Pengujian relay dilakukan untuk memastikan kumparan dan kontak bekerja dengan baik. Langkah awal adalah memeriksa hambatan kumparan menggunakan multimeter pada posisi ohm. Jika nilai hambatan sesuai spesifikasi, kumparan dalam kondisi baik. Selanjutnya, berikan tegangan sesuai spesifikasi pada terminal kumparan dan periksa kontinuitas antara terminal kontak utama. Jika terdengar bunyi klik dan terjadi perubahan kontinuitas, relay berfungsi normal. Jika tidak ada perubahan atau hambatan tak terbaca, relay kemungkinan rusak dan perlu diganti."
+        },
+        {
+          "title2": "Gangguan pada relay dan solusinya",
+          "content2": "Gangguan relay dapat ditandai dengan tidak berfungsinya komponen seperti starter tidak aktif, lampu tidak menyala, atau terdengar bunyi klik tanpa adanya aliran arus ke beban. Penyebabnya dapat berupa kumparan putus, kontak aus atau terbakar, serta terminal longgar atau berkarat. Solusi dilakukan dengan memeriksa sambungan kabel, membersihkan terminal, serta mengganti relay jika kerusakan terdapat pada bagian internal. Penggantian harus menggunakan relay dengan spesifikasi yang sama sesuai rekomendasi pabrikan."
+        }
+      ]
+    },
+    {
+      "title": "Sistem Ground",
+      "contentL1": "Sistem ground merupakan bagian penting dalam rangkaian kelistrikan sepeda motor yang berfungsi sebagai jalur kembali arus listrik menuju sumber tegangan. Ground yang baik memastikan arus mengalir dengan stabil dan seluruh komponen kelistrikan bekerja secara optimal. Gangguan pada sistem ground sering kali menimbulkan masalah kelistrikan yang sulit dideteksi karena gejalanya tidak selalu terlihat secara langsung. Oleh karena itu, pemahaman mengenai fungsi, jalur, pemeriksaan, dan perbaikan ground sangat penting bagi peserta didik SMK Teknik Sepeda Motor.",
+      "subSections": [
+        {
+          "title2": "Pengertian dan fungsi ground",
+          "content2": "Ground adalah titik atau jalur pengembalian arus listrik ke sumber tegangan, biasanya terhubung ke rangka atau chassis sepeda motor. Dalam sistem kelistrikan arus searah (DC), arus mengalir dari terminal positif aki menuju beban, kemudian kembali ke terminal negatif melalui jalur ground. Fungsi utama ground adalah melengkapi rangkaian listrik agar arus dapat mengalir dengan sempurna, menjaga kestabilan tegangan, serta mencegah gangguan kelistrikan akibat hambatan berlebih pada jalur pengembalian arus."
+        },
+        {
+          "title2": "Jalur ground pada sepeda motor",
+          "content2": "Pada sepeda motor, jalur ground umumnya terhubung langsung dari terminal negatif aki ke rangka kendaraan. Rangka kemudian berfungsi sebagai penghantar arus kembali untuk berbagai komponen seperti lampu, klakson, sistem starter, dan sistem injeksi. Beberapa komponen elektronik memiliki kabel ground tersendiri yang terhubung ke titik massa tertentu pada rangka. Titik ground biasanya diberi baut khusus yang menghubungkan kabel massa dengan rangka logam. Kebersihan dan kekencangan sambungan pada titik ini sangat menentukan kualitas aliran arus."
+        },
+        {
+          "title2": "Dampak ground buruk terhadap sistem kelistrikan",
+          "content2": "Ground yang buruk atau tidak stabil dapat menyebabkan berbagai gangguan seperti lampu redup, starter lemah, indikator tidak normal, hingga mesin sulit hidup. Hambatan tinggi pada jalur ground dapat mengakibatkan tegangan turun sebelum mencapai beban. Selain itu, koneksi ground yang longgar atau berkarat dapat menimbulkan panas berlebih dan percikan kecil yang mempercepat kerusakan komponen. Pada sepeda motor injeksi, ground yang tidak baik dapat mengganggu kerja sensor dan ECU sehingga performa mesin menjadi tidak stabil."
+        },
+        {
+          "title2": "Pemeriksaan kontinuitas ground",
+          "content2": "Pemeriksaan sistem ground dilakukan menggunakan multimeter pada posisi ohm atau continuity. Pastikan sepeda motor dalam kondisi mati sebelum melakukan pengukuran. Hubungkan salah satu probe ke terminal negatif aki dan probe lainnya ke titik ground pada rangka atau komponen yang diuji. Nilai hambatan yang rendah menunjukkan jalur ground dalam kondisi baik. Jika hambatan tinggi atau tidak ada kontinuitas, berarti terdapat masalah pada sambungan atau kabel ground. Pemeriksaan juga harus mencakup kondisi fisik seperti baut kendor, karat, atau kabel yang terkelupas."
+        },
+        {
+          "title2": "Perbaikan sistem ground",
+          "content2": "Perbaikan sistem ground dilakukan dengan membersihkan titik sambungan dari karat atau kotoran menggunakan amplas halus atau sikat kawat. Pastikan baut pengikat dikencangkan sesuai standar agar kontak listrik optimal. Jika kabel ground rusak atau terkelupas, lakukan penggantian dengan kabel yang memiliki ukuran dan spesifikasi sesuai standar pabrikan. Setelah perbaikan selesai, lakukan pengujian ulang untuk memastikan kontinuitas dan kestabilan tegangan sistem kelistrikan telah kembali normal."
+        }
+      ]
+    },
+    {
+      "title": "Wiring Diagram dan Pengukuran Kelistrikan",
+      "contentL1": "Pemahaman wiring diagram dan teknik pengukuran kelistrikan merupakan kompetensi penting dalam mendiagnosis sistem kelistrikan sepeda motor. Wiring diagram membantu teknisi memahami alur arus listrik dan hubungan antar komponen, sedangkan pengukuran menggunakan multimeter digunakan untuk memastikan kondisi tegangan, hambatan, dan kontinuitas rangkaian. Penguasaan kedua aspek ini memungkinkan proses diagnosis dilakukan secara sistematis, akurat, dan sesuai standar industri.",
+      "subSections": [
+        {
+          "title2": "Simbol-simbol kelistrikan sepeda motor",
+          "content2": "Dalam wiring diagram, setiap komponen kelistrikan dilambangkan dengan simbol tertentu agar mudah dibaca dan dipahami. Simbol umum yang sering digunakan meliputi aki, sekring, saklar, relay, lampu, massa atau ground, koil, dan berbagai sensor. Garis pada diagram menunjukkan jalur kabel, sedangkan titik pertemuan garis menandakan adanya sambungan listrik. Pemahaman simbol sangat penting agar teknisi dapat menelusuri jalur arus dan mengidentifikasi lokasi gangguan dengan tepat tanpa harus membongkar seluruh sistem."
+        },
+        {
+          "title2": "Membaca wiring diagram sederhana",
+          "content2": "Membaca wiring diagram dimulai dengan mengidentifikasi sumber tegangan, biasanya berasal dari aki. Selanjutnya, perhatikan jalur arus yang melewati sekring, saklar, relay, hingga mencapai beban seperti lampu atau motor starter, kemudian kembali melalui jalur ground. Perhatikan juga kode warna kabel yang biasanya tercantum pada diagram untuk memudahkan identifikasi di kendaraan. Dalam praktiknya, membaca diagram dilakukan secara sistematis dari sumber menuju beban untuk memahami alur kerja rangkaian."
+        },
+        {
+          "title2": "Penggunaan multimeter",
+          "content2": "Multimeter adalah alat ukur yang digunakan untuk mengukur tegangan (volt), hambatan (ohm), dan kontinuitas rangkaian. Pada pengukuran tegangan DC, multimeter diatur pada skala DC volt dan probe merah dihubungkan ke terminal positif sedangkan probe hitam ke terminal negatif atau ground. Untuk mengukur hambatan, pilih skala ohm dan pastikan rangkaian tidak terhubung dengan sumber listrik. Mode continuity digunakan untuk memeriksa apakah suatu kabel atau komponen memiliki hubungan listrik yang baik, biasanya ditandai dengan bunyi buzzer jika rangkaian tersambung."
+        },
+        {
+          "title2": "Teknik pengukuran tegangan dan hambatan",
+          "content2": "Pengukuran tegangan dilakukan dengan sistem dalam kondisi aktif untuk mengetahui apakah arus mengalir sesuai spesifikasi. Tegangan diukur pada titik tertentu dalam rangkaian untuk memastikan tidak terjadi penurunan tegangan berlebih. Pengukuran hambatan dilakukan saat sistem dalam kondisi mati untuk menghindari kerusakan alat ukur. Nilai hambatan yang terlalu tinggi dapat menunjukkan adanya korosi, kabel putus sebagian, atau sambungan longgar. Teknik pengukuran harus dilakukan dengan hati-hati dan mengikuti prosedur keselamatan kerja."
+        },
+        {
+          "title2": "Analisis hasil pengukuran",
+          "content2": "Hasil pengukuran harus dibandingkan dengan spesifikasi standar pabrikan. Tegangan yang lebih rendah dari standar dapat menunjukkan aki lemah, sambungan buruk, atau adanya hambatan tinggi pada rangkaian. Tegangan yang terlalu tinggi dapat mengindikasikan kerusakan pada sistem pengisian. Hambatan yang tidak sesuai menunjukkan kemungkinan kabel putus, korsleting, atau komponen rusak. Analisis yang tepat dilakukan dengan menggabungkan hasil pengukuran, pemahaman wiring diagram, dan gejala yang muncul pada kendaraan sehingga diagnosis menjadi lebih akurat dan efisien."
+        }
+      ]
+    },
+    {
+      "title": "Bab 8 Diagnosis dan Perbaikan Gangguan",
+      "contentL1": "Diagnosis dan perbaikan gangguan sistem kelistrikan merupakan kompetensi inti dalam bidang teknik sepeda motor. Proses diagnosis dilakukan secara sistematis berdasarkan gejala yang muncul, hasil pengukuran, serta pemahaman wiring diagram. Perbaikan harus dilakukan sesuai standar operasional prosedur dan memperhatikan aspek keselamatan kerja. Pendekatan yang terstruktur membantu teknisi menemukan penyebab kerusakan secara akurat tanpa melakukan penggantian komponen yang tidak diperlukan.",
+      "subSections": [
+        {
+          "title2": "Gejala kerusakan sistem kelistrikan",
+          "content2": "Gangguan pada sistem kelistrikan dapat dikenali melalui berbagai gejala seperti starter tidak berfungsi, lampu redup atau mati, klakson tidak berbunyi, indikator panel tidak menyala, atau mesin sulit dihidupkan. Dalam beberapa kasus, gejala muncul secara tidak stabil, misalnya lampu kadang menyala kadang mati akibat sambungan longgar. Gejala tersebut menjadi petunjuk awal untuk menentukan bagian sistem yang perlu diperiksa lebih lanjut."
+        },
+        {
+          "title2": "Langkah diagnosis sistematis",
+          "content2": "Diagnosis dilakukan dengan pendekatan bertahap dimulai dari pemeriksaan visual terhadap kondisi kabel, terminal, dan komponen utama. Selanjutnya dilakukan pemeriksaan sumber tegangan seperti kondisi aki dan sistem pengisian. Setelah itu, periksa komponen pengaman seperti sekring dan relay. Gunakan multimeter untuk mengukur tegangan dan hambatan sesuai titik yang tercantum pada wiring diagram. Proses diagnosis harus dilakukan dari sumber menuju beban secara runtut agar gangguan dapat ditemukan dengan efisien."
+        },
+        {
+          "title2": "Studi kasus gangguan",
+          "content2": "Pada kasus aki tekor, gejala yang muncul biasanya starter lemah dan lampu redup. Diagnosis dilakukan dengan mengukur tegangan aki dalam kondisi mati dan hidup untuk memastikan apakah aki atau sistem pengisian yang bermasalah. Pada kasus sekring putus, seluruh sistem pada jalur tersebut tidak berfungsi. Pemeriksaan dilakukan dengan mencari kemungkinan korsleting atau kabel terkelupas sebelum mengganti sekring. Pada relay rusak, biasanya terdengar bunyi klik tetapi beban tidak aktif, atau tidak terdengar bunyi sama sekali. Pemeriksaan dilakukan dengan mengukur hambatan kumparan dan kontinuitas kontak. Pada ground jelek, gejala sering berupa sistem bekerja tidak stabil. Pemeriksaan dilakukan dengan mengukur kontinuitas antara terminal negatif aki dan titik ground pada rangka."
+        },
+        {
+          "title2": "Prosedur perbaikan sesuai SOP",
+          "content2": "Perbaikan dilakukan setelah penyebab gangguan ditemukan secara pasti. Komponen yang rusak diganti dengan spesifikasi yang sesuai rekomendasi pabrikan. Sambungan kabel yang longgar harus dikencangkan dan dibersihkan dari korosi. Kabel yang terkelupas harus diperbaiki atau diganti untuk mencegah korsleting. Seluruh proses perbaikan harus mengikuti prosedur keselamatan kerja, seperti mematikan kunci kontak dan melepas terminal negatif aki sebelum bekerja pada rangkaian kelistrikan."
+        },
+        {
+          "title2": "Pengujian hasil perbaikan",
+          "content2": "Setelah perbaikan selesai, lakukan pengujian ulang untuk memastikan sistem bekerja normal. Ukur kembali tegangan pada titik yang sebelumnya bermasalah dan periksa fungsi seluruh komponen terkait. Pastikan tidak ada gejala gangguan yang tersisa dan sistem bekerja stabil dalam kondisi idle maupun saat beban aktif. Pengujian akhir merupakan tahap penting untuk memastikan kualitas pekerjaan dan mencegah kerusakan berulang."
+        }
+      ]
+    }
+  ]
 }

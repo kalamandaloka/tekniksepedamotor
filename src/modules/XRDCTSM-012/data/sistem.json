@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Pengapian",
+  "simulations": [
+    {
+      "id": "sim_spark_test",
+      "title": "Simulasi Pemeriksaan Percikan Bunga Api (Spark Test)",
+      "description": "Gunakan alat pelindung diri (sarung tangan dan kacamata kerja) sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam kondisi standar dan area kerja aman serta memiliki ventilasi yang baik.\n\n1. Matikan mesin dan putar kunci kontak ke posisi OFF.\n2. Lepaskan tutup busi (spark plug cap) dengan hati-hati.\n3. Gunakan kunci busi untuk melepas busi dari kepala silinder.\n4. Periksa kondisi fisik busi (warna elektroda, kerak karbon, dan keausan).\n5. Pasang kembali busi ke kabel tegangan tinggi tanpa memasangnya ke silinder.\n6. Tempelkan bagian ulir busi ke massa mesin (blok mesin) untuk grounding.\n7. Pastikan tangan tidak menyentuh bagian logam busi saat proses pengujian.\n8. Putar kunci kontak ke posisi ON dan tekan starter.\n9. Amati percikan bunga api yang muncul pada celah elektroda busi.\n\nAnalisis hasil pengamatan:\n- Jika percikan berwarna biru terang dan kuat, sistem pengapian dalam kondisi baik.\n- Jika percikan berwarna merah atau lemah, periksa koil pengapian dan kondisi aki.\n- Jika tidak ada percikan api, lakukan pemeriksaan lanjutan pada koil, pulser, dan CDI.\n\nSetelah selesai, matikan kembali kunci kontak dan pasang busi ke silinder sesuai prosedur pengencangan yang benar.",
+      "image": "/images/XRDCTSM-012/simulasiSparkTest.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_uji_koil_pulser",
+      "title": "Simulasi Pengujian Koil dan Pulser Menggunakan Multimeter",
+      "description": "Gunakan alat pelindung diri (sarung tangan dan kacamata kerja) sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam kondisi mati dan kunci kontak pada posisi OFF.\n\n1. Lepaskan terminal negatif aki untuk mencegah korsleting.\n2. Siapkan multimeter dan atur pada skala Ohm (Ω).\n\nPengujian Koil Pengapian:\n3. Lepaskan konektor koil pengapian.\n4. Ukur resistansi kumparan primer dengan menempatkan probe multimeter pada terminal positif dan negatif koil.\n5. Catat hasil pengukuran dan bandingkan dengan spesifikasi pabrikan.\n6. Ukur resistansi kumparan sekunder dengan menempatkan satu probe pada terminal koil dan satu probe pada ujung kabel tegangan tinggi.\n7. Catat hasil pengukuran dan bandingkan dengan standar.\n\nPengujian Pulser / Pick-up Coil:\n8. Lepaskan konektor pulser.\n9. Ukur resistansi pulser dengan menempatkan probe multimeter pada kedua terminal pulser.\n10. Catat hasil pengukuran dan bandingkan dengan spesifikasi standar.\n\nAnalisis hasil pengukuran:\n- Jika nilai resistansi sesuai standar, komponen dalam kondisi baik.\n- Jika nilai terlalu tinggi atau terlalu rendah dari spesifikasi, komponen kemungkinan rusak.\n- Jika tidak ada pembacaan (∞ atau 0), komponen kemungkinan putus atau short.\n\nSetelah selesai, pasang kembali semua konektor dengan benar dan sambungkan kembali terminal aki. Lakukan uji coba mesin untuk memastikan sistem pengapian bekerja dengan normal.",
+      "image": "/images/XRDCTSM-012/simulasiUjiKoilPulser.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

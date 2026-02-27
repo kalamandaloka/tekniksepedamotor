@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Starter",
+  "simulations": [
+    {
+      "id": "sim_pengukuran_tegangan_aki",
+      "title": "Simulasi Pengukuran Tegangan Aki Saat Starter",
+      "description": "Gunakan alat pelindung diri (APD) berupa sarung tangan dan kacamata kerja sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam posisi standar tengah dan area kerja aman.\n\nSiapkan multimeter digital dan atur pada skala DC Volt (20V).\n\n1. Pastikan kunci kontak dalam posisi OFF.\n2. Hubungkan probe merah ke terminal positif (+) aki dan probe hitam ke terminal negatif (-) aki.\n3. Ukur tegangan aki tanpa beban dan catat hasilnya.\n   - Tegangan normal: 12,4 – 12,8 Volt.\n4. Putar kunci kontak ke posisi ON.\n5. Tekan tombol starter sambil mengamati layar multimeter.\n6. Catat tegangan terendah saat starter bekerja.\n   - Tegangan tidak boleh turun di bawah 9 – 10 Volt.\n7. Analisis hasil pengukuran:\n   - Jika tegangan stabil dan tidak drop berlebihan, nyatakan aki dalam kondisi baik.\n   - Jika tegangan turun drastis di bawah batas minimum, simpulkan aki lemah atau soak.\n\nTuliskan hasil pengukuran dan kesimpulan pada lembar kerja praktik.",
+      "image": "/images/XRDCTSM-015/simulasi-pengukuran-aki.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_troubleshooting_starter_lengkap",
+      "title": "Simulasi Troubleshooting Sistem Starter Tidak Berfungsi (Level Industri)",
+      "description": "Gunakan alat pelindung diri (APD) berupa sarung tangan, kacamata kerja, dan wearpack sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam posisi standar tengah dan area kerja aman.\n\nKasus: Sistem starter tidak berfungsi saat tombol starter ditekan.\n\nLakukan langkah troubleshooting secara sistematis sebagai berikut:\n\n1. Periksa kondisi aki.\n   - Ukur tegangan tanpa beban menggunakan multimeter.\n   - Ukur tegangan saat tombol starter ditekan.\n   - Catat hasil pengukuran.\n\n2. Periksa sekring sistem starter.\n   - Lepaskan sekring.\n   - Periksa secara visual apakah putus.\n   - Uji kontinuitas menggunakan multimeter.\n\n3. Periksa saklar starter.\n   - Uji kontinuitas saat tombol ditekan.\n   - Pastikan arus mengalir menuju relay.\n\n4. Periksa relay starter.\n   - Dengarkan bunyi \"klik\" saat tombol ditekan.\n   - Ukur tegangan pada terminal input dan output relay.\n   - Pastikan arus besar mengalir saat relay aktif.\n\n5. Periksa kabel dan konektor.\n   - Periksa kondisi fisik kabel.\n   - Pastikan tidak ada kabel putus atau konektor longgar.\n\n6. Periksa motor starter.\n   - Ukur tegangan pada terminal motor starter saat tombol ditekan.\n   - Lakukan uji langsung (direct test) dengan prosedur aman jika diperlukan.\n\n7. Analisis hasil pemeriksaan.\n   - Tentukan komponen yang bermasalah.\n   - Jelaskan alasan berdasarkan hasil pengukuran.\n\n8. Lakukan perbaikan atau penggantian komponen yang rusak.\n\n9. Lakukan uji fungsi akhir.\n   - Tekan tombol starter.\n   - Pastikan mesin hidup dengan normal.\n\nTuliskan seluruh hasil pemeriksaan, analisis, dan kesimpulan pada lembar kerja praktik.\n\nLakukan pekerjaan sesuai prosedur K3 dan standar diagnosis industri otomotif.",
+      "image": "/images/XRDCTSM-015/simulasi-troubleshooting-starter.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

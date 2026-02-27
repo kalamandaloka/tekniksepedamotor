@@ -1,7 +1,33 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Wiring Diagram & Rangkaian Kelistrikan Sepeda Motor",
+  "description": "Modul ini membahas konsep dasar wiring diagram dan rangkaian kelistrikan sepeda motor meliputi simbol kelistrikan, kode warna kabel, jalur arus, serta hubungan antar komponen dalam sistem pengapian, sistem starter, sistem pengisian, dan sistem penerangan. Materi mencakup prosedur membaca dan menelusuri wiring diagram, praktik penyusunan rangkaian listrik sederhana, penggunaan multimeter untuk pengujian, serta analisis gangguan berdasarkan diagram rangkaian sesuai standar keselamatan dan kesehatan kerja (K3). Pembelajaran dirancang berbasis CP, ATP, dan SKKNI untuk membekali peserta didik dengan kompetensi analisis dan diagnostik kelistrikan sepeda motor.",
+  "image": "/images/XRDCTSM-014/wiringDiagramRangkaian.png",
+  "skkni": [
+    "Menerapkan keselamatan dan kesehatan kerja (K3) di bengkel sepeda motor",
+    "Membaca dan memahami wiring diagram sepeda motor",
+    "Memelihara sistem kelistrikan sepeda motor",
+    "Mendiagnosis gangguan sistem kelistrikan sepeda motor",
+    "Menggunakan alat ukur kelistrikan sesuai prosedur"
+  ],
+  "kurikulum": [
+    "CP: Peserta didik mampu memahami dan menerapkan konsep sistem kelistrikan sepeda motor berdasarkan wiring diagram sesuai standar industri.",
+    "CP: Peserta didik mampu membaca, menelusuri, dan menganalisis rangkaian kelistrikan untuk menemukan gangguan secara sistematis.",
+    "ATP 1: Menjelaskan pengertian dan fungsi wiring diagram pada sepeda motor.",
+    "ATP 2: Mengidentifikasi simbol, kode warna kabel, dan komponen pada wiring diagram.",
+    "ATP 3: Menjelaskan prinsip aliran arus listrik dalam rangkaian seri dan paralel.",
+    "ATP 4: Menelusuri jalur arus pada wiring diagram sistem pengapian, starter, dan penerangan.",
+    "ATP 5: Menyusun rangkaian listrik sederhana sesuai diagram yang diberikan.",
+    "ATP 6: Menggunakan multimeter untuk mengukur tegangan, hambatan, dan kontinuitas rangkaian.",
+    "ATP 7: Melakukan pemeriksaan rangkaian berdasarkan SOP dan standar K3.",
+    "ATP 8: Menganalisis dan menentukan tindakan perbaikan berdasarkan hasil diagnosis rangkaian."
+  ],
+  "tujuan": [
+    "Peserta didik dapat menjelaskan fungsi dan manfaat wiring diagram pada sepeda motor.",
+    "Peserta didik dapat mengidentifikasi simbol dan jalur arus pada diagram rangkaian.",
+    "Peserta didik dapat membaca dan menginterpretasikan wiring diagram sistem kelistrikan.",
+    "Peserta didik dapat merangkai sistem kelistrikan sederhana sesuai diagram.",
+    "Peserta didik dapat melakukan pengukuran dan pengujian rangkaian menggunakan multimeter sesuai SOP.",
+    "Peserta didik dapat menganalisis gangguan sistem kelistrikan berdasarkan wiring diagram.",
+    "Peserta didik dapat melakukan tindakan perbaikan sesuai standar industri dan K3."
+  ]
 }

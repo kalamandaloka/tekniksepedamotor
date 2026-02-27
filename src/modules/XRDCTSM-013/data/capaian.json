@@ -1,7 +1,31 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Kelistrikan (Aki–Sekring–Relay–Ground)",
+  "description": "Modul ini membahas prinsip kerja, fungsi, jenis, komponen, rangkaian, serta prosedur pemeriksaan dan perawatan sistem kelistrikan dasar pada sepeda motor yang meliputi aki (battery), sekring (fuse), relay, dan sistem ground. Materi mencakup analisis wiring diagram sederhana, prosedur pengukuran menggunakan multimeter, serta analisis gangguan dan perbaikan sesuai standar keselamatan kerja (K3). Pembelajaran dirancang berbasis CP, ATP, dan SKKNI untuk membekali peserta didik dengan kompetensi diagnostik dan perawatan sistem kelistrikan sepeda motor.",
+  "image": "/images/XRDCTSM-013/sistemKelistrikanDasar.png",
+  "skkni": [
+    "Menerapkan keselamatan dan kesehatan kerja (K3) di bengkel sepeda motor",
+    "Memelihara sistem kelistrikan sepeda motor",
+    "Mendiagnosis gangguan sistem kelistrikan sepeda motor",
+    "Memperbaiki sistem kelistrikan sepeda motor"
+  ],
+  "kurikulum": [
+    "CP: Peserta didik mampu memahami prinsip kerja sistem kelistrikan sepeda motor serta melakukan pemeriksaan dan perawatan sesuai prosedur dan standar industri.",
+    "CP: Peserta didik mampu menganalisis gangguan pada sistem aki, sekring, relay, dan ground berdasarkan gejala kerusakan.",
+    "ATP 1: Menjelaskan fungsi dan prinsip kerja aki pada sepeda motor.",
+    "ATP 2: Mengidentifikasi jenis dan fungsi sekring pada sistem kelistrikan.",
+    "ATP 3: Menjelaskan prinsip kerja relay dan penerapannya dalam rangkaian kelistrikan.",
+    "ATP 4: Menjelaskan fungsi sistem ground dalam rangkaian kelistrikan sepeda motor.",
+    "ATP 5: Membaca dan menginterpretasikan wiring diagram sederhana.",
+    "ATP 6: Melakukan pengukuran tegangan, hambatan, dan kontinuitas menggunakan multimeter.",
+    "ATP 7: Melakukan pemeriksaan kondisi aki, sekring, relay, dan ground sesuai SOP dan standar K3.",
+    "ATP 8: Mendiagnosis dan menentukan tindakan perbaikan pada gangguan sistem kelistrikan dasar."
+  ],
+  "tujuan": [
+    "Peserta didik dapat menjelaskan prinsip kerja sistem kelistrikan dasar sepeda motor.",
+    "Peserta didik dapat mengidentifikasi dan menjelaskan fungsi setiap komponen aki, sekring, relay, dan ground.",
+    "Peserta didik dapat membaca wiring diagram sederhana sistem kelistrikan.",
+    "Peserta didik dapat melakukan pengukuran dan pengujian sistem kelistrikan menggunakan multimeter sesuai SOP.",
+    "Peserta didik dapat menganalisis penyebab gangguan sistem kelistrikan berdasarkan hasil pengukuran.",
+    "Peserta didik dapat melakukan perawatan dan perbaikan sistem kelistrikan sesuai standar industri."
+  ]
 }

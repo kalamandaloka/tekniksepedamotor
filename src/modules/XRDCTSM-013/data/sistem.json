@@ -1,4 +1,24 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Kelistrikan (Aki–Sekring–Relay–Ground)",
+  "simulations": [
+    {
+      "id": "sim_pemeriksaan_tegangan_aki",
+      "title": "Simulasi Pemeriksaan Tegangan Aki Menggunakan Multimeter",
+      "description": "Gunakan alat pelindung diri yang sesuai seperti sarung tangan kerja dan kacamata pelindung untuk mencegah risiko cedera.\n\nPastikan sepeda motor berada pada standar tengah dan area kerja dalam kondisi aman, bersih, dan kering.\n\nPastikan mesin dalam kondisi mati dan kunci kontak pada posisi OFF sebelum melakukan pemeriksaan.\n\nBuka jok atau penutup aki sesuai prosedur pada tipe sepeda motor yang digunakan.\n\nPeriksa kondisi fisik aki. Pastikan tidak ada kebocoran, casing retak, atau terminal berkarat.\n\nSiapkan multimeter dan atur pada skala DC Volt dengan batas ukur minimal 20V.\n\nHubungkan probe merah multimeter ke terminal positif (+) aki.\n\nHubungkan probe hitam multimeter ke terminal negatif (-) aki.\n\nBaca dan catat hasil tegangan yang ditampilkan pada layar multimeter sebagai tegangan tanpa beban.\n\nHidupkan mesin sepeda motor.\n\nLakukan kembali pengukuran tegangan aki saat mesin hidup untuk memeriksa kinerja sistem pengisian.\n\nBandingkan hasil pengukuran dengan standar berikut:\n- Tegangan normal tanpa beban berada pada kisaran 12,4–12,8 volt.\n- Tegangan saat mesin hidup berada pada kisaran 13,5–14,5 volt.\n\nJika tegangan di bawah standar, lakukan analisis kemungkinan aki lemah atau sistem pengisian bermasalah.\n\nJika tegangan melebihi 15 volt saat mesin hidup, identifikasi kemungkinan kerusakan regulator/rectifier.\n\nSetelah selesai, matikan mesin, lepaskan probe multimeter dengan hati-hati, dan pasang kembali penutup aki sesuai prosedur.",
+      "image": "/images/XRDCTSM-013/simulasiTeganganAki.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "title": "Sistem Kelistrikan (Aki–Sekring–Relay–Ground)",
+      "simulations": [
+        {
+          "id": "sim_pengujian_sekring",
+          "title": "Simulasi Pengujian Sekring Menggunakan Multimeter",
+          "description": "Gunakan alat pelindung diri yang sesuai seperti sarung tangan kerja dan kacamata pelindung untuk mencegah risiko cedera.\n\nPastikan sepeda motor berada pada standar tengah dan area kerja dalam kondisi aman serta bebas dari bahan mudah terbakar.\n\nPastikan kunci kontak dalam posisi OFF sebelum melakukan pemeriksaan.\n\nBuka kotak sekring sesuai prosedur pada sepeda motor yang digunakan.\n\nIdentifikasi sekring yang akan diperiksa berdasarkan wiring diagram atau gejala kerusakan.\n\nLepaskan sekring dari dudukannya menggunakan penjepit sekring atau tangan dengan hati-hati.\n\nPeriksa kondisi fisik sekring secara visual. Amati apakah elemen logam di dalamnya putus atau meleleh.\n\nSiapkan multimeter dan atur pada mode continuity atau skala ohm.\n\nTempelkan probe merah dan probe hitam pada kedua kaki sekring.\n\nAmati hasil pengukuran.\n\nJika multimeter berbunyi atau menunjukkan hambatan sangat kecil (mendekati 0 ohm), nyatakan sekring dalam kondisi baik.\n\nJika tidak ada bunyi atau nilai hambatan tak terhingga, nyatakan sekring putus dan tidak dapat digunakan.\n\nJika sekring putus, periksa kemungkinan adanya korsleting pada jalur rangkaian sebelum mengganti dengan sekring baru.\n\nPasang kembali sekring dengan kapasitas arus yang sama sesuai spesifikasi pabrikan.\n\nTutup kembali kotak sekring dengan rapat dan pastikan terpasang dengan benar.\n\nNyalakan kunci kontak untuk memastikan sistem kembali berfungsi normal.",
+          "image": "/images/XRDCTSM-013/simulasiPengujianSekring.png",
+          "panelTitle": "Informasi Simulasi"
+        }
+      ]
+    }
+  ]
 }

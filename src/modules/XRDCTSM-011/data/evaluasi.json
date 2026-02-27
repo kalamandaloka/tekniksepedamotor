@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sistem EFI pada sepeda motor berfungsi untuk ...",
+        "options": [
+          "Mengatur sistem pendinginan mesin",
+          "Mengontrol penyemprotan bahan bakar secara elektronik",
+          "Mengatur pelumasan mesin",
+          "Menggerakkan poros engkol"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Komponen yang berfungsi sebagai pusat pengendali sistem EFI adalah ...",
+        "options": [
+          "Fuel Pump",
+          "Throttle Body",
+          "ECU/ECM",
+          "Fuel Filter"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Perbandingan udara dan bahan bakar ideal (stoikiometri) pada mesin bensin adalah sekitar ...",
+        "options": [
+          "10 : 1",
+          "12 : 1",
+          "14,7 : 1",
+          "18 : 1"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Sensor yang mendeteksi posisi bukaan throttle adalah ...",
+        "options": [
+          "MAP Sensor",
+          "TPS",
+          "ECT",
+          "CKP"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Fuel pump pada sistem EFI berfungsi untuk ...",
+        "options": [
+          "Menyaring udara masuk",
+          "Mengatur pengapian",
+          "Memompa bahan bakar bertekanan",
+          "Menyemprotkan bahan bakar"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "Komponen yang menyemprotkan bahan bakar dalam bentuk kabut adalah ...",
+        "options": [
+          "Fuel Injector",
+          "Fuel Tank",
+          "Fuel Filter",
+          "TPS"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 7,
+        "question": "Sensor yang mendeteksi tekanan udara dalam intake manifold adalah ...",
+        "options": [
+          "IAT",
+          "MAP",
+          "TPS",
+          "O2 Sensor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Jika tekanan bahan bakar terlalu rendah, kemungkinan yang terjadi adalah ...",
+        "options": [
+          "Campuran terlalu kaya",
+          "Campuran terlalu miskin",
+          "Pengapian terlalu maju",
+          "Putaran mesin terlalu tinggi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 9,
+        "question": "Alat yang digunakan untuk membaca kode kerusakan pada sistem EFI adalah ...",
+        "options": [
+          "Mikrometer",
+          "Scan Tool",
+          "Compression Tester",
+          "Feeler Gauge"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 10,
+        "question": "Sensor O2 berfungsi untuk ...",
+        "options": [
+          "Mendeteksi suhu mesin",
+          "Mengukur tekanan bahan bakar",
+          "Mendeteksi kadar oksigen gas buang",
+          "Mengukur bukaan throttle"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 11,
+        "question": "Mode kerja EFI saat mesin dingin membutuhkan campuran ...",
+        "options": [
+          "Miskin",
+          "Ideal",
+          "Kaya",
+          "Tanpa bahan bakar"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Fuel filter berfungsi untuk ...",
+        "options": [
+          "Mengatur tekanan bahan bakar",
+          "Menyaring kotoran dari bahan bakar",
+          "Mengatur waktu pengapian",
+          "Mendinginkan bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Sensor yang mendeteksi suhu mesin adalah ...",
+        "options": [
+          "ECT",
+          "TPS",
+          "MAP",
+          "CKP"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 14,
+        "question": "Crankshaft Position Sensor (CKP) berfungsi untuk mendeteksi ...",
+        "options": [
+          "Suhu udara",
+          "Posisi dan putaran poros engkol",
+          "Tekanan bahan bakar",
+          "Kadar oksigen"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Tekanan bahan bakar sistem EFI sepeda motor umumnya berkisar ...",
+        "options": [
+          "50–100 kPa",
+          "100–150 kPa",
+          "250–300 kPa",
+          "400–500 kPa"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 16,
+        "question": "Closed loop system pada EFI menggunakan sensor ...",
+        "options": [
+          "TPS",
+          "O2",
+          "CKP",
+          "IAT"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Throttle body berfungsi untuk ...",
+        "options": [
+          "Mengatur aliran udara masuk",
+          "Menyaring bahan bakar",
+          "Mengatur tekanan bahan bakar",
+          "Mengatur percikan api"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 18,
+        "question": "Jika injector tersumbat, gejala yang muncul adalah ...",
+        "options": [
+          "Mesin brebet",
+          "Lampu redup",
+          "Ban kempes",
+          "Oli cepat habis"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 19,
+        "question": "Sensor IAT berfungsi untuk mendeteksi ...",
+        "options": [
+          "Suhu udara masuk",
+          "Suhu mesin",
+          "Tekanan udara",
+          "Putaran mesin"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 20,
+        "question": "DTC adalah singkatan dari ...",
+        "options": [
+          "Data Timing Control",
+          "Diagnostic Trouble Code",
+          "Digital Throttle Control",
+          "Direct Timing Circuit"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Campuran terlalu kaya menyebabkan ...",
+        "options": [
+          "Bahan bakar boros",
+          "Mesin panas berlebih",
+          "Tenaga hilang total",
+          "Pengapian mati"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 22,
+        "question": "Sensor MAP membantu ECU menghitung ...",
+        "options": [
+          "Tekanan ban",
+          "Beban mesin",
+          "Level oli",
+          "Putaran roda"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Fuel pressure regulator berfungsi untuk ...",
+        "options": [
+          "Menyaring udara",
+          "Mengatur tekanan bahan bakar",
+          "Mengatur bukaan throttle",
+          "Mengontrol pengapian"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Mode idle adalah kondisi saat ...",
+        "options": [
+          "Mesin mati",
+          "Mesin tanpa beban",
+          "Gas dibuka penuh",
+          "Mesin overheat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 25,
+        "question": "Multimeter digunakan untuk mengukur ...",
+        "options": [
+          "Tekanan ban",
+          "Tegangan dan hambatan sensor",
+          "Volume bahan bakar",
+          "Diameter piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "ECU menentukan jumlah bahan bakar berdasarkan ...",
+        "options": [
+          "Warna busi",
+          "Data sensor dan fuel map",
+          "Ukuran tangki",
+          "Jenis ban"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Jika O2 sensor rusak, kemungkinan yang terjadi adalah ...",
+        "options": [
+          "Campuran tidak terkoreksi",
+          "Ban selip",
+          "Lampu mati",
+          "Rantai kendor"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 28,
+        "question": "Pulse width pada injector menentukan ...",
+        "options": [
+          "Tekanan bahan bakar",
+          "Durasi buka injector",
+          "Putaran mesin",
+          "Suhu udara"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Salah satu keunggulan EFI dibanding karburator adalah ...",
+        "options": [
+          "Lebih boros",
+          "Lebih presisi dan hemat",
+          "Tidak membutuhkan aki",
+          "Tidak menggunakan sensor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Langkah pertama sebelum servis EFI adalah ...",
+        "options": [
+          "Menyalakan mesin",
+          "Melepas busi",
+          "Menggunakan APD dan memastikan keamanan kerja",
+          "Membongkar throttle body"
+        ],
+        "correctAnswer": 3
+      }
+    ]
   }
 }

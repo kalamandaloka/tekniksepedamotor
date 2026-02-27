@@ -1,4 +1,13 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Wiring Diagram & Rangkaian Kelistrikan Sepeda Motor",
+  "items": [
+    {
+      "id": "multimeter",
+      "name": "Multimeter",
+      "description": "Multimeter adalah alat ukur kelistrikan serbaguna yang digunakan dalam pekerjaan diagnosis, pemeriksaan, dan perawatan sistem kelistrikan sepeda motor. Alat ini mampu mengukur beberapa besaran listrik seperti tegangan (Volt), arus (Ampere), hambatan (Ohm), serta dilengkapi fitur pengujian kontinuitas (continuity test). Multimeter tersedia dalam dua jenis utama yaitu analog dan digital. Multimeter analog menggunakan jarum penunjuk skala, sedangkan multimeter digital menampilkan hasil pengukuran dalam bentuk angka pada layar LCD sehingga lebih akurat dan mudah dibaca. Pada bengkel sepeda motor modern, multimeter digital lebih banyak digunakan karena memiliki tingkat presisi lebih tinggi serta risiko kesalahan pembacaan lebih kecil.\n\nBagian utama multimeter meliputi layar display untuk membaca hasil pengukuran, selector switch untuk memilih jenis dan rentang pengukuran, terminal input probe, serta dua kabel pengukur yang disebut probe merah (positif) dan probe hitam (negatif/ground). Beberapa multimeter juga dilengkapi dengan fitur tambahan seperti pengukuran diode, pengujian transistor, dan pengukuran frekuensi. Dalam konteks sistem kelistrikan sepeda motor, multimeter menjadi alat wajib karena hampir seluruh proses analisis gangguan mengacu pada hasil pengukuran tegangan, hambatan, atau kontinuitas yang diperoleh dari alat ini.",
+      "function": "Multimeter berfungsi sebagai alat utama untuk mendiagnosis kondisi sistem kelistrikan sepeda motor secara akurat dan sistematis. Dalam pengukuran tegangan (Volt), multimeter digunakan untuk memeriksa kondisi aki, memastikan sistem pengisian bekerja normal (sekitar 13,5–14,5 Volt saat mesin hidup), serta mengecek suplai tegangan ke komponen seperti lampu, koil, relay, dan ECU. Dalam pengukuran hambatan (Ohm), multimeter digunakan untuk menguji kondisi komponen seperti koil pengapian, spul, resistor, dan kabel guna memastikan nilainya sesuai spesifikasi pabrikan.\n\nFungsi lainnya adalah untuk melakukan pengujian kontinuitas guna mendeteksi kabel putus, sambungan longgar, atau jalur ground yang tidak baik. Dengan fitur ini, teknisi dapat memastikan jalur arus pada wiring diagram benar-benar terhubung tanpa harus membongkar seluruh rangkaian. Multimeter juga membantu dalam mendeteksi korsleting dengan memeriksa hubungan langsung antara jalur positif dan ground. Secara keseluruhan, multimeter berperan penting dalam mempercepat proses diagnosis, mencegah kesalahan penggantian komponen, meningkatkan efisiensi kerja di bengkel, serta memastikan perbaikan dilakukan sesuai standar industri dan prosedur K3.",
+      "image": "/images/XRDCTSM-014/multimeter.png",
+      "modelType": "box"
+    }
+  ]
 }

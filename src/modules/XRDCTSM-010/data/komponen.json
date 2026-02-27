@@ -1,4 +1,69 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Bahan Bakar Karburator",
+  "items": [
+    {
+      "id": "komp-01",
+      "name": "Float Chamber (Ruang Pelampung)",
+      "description": "Float chamber atau ruang pelampung merupakan bagian bawah karburator yang berfungsi sebagai penampung sementara bahan bakar sebelum dialirkan ke sistem jet. Komponen ini dirancang sebagai reservoir kecil yang memastikan ketersediaan bahan bakar tetap stabil meskipun terjadi perubahan kebutuhan mesin secara tiba-tiba. Di dalam ruang ini terdapat pelampung dan needle valve yang bekerja menjaga tinggi permukaan bahan bakar tetap konstan. Stabilitas permukaan bahan bakar sangat penting karena perbedaan ketinggian akan memengaruhi tekanan hidrostatik menuju jet dan akhirnya memengaruhi perbandingan campuran udara dan bahan bakar.",
+      "function": "Menjaga suplai bahan bakar tetap tersedia dalam jumlah yang cukup dan stabil sebelum masuk ke saluran jet. Mengontrol tekanan bahan bakar yang menuju main jet dan pilot jet agar campuran udara dan bahan bakar tetap sesuai standar kerja mesin. Mencegah fluktuasi suplai bahan bakar yang dapat menyebabkan mesin tersendat, terlalu kaya, atau terlalu kurus.",
+      "image": "/images/XRDCTSM-010/floatChamber.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-02",
+      "name": "Pelampung dan Needle Valve",
+      "description": "Pelampung adalah komponen berbahan ringan yang mengapung di atas permukaan bahan bakar di dalam float chamber. Pelampung terhubung dengan needle valve, yaitu katup kecil berbentuk jarum yang mengatur aliran bahan bakar dari tangki ke ruang pelampung. Mekanisme kerjanya mirip dengan sistem katup otomatis: ketika permukaan bahan bakar turun, pelampung ikut turun dan membuka needle valve sehingga bahan bakar mengalir masuk. Ketika permukaan naik hingga batas tertentu, pelampung menekan needle valve untuk menutup aliran bahan bakar. Sistem ini memastikan tinggi bahan bakar selalu berada pada level yang telah ditentukan pabrikan.",
+      "function": "Mengatur dan mempertahankan tinggi permukaan bahan bakar dalam float chamber agar tetap konstan. Mencegah terjadinya kelebihan bahan bakar (banjir bensin) maupun kekurangan suplai bahan bakar. Menjamin kestabilan tekanan bahan bakar yang akan memengaruhi kualitas campuran dan performa mesin.",
+      "image": "/images/XRDCTSM-010/needleValve.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-03",
+      "name": "Main Jet",
+      "description": "Main jet merupakan saluran utama bahan bakar yang bekerja pada putaran menengah hingga tinggi. Komponen ini berbentuk sekrup kecil dengan lubang presisi di bagian tengahnya. Ukuran diameter lubang main jet sangat menentukan jumlah bahan bakar yang dapat mengalir ke venturi. Pada saat throttle terbuka lebar, main jet menjadi komponen dominan dalam menentukan suplai bahan bakar. Karena ukurannya sangat presisi, main jet tidak boleh dibersihkan menggunakan benda keras yang dapat mengubah diameter lubang.",
+      "function": "Mengatur jumlah bahan bakar yang keluar pada putaran menengah dan tinggi untuk memastikan pembakaran optimal. Menentukan karakter tenaga mesin pada akselerasi dan kecepatan tinggi. Menjaga keseimbangan campuran agar tidak terlalu kaya atau terlalu kurus saat throttle terbuka besar.",
+      "image": "/images/XRDCTSM-010/mainJet.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-04",
+      "name": "Pilot Jet (Slow Jet)",
+      "description": "Pilot jet atau slow jet adalah saluran bahan bakar yang bekerja pada kondisi putaran rendah dan saat mesin dalam keadaan idle. Lubang pilot jet berukuran sangat kecil sehingga mudah tersumbat oleh kotoran atau endapan bahan bakar. Sistem pilot sangat berperan dalam menjaga kestabilan mesin saat langsam dan saat awal akselerasi sebelum main jet bekerja dominan.",
+      "function": "Menyuplai bahan bakar pada putaran rendah agar mesin tetap hidup stabil tanpa perlu menarik gas. Mengatur karakter pembakaran pada saat start awal dan kondisi stasioner. Membantu transisi dari putaran rendah ke putaran menengah secara halus.",
+      "image": "/images/XRDCTSM-010/pilotJet.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-05",
+      "name": "Needle Jet dan Jet Needle",
+      "description": "Needle jet adalah saluran bahan bakar tempat jet needle bergerak naik turun. Jet needle berbentuk jarum meruncing yang terpasang pada throttle valve (skep). Saat throttle dibuka, jet needle terangkat sehingga celah antara jarum dan needle jet membesar. Besar kecilnya celah ini menentukan jumlah bahan bakar yang dapat mengalir pada putaran menengah. Posisi klip pada jet needle dapat diatur untuk mengubah karakter campuran.",
+      "function": "Mengontrol suplai bahan bakar pada putaran menengah dengan menyesuaikan bukaan throttle. Menjamin transisi campuran dari sistem pilot ke main jet berlangsung halus. Menentukan respons akselerasi dan efisiensi bahan bakar pada kecepatan sedang.",
+      "image": "/images/XRDCTSM-010/needleJet.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-06",
+      "name": "Throttle Valve (Skep)",
+      "description": "Throttle valve atau skep adalah katup geser yang mengatur besar kecilnya aliran udara yang masuk ke venturi karburator. Skep terhubung langsung dengan kabel gas sehingga naik dan turun sesuai putaran grip gas. Pada tipe karburator vakum, pergerakan skep dikontrol oleh kevakuman melalui diafragma.",
+      "function": "Mengontrol jumlah udara yang masuk ke dalam karburator dan secara tidak langsung menentukan jumlah bahan bakar yang terhisap. Mengatur tenaga mesin sesuai kebutuhan pengendara. Menentukan respons akselerasi dan karakter performa mesin.",
+      "image": "/images/XRDCTSM-010/throttleValve.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-07",
+      "name": "Choke",
+      "description": "Choke adalah sistem pengaya campuran yang digunakan saat mesin dalam kondisi dingin. Pada suhu rendah, bahan bakar sulit menguap sehingga diperlukan campuran yang lebih kaya agar mesin mudah hidup. Choke bekerja dengan cara membatasi aliran udara atau menambah suplai bahan bakar ke venturi.",
+      "function": "Memperkaya campuran udara dan bahan bakar saat start dingin. Membantu proses pembakaran awal agar mesin cepat hidup dan stabil. Mengurangi risiko mesin mati saat suhu kerja belum tercapai.",
+      "image": "/images/XRDCTSM-010/choke.png",
+      "modelType": "box"
+    },
+    {
+      "id": "komp-08",
+      "name": "Air Screw dan Idle Speed Screw",
+      "description": "Air screw adalah sekrup penyetel campuran udara pada sistem pilot yang memengaruhi kualitas campuran saat putaran rendah. Idle speed screw adalah sekrup yang mengatur tinggi rendahnya putaran mesin saat kondisi idle dengan cara mengatur bukaan throttle valve minimum. Kedua komponen ini sangat penting dalam proses penyetelan akhir setelah karburator dirakit kembali.",
+      "function": "Mengatur kualitas campuran udara dan bahan bakar pada putaran rendah serta menjaga kestabilan mesin saat langsam. Menentukan kenyamanan berkendara, respons awal akselerasi, dan efisiensi bahan bakar pada kondisi stasioner.",
+      "image": "/images/XRDCTSM-010/airScrew.png",
+      "modelType": "box"
+    }
+  ]
 }

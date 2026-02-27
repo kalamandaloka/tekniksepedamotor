@@ -1,4 +1,53 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Starter",
+  "items": [
+    {
+      "id": "aki_battery",
+      "name": "Aki (Battery)",
+      "description": "Sumber energi listrik utama pada sistem starter yang menyimpan energi kimia dan mengubahnya menjadi energi listrik 12 Volt.",
+      "function": "Menyuplai arus kecil untuk rangkaian kontrol dan arus besar untuk motor starter saat proses starting.",
+      "image": "/images/XRDCTSM-015/aki.png",
+      "modelType": "box"
+    },
+    {
+      "id": "saklar_starter",
+      "name": "Saklar Starter",
+      "description": "Tombol atau switch yang terletak di handle sepeda motor untuk mengaktifkan sistem starter.",
+      "function": "Mengalirkan arus kecil ke relay starter sebagai sinyal awal proses starting.",
+      "image": "/images/XRDCTSM-015/saklarStarter.png",
+      "modelType": "box"
+    },
+    {
+      "id": "relay_starter",
+      "name": "Relay / Magnetic Switch Starter",
+      "description": "Saklar elektromagnetik yang menghubungkan arus besar dari aki ke motor starter.",
+      "function": "Menghubungkan dan memutus arus utama serta melindungi saklar dari arus tinggi.",
+      "image": "/images/XRDCTSM-015/relay.png",
+      "modelType": "box"
+    },
+    {
+      "id": "motor_starter",
+      "name": "Motor Starter",
+      "description": "Motor listrik yang mengubah energi listrik menjadi energi mekanik berupa putaran.",
+      "function": "Menghasilkan torsi untuk memutar poros engkol saat awal mesin dihidupkan.",
+      "image": "/images/XRDCTSM-015/motorStarter.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sekring_fuse",
+      "name": "Sekring (Fuse)",
+      "description": "Komponen pengaman rangkaian kelistrikan dari arus berlebih atau korsleting.",
+      "function": "Memutus arus secara otomatis jika terjadi overcurrent untuk melindungi sistem starter.",
+      "image": "/images/XRDCTSM-015/sekring.png",
+      "modelType": "box"
+    },
+    {
+      "id": "wiring_harness",
+      "name": "Kabel dan Wiring Harness",
+      "description": "Jalur penghantar arus listrik yang menghubungkan seluruh komponen sistem starter.",
+      "function": "Menyalurkan arus listrik dari aki ke relay dan motor starter serta memastikan koneksi aman dan stabil.",
+      "image": "/images/XRDCTSM-015/kabel.png",
+      "modelType": "box"
+    }
+  ]
 }

@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama aki pada sepeda motor adalah ...",
+        "options": [
+          "Meningkatkan tenaga mesin",
+          "Menyimpan dan menyuplai energi listrik",
+          "Mendinginkan sistem kelistrikan",
+          "Mengatur campuran bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Tegangan nominal aki sepeda motor pada umumnya adalah ...",
+        "options": [
+          "6 volt",
+          "9 volt",
+          "12 volt",
+          "24 volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Satuan kapasitas aki dinyatakan dalam ...",
+        "options": [
+          "Volt",
+          "Ampere",
+          "Watt",
+          "Ampere hour (Ah)"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 4,
+        "question": "Tegangan aki normal tanpa beban berkisar antara ...",
+        "options": [
+          "9–10 volt",
+          "10–11 volt",
+          "12,4–12,8 volt",
+          "14,8–15,5 volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "Fungsi sekring dalam sistem kelistrikan adalah ...",
+        "options": [
+          "Menambah arus listrik",
+          "Menyimpan arus listrik",
+          "Memutus arus saat terjadi beban berlebih",
+          "Menstabilkan tegangan"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "Sekring akan putus apabila ...",
+        "options": [
+          "Tegangan turun",
+          "Arus melebihi kapasitas",
+          "Aki lemah",
+          "Relay rusak"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "Satuan kapasitas arus pada sekring adalah ...",
+        "options": [
+          "Volt",
+          "Ampere",
+          "Ohm",
+          "Watt"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Alat ukur yang digunakan untuk memeriksa kontinuitas sekring adalah ...",
+        "options": [
+          "Termometer",
+          "Multimeter",
+          "Feeler gauge",
+          "Hydrometer"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 9,
+        "question": "Relay bekerja berdasarkan prinsip ...",
+        "options": [
+          "Pemanasan logam",
+          "Tekanan udara",
+          "Elektromagnetik",
+          "Gaya sentrifugal"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 10,
+        "question": "Fungsi relay pada sistem starter adalah ...",
+        "options": [
+          "Menurunkan tegangan",
+          "Mengontrol arus besar dengan arus kecil",
+          "Menyimpan energi listrik",
+          "Mengatur putaran mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Terminal 85 dan 86 pada relay umumnya berfungsi sebagai ...",
+        "options": [
+          "Kontak utama",
+          "Terminal beban",
+          "Terminal kumparan",
+          "Terminal ground utama"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Sistem ground berfungsi untuk ...",
+        "options": [
+          "Menyimpan arus listrik",
+          "Mengembalikan arus ke sumber",
+          "Meningkatkan tegangan",
+          "Memutus arus listrik"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Ground pada sepeda motor umumnya terhubung ke ...",
+        "options": [
+          "Tangki bahan bakar",
+          "Rangka atau chassis",
+          "Karburator",
+          "Busi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Hambatan ground yang baik seharusnya ...",
+        "options": [
+          "Sangat tinggi",
+          "Tak terhingga",
+          "Rendah atau mendekati nol",
+          "Berubah-ubah"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 15,
+        "question": "Mode multimeter untuk mengukur tegangan aki adalah ...",
+        "options": [
+          "AC Volt",
+          "DC Volt",
+          "Ohm",
+          "Continuity"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Jika tegangan aki saat mesin hidup mencapai 14 volt, maka ...",
+        "options": [
+          "Sistem pengisian normal",
+          "Aki rusak",
+          "Sekring putus",
+          "Relay terbakar"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 17,
+        "question": "Jika sekring sering putus setelah diganti, kemungkinan terjadi ...",
+        "options": [
+          "Aki penuh",
+          "Korsleting",
+          "Ground baik",
+          "Tegangan stabil"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 18,
+        "question": "Bunyi klik pada relay tetapi starter tidak berputar menandakan ...",
+        "options": [
+          "Kontak relay bermasalah",
+          "Aki penuh",
+          "Sekring baik",
+          "Ground sempurna"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 19,
+        "question": "Langkah pertama sebelum memeriksa sistem kelistrikan adalah ...",
+        "options": [
+          "Menghidupkan mesin",
+          "Melepas busi",
+          "Memastikan kunci kontak OFF",
+          "Mengganti aki"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 20,
+        "question": "Penggunaan sekring dengan kapasitas lebih besar dari standar dapat menyebabkan ...",
+        "options": [
+          "Sistem lebih aman",
+          "Kabel terbakar",
+          "Aki lebih awet",
+          "Arus menurun"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Alat pelindung diri saat bekerja pada sistem kelistrikan adalah ...",
+        "options": [
+          "Sarung tangan dan kacamata pelindung",
+          "Helm balap",
+          "Masker oksigen",
+          "Pelampung"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 22,
+        "question": "Jika lampu redup dan starter lemah, kemungkinan penyebabnya adalah ...",
+        "options": [
+          "Sekring terlalu besar",
+          "Aki lemah",
+          "Relay baru",
+          "Ground baik"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Simbol sekring pada wiring diagram menunjukkan ...",
+        "options": [
+          "Pengaman arus",
+          "Sumber bahan bakar",
+          "Sistem pendingin",
+          "Pelumasan mesin"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 24,
+        "question": "Pengukuran hambatan dilakukan saat sistem dalam kondisi ...",
+        "options": [
+          "Hidup",
+          "Terhubung beban",
+          "Mati",
+          "Dipanaskan"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 25,
+        "question": "Jika tidak ada kontinuitas pada sekring, berarti sekring dalam kondisi ...",
+        "options": [
+          "Baik",
+          "Putus",
+          "Normal",
+          "Stabil"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Titik ground biasanya diikat pada ...",
+        "options": [
+          "Rangka logam",
+          "Busi",
+          "Karburator",
+          "Tangki bensin"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 27,
+        "question": "Tujuan membaca wiring diagram adalah untuk ...",
+        "options": [
+          "Menghias rangka",
+          "Menelusuri jalur arus listrik",
+          "Mengecat komponen",
+          "Menambah daya mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "Jika tegangan pengisian melebihi 15 volt, kemungkinan terjadi kerusakan pada ...",
+        "options": [
+          "Regulator/rectifier",
+          "Sekring",
+          "Ground",
+          "Kabel lampu"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 29,
+        "question": "Arus listrik mengalir dari terminal positif aki menuju beban dan kembali melalui ...",
+        "options": [
+          "Karburator",
+          "Tangki",
+          "Ground",
+          "Filter udara"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 30,
+        "question": "Diagnosis sistem kelistrikan dilakukan secara ...",
+        "options": [
+          "Acak",
+          "Sistematis dari sumber ke beban",
+          "Tanpa alat ukur",
+          "Dengan mengganti semua komponen"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }

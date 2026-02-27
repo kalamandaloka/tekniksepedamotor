@@ -1,4 +1,26 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Bahan Bakar Karburator",
+  "simulations": [
+    {
+      "id": "sim_servis_karburator",
+      "title": "Simulasi Pemeriksaan dan Perawatan Karburator",
+      "description": "Gunakan alat pelindung diri (sarung tangan, kacamata kerja, dan wearpack) sebelum memulai pekerjaan. Pastikan mesin dalam kondisi mati dan dingin.\n\nTutup kran bensin, lalu lepaskan selang bahan bakar dari karburator secara hati-hati. Siapkan wadah untuk menampung sisa bahan bakar.\n\nLepaskan karburator dari intake manifold dan rumah filter udara menggunakan kunci yang sesuai. Letakkan karburator di meja kerja yang bersih.\n\nBuka baut mangkuk karburator (float chamber) secara perlahan. Keluarkan pelampung, needle valve, main jet, dan pilot jet dengan hati-hati. Susun komponen secara berurutan agar tidak tertukar.\n\nPeriksa setiap komponen dari kotoran, sumbatan, atau keausan. Pastikan pelampung tidak bocor dan needle valve tidak aus. Periksa lubang main jet dan pilot jet dari kemungkinan penyumbatan.\n\nSemprotkan cairan pembersih karburator pada setiap saluran bahan bakar dan udara. Tiup menggunakan kompresor udara hingga bersih. Jangan membersihkan lubang jet menggunakan kawat keras.\n\nRakit kembali komponen sesuai urutan semula. Pastikan tinggi pelampung sesuai standar. Kencangkan baut secara merata tanpa berlebihan.\n\nPasang kembali karburator pada mesin. Sambungkan selang bahan bakar dan buka kran bensin. Periksa apakah terdapat kebocoran.\n\nHidupkan mesin dan lakukan penyetelan idle speed serta campuran udara-bahan bakar hingga mesin bekerja stabil.",
+      "image": "/images/XRDCTSM-010/simulasi_servis_karburator.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_pembersihan_pemeriksaan_karburator",
+      "title": "Simulasi Pembersihan dan Pemeriksaan Karburator",
+      "description": "Gunakan alat pelindung diri (sarung tangan, kacamata kerja, dan wearpack) sebelum memulai kegiatan. Pastikan mesin dalam kondisi mati dan dingin.\n\nSiapkan alat dan bahan yang diperlukan seperti obeng sesuai ukuran, kunci pas, wadah penampung, kuas kecil, kompresor udara, dan cairan pembersih karburator (carb cleaner).\n\nTutup kran bensin dan lepaskan selang bahan bakar dari karburator. Lepaskan karburator dari mesin dan letakkan di meja kerja yang bersih.\n\nBuka mangkuk karburator (float chamber) secara hati-hati. Keluarkan pelampung dan needle valve. Lepaskan main jet dan pilot jet menggunakan obeng yang sesuai agar tidak merusak kepala jet.\n\nPeriksa kondisi float chamber dari endapan kotoran atau kerak. Periksa pelampung dari kebocoran dengan menggoyangkannya dan memastikan tidak ada bahan bakar di dalamnya. Periksa needle valve dari keausan pada ujung jarumnya.\n\nPeriksa lubang main jet dan pilot jet dengan melihat ke arah cahaya. Pastikan lubang tidak tersumbat. Jangan membersihkan lubang jet menggunakan kawat keras karena dapat mengubah diameter lubang.\n\nSemprotkan cairan pembersih karburator ke seluruh saluran bahan bakar dan udara. Tiup setiap saluran menggunakan kompresor udara hingga benar-benar bersih dan kering.\n\nPeriksa kondisi gasket dan o-ring. Ganti jika ditemukan retak, getas, atau rusak.\n\nSetelah semua komponen bersih dan kering, susun kembali komponen sesuai urutan pembongkaran. Pastikan semua terpasang dengan benar sebelum melanjutkan ke proses perakitan pada mesin.",
+      "image": "/images/XRDCTSM-010/simulasi_pembersihan_pemeriksaan.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_penyetelan_langsam",
+      "title": "Simulasi Penyetelan Langsam",
+      "description": "Gunakan alat pelindung diri (sarung tangan dan kacamata kerja) sebelum memulai pekerjaan. Pastikan area kerja memiliki ventilasi yang baik.\n\nPastikan karburator sudah terpasang dengan benar dan tidak ada kebocoran bahan bakar. Buka kran bensin dan periksa kembali sambungan selang.\n\nHidupkan mesin dan biarkan hingga mencapai suhu kerja normal. Jangan melakukan penyetelan saat mesin masih dingin.\n\nTemukan idle speed screw (sekrup langsam) pada karburator. Gunakan obeng yang sesuai agar tidak merusak kepala sekrup.\n\nPutar idle speed screw searah jarum jam untuk menaikkan putaran mesin. Putar berlawanan arah jarum jam untuk menurunkan putaran mesin.\n\nAtur putaran idle hingga mencapai standar spesifikasi pabrikan (umumnya sekitar 1.300–1.500 rpm atau sesuai buku manual). Gunakan tachometer jika tersedia untuk hasil yang lebih akurat.\n\nTarik dan lepaskan gas beberapa kali untuk memastikan putaran mesin kembali stabil pada posisi idle. Pastikan mesin tidak mudah mati dan tidak berputar terlalu tinggi.\n\nJika putaran belum stabil, lakukan penyesuaian kecil secara bertahap hingga mesin bekerja halus dan stabil.\n\nSetelah penyetelan selesai, pastikan tidak ada getaran berlebihan atau suara tidak normal dari mesin.",
+      "image": "/images/XRDCTSM-010/simulasi_penyetelan_langsam.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

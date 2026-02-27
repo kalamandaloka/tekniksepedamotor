@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama sistem starter pada sepeda motor adalah ...",
+        "options": [
+          "Mengisi ulang aki",
+          "Mendinginkan mesin",
+          "Memutar poros engkol saat awal mesin dihidupkan",
+          "Mengatur campuran bahan bakar"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 2,
+        "question": "Energi yang digunakan motor starter untuk menghasilkan putaran adalah ...",
+        "options": [
+          "Energi panas",
+          "Energi listrik dari aki",
+          "Energi kinetik roda",
+          "Energi bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 3,
+        "question": "Tegangan normal aki sepeda motor dalam kondisi baik adalah sekitar ...",
+        "options": [
+          "6 Volt",
+          "9 Volt",
+          "12 Volt",
+          "24 Volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 4,
+        "question": "Jika tegangan aki turun di bawah 9 Volt saat starter ditekan, kemungkinan yang terjadi adalah ...",
+        "options": [
+          "Aki dalam kondisi sangat baik",
+          "Aki lemah atau soak",
+          "Relay bekerja normal",
+          "Motor starter terlalu kuat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Komponen yang berfungsi sebagai saklar elektromagnetik pada sistem starter adalah ...",
+        "options": [
+          "Sekring",
+          "Relay starter",
+          "Brush",
+          "Komutator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Bagian motor starter yang bersentuhan langsung dengan komutator adalah ...",
+        "options": [
+          "Armature",
+          "Magnet permanen",
+          "Sikat arang (brush)",
+          "Housing"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "Sekring (fuse) pada sistem starter berfungsi untuk ...",
+        "options": [
+          "Menambah arus listrik",
+          "Menyimpan energi listrik",
+          "Melindungi rangkaian dari arus berlebih",
+          "Menguatkan putaran motor starter"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 8,
+        "question": "Rangkaian kontrol pada sistem starter menggunakan arus ...",
+        "options": [
+          "Besar",
+          "Sangat besar",
+          "Kecil",
+          "Tidak ada arus"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Jika hanya terdengar bunyi 'klik' saat tombol starter ditekan, kemungkinan kerusakan terjadi pada ...",
+        "options": [
+          "Lampu utama",
+          "Ban",
+          "Rangkaian utama atau motor starter",
+          "Karburator"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 10,
+        "question": "Alat yang digunakan untuk mengukur tegangan aki adalah ...",
+        "options": [
+          "Obeng",
+          "Multimeter",
+          "Tang",
+          "Kunci ring"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Simbol massa (ground) pada wiring diagram menunjukkan ...",
+        "options": [
+          "Sumber tegangan",
+          "Hubungan ke rangka/negatif",
+          "Motor listrik",
+          "Sekring"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 12,
+        "question": "Starter mekanik bekerja menggunakan ...",
+        "options": [
+          "Energi listrik",
+          "Tenaga manusia",
+          "Tekanan oli",
+          "Udara bertekanan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Komponen yang meneruskan putaran motor starter ke poros engkol adalah ...",
+        "options": [
+          "Sekring",
+          "Kopling satu arah",
+          "Saklar",
+          "Relay"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Tujuan penggunaan relay starter adalah ...",
+        "options": [
+          "Mengurangi tegangan aki",
+          "Menghubungkan arus besar dengan aman",
+          "Meningkatkan kapasitas mesin",
+          "Mengurangi konsumsi bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Sebelum melakukan pembongkaran motor starter, langkah pertama yang harus dilakukan adalah ...",
+        "options": [
+          "Menekan tombol starter",
+          "Mengisi bahan bakar",
+          "Melepas terminal negatif aki",
+          "Mengganti sekring"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 16,
+        "question": "Motor starter bekerja berdasarkan prinsip ...",
+        "options": [
+          "Hidrolik",
+          "Elektromagnetik",
+          "Pneumatik",
+          "Mekanik murni"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Jika kabel utama starter longgar, maka kemungkinan terjadi ...",
+        "options": [
+          "Putaran normal",
+          "Tegangan stabil",
+          "Starter tidak berfungsi atau lemah",
+          "Lampu lebih terang"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 18,
+        "question": "Open circuit voltage adalah pengukuran tegangan aki saat ...",
+        "options": [
+          "Starter ditekan",
+          "Tanpa beban",
+          "Mesin hidup",
+          "Lampu menyala"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Under load test dilakukan saat ...",
+        "options": [
+          "Mesin mati tanpa beban",
+          "Starter ditekan",
+          "Lampu mati",
+          "Kunci kontak OFF"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Salah satu gangguan umum pada motor starter adalah ...",
+        "options": [
+          "Ban bocor",
+          "Brush aus",
+          "Busi basah",
+          "Rantai kendor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Arus besar pada sistem starter mengalir dari ...",
+        "options": [
+          "Saklar langsung ke motor starter",
+          "Aki melalui relay ke motor starter",
+          "Sekring ke lampu",
+          "Koil ke aki"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "Fungsi wiring harness adalah ...",
+        "options": [
+          "Menyimpan listrik",
+          "Menghubungkan dan menyalurkan arus antar komponen",
+          "Menghasilkan torsi",
+          "Mengganti relay"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 23,
+        "question": "Jika sekring putus, maka yang harus dilakukan adalah ...",
+        "options": [
+          "Mengganti dengan kapasitas lebih besar",
+          "Mengganti sesuai spesifikasi dan periksa penyebab",
+          "Menyambung dengan kabel",
+          "Mengabaikannya"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "Starter berputar tetapi mesin tidak ikut berputar, kemungkinan kerusakan pada ...",
+        "options": [
+          "Aki",
+          "Sekring",
+          "Kopling satu arah",
+          "Saklar starter"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 25,
+        "question": "APD wajib digunakan saat praktik untuk ...",
+        "options": [
+          "Mempercepat pekerjaan",
+          "Menambah nilai",
+          "Menjaga keselamatan kerja",
+          "Menghemat alat"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 26,
+        "question": "Komutator pada motor starter berfungsi untuk ...",
+        "options": [
+          "Menyalurkan arus ke armature",
+          "Menyimpan arus",
+          "Memutus arus utama",
+          "Mengisi aki"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 27,
+        "question": "Jika tidak ada bunyi klik sama sekali saat tombol ditekan, periksa terlebih dahulu ...",
+        "options": [
+          "Ban",
+          "Lampu",
+          "Aki dan saklar starter",
+          "Knalpot"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Fungsi gigi reduksi pada motor starter adalah ...",
+        "options": [
+          "Mempercepat putaran tanpa torsi",
+          "Memperbesar torsi awal",
+          "Mengurangi arus",
+          "Mengisi aki"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Rangkaian utama sistem starter disebut juga ...",
+        "options": [
+          "Control circuit",
+          "Main circuit",
+          "Ground circuit",
+          "Light circuit"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Langkah terakhir setelah perbaikan sistem starter adalah ...",
+        "options": [
+          "Melepas aki",
+          "Menguji fungsi starter",
+          "Mengganti sekring",
+          "Membersihkan karburator"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }

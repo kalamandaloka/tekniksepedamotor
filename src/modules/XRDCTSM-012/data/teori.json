@@ -1,5 +1,172 @@
 {
-  "title": "Teori Modul",
-  "content": "",
-  "pages": []
+  "title": "Sistem Pengapian",
+  "content": "Sistem pengapian merupakan salah satu sistem utama pada sepeda motor yang berfungsi menghasilkan percikan bunga api pada busi untuk membakar campuran udara dan bahan bakar di dalam ruang bakar. Proses pengapian harus terjadi pada waktu yang tepat agar mesin dapat bekerja secara optimal, efisien, dan menghasilkan tenaga maksimal. Pada sepeda motor modern, sistem pengapian telah berkembang dari sistem konvensional (platina) menjadi sistem elektronik seperti CDI dan TCI yang lebih presisi dan minim perawatan.",
+  "pages": [
+    {
+      "title": "Konsep Dasar Sistem Pengapian",
+      "contentL1": "Sistem pengapian bekerja dengan prinsip mengubah arus listrik bertegangan rendah menjadi tegangan tinggi yang cukup untuk menghasilkan loncatan bunga api pada celah elektroda busi. Tegangan tinggi ini dapat mencapai 10.000 hingga 30.000 volt tergantung jenis sistemnya. Percikan api tersebut akan membakar campuran udara dan bahan bakar sehingga terjadi proses pembakaran yang menghasilkan tenaga untuk menggerakkan piston.",
+      "subSections": [
+        {
+          "title2": "Pengertian Sistem Pengapian",
+          "content2": "Sistem pengapian adalah rangkaian komponen kelistrikan pada sepeda motor yang berfungsi menghasilkan dan mengatur waktu percikan bunga api di dalam ruang bakar. Sistem ini terdiri dari beberapa komponen utama seperti sumber arus listrik (aki atau spul), CDI/ECU atau platina, koil pengapian, dan busi. Pengapian yang baik harus memenuhi tiga syarat utama, yaitu: (1) percikan api kuat, (2) waktu pengapian tepat (ignition timing), dan (3) berlangsung secara stabil pada berbagai putaran mesin. Jika salah satu syarat tidak terpenuhi, maka mesin dapat mengalami gangguan seperti sulit hidup, brebet, atau kehilangan tenaga."
+        },
+        {
+          "title2": "Fungsi Sistem Pengapian pada Sepeda Motor",
+          "content2": "Fungsi utama sistem pengapian adalah menghasilkan percikan bunga api pada busi untuk membakar campuran udara dan bahan bakar di dalam ruang bakar pada waktu yang tepat. Percikan api tersebut harus kuat dan stabil agar proses pembakaran berlangsung sempurna.\n\nSecara rinci, fungsi sistem pengapian meliputi:\n\n1. Mengubah arus listrik bertegangan rendah menjadi tegangan tinggi melalui koil pengapian.\n2. Mengatur waktu pengapian (ignition timing) sesuai dengan posisi piston.\n3. Menjamin kestabilan percikan bunga api pada berbagai putaran mesin.\n4. Mendukung efisiensi pembakaran sehingga tenaga mesin optimal.\n5. Membantu mengurangi konsumsi bahan bakar dan emisi gas buang.\n\nApabila sistem pengapian tidak bekerja dengan baik, maka dapat menyebabkan mesin sulit hidup, brebet, tenaga menurun, atau bahkan mesin mati mendadak."
+        },
+        {
+          "title2": "Prinsip Dasar Terjadinya Percikan Bunga Api",
+          "content2": "Percikan bunga api pada busi terjadi karena adanya loncatan listrik bertegangan tinggi di antara celah elektroda busi. Sistem pengapian bekerja dengan prinsip induksi elektromagnetik, yaitu mengubah arus listrik bertegangan rendah menjadi tegangan tinggi melalui koil pengapian.\n\nKetika arus listrik primer pada koil diputus secara tiba-tiba (oleh CDI, TCI, atau platina), medan magnet yang terbentuk di dalam koil akan runtuh secara cepat. Runtuhnya medan magnet ini menginduksi tegangan sangat tinggi pada lilitan sekunder koil, yang kemudian dialirkan ke busi.\n\nTegangan tinggi tersebut menyebabkan loncatan elektron melewati celah elektroda busi sehingga timbul percikan bunga api. Percikan inilah yang membakar campuran udara dan bahan bakar di dalam ruang bakar.\n\nAgar percikan api terjadi dengan baik, diperlukan:\n1. Tegangan tinggi yang cukup.\n2. Celah busi sesuai spesifikasi.\n3. Campuran udara dan bahan bakar yang tepat.\n4. Waktu pengapian yang sesuai dengan posisi piston.\n\nJika salah satu faktor tidak terpenuhi, maka percikan api menjadi lemah atau tidak terjadi sama sekali sehingga proses pembakaran terganggu."
+        },
+        {
+          "title2": "Waktu Pengapian (Ignition Timing)",
+          "content2": "Waktu pengapian (ignition timing) adalah saat terjadinya percikan bunga api pada busi yang diatur berdasarkan posisi piston di dalam silinder. Pada mesin bensin 4 langkah, percikan api umumnya terjadi beberapa derajat sebelum piston mencapai Titik Mati Atas (TMA) pada langkah kompresi.\n\nPengapian yang terjadi sebelum TMA disebut pengapian maju (advanced timing), sedangkan pengapian yang terjadi setelah TMA disebut pengapian mundur (retarded timing). Pengaturan waktu pengapian sangat penting untuk memastikan tekanan hasil pembakaran mencapai titik maksimum saat piston bergerak turun pada langkah usaha.\n\nJika waktu pengapian terlalu maju, mesin dapat mengalami knocking (detonasi) dan overheat. Sebaliknya, jika terlalu mundur, tenaga mesin menjadi lemah dan konsumsi bahan bakar meningkat.\n\nPada sistem pengapian modern seperti CDI dan ECU, waktu pengapian diatur secara otomatis berdasarkan putaran mesin (RPM) dan kondisi kerja mesin. Sedangkan pada sistem konvensional, pengaturan dilakukan secara mekanis melalui penyetelan platina.\n\nPengaturan ignition timing yang tepat akan menghasilkan pembakaran yang efisien, tenaga optimal, serta emisi gas buang yang lebih rendah."
+        }
+      ]
+    },
+    {
+      "title": "Jenis-Jenis Sistem Pengapian",
+      "contentL1": "Sistem pengapian pada sepeda motor mengalami perkembangan dari sistem mekanis hingga sistem elektronik. Perkembangan ini bertujuan meningkatkan ketepatan waktu pengapian, kestabilan percikan bunga api, serta efisiensi pembakaran. Secara umum, sistem pengapian pada sepeda motor dibedakan menjadi sistem konvensional (platina) dan sistem pengapian elektronik seperti CDI dan TCI. Setiap jenis memiliki prinsip kerja, kelebihan, dan kekurangan masing-masing.",
+      "subSections": [
+        {
+          "title2": "Sistem Pengapian Konvensional (Platina)",
+          "content2": "Sistem pengapian konvensional atau sistem platina adalah sistem pengapian yang menggunakan kontak mekanis (platina) untuk memutus dan menghubungkan arus listrik pada kumparan primer koil pengapian. Sistem ini banyak digunakan pada sepeda motor generasi lama sebelum berkembangnya sistem pengapian elektronik.\n\nPada sistem ini, arus listrik dari sumber daya (aki atau spul) mengalir ke kumparan primer koil melalui platina. Ketika platina menutup, arus mengalir dan membentuk medan magnet di dalam koil. Saat platina terbuka karena dorongan nok (cam), arus terputus secara tiba-tiba sehingga medan magnet runtuh dan menghasilkan tegangan tinggi pada kumparan sekunder koil. Tegangan tinggi tersebut kemudian dialirkan ke busi untuk menghasilkan percikan bunga api.\n\nKomponen utama sistem pengapian konvensional meliputi:\n1. Sumber arus listrik (aki atau spul).\n2. Kunci kontak.\n3. Platina (contact breaker).\n4. Kondensor.\n5. Koil pengapian.\n6. Busi.\n\nKelebihan sistem ini adalah konstruksinya sederhana dan mudah diperbaiki. Namun, kekurangannya adalah platina mudah aus, memerlukan penyetelan celah secara berkala, dan kurang stabil pada putaran mesin tinggi."
+        },
+        {
+          "title2": "Sistem Pengapian CDI (Capacitor Discharge Ignition)",
+          "content2": "Sistem pengapian CDI (Capacitor Discharge Ignition) adalah sistem pengapian elektronik yang menggunakan kapasitor sebagai penyimpan energi listrik sebelum dilepaskan ke koil pengapian. Sistem ini banyak digunakan pada sepeda motor modern karena menghasilkan percikan bunga api yang lebih kuat dan stabil dibandingkan sistem konvensional.\n\nPrinsip kerja sistem CDI adalah sebagai berikut:\n1. Arus listrik dari spul atau aki digunakan untuk mengisi kapasitor di dalam unit CDI.\n2. Pulser atau pick-up coil mengirimkan sinyal sesuai posisi poros engkol.\n3. Ketika menerima sinyal, CDI melepaskan muatan listrik dari kapasitor secara cepat ke kumparan primer koil.\n4. Koil pengapian menaikkan tegangan menjadi sangat tinggi dan menyalurkannya ke busi.\n5. Terjadi percikan bunga api pada busi untuk membakar campuran udara dan bahan bakar.\n\nKomponen utama sistem CDI meliputi:\n- Spul/aki (sumber arus listrik)\n- Unit CDI\n- Pulser (pick-up coil)\n- Koil pengapian\n- Busi\n\nKelebihan sistem CDI antara lain percikan api lebih kuat, stabil pada putaran tinggi, tidak memerlukan penyetelan berkala seperti platina, serta perawatan lebih minim. Namun, jika unit CDI rusak, umumnya harus diganti karena tidak dapat diperbaiki secara sederhana."
+        },
+        {
+          "title2": "Sistem Pengapian TCI (Transistor Controlled Ignition)",
+          "content2": "Sistem pengapian TCI (Transistor Controlled Ignition) adalah sistem pengapian elektronik yang menggunakan transistor sebagai saklar elektronik untuk mengatur arus listrik pada kumparan primer koil pengapian. Berbeda dengan CDI yang menggunakan kapasitor untuk menyimpan energi, sistem TCI mengontrol langsung arus primer koil melalui transistor.\n\nPrinsip kerja sistem TCI adalah sebagai berikut:\n1. Arus listrik dari aki dialirkan ke kumparan primer koil pengapian.\n2. Transistor di dalam unit kontrol (igniter/ECU) berfungsi sebagai saklar elektronik yang membuka dan menutup arus primer.\n3. Saat transistor memutus arus secara tiba-tiba, medan magnet pada koil runtuh.\n4. Runtuhnya medan magnet menginduksi tegangan tinggi pada kumparan sekunder koil.\n5. Tegangan tinggi dialirkan ke busi sehingga menghasilkan percikan bunga api.\n\nKomponen utama sistem TCI meliputi:\n- Aki (sumber arus listrik)\n- Unit igniter atau ECU\n- Sensor posisi poros engkol (pick-up coil atau crankshaft position sensor)\n- Koil pengapian\n- Busi\n\nKelebihan sistem TCI adalah waktu pengapian lebih presisi, percikan api stabil, serta lebih halus pada berbagai putaran mesin. Sistem ini juga lebih tahan lama karena tidak menggunakan komponen mekanis seperti platina. Namun, sistem TCI sangat bergantung pada kondisi aki; jika tegangan aki lemah, performa pengapian dapat menurun."
+        },
+        {
+          "title2": "Perbedaan Sistem Pengapian Konvensional dan Elektronik",
+          "content2": "Sistem pengapian konvensional dan sistem pengapian elektronik memiliki perbedaan pada cara kerja, komponen, kestabilan percikan api, serta kebutuhan perawatan.\n\n1. Sistem Pengapian Konvensional (Platina):\n- Menggunakan kontak mekanis (platina) untuk memutus dan menghubungkan arus listrik.\n- Memerlukan penyetelan celah platina secara berkala.\n- Percikan api kurang stabil pada putaran mesin tinggi.\n- Konstruksi sederhana dan mudah diperbaiki.\n\n2. Sistem Pengapian Elektronik (CDI dan TCI):\n- Menggunakan komponen elektronik seperti transistor atau kapasitor sebagai pengatur arus.\n- Tidak memerlukan penyetelan mekanis rutin.\n- Percikan api lebih kuat dan stabil pada berbagai putaran mesin.\n- Lebih presisi dalam pengaturan waktu pengapian.\n- Perawatan lebih minim, namun jika unit elektronik rusak biasanya harus diganti.\n\nSecara umum, sistem pengapian elektronik lebih unggul dalam hal efisiensi, kestabilan, dan keandalan dibandingkan sistem konvensional. Oleh karena itu, sebagian besar sepeda motor modern telah menggunakan sistem pengapian elektronik."
+        }
+      ]
+    },
+        {
+      "title": "Komponen Sistem Pengapian",
+      "contentL1": "Sistem pengapian terdiri dari beberapa komponen utama yang bekerja secara terpadu untuk menghasilkan dan mengatur percikan bunga api pada busi. Setiap komponen memiliki fungsi spesifik dalam proses pembentukan tegangan tinggi dan pengaturan waktu pengapian. Pemahaman terhadap fungsi dan cara kerja masing-masing komponen sangat penting dalam proses pemeriksaan, perawatan, dan diagnosis kerusakan.",
+      "subSections": [
+        {
+          "title2": "Busi (Spark Plug)",
+          "content2": "![Busi](images/XRDCTSM-012/busi.png)Busi adalah komponen yang berfungsi menghasilkan percikan bunga api di dalam ruang bakar. Percikan tersebut terjadi akibat loncatan listrik bertegangan tinggi dari elektroda tengah ke elektroda massa (ground).\n\nBagian utama busi meliputi:\n1. Terminal\n2. Elektroda tengah\n3. Elektroda massa\n4. Isolator keramik\n5. Ulir (thread)\n\nFungsi utama busi adalah memercikkan api untuk membakar campuran udara dan bahan bakar. Celah elektroda busi harus sesuai spesifikasi agar percikan api optimal. Warna ujung busi juga dapat digunakan untuk menganalisis kondisi pembakaran mesin."
+        },
+        {
+          "title2": "Koil Pengapian (Ignition Coil)",
+          "content2": "![Koil Pengapian (Ignition Coil)](images/XRDCTSM-012/koil.png)Koil pengapian berfungsi menaikkan tegangan listrik rendah (12 volt) menjadi tegangan tinggi (hingga puluhan ribu volt) yang dibutuhkan untuk menghasilkan percikan api pada busi.\n\nKoil terdiri dari dua kumparan utama:\n1. Kumparan primer (jumlah lilitan sedikit)\n2. Kumparan sekunder (jumlah lilitan sangat banyak)\n\nSaat arus primer diputus secara tiba-tiba, medan magnet runtuh dan menginduksi tegangan tinggi pada kumparan sekunder. Tegangan tinggi tersebut kemudian dialirkan ke busi melalui kabel tegangan tinggi.\n\nKerusakan pada koil dapat menyebabkan percikan api lemah atau tidak ada sama sekali."
+        },
+        {
+          "title2": "CDI / ECU",
+          "content2": "![CDI / ECU](images/XRDCTSM-012/cdi.png)CDI (Capacitor Discharge Ignition) atau ECU (Electronic Control Unit) adalah unit pengontrol sistem pengapian elektronik. Pada sistem CDI, unit ini menyimpan energi listrik dalam kapasitor dan melepaskannya secara cepat ke koil pengapian. Pada sistem yang lebih modern, ECU mengatur waktu pengapian berdasarkan data sensor seperti putaran mesin (RPM) dan posisi poros engkol.\n\nFungsi utama CDI/ECU adalah:\n1. Mengatur waktu pengapian (ignition timing).\n2. Mengontrol proses pelepasan arus listrik ke koil.\n3. Menyesuaikan pengapian dengan kondisi kerja mesin.\n\nSistem elektronik ini menghasilkan pengapian yang lebih presisi, stabil, dan efisien dibandingkan sistem konvensional."
+        },
+        {
+          "title2": "Pulser / Pick-up Coil",
+          "content2": "![Pulser / Pick-up Coil](images/XRDCTSM-012/pulser.png)Pulser atau pick-up coil adalah komponen sensor yang berfungsi mendeteksi posisi poros engkol (crankshaft) dan mengirimkan sinyal waktu pengapian ke CDI atau ECU. Sinyal ini menentukan kapan arus listrik harus dilepaskan ke koil pengapian untuk menghasilkan percikan bunga api.\n\nPulser bekerja berdasarkan prinsip induksi elektromagnetik. Ketika tonjolan pada flywheel melewati pulser, terjadi perubahan medan magnet yang menghasilkan sinyal listrik kecil. Sinyal ini kemudian diproses oleh CDI/ECU untuk menentukan ignition timing.\n\nKerusakan pada pulser dapat menyebabkan mesin sulit hidup atau tidak ada percikan api karena waktu pengapian tidak terdeteksi dengan benar."
+        },
+        {
+          "title2": "Magnet / Flywheel",
+          "content2": "![Magnet / Flywheel](images/XRDCTSM-012/magnet.png)Magnet atau flywheel adalah komponen yang terpasang pada poros engkol dan berfungsi menghasilkan arus listrik melalui spul (stator) serta membantu menstabilkan putaran mesin. Pada sistem pengapian tertentu, flywheel juga memiliki tonjolan khusus yang berfungsi sebagai pemicu sinyal bagi pulser.\n\nSaat flywheel berputar, medan magnet yang dihasilkan akan menginduksi arus listrik pada spul. Arus ini kemudian digunakan untuk mengisi kapasitor CDI atau menyuplai sistem kelistrikan.\n\nSelain sebagai sumber pembangkit listrik, flywheel juga membantu menjaga kestabilan putaran mesin agar tidak mudah bergetar."
+        },
+        {
+          "title2": "Kabel Tegangan Tinggi",
+          "content2": "![Kabel Tegangan Tinggi](images/XRDCTSM-012/kabel.png)Kabel tegangan tinggi berfungsi menyalurkan arus listrik bertegangan tinggi dari koil pengapian ke busi. Kabel ini dirancang khusus dengan isolasi tebal agar mampu menahan tegangan tinggi tanpa terjadi kebocoran arus.\n\nKabel tegangan tinggi biasanya dilengkapi dengan tutup busi (spark plug cap) yang memiliki resistor untuk mengurangi gangguan elektromagnetik. Jika kabel mengalami keretakan, kebocoran, atau hambatan berlebih, maka percikan api pada busi menjadi lemah.\n\nPerawatan kabel tegangan tinggi meliputi pemeriksaan kondisi fisik, kebersihan terminal, serta memastikan sambungan terpasang dengan kuat dan tidak longgar."
+        }
+      ]
+    },
+    {
+      "title": "Rangkaian dan Cara Kerja Sistem Pengapian",
+      "contentL1": "Rangkaian sistem pengapian menggambarkan hubungan antar komponen dalam menghasilkan percikan bunga api pada busi. Dengan memahami diagram rangkaian, peserta didik dapat mengetahui alur arus listrik serta proses pembentukan tegangan tinggi hingga terjadi pembakaran di ruang bakar. Pemahaman ini sangat penting dalam proses pemeriksaan dan diagnosis gangguan sistem pengapian.",
+      "subSections": [
+        {
+          "title2": "Diagram Rangkaian Sistem Pengapian Konvensional",
+          "content2": "Diagram rangkaian sistem pengapian konvensional menunjukkan alur arus listrik dari sumber daya menuju busi melalui komponen mekanis platina.\n\nAlur kerja rangkaian adalah sebagai berikut:\n1. Arus listrik dari aki mengalir melalui kunci kontak.\n2. Arus masuk ke kumparan primer koil pengapian.\n3. Arus kemudian melewati platina (contact breaker).\n4. Saat platina menutup, arus mengalir dan membentuk medan magnet pada koil.\n5. Saat platina membuka, arus terputus secara tiba-tiba.\n6. Medan magnet runtuh dan menghasilkan tegangan tinggi pada kumparan sekunder.\n7. Tegangan tinggi dialirkan melalui kabel tegangan tinggi ke busi.\n8. Terjadi percikan bunga api di ruang bakar.\n\nPada rangkaian ini terdapat kondensor yang berfungsi menyerap lonjakan arus saat platina membuka agar percikan api pada platina berkurang dan proses induksi lebih maksimal.\n\nPemahaman diagram rangkaian membantu teknisi dalam melakukan pemeriksaan jalur arus, mengukur hambatan, serta menentukan titik gangguan jika sistem pengapian tidak bekerja dengan baik."
+        },
+        {
+          "title2": "Diagram Rangkaian Sistem Pengapian CDI",
+          "content2": "Diagram rangkaian sistem pengapian CDI (Capacitor Discharge Ignition) menunjukkan alur arus listrik dari sumber pembangkit hingga menghasilkan percikan bunga api pada busi melalui unit CDI.\n\nSecara umum, alur kerja rangkaian CDI adalah sebagai berikut:\n1. Spul atau aki menghasilkan arus listrik.\n2. Arus listrik dialirkan ke unit CDI untuk mengisi kapasitor.\n3. Pulser (pick-up coil) mendeteksi posisi poros engkol dan mengirimkan sinyal pemicu ke CDI.\n4. CDI melepaskan muatan listrik dari kapasitor secara cepat ke kumparan primer koil pengapian.\n5. Koil pengapian menaikkan tegangan menjadi sangat tinggi.\n6. Tegangan tinggi dialirkan melalui kabel tegangan tinggi ke busi.\n7. Terjadi percikan bunga api di dalam ruang bakar.\n\nPada sistem CDI, tidak terdapat platina karena pemutusan arus dilakukan secara elektronik oleh komponen semikonduktor di dalam unit CDI. Hal ini membuat sistem lebih stabil, presisi, dan tidak memerlukan penyetelan mekanis.\n\nDengan memahami diagram rangkaian CDI, peserta didik dapat menganalisis jalur arus, memeriksa komponen menggunakan multimeter, serta melakukan diagnosis apabila tidak terjadi percikan api."
+        },
+        {
+          "title2": "Alur Kerja Sistem Pengapian dari Sumber Listrik hingga Busi",
+          "content2": "Alur kerja sistem pengapian dimulai dari sumber listrik hingga terbentuknya percikan bunga api pada busi di ruang bakar. Meskipun terdapat perbedaan antara sistem konvensional dan elektronik, secara umum prosesnya memiliki tahapan yang sama.\n\nTahapan alur kerja sistem pengapian adalah sebagai berikut:\n1. Sumber listrik (aki atau spul) menghasilkan arus listrik.\n2. Arus listrik dialirkan ke unit pengontrol (platina, CDI, atau ECU).\n3. Unit pengontrol mengatur waktu pemutusan arus primer sesuai posisi poros engkol.\n4. Saat arus primer diputus secara tiba-tiba, medan magnet pada koil runtuh.\n5. Runtuhnya medan magnet menghasilkan tegangan tinggi pada kumparan sekunder koil.\n6. Tegangan tinggi disalurkan melalui kabel tegangan tinggi menuju busi.\n7. Terjadi loncatan bunga api pada celah elektroda busi.\n8. Campuran udara dan bahan bakar terbakar sehingga menghasilkan tenaga untuk menggerakkan piston.\n\nAlur kerja ini harus berlangsung dengan cepat dan presisi pada setiap putaran mesin. Jika salah satu komponen dalam alur tersebut mengalami gangguan, maka percikan api menjadi lemah atau tidak terjadi sehingga mesin tidak dapat bekerja dengan optimal."
+        }
+      ]
+    },
+    {
+      "title": "Pemeriksaan dan Pengujian Sistem Pengapian",
+      "contentL1": "Pemeriksaan dan pengujian sistem pengapian bertujuan untuk memastikan setiap komponen bekerja sesuai spesifikasi. Proses ini dilakukan secara sistematis mulai dari pemeriksaan visual hingga pengukuran menggunakan alat ukur seperti multimeter. Penerapan prosedur yang benar serta keselamatan kerja (K3) sangat penting untuk mencegah kecelakaan dan kesalahan diagnosis.",
+      "subSections": [
+        {
+          "title2": "Prosedur Keselamatan Kerja (K3)",
+          "content2": "Sebelum melakukan pemeriksaan sistem pengapian, teknisi wajib menerapkan prosedur keselamatan kerja. Gunakan alat pelindung diri (APD) seperti sarung tangan dan kacamata pelindung. Pastikan mesin dalam kondisi mati dan kunci kontak OFF sebelum melepas komponen.\n\nHindari menyentuh kabel tegangan tinggi saat mesin hidup karena tegangan dapat mencapai puluhan ribu volt. Pastikan area kerja bersih, kering, dan memiliki ventilasi yang baik."
+        },
+        {
+          "title2": "Pemeriksaan Visual Komponen",
+          "content2": "Pemeriksaan visual dilakukan untuk mendeteksi kerusakan fisik pada komponen sistem pengapian. Periksa kondisi busi (warna elektroda, keausan, kerak karbon), kabel tegangan tinggi (retak atau bocor), koil (retak atau terbakar), serta konektor CDI/ECU.\n\nPastikan semua sambungan kabel terpasang kuat dan tidak longgar. Pemeriksaan visual sering kali dapat mengidentifikasi masalah sederhana tanpa perlu pengujian lanjutan."
+        },
+        {
+          "title2": "Pengujian Busi",
+          "content2": "Pengujian busi dilakukan untuk memastikan adanya percikan bunga api yang kuat dan berwarna biru terang. Lepaskan busi, pasang kembali pada kabel tegangan tinggi, lalu tempelkan ulir busi ke massa mesin. Starter mesin dan amati percikan api.\n\nSelain itu, periksa celah elektroda menggunakan feeler gauge sesuai spesifikasi pabrikan. Jika percikan lemah atau tidak ada, busi perlu dibersihkan atau diganti."
+        },
+        {
+          "title2": "Pengujian Koil Pengapian",
+          "content2": "Koil pengapian diuji dengan mengukur tahanan (resistansi) kumparan primer dan sekunder menggunakan multimeter. Bandingkan hasil pengukuran dengan spesifikasi standar.\n\nJika nilai resistansi tidak sesuai atau tidak terbaca (putus), maka koil kemungkinan mengalami kerusakan. Koil yang rusak dapat menyebabkan percikan api lemah atau hilang."
+        },
+        {
+          "title2": "Pengujian Pulser / Pick-up Coil",
+          "content2": "Pulser diuji dengan mengukur resistansi menggunakan multimeter sesuai spesifikasi. Selain itu, dapat dilakukan pengukuran tegangan sinyal saat mesin distarter.\n\nJika tidak ada sinyal atau nilai resistansi di luar batas standar, maka pulser kemungkinan rusak sehingga waktu pengapian tidak terdeteksi dengan benar."
+        },
+        {
+          "title2": "Penggunaan Multimeter dalam Diagnostik",
+          "content2": "Multimeter digunakan untuk mengukur tegangan, arus, dan resistansi pada komponen sistem pengapian. Saat mengukur resistansi, pastikan komponen dalam kondisi terlepas dari sumber arus.\n\nGunakan skala pengukuran yang sesuai dan pastikan probe terpasang dengan benar. Pemahaman penggunaan multimeter sangat penting dalam menentukan kondisi komponen apakah masih layak pakai atau harus diganti."
+        }
+      ]
+    },
+    {
+      "title": "Diagnosis Gangguan Sistem Pengapian",
+      "contentL1": "Diagnosis gangguan sistem pengapian bertujuan untuk menemukan penyebab kerusakan secara tepat dan sistematis. Proses diagnosis dilakukan berdasarkan gejala yang muncul, pemeriksaan komponen, serta pengujian menggunakan alat ukur. Kemampuan menganalisis gangguan sangat penting agar perbaikan dapat dilakukan secara efektif dan efisien sesuai standar industri.",
+      "subSections": [
+        {
+          "title2": "Gejala Kerusakan Sistem Pengapian",
+          "content2": "Kerusakan sistem pengapian biasanya ditandai dengan beberapa gejala pada mesin, antara lain:\n\n1. Mesin sulit hidup atau tidak dapat hidup sama sekali.\n2. Mesin brebet saat akselerasi.\n3. Tenaga mesin berkurang.\n4. Mesin mati mendadak.\n5. Konsumsi bahan bakar menjadi boros.\n\nGejala tersebut terjadi karena percikan bunga api tidak kuat, tidak stabil, atau tidak tepat waktu."
+        },
+        {
+          "title2": "Analisis Penyebab Mesin Sulit Hidup",
+          "content2": "Jika mesin sulit hidup, kemungkinan penyebab dari sistem pengapian antara lain:\n\n1. Busi kotor, aus, atau celah tidak sesuai.\n2. Tidak ada percikan api akibat koil rusak.\n3. CDI/ECU tidak bekerja.\n4. Pulser tidak mengirimkan sinyal.\n5. Kabel tegangan tinggi bocor atau putus.\n\nLangkah analisis dilakukan dengan memeriksa percikan busi terlebih dahulu, kemudian dilanjutkan dengan pengujian koil, pulser, dan CDI menggunakan multimeter."
+        },
+        {
+          "title2": "Analisis Mesin Brebet atau Misfire",
+          "content2": "Mesin brebet atau terjadi misfire (pembakaran tidak sempurna) biasanya disebabkan oleh percikan api yang lemah atau tidak stabil.\n\nKemungkinan penyebabnya antara lain:\n1. Koil pengapian lemah.\n2. Kabel tegangan tinggi bocor.\n3. Celah busi terlalu lebar.\n4. Waktu pengapian tidak tepat.\n\nPemeriksaan dilakukan dengan menguji kekuatan percikan api, mengukur resistansi koil, serta memastikan ignition timing sesuai spesifikasi."
+        },
+        {
+          "title2": "Langkah Troubleshooting Sistematis",
+          "content2": "Troubleshooting sistematis dilakukan dengan urutan pemeriksaan yang terstruktur agar diagnosis akurat. Langkah-langkahnya meliputi:\n\n1. Identifikasi gejala kerusakan.\n2. Lakukan pemeriksaan visual komponen.\n3. Periksa percikan api pada busi.\n4. Ukur resistansi koil dan pulser.\n5. Periksa suplai tegangan dari aki atau spul.\n6. Bandingkan hasil pengukuran dengan spesifikasi standar.\n7. Tentukan komponen yang rusak dan lakukan perbaikan atau penggantian.\n\nPendekatan sistematis membantu menghindari penggantian komponen secara sembarangan serta meningkatkan efisiensi waktu dan biaya perbaikan."
+        }
+      ]
+    },
+    {
+      "title": "Perawatan dan Perbaikan",
+      "contentL1": "Perawatan dan perbaikan sistem pengapian bertujuan menjaga performa mesin tetap optimal serta mencegah kerusakan yang lebih besar. Perawatan dilakukan secara berkala sesuai jadwal servis, sedangkan perbaikan dilakukan apabila ditemukan kerusakan berdasarkan hasil diagnosis. Semua pekerjaan harus mengikuti prosedur keselamatan kerja (K3) dan standar operasional prosedur (SOP) industri.",
+      "subSections": [
+        {
+          "title2": "Perawatan Berkala Sistem Pengapian",
+          "content2": "Perawatan berkala sistem pengapian dilakukan untuk memastikan percikan bunga api tetap kuat dan stabil. Kegiatan perawatan meliputi:\n\n1. Membersihkan dan memeriksa kondisi busi.\n2. Memeriksa celah elektroda busi sesuai spesifikasi.\n3. Memeriksa kondisi kabel tegangan tinggi.\n4. Memastikan konektor CDI/ECU terpasang dengan baik.\n5. Memeriksa kondisi aki dan sistem pengisian.\n\nPerawatan rutin membantu mencegah gangguan seperti mesin sulit hidup, brebet, atau kehilangan tenaga."
+        },
+        {
+          "title2": "Penggantian Busi",
+          "content2": "Penggantian busi dilakukan apabila busi sudah aus, elektroda menipis, atau percikan api lemah. Langkah penggantian busi adalah:\n\n1. Pastikan mesin dalam kondisi mati dan dingin.\n2. Lepaskan tutup busi dan gunakan kunci busi untuk melepas busi lama.\n3. Periksa kondisi ulir dan bersihkan area sekitar lubang busi.\n4. Pasang busi baru sesuai tipe dan spesifikasi pabrikan.\n5. Kencangkan sesuai torsi yang dianjurkan.\n6. Pasang kembali tutup busi dengan benar.\n\nPenggunaan busi yang sesuai spesifikasi sangat penting untuk menjaga performa mesin."
+        },
+        {
+          "title2": "Penggantian Koil atau CDI",
+          "content2": "Penggantian koil atau CDI dilakukan apabila hasil pengujian menunjukkan komponen tersebut rusak. Langkah umum penggantian meliputi:\n\n1. Matikan mesin dan lepas terminal aki.\n2. Lepaskan konektor dan baut pengikat komponen.\n3. Pasang komponen baru sesuai posisi dan spesifikasi.\n4. Pasang kembali konektor dan terminal aki.\n5. Lakukan pengujian percikan api dan uji coba mesin.\n\nPastikan komponen pengganti sesuai dengan tipe sepeda motor agar sistem pengapian bekerja optimal."
+        },
+        {
+          "title2": "Standar Pengerjaan Sesuai SOP Industri",
+          "content2": "Setiap pekerjaan perawatan dan perbaikan harus mengikuti Standar Operasional Prosedur (SOP) industri. Hal ini meliputi penggunaan alat yang tepat, penerapan K3, serta pencatatan hasil pemeriksaan.\n\nTeknisi harus:\n1. Menggunakan alat ukur sesuai standar.\n2. Mengencangkan baut sesuai torsi yang dianjurkan.\n3. Mengganti komponen dengan suku cadang sesuai spesifikasi.\n4. Melakukan uji fungsi setelah perbaikan.\n\nPenerapan SOP yang benar menjamin kualitas pekerjaan, keselamatan kerja, dan kepuasan pelanggan."
+        }
+      ]
+    }
+  ]
 }

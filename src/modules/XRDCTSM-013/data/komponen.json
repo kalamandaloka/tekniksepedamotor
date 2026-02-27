@@ -1,4 +1,29 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Kelistrikan (Aki–Sekring–Relay–Ground)",
+  "items": [
+    {
+      "id": "aki",
+      "name": "Aki (Battery)",
+      "description": "Aki adalah komponen penyimpan energi listrik dalam bentuk energi kimia yang menggunakan reaksi elektrokimia antara pelat timbal dan larutan elektrolit asam sulfat untuk menghasilkan tegangan. Pada sepeda motor, aki umumnya memiliki tegangan nominal 12 volt yang terdiri dari enam sel. Aki berperan sebagai sumber daya utama ketika mesin belum hidup dan sebagai penstabil tegangan saat sistem kelistrikan bekerja. Kondisi aki sangat memengaruhi performa starter, sistem pengapian, serta komponen elektronik modern seperti ECU pada motor injeksi.",
+      "function": "Menyuplai arus listrik awal untuk menghidupkan motor starter dan sistem pengapian, menyediakan daya untuk lampu, klakson, dan panel instrumen, menstabilkan tegangan agar komponen elektronik bekerja normal, serta menyimpan energi listrik hasil pengisian dari sistem charging untuk digunakan kembali saat diperlukan.",
+      "image": "/images/XRDCTSM-013/aki.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sekring",
+      "name": "Sekring (Fuse)",
+      "description": "Sekring adalah komponen pengaman kelistrikan yang memiliki elemen logam tipis di dalamnya yang akan meleleh ketika arus listrik melebihi kapasitas yang ditentukan. Sekring biasanya ditempatkan setelah sumber tegangan dari aki untuk melindungi seluruh rangkaian atau cabang tertentu. Tersedia dalam berbagai kapasitas arus yang ditandai dengan kode warna. Sekring dirancang untuk menjadi titik lemah yang sengaja diputus lebih dahulu sebelum kerusakan terjadi pada kabel atau komponen lain.",
+      "function": "Melindungi sistem kelistrikan dari arus berlebih dan hubungan arus pendek dengan cara memutus aliran listrik secara otomatis ketika terjadi gangguan, mencegah kerusakan kabel dan komponen elektronik, serta mengurangi risiko terjadinya panas berlebih dan kebakaran pada sistem kelistrikan.",
+      "image": "/images/XRDCTSM-013/sekring.png",
+      "modelType": "box"
+    },
+    {
+      "id": "relay",
+      "name": "Relay",
+      "description": "Relay adalah saklar elektromagnetik yang terdiri dari kumparan (coil), armature, dan kontak utama. Ketika kumparan dialiri arus kecil, medan magnet yang terbentuk akan menarik armature sehingga kontak utama terhubung dan memungkinkan arus besar mengalir ke beban. Relay digunakan untuk mengendalikan komponen yang membutuhkan arus besar tanpa membebani saklar atau rangkaian kontrol. Pada sepeda motor, relay banyak digunakan pada sistem starter, lampu utama, dan kipas pendingin.",
+      "function": "Mengontrol aliran arus besar menggunakan arus kecil sebagai pemicu, melindungi saklar utama dari beban arus tinggi, meningkatkan efisiensi dan keamanan sistem kelistrikan, serta memastikan distribusi arus ke komponen beban berlangsung stabil dan sesuai kebutuhan.",
+      "image": "/images/XRDCTSM-013/relay.png",
+      "modelType": "box"
+    }
+  ]
 }

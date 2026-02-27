@@ -1,5 +1,150 @@
 {
-  "title": "Teori Modul",
+  "title": "Wiring Diagram & Rangkaian Kelistrikan Sepeda Motor",
   "content": "",
-  "pages": []
+  "pages": [
+    {
+      "title": "Keselamatan dan Kesehatan Kerja (K3) pada Sistem Kelistrikan",
+      "contentL1": "Keselamatan dan Kesehatan Kerja (K3) merupakan bagian penting dalam setiap pekerjaan di bengkel sepeda motor, khususnya pada sistem kelistrikan. Sistem kelistrikan melibatkan arus listrik, komponen elektronik sensitif, serta sumber energi seperti aki yang berpotensi menimbulkan bahaya apabila tidak ditangani sesuai prosedur. Penerapan K3 bertujuan untuk mencegah kecelakaan kerja, melindungi teknisi, menjaga peralatan tetap aman, serta memastikan pekerjaan dilakukan sesuai standar industri dan SKKNI.",
+      "subSections": [
+        {
+          "title2": "Prinsip Dasar K3 di Bengkel Sepeda Motor",
+          "content2": "Prinsip dasar K3 di bengkel sepeda motor meliputi kesadaran terhadap potensi bahaya, kepatuhan terhadap prosedur kerja, serta penggunaan peralatan sesuai standar operasional (SOP). Setiap teknisi wajib memahami bahwa pekerjaan kelistrikan memiliki risiko seperti sengatan listrik, hubungan arus pendek, dan percikan api. Oleh karena itu, sebelum bekerja harus memastikan kondisi area kerja aman, alat dalam kondisi baik, serta mengikuti prosedur seperti mematikan kunci kontak dan melepas terminal negatif aki sebelum melakukan pemeriksaan rangkaian. Disiplin, ketelitian, dan tanggung jawab merupakan bagian dari budaya K3 yang harus diterapkan secara konsisten."
+        },
+        {
+          "title2": "Potensi Bahaya pada Sistem Kelistrikan",
+          "content2": "Beberapa potensi bahaya dalam sistem kelistrikan sepeda motor antara lain sengatan listrik akibat kabel terkelupas atau koneksi terbuka, korsleting (hubungan arus pendek) yang dapat menyebabkan kerusakan komponen atau kebakaran, percikan api di sekitar bahan bakar, serta ledakan aki akibat kesalahan pemasangan terminal. Selain itu, cairan elektrolit aki bersifat asam dan dapat menyebabkan iritasi kulit dan mata. Kesalahan penggunaan multimeter juga dapat menyebabkan kerusakan komponen elektronik seperti ECU atau sensor. Oleh karena itu, identifikasi potensi bahaya harus dilakukan dengan memeriksa kondisi kabel, konektor, sekring, relay, dan terminal sebelum pekerjaan dimulai."
+        },
+        {
+          "title2": "Prosedur Pengamanan Sebelum Pemeriksaan",
+          "content2": "Sebelum melakukan pemeriksaan sistem kelistrikan, terdapat beberapa prosedur pengamanan yang wajib dilakukan. Pastikan sepeda motor dalam kondisi mati dan kunci kontak pada posisi OFF. Lepaskan terminal negatif aki untuk mencegah arus listrik mengalir secara tidak sengaja. Periksa kondisi kabel dan konektor dari kemungkinan kerusakan fisik. Pastikan area kerja kering dan bebas dari tumpahan bahan bakar. Gunakan alat ukur sesuai fungsi dan rentang pengukuran yang tepat. Langkah-langkah ini bertujuan untuk mencegah korsleting, kerusakan komponen, serta kecelakaan kerja."
+        },
+        {
+          "title2": "Penggunaan Alat Pelindung Diri (APD)",
+          "content2": "Penggunaan Alat Pelindung Diri (APD) merupakan kewajiban dalam pekerjaan kelistrikan. APD yang digunakan meliputi sarung tangan kerja untuk melindungi tangan dari sengatan listrik ringan dan cairan kimia, kacamata pelindung untuk mencegah percikan atau cairan masuk ke mata, wearpack atau pakaian kerja untuk melindungi tubuh dari kotoran dan percikan api, serta sepatu keselamatan untuk melindungi kaki dari benda berat atau tajam. Penggunaan APD yang sesuai dapat meminimalkan risiko cedera dan meningkatkan keselamatan selama proses pemeriksaan maupun perbaikan sistem kelistrikan."
+        }
+      ]
+    },
+    {
+      "title": "Dasar-Dasar Listrik Otomotif",
+      "contentL1": "Dasar-dasar listrik otomotif merupakan fondasi utama dalam memahami wiring diagram dan analisis rangkaian kelistrikan sepeda motor. Setiap sistem kelistrikan seperti sistem pengapian, starter, pengisian, dan penerangan bekerja berdasarkan prinsip hubungan antara tegangan, arus, dan hambatan. Dengan memahami konsep dasar ini, peserta didik dapat membaca diagram rangkaian secara logis, melakukan pengukuran menggunakan multimeter dengan benar, serta menganalisis gangguan berdasarkan data hasil pengujian sesuai standar industri dan SKKNI.",
+      "subSections": [
+        {
+          "title2": "Konsep Dasar Listrik (Tegangan, Arus, Hambatan)",
+          "content2": "Dalam sistem kelistrikan sepeda motor terdapat tiga besaran utama yaitu tegangan (Volt), arus listrik (Ampere), dan hambatan (Ohm). Tegangan adalah beda potensial listrik antara dua titik yang berfungsi sebagai gaya dorong agar elektron dapat mengalir. Pada sepeda motor umumnya digunakan sistem 12 Volt DC yang bersumber dari aki. Arus listrik adalah jumlah aliran elektron yang mengalir melalui penghantar dalam satuan waktu tertentu. Besarnya arus dipengaruhi oleh beban dan hambatan dalam rangkaian. Hambatan adalah tahanan yang menghambat aliran arus listrik dan dipengaruhi oleh jenis bahan, panjang kabel, serta luas penampang penghantar. Apabila hambatan terlalu besar akibat kabel berkarat, sambungan longgar, atau konektor kotor, maka arus yang mengalir akan berkurang sehingga komponen seperti lampu menjadi redup atau tidak berfungsi optimal."
+        },
+        {
+          "title2": "Hukum Ohm dan Penerapannya",
+          "content2": "Hukum Ohm menjelaskan hubungan antara tegangan (V), arus (I), dan hambatan (R) dalam suatu rangkaian listrik yang dirumuskan V = I × R. Dari rumus tersebut dapat diturunkan I = V ÷ R dan R = V ÷ I. Dalam praktik di bengkel, hukum Ohm digunakan untuk menganalisis kondisi komponen. Contohnya, jika sebuah lampu memiliki hambatan tertentu dan diberi tegangan 12 Volt, maka arus yang mengalir dapat dihitung untuk memastikan sesuai spesifikasi. Jika hasil pengukuran arus terlalu kecil, kemungkinan terjadi hambatan tambahan akibat kabel rusak atau sambungan longgar. Jika arus terlalu besar, bisa terjadi korsleting yang berpotensi merusak sekring. Pemahaman hukum Ohm membantu teknisi membaca hasil pengukuran multimeter dan menentukan apakah suatu rangkaian bekerja normal atau mengalami gangguan."
+        },
+        {
+          "title2": "Rangkaian Seri dan Paralel",
+          "content2": "Rangkaian seri adalah rangkaian di mana komponen disusun berurutan dalam satu jalur arus. Pada rangkaian seri, arus yang mengalir sama pada setiap komponen, tetapi tegangan terbagi sesuai besar hambatan masing-masing komponen. Jika satu komponen terputus, seluruh rangkaian tidak akan bekerja. Sebaliknya, rangkaian paralel memiliki lebih dari satu jalur arus sehingga setiap cabang mendapatkan tegangan yang sama, namun arus terbagi sesuai beban masing-masing. Pada sepeda motor, sistem penerangan dan beberapa sistem kontrol menggunakan prinsip paralel agar jika satu lampu mati, lampu lainnya tetap menyala. Pemahaman perbedaan karakteristik rangkaian ini sangat penting dalam membaca wiring diagram dan menelusuri jalur arus saat terjadi gangguan."
+        },
+        {
+          "title2": "Sumber Arus pada Sepeda Motor",
+          "content2": "Sumber arus listrik pada sepeda motor berasal dari dua sistem utama yaitu aki (battery) dan sistem pengisian. Aki berfungsi sebagai penyimpan energi listrik dan penyedia arus saat mesin belum hidup atau ketika kebutuhan listrik meningkat. Sistem pengisian terdiri dari spul atau alternator yang menghasilkan arus listrik saat mesin berputar, serta regulator/rectifier yang berfungsi menyearahkan arus AC menjadi DC dan mengatur tegangan agar tetap stabil sekitar 13,5–14,5 Volt saat pengisian. Jika sistem pengisian tidak bekerja dengan baik, aki dapat mengalami kekurangan daya (tekor) yang menyebabkan starter lemah atau lampu redup. Pemahaman tentang sumber arus ini membantu teknisi menentukan apakah gangguan berasal dari aki, spul, regulator, atau jalur kabel dalam rangkaian."
+        }
+      ]
+    },
+    {
+      "title": "Wiring Diagram Sepeda Motor",
+      "contentL1": "Wiring diagram merupakan representasi visual dari sistem kelistrikan sepeda motor yang menunjukkan hubungan antar komponen, jalur kabel, simbol kelistrikan, serta arah aliran arus listrik. Pemahaman wiring diagram sangat penting bagi teknisi untuk melakukan pemeriksaan, perawatan, dan diagnosis gangguan secara sistematis dan efisien. Dengan membaca wiring diagram secara benar, teknisi dapat menelusuri jalur arus dari sumber daya hingga ke beban serta menentukan titik pemeriksaan saat terjadi kerusakan.",
+      "subSections": [
+        {
+          "title2": "Pengertian dan Fungsi Wiring Diagram",
+          "content2": "Wiring diagram adalah gambar teknik yang menunjukkan susunan dan hubungan antar komponen dalam sistem kelistrikan sepeda motor. Diagram ini menampilkan simbol komponen seperti aki, sekring, saklar, relay, lampu, koil, ECU, dan ground, serta jalur kabel yang menghubungkannya. Fungsi utama wiring diagram adalah sebagai panduan teknis dalam pemasangan, pemeriksaan, dan perbaikan sistem kelistrikan. Dengan diagram ini, teknisi dapat memahami bagaimana arus listrik mengalir, menentukan titik pengukuran, serta mengidentifikasi kemungkinan penyebab gangguan seperti korsleting atau kabel putus."
+        },
+        {
+          "title2": "Jenis-Jenis Wiring Diagram",
+          "content2": "Dalam kelistrikan sepeda motor terdapat beberapa jenis diagram yang digunakan sesuai kebutuhan. Diagram skematik (schematic diagram) menampilkan hubungan logis antar komponen menggunakan simbol standar tanpa menunjukkan posisi fisik komponen. Diagram pengkabelan (wiring diagram) menunjukkan jalur kabel beserta warna dan konektor secara lebih detail. Diagram blok (block diagram) menyajikan sistem dalam bentuk blok sederhana untuk mempermudah pemahaman alur kerja sistem. Setiap jenis diagram memiliki fungsi tersendiri dan digunakan sesuai dengan tujuan analisis atau perbaikan."
+        },
+        {
+          "title2": "Simbol-Simbol Kelistrikan Standar",
+          "content2": "Simbol kelistrikan digunakan untuk mewakili komponen dalam wiring diagram agar mudah dipahami secara universal. Beberapa simbol standar yang sering digunakan antara lain simbol aki (battery), sekring (fuse), saklar (switch), relay, lampu, resistor, diode, ground (massa), serta konektor. Pemahaman simbol ini sangat penting karena tanpa memahami simbol, teknisi akan kesulitan menafsirkan rangkaian. Standar simbol biasanya mengikuti standar internasional dan buku manual pabrikan."
+        },
+        {
+          "title2": "Kode Warna Kabel",
+          "content2": "Kode warna kabel digunakan untuk memudahkan identifikasi jalur arus dan fungsi kabel dalam sistem kelistrikan sepeda motor. Setiap pabrikan memiliki standar warna tertentu, namun secara umum warna merah digunakan untuk jalur positif aki, hitam atau hijau untuk ground, kuning untuk sistem pengisian atau penerangan, dan biru untuk lampu jauh. Kode warna ini membantu teknisi dalam menelusuri kabel tanpa harus membongkar seluruh rangkaian. Kesalahan membaca warna kabel dapat menyebabkan kesalahan pemasangan atau diagnosis."
+        },
+        {
+          "title2": "Cara Membaca dan Menelusuri Wiring Diagram",
+          "content2": "Membaca wiring diagram dilakukan secara sistematis dimulai dari sumber arus seperti aki, kemudian mengikuti jalur kabel menuju sekring, saklar, relay, hingga ke beban seperti lampu atau motor starter, dan kembali ke ground. Langkah pertama adalah memahami legenda simbol dan kode warna kabel. Selanjutnya identifikasi jalur arus utama dan percabangan rangkaian. Saat terjadi gangguan, teknisi harus menelusuri jalur arus dari sumber menuju beban sambil melakukan pengukuran tegangan atau kontinuitas untuk menemukan titik kerusakan. Ketelitian dan pemahaman konsep dasar listrik sangat diperlukan agar proses diagnosis berjalan efektif dan sesuai prosedur K3."
+        }
+      ]
+    },
+    {
+      "title": "Rangkaian Sistem Kelistrikan Sepeda Motor",
+      "contentL1": "Sistem kelistrikan sepeda motor terdiri dari beberapa rangkaian utama yang saling terhubung dan bekerja secara terintegrasi. Setiap rangkaian memiliki fungsi spesifik, namun tetap bergantung pada sumber arus, pengaman (sekring), saklar kontrol, serta sistem ground. Pemahaman rangkaian ini sangat penting dalam membaca wiring diagram dan melakukan diagnosis gangguan secara sistematis sesuai prosedur industri dan standar K3.",
+      "subSections": [
+        {
+          "title2": "Rangkaian Sistem Pengapian",
+          "content2": "Sistem pengapian berfungsi menghasilkan percikan bunga api pada busi untuk membakar campuran udara dan bahan bakar di dalam ruang bakar. Pada sistem konvensional maupun CDI/ECU, arus listrik berasal dari spul atau aki tergantung tipe sistemnya. Arus tersebut dikontrol oleh unit pengapian (CDI atau ECU), kemudian diperkuat oleh koil pengapian sebelum dialirkan ke busi dalam bentuk tegangan tinggi. Dalam wiring diagram, rangkaian ini biasanya melibatkan komponen seperti pulser/pick-up coil, CDI atau ECU, koil, busi, serta jalur ground. Gangguan pada salah satu komponen seperti kabel putus, konektor longgar, atau koil rusak dapat menyebabkan mesin sulit hidup atau tidak ada percikan api."
+        },
+        {
+          "title2": "Rangkaian Sistem Starter",
+          "content2": "Sistem starter berfungsi memutar poros engkol mesin saat proses awal menghidupkan mesin. Sumber arus berasal dari aki yang dialirkan melalui sekring utama menuju kunci kontak, kemudian ke saklar starter. Saat tombol starter ditekan, arus kecil mengaktifkan relay starter (magnetic switch) yang kemudian menghubungkan arus besar langsung dari aki ke motor starter. Motor starter akan memutar mesin hingga terjadi proses pembakaran. Pada wiring diagram, rangkaian ini mencakup aki, sekring, kunci kontak, saklar starter, relay starter, motor starter, dan ground. Jika terjadi gangguan seperti starter tidak berputar, pemeriksaan dilakukan pada tegangan aki, kondisi relay, serta kontinuitas kabel."
+        },
+        {
+          "title2": "Rangkaian Sistem Pengisian",
+          "content2": "Sistem pengisian berfungsi menghasilkan dan mengatur arus listrik untuk mengisi ulang aki serta menyuplai kebutuhan listrik saat mesin hidup. Komponen utama sistem ini meliputi spul atau alternator, regulator/rectifier (kiprok), aki, dan jalur kabel pengisian. Spul menghasilkan arus AC saat mesin berputar, kemudian regulator/rectifier menyearahkan arus menjadi DC serta menstabilkan tegangan agar tidak melebihi batas aman sekitar 13,5–14,5 Volt. Dalam wiring diagram, rangkaian ini ditunjukkan dengan jalur dari spul menuju regulator, lalu ke aki dan beban kelistrikan. Kerusakan pada sistem ini dapat menyebabkan aki tekor atau overcharge."
+        },
+        {
+          "title2": "Rangkaian Sistem Penerangan",
+          "content2": "Sistem penerangan berfungsi memberikan visibilitas dan keselamatan berkendara. Rangkaian ini mencakup lampu utama (dekat dan jauh), lampu sein, lampu rem, lampu posisi, serta panel indikator. Arus listrik berasal dari aki atau spul tergantung desain sistem. Jalur arus melewati sekring, kunci kontak, dan saklar lampu sebelum menuju ke masing-masing beban lampu. Sebagian besar sistem penerangan menggunakan rangkaian paralel agar jika satu lampu mati, lampu lainnya tetap menyala. Gangguan umum pada sistem ini meliputi lampu redup akibat tegangan rendah, bohlam putus, atau ground tidak baik."
+        },
+        {
+          "title2": "Sistem Ground dan Jalur Arus",
+          "content2": "Sistem ground merupakan jalur kembali arus listrik menuju sumber daya dan biasanya terhubung langsung ke rangka (frame) sepeda motor. Ground yang baik sangat penting untuk memastikan aliran arus stabil dan mencegah gangguan kelistrikan. Dalam wiring diagram, ground ditandai dengan simbol khusus dan biasanya menggunakan kabel berwarna hijau atau hitam tergantung standar pabrikan. Jalur arus listrik selalu membentuk rangkaian tertutup dari sumber (aki atau spul), melewati komponen beban, kemudian kembali ke ground. Jika terjadi ground yang longgar atau berkarat, dapat menyebabkan gejala seperti lampu redup, klakson lemah, atau sistem tidak bekerja normal."
+        }
+      ]
+    },
+    {
+      "title": "Penggunaan Alat Ukur Kelistrikan",
+      "contentL1": "Penggunaan alat ukur kelistrikan merupakan kompetensi penting dalam pekerjaan sistem kelistrikan sepeda motor. Alat ukur digunakan untuk mengetahui kondisi tegangan, hambatan, arus, dan kontinuitas suatu rangkaian sehingga teknisi dapat menentukan apakah sistem bekerja normal atau mengalami gangguan. Pengukuran harus dilakukan secara sistematis dan sesuai prosedur standar operasional (SOP) serta memperhatikan keselamatan dan kesehatan kerja (K3).",
+      "subSections": [
+        {
+          "title2": "Pengenalan Multimeter",
+          "content2": "![Multimeter](images/XRDCTSM-014/multimeter.png)Multimeter adalah alat ukur listrik yang dapat digunakan untuk mengukur tegangan (Volt), hambatan (Ohm), dan arus (Ampere). Multimeter terdiri dari dua jenis yaitu analog dan digital. Multimeter digital lebih umum digunakan karena hasil pengukurannya lebih akurat dan mudah dibaca. Bagian utama multimeter meliputi layar display, selector switch (pemilih skala), probe merah (positif), dan probe hitam (negatif/ground). Sebelum digunakan, teknisi harus memastikan selector berada pada posisi yang sesuai dengan jenis pengukuran untuk menghindari kerusakan alat maupun komponen kendaraan."
+        },
+        {
+          "title2": "Pengukuran Tegangan (Volt)",
+          "content2": "Pengukuran tegangan dilakukan untuk mengetahui besarnya beda potensial listrik dalam suatu rangkaian. Untuk sistem sepeda motor umumnya digunakan pengukuran DC Volt dengan skala di atas 12 Volt. Probe merah dihubungkan ke kutub positif atau jalur yang akan diukur, sedangkan probe hitam ke ground atau kutub negatif. Contohnya, saat mengukur aki dalam kondisi normal, tegangan harus berada sekitar 12,4–12,8 Volt saat mesin mati dan sekitar 13,5–14,5 Volt saat mesin hidup (sistem pengisian bekerja). Jika hasil pengukuran di bawah standar, kemungkinan terjadi gangguan pada aki atau sistem pengisian."
+        },
+        {
+          "title2": "Pengukuran Hambatan (Ohm)",
+          "content2": "Pengukuran hambatan dilakukan untuk mengetahui nilai tahanan suatu komponen seperti koil, resistor, atau kabel. Sebelum mengukur hambatan, rangkaian harus dalam kondisi tidak terhubung dengan sumber listrik (aki dilepas) untuk mencegah kerusakan multimeter. Selector diatur pada skala Ohm, kemudian probe ditempelkan pada kedua ujung komponen yang diukur. Jika nilai hambatan sesuai spesifikasi pabrikan, maka komponen dalam kondisi baik. Jika nilai terlalu besar atau tidak terbaca (infinite), kemungkinan terjadi kabel putus atau komponen rusak."
+        },
+        {
+          "title2": "Pengukuran Kontinuitas",
+          "content2": "Pengukuran kontinuitas bertujuan untuk mengetahui apakah suatu kabel atau jalur rangkaian terhubung dengan baik atau terputus. Mode kontinuitas pada multimeter biasanya ditandai dengan simbol bunyi buzzer. Jika kedua probe ditempelkan pada ujung kabel yang baik, maka multimeter akan berbunyi atau menunjukkan nilai hambatan mendekati nol Ohm. Jika tidak ada bunyi atau nilai tidak terbaca, berarti kabel atau jalur tersebut terputus. Pengujian ini sangat penting saat menelusuri gangguan pada wiring diagram."
+        },
+        {
+          "title2": "Prosedur Pengujian Sesuai SOP",
+          "content2": "Sebelum melakukan pengujian, pastikan sepeda motor dalam kondisi aman dan area kerja kering. Gunakan alat pelindung diri seperti sarung tangan dan kacamata kerja. Pastikan selector multimeter sesuai dengan jenis pengukuran yang akan dilakukan. Hindari menyentuh ujung probe secara bersamaan dengan tangan untuk mencegah kesalahan pembacaan. Setelah pengujian selesai, kembalikan selector ke posisi OFF dan simpan alat dengan baik. Penerapan prosedur ini bertujuan menjaga keselamatan teknisi, mencegah kerusakan komponen, serta memastikan hasil pengukuran akurat dan sesuai standar industri."
+        }
+      ]
+    },
+    {
+      "title": "Diagnosis dan Analisis Gangguan Sistem Kelistrikan",
+      "contentL1": "Diagnosis dan analisis gangguan merupakan kompetensi inti dalam pekerjaan sistem kelistrikan sepeda motor. Proses ini dilakukan secara sistematis dengan mengacu pada wiring diagram, hasil pengukuran menggunakan multimeter, serta gejala yang muncul pada kendaraan. Diagnosis yang tepat akan mempercepat proses perbaikan, mencegah kesalahan penggantian komponen, dan memastikan sistem kembali bekerja sesuai standar industri dan prosedur K3.",
+      "subSections": [
+        {
+          "title2": "Teknik Penelusuran Jalur Arus",
+          "content2": "Penelusuran jalur arus dilakukan dengan mengikuti aliran listrik dari sumber daya (aki atau spul) menuju komponen beban, kemudian kembali ke ground. Langkah pertama adalah memahami wiring diagram dan mengidentifikasi jalur utama serta percabangannya. Selanjutnya lakukan pengukuran tegangan secara bertahap mulai dari sumber, sekring, saklar, relay, hingga beban. Jika pada salah satu titik tidak ditemukan tegangan yang sesuai, maka kemungkinan gangguan berada di antara titik tersebut dan sumber sebelumnya. Teknik ini dikenal sebagai metode pengujian bertahap (step by step) dan sangat efektif untuk menemukan kabel putus, konektor longgar, atau sekring putus."
+        },
+        {
+          "title2": "Analisis Gangguan Berdasarkan Gejala",
+          "content2": "Analisis gangguan dimulai dari identifikasi gejala yang muncul, seperti mesin tidak bisa hidup, lampu redup, starter tidak berputar, atau aki cepat tekor. Setiap gejala memiliki kemungkinan penyebab yang berbeda. Misalnya, mesin tidak hidup bisa disebabkan oleh tidak adanya percikan api, gangguan pada sistem pengapian, atau suplai tegangan yang tidak stabil. Lampu redup dapat disebabkan oleh tegangan aki rendah atau sistem pengisian tidak bekerja optimal. Dengan memahami hubungan antara gejala dan sistem terkait, teknisi dapat mempersempit area pemeriksaan dan melakukan diagnosis lebih cepat dan akurat."
+        },
+        {
+          "title2": "Pemeriksaan Komponen Berdasarkan Diagram",
+          "content2": "Pemeriksaan komponen dilakukan dengan mengacu pada wiring diagram untuk menentukan posisi dan hubungan antar komponen. Teknisi harus memeriksa kondisi fisik kabel, konektor, terminal, serta memastikan tidak ada korosi atau sambungan longgar. Pengukuran tegangan, hambatan, dan kontinuitas dilakukan sesuai spesifikasi pabrikan. Jika nilai pengukuran tidak sesuai standar, komponen tersebut perlu diperbaiki atau diganti. Pemeriksaan harus dilakukan secara logis dan sistematis agar tidak terjadi kesalahan analisis atau penggantian komponen yang tidak diperlukan."
+        },
+        {
+          "title2": "Studi Kasus Kerusakan Sistem Kelistrikan",
+          "content2": "Sebagai contoh studi kasus, jika sepeda motor tidak dapat distarter, langkah diagnosis dimulai dari memeriksa tegangan aki. Jika tegangan normal, periksa sekring utama dan relay starter. Selanjutnya ukur tegangan pada terminal motor starter saat tombol ditekan. Jika tidak ada tegangan, kemungkinan terjadi gangguan pada saklar starter atau jalur kabel. Jika tegangan ada namun motor starter tidak berputar, kemungkinan motor starter rusak. Studi kasus seperti ini melatih peserta didik untuk berpikir analitis dan mengikuti prosedur diagnosis berdasarkan wiring diagram serta hasil pengukuran, sehingga proses perbaikan menjadi lebih efektif dan profesional."
+        }
+      ]
+    }
+  ]
 }

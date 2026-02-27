@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Wiring Diagram & Rangkaian Kelistrikan Sepeda Motor",
+  "simulations": [
+    {
+      "id": "sim_praktik_membaca_wiring_diagram",
+      "title": "Praktik Membaca dan Menelusuri Wiring Diagram Sepeda Motor",
+      "description": "Gunakan alat pelindung diri (APD) seperti wearpack, sarung tangan kerja, dan sepatu keselamatan sebelum memulai praktik untuk menjaga keselamatan kerja.\n\nPastikan sepeda motor dalam kondisi mati dan kunci kontak pada posisi OFF sebelum melakukan pengamatan rangkaian.\n\nSiapkan wiring diagram sesuai tipe sepeda motor yang digunakan dan letakkan pada meja kerja yang bersih dan rata.\n\nPerhatikan legenda atau keterangan simbol pada wiring diagram dan identifikasi arti setiap simbol komponen.\n\nTentukan sumber arus utama pada diagram, seperti aki atau spul, sebagai titik awal penelusuran jalur arus.\n\nTelusuri jalur arus dari sumber menuju sekring utama, kemudian lanjutkan ke kunci kontak.\n\nLanjutkan penelusuran menuju salah satu sistem, seperti sistem penerangan atau sistem starter, sesuai instruksi guru.\n\nIdentifikasi percabangan rangkaian dan tentukan apakah rangkaian tersebut termasuk seri atau paralel.\n\nCocokkan kode warna kabel pada wiring diagram dengan warna kabel pada sepeda motor secara langsung tanpa merusak instalasi.\n\nGunakan multimeter pada mode kontinuitas untuk memeriksa apakah jalur kabel yang ditelusuri terhubung dengan baik.\n\nCatat hasil penelusuran jalur arus dan komponen yang terlibat pada lembar kerja praktik.\n\nDiskusikan hasil pengamatan dengan guru atau kelompok untuk memastikan pemahaman sudah sesuai dengan wiring diagram.\n\nSimpulkan alur kerja rangkaian berdasarkan hasil penelusuran yang telah dilakukan.\n\nRapikan kembali alat dan bahan praktik serta pastikan area kerja dalam kondisi bersih dan aman sebelum meninggalkan bengkel.",
+      "image": "/images/XRDCTSM-014/simulasiBacaWiringDiagram.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+          "id": "sim_praktik_merangkai_rangkaian_sederhana",
+          "title": "Praktik Merangkai Rangkaian Listrik Sederhana",
+          "description": "Gunakan alat pelindung diri (APD) seperti wearpack, sarung tangan kerja, dan sepatu keselamatan sebelum memulai praktik.\n\nPastikan area kerja bersih, kering, dan bebas dari bahan yang mudah terbakar.\n\nSiapkan alat dan bahan yang diperlukan seperti aki 12V, sekring, saklar, lampu 12V, kabel penghantar, dudukan lampu, dan multimeter.\n\nPastikan aki dalam kondisi baik dan memiliki tegangan normal sebelum digunakan.\n\nPasang sekring pada jalur positif dari aki sebagai pengaman rangkaian.\n\nHubungkan kabel dari terminal positif (+) aki menuju sekring.\n\nHubungkan kabel dari sekring menuju salah satu terminal saklar.\n\nHubungkan terminal saklar lainnya menuju terminal positif lampu.\n\nHubungkan terminal negatif lampu menuju terminal negatif (-) aki atau ground.\n\nPeriksa kembali seluruh sambungan kabel dan pastikan tidak ada kabel yang terkelupas atau longgar.\n\nAktifkan saklar untuk menguji apakah lampu menyala dengan normal.\n\nGunakan multimeter untuk mengukur tegangan pada lampu saat saklar ON dan pastikan nilainya mendekati 12 Volt.\n\nMatikan saklar dan lepaskan salah satu sambungan untuk mensimulasikan gangguan, kemudian analisis perubahan yang terjadi.\n\nPasang kembali sambungan dengan benar dan pastikan rangkaian kembali berfungsi normal.\n\nLepaskan seluruh rangkaian setelah praktik selesai dan rapikan alat serta bahan sesuai prosedur K3.",
+          "image": "/images/XRDCTSM-014/simulasiRangkaiSederhana.png",
+          "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

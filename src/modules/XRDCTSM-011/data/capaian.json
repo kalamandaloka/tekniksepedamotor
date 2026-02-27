@@ -1,7 +1,31 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Bahan Bakar Injeksi (EFI)",
+  "description": "Modul ini membahas prinsip kerja, konstruksi, dan perawatan sistem bahan bakar tipe Electronic Fuel Injection (EFI) pada sepeda motor 4 langkah. Materi mencakup fungsi dan cara kerja sistem EFI, komponen utama (fuel pump, fuel filter, injector, throttle body, ECU/ECM, sensor TPS, MAP, IAT, ECT, O2 sensor, CKP), alur suplai bahan bakar dan sistem kontrol elektronik, proses pembentukan campuran udara dan bahan bakar secara elektronik, gangguan yang sering terjadi, serta prosedur pemeriksaan, diagnosis menggunakan scan tool, dan perawatan sesuai standar Kurikulum Merdeka dan SKKNI Teknik Sepeda Motor. Pembelajaran juga menekankan penerapan K3 dan prosedur kerja sesuai SOP bengkel.",
+  "image": "/images/XRDCTSM-011/sistem-bahan-bakar-injeksi.png",
+  "skkni": [
+    "Memelihara Sistem Bahan Bakar Sepeda Motor",
+    "Mendiagnosis Gangguan Sistem Bahan Bakar Sepeda Motor",
+    "Memperbaiki Sistem Bahan Bakar Injeksi Sepeda Motor",
+    "Menerapkan Prosedur Keselamatan dan Kesehatan Kerja (K3) pada Servis Sepeda Motor"
+  ],
+  "kurikulum": [
+    "CP Fase F Teknik Sepeda Motor: Peserta didik mampu memahami, memeriksa, mendiagnosis, merawat, dan memperbaiki sistem bahan bakar injeksi sepeda motor sesuai prosedur kerja, standar industri, dan K3.",
+    "ATP: Menjelaskan prinsip kerja sistem bahan bakar tipe EFI pada sepeda motor.",
+    "ATP: Mengidentifikasi komponen utama sistem EFI dan fungsinya.",
+    "ATP: Menjelaskan fungsi sensor dan aktuator pada sistem EFI.",
+    "ATP: Menjelaskan alur suplai bahan bakar dan sistem kontrol elektronik.",
+    "ATP: Menganalisis proses pembentukan campuran udara dan bahan bakar berdasarkan input sensor.",
+    "ATP: Mengidentifikasi gangguan umum pada sistem EFI.",
+    "ATP: Melakukan pemeriksaan tekanan bahan bakar sesuai spesifikasi.",
+    "ATP: Melakukan pengukuran sensor menggunakan multimeter.",
+    "ATP: Menggunakan scan tool untuk membaca dan menghapus kode kerusakan (DTC).",
+    "ATP: Membuat laporan hasil pemeriksaan dan perbaikan sistem EFI."
+  ],
+  "tujuan": [
+    "Peserta didik mampu menjelaskan prinsip kerja sistem bahan bakar tipe EFI.",
+    "Peserta didik mampu mengidentifikasi dan menjelaskan fungsi komponen sistem EFI.",
+    "Peserta didik mampu memahami sistem kontrol elektronik pada EFI.",
+    "Peserta didik mampu mendiagnosis gangguan sederhana pada sistem EFI.",
+    "Peserta didik mampu melakukan pemeriksaan dan perawatan sistem EFI sesuai SOP dan standar K3."
+  ]
 }

@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama wiring diagram pada sepeda motor adalah ...",
+        "options": [
+          "Menambah daya mesin",
+          "Menunjukkan hubungan dan jalur kelistrikan antar komponen",
+          "Mengganti fungsi sekring",
+          "Meningkatkan kapasitas aki"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 2,
+        "question": "Simbol ground pada wiring diagram menunjukkan ...",
+        "options": [
+          "Jalur arus utama",
+          "Sumber tegangan",
+          "Titik massa atau jalur kembali arus",
+          "Saklar utama"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Besaran listrik yang menjadi gaya dorong aliran arus adalah ...",
+        "options": [
+          "Hambatan",
+          "Tegangan",
+          "Daya",
+          "Frekuensi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "Satuan dari hambatan listrik adalah ...",
+        "options": [
+          "Volt",
+          "Ampere",
+          "Ohm",
+          "Watt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "Rumus Hukum Ohm yang benar adalah ...",
+        "options": [
+          "V = I + R",
+          "V = I × R",
+          "I = V × R",
+          "R = I ÷ V"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 6,
+        "question": "Jika salah satu komponen pada rangkaian seri terputus maka ...",
+        "options": [
+          "Komponen lain tetap bekerja",
+          "Seluruh rangkaian tidak bekerja",
+          "Tegangan bertambah",
+          "Arus meningkat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "Sebagian besar sistem penerangan sepeda motor menggunakan rangkaian ...",
+        "options": [
+          "Seri",
+          "Paralel",
+          "Campuran tertutup",
+          "Induksi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Alat ukur yang digunakan untuk mengukur tegangan, arus, dan hambatan adalah ...",
+        "options": [
+          "Obeng tes",
+          "Clamp meter",
+          "Multimeter",
+          "Timing light"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Sebelum mengukur hambatan dengan multimeter, langkah yang benar adalah ...",
+        "options": [
+          "Menghidupkan mesin",
+          "Menghubungkan ke aki",
+          "Memutus sumber arus dari rangkaian",
+          "Menambah beban"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 10,
+        "question": "Tegangan normal aki saat mesin hidup berkisar ...",
+        "options": [
+          "10–11 Volt",
+          "11–12 Volt",
+          "13,5–14,5 Volt",
+          "15–16 Volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 11,
+        "question": "Komponen yang berfungsi menyearahkan arus AC menjadi DC adalah ...",
+        "options": [
+          "Koil",
+          "Regulator/Rectifier",
+          "Relay",
+          "Pulser"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 12,
+        "question": "Sekring berfungsi untuk ...",
+        "options": [
+          "Menambah arus",
+          "Mengurangi tegangan",
+          "Melindungi rangkaian dari arus berlebih",
+          "Mengatur pengapian"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "Jika tegangan aki di bawah 12 Volt saat mesin mati, kemungkinan ...",
+        "options": [
+          "Sistem normal",
+          "Aki lemah",
+          "Regulator overcharge",
+          "Spul putus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Mode buzzer pada multimeter digunakan untuk mengukur ...",
+        "options": [
+          "Arus",
+          "Tegangan AC",
+          "Kontinuitas",
+          "Daya"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 15,
+        "question": "Komponen yang memperkuat tegangan sebelum menuju busi adalah ...",
+        "options": [
+          "Sekring",
+          "Koil pengapian",
+          "Relay starter",
+          "Kiprok"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Langkah pertama dalam menelusuri wiring diagram adalah ...",
+        "options": [
+          "Mengganti komponen",
+          "Menentukan sumber arus",
+          "Memutus kabel",
+          "Mengukur hambatan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Starter tidak berputar tetapi lampu menyala normal, kemungkinan gangguan pada ...",
+        "options": [
+          "Busi",
+          "Relay starter atau motor starter",
+          "Spul",
+          "Lampu utama"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 18,
+        "question": "Ground yang tidak baik dapat menyebabkan ...",
+        "options": [
+          "Lampu lebih terang",
+          "Arus stabil",
+          "Lampu redup atau tidak normal",
+          "Tegangan naik"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 19,
+        "question": "Kabel berwarna hijau pada banyak sepeda motor biasanya menunjukkan ...",
+        "options": [
+          "Positif aki",
+          "Ground",
+          "Arus pengapian",
+          "Lampu jauh"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Jika sekring sering putus, kemungkinan terjadi ...",
+        "options": [
+          "Arus kecil",
+          "Korsleting",
+          "Tegangan rendah",
+          "Hambatan tinggi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Spul menghasilkan arus listrik saat ...",
+        "options": [
+          "Mesin mati",
+          "Kunci kontak OFF",
+          "Mesin berputar",
+          "Lampu dinyalakan"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 22,
+        "question": "Jika hasil pengukuran hambatan menunjukkan nilai tak terhingga, berarti ...",
+        "options": [
+          "Komponen normal",
+          "Terjadi hubungan pendek",
+          "Jalur terputus",
+          "Tegangan tinggi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 23,
+        "question": "APD yang digunakan saat pemeriksaan kelistrikan antara lain ...",
+        "options": [
+          "Sarung tangan dan kacamata pelindung",
+          "Helm balap",
+          "Rompi reflektor saja",
+          "Topi dan sandal"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 24,
+        "question": "Rangkaian paralel memiliki ciri ...",
+        "options": [
+          "Satu jalur arus",
+          "Tegangan terbagi",
+          "Arus sama di semua cabang",
+          "Tegangan sama di setiap cabang"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 25,
+        "question": "Jika regulator rusak dan tegangan melebihi 15 Volt, dampaknya adalah ...",
+        "options": [
+          "Aki overcharge",
+          "Lampu redup",
+          "Starter lemah",
+          "Sekring tidak berfungsi"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 26,
+        "question": "Komponen yang menghubungkan arus besar melalui arus kecil adalah ...",
+        "options": [
+          "Sekring",
+          "Relay",
+          "Resistor",
+          "Pulser"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Langkah akhir setelah praktik kelistrikan adalah ...",
+        "options": [
+          "Meninggalkan alat di meja",
+          "Mematikan mesin dan merapikan alat",
+          "Melepas semua kabel",
+          "Menghidupkan mesin terus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "Jika lampu redup saat mesin hidup, kemungkinan gangguan pada ...",
+        "options": [
+          "Sistem pengisian",
+          "Busi",
+          "Saklar kopling",
+          "Karburator"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 29,
+        "question": "Arus listrik mengalir dari kutub positif menuju ...",
+        "options": [
+          "Sekring",
+          "Relay",
+          "Kutub negatif/ground",
+          "Lampu"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 30,
+        "question": "Tujuan utama diagnosis sistem kelistrikan adalah ...",
+        "options": [
+          "Mengganti semua komponen",
+          "Menentukan penyebab gangguan secara tepat",
+          "Meningkatkan kapasitas mesin",
+          "Menambah beban listrik"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }

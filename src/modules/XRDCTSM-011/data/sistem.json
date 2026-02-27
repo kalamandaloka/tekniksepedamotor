@@ -1,4 +1,24 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Bahan Bakar Injeksi (EFI)",
+  "simulations": [
+    {
+      "id": "sim_pemeriksaan_tekanan_bahan_bakar",
+      "title": "Simulasi Pemeriksaan Tekanan Bahan Bakar EFI",
+      "description": "Gunakan alat pelindung diri (APD) berupa sarung tangan, kacamata pelindung, dan wearpack sebelum memulai pekerjaan.\n\nPastikan area kerja memiliki ventilasi yang baik dan jauh dari sumber api atau percikan api.\n\nPastikan sepeda motor dalam kondisi mati dan kunci kontak pada posisi OFF.\n\nLepaskan tekanan bahan bakar dalam sistem sesuai prosedur (misalnya dengan melepas sekring fuel pump dan menghidupkan mesin hingga mati sendiri).\n\nPasang fuel pressure gauge pada saluran bahan bakar sesuai titik pemeriksaan yang direkomendasikan pabrikan.\n\nPastikan sambungan selang dan alat ukur terpasang dengan rapat untuk mencegah kebocoran.\n\nPutar kunci kontak ke posisi ON untuk mengaktifkan fuel pump, kemudian amati angka tekanan yang ditunjukkan pada fuel pressure gauge.\n\nCatat hasil pengukuran tekanan bahan bakar.\n\nBandingkan hasil pengukuran dengan spesifikasi standar (±250–300 kPa atau sesuai manual servis).\n\nJika tekanan lebih rendah dari standar, periksa kemungkinan fuel pump lemah, fuel filter tersumbat, atau kebocoran saluran.\n\nJika tekanan lebih tinggi dari standar, periksa kemungkinan fuel pressure regulator bermasalah.\n\nSetelah selesai, matikan kontak, lepaskan alat ukur dengan hati-hati, dan pastikan tidak ada kebocoran bahan bakar sebelum sepeda motor digunakan kembali.\n\nBuat laporan hasil pemeriksaan dan tuliskan kesimpulan kondisi sistem bahan bakar.",
+      "image": "/images/XRDCTSM-011/simulasi-tekanan-bahan-bakar.png",
+      "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "title": "Sistem Bahan Bakar Injeksi (EFI)",
+      "simulations": [
+        {
+          "id": "sim_diagnosis_sensor_scan_tool",
+          "title": "Simulasi Diagnosis Sensor Menggunakan Scan Tool",
+          "description": "Gunakan alat pelindung diri (APD) berupa sarung tangan, kacamata pelindung, dan wearpack sebelum memulai pekerjaan.\n\nPastikan sepeda motor dalam kondisi standar dan aki dalam keadaan baik.\n\nPastikan kunci kontak dalam posisi OFF sebelum menghubungkan scan tool.\n\nHubungkan scan tool ke konektor DLC (Diagnostic Link Connector) pada sepeda motor.\n\nPutar kunci kontak ke posisi ON tanpa menghidupkan mesin.\n\nNyalakan scan tool dan pilih tipe kendaraan serta sistem EFI yang sesuai.\n\nPilih menu pembacaan kode kerusakan (DTC), kemudian catat kode yang muncul jika ada.\n\nBuka menu live data dan amati nilai sensor seperti TPS, MAP, IAT, ECT, dan O2 sensor.\n\nPeriksa nilai tegangan TPS saat throttle tertutup dan saat throttle dibuka penuh, kemudian catat hasilnya.\n\nBandingkan nilai sensor dengan spesifikasi standar pada manual servis.\n\nJika ditemukan nilai yang tidak sesuai, tentukan kemungkinan sensor atau rangkaian yang bermasalah.\n\nJika diperlukan, hapus kode kerusakan (clear DTC) setelah perbaikan dilakukan.\n\nMatikan kontak dan lepaskan scan tool dengan hati-hati.\n\nBuat laporan hasil diagnosis yang berisi kode kerusakan, data sensor, analisis penyebab gangguan, dan rekomendasi perbaikan.",
+          "image": "/images/XRDCTSM-011/simulasi-diagnosis-scan-tool.png",
+          "panelTitle": "Informasi Simulasi"
+        }
+      ]
+    }
+  ]
 }

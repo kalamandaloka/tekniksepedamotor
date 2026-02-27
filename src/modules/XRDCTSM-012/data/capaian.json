@@ -1,7 +1,28 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Pengapian",
+  "description": "Modul ini membahas prinsip kerja, jenis, komponen, rangkaian, serta prosedur pemeriksaan dan perawatan sistem pengapian pada sepeda motor 4 langkah. Materi mencakup sistem pengapian konvensional (platina) dan sistem pengapian elektronik (CDI dan TCI), termasuk analisis gangguan serta prosedur pengujian sesuai standar keselamatan kerja (K3). Pembelajaran dirancang berbasis CP, ATP, dan SKKNI untuk membekali peserta didik dengan kompetensi diagnostik dan perawatan sistem pengapian sepeda motor.",
+  "image": "/images/XRDCTSM-012/sistemPengapian.png",
+  "skkni": [
+    "Menerapkan keselamatan dan kesehatan kerja (K3) di bengkel sepeda motor",
+    "Memelihara sistem pengapian sepeda motor",
+    "Mendiagnosis gangguan sistem pengapian sepeda motor",
+    "Memperbaiki sistem pengapian sepeda motor"
+  ],
+  "kurikulum": [
+    "CP: Peserta didik mampu memahami prinsip kerja sistem pengapian pada sepeda motor serta melakukan pemeriksaan dan perawatan sesuai prosedur dan standar industri.",
+    "CP: Peserta didik mampu menganalisis gangguan pada sistem pengapian konvensional dan elektronik berdasarkan gejala kerusakan.",
+    "ATP 1: Menjelaskan fungsi dan prinsip kerja sistem pengapian pada sepeda motor.",
+    "ATP 2: Mengidentifikasi komponen sistem pengapian (koil, CDI/ECU, pulser/pick-up coil, busi, kabel tegangan tinggi).",
+    "ATP 3: Menjelaskan perbedaan sistem pengapian konvensional dan elektronik.",
+    "ATP 4: Melakukan pemeriksaan kondisi busi dan koil pengapian menggunakan alat ukur.",
+    "ATP 5: Melakukan pengujian sistem pengapian sesuai SOP dan standar K3.",
+    "ATP 6: Mendiagnosis dan menentukan tindakan perbaikan pada gangguan sistem pengapian."
+  ],
+  "tujuan": [
+    "Peserta didik dapat menjelaskan prinsip kerja sistem pengapian pada sepeda motor.",
+    "Peserta didik dapat mengidentifikasi dan menjelaskan fungsi setiap komponen sistem pengapian.",
+    "Peserta didik dapat melakukan pemeriksaan dan pengujian sistem pengapian sesuai SOP.",
+    "Peserta didik dapat menganalisis penyebab gangguan sistem pengapian berdasarkan gejala kerusakan.",
+    "Peserta didik dapat melakukan perawatan dan perbaikan sistem pengapian sesuai standar industri."
+  ]
 }

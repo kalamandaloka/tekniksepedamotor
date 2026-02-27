@@ -1,4 +1,53 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Pengapian",
+  "items": [
+    {
+      "id": "busi",
+      "name": "Busi (Spark Plug)",
+      "description": "Busi adalah komponen akhir dari sistem pengapian yang dipasang pada kepala silinder dan berfungsi sebagai tempat terjadinya loncatan bunga api di dalam ruang bakar. Busi menerima tegangan tinggi dari koil pengapian melalui kabel tegangan tinggi, kemudian menghasilkan percikan api di antara elektroda tengah dan elektroda massa. Busi terdiri dari beberapa bagian utama seperti terminal, isolator keramik, elektroda tengah, elektroda massa, dan ulir. Kondisi busi sangat mempengaruhi kualitas pembakaran, performa mesin, efisiensi bahan bakar, serta emisi gas buang. Warna dan kondisi ujung busi juga dapat digunakan sebagai indikator untuk menganalisis kondisi pembakaran mesin.",
+      "function": "Menghasilkan percikan bunga api bertegangan tinggi untuk membakar campuran udara dan bahan bakar di dalam ruang bakar pada waktu yang telah ditentukan. Selain itu, busi juga membantu menjaga kestabilan proses pembakaran, mendukung efisiensi tenaga mesin, serta menjadi indikator kondisi sistem pembakaran melalui pemeriksaan warna dan kondisi elektroda.",
+      "image": "/images/XRDCTSM-012/busi.png",
+      "modelType": "box"
+    },
+    {
+      "id": "koil_pengapian",
+      "name": "Koil Pengapian (Ignition Coil)",
+      "description": "Koil pengapian adalah komponen yang berfungsi sebagai transformator penaik tegangan (step-up transformer) dalam sistem pengapian. Koil mengubah tegangan rendah dari sumber listrik (sekitar 12 volt) menjadi tegangan tinggi yang dapat mencapai 10.000 hingga 30.000 volt atau lebih. Koil terdiri dari dua lilitan utama yaitu kumparan primer dan kumparan sekunder yang dililitkan pada inti besi. Saat arus primer diputus secara tiba-tiba oleh platina, CDI, atau ECU, medan magnet yang terbentuk akan runtuh dan menghasilkan tegangan tinggi pada kumparan sekunder melalui prinsip induksi elektromagnetik.",
+      "function": "Menaikkan tegangan listrik rendah menjadi tegangan tinggi yang cukup untuk menghasilkan loncatan bunga api pada busi. Koil juga berperan menjaga kestabilan suplai tegangan tinggi agar percikan api tetap kuat dan konsisten pada berbagai putaran mesin.",
+      "image": "/images/XRDCTSM-012/koil.png",
+      "modelType": "box"
+    },
+    {
+      "id": "cdi_ecu",
+      "name": "CDI / ECU",
+      "description": "CDI (Capacitor Discharge Ignition) atau ECU (Electronic Control Unit) adalah unit kontrol elektronik yang mengatur sistem pengapian modern. Pada sistem CDI, energi listrik disimpan dalam kapasitor dan dilepaskan secara cepat ke koil pengapian ketika menerima sinyal dari pulser. Pada sistem berbasis ECU, waktu pengapian dikontrol berdasarkan berbagai data sensor seperti posisi poros engkol dan putaran mesin. Sistem ini tidak menggunakan komponen mekanis seperti platina sehingga lebih presisi, stabil, dan minim perawatan.",
+      "function": "Mengatur waktu pengapian (ignition timing) secara presisi berdasarkan sinyal sensor, mengontrol proses pemutusan arus primer koil, serta memastikan percikan bunga api terjadi pada saat yang tepat sesuai kondisi kerja mesin. CDI/ECU juga meningkatkan efisiensi pembakaran dan performa mesin secara keseluruhan.",
+      "image": "/images/XRDCTSM-012/cdi.png",
+      "modelType": "box"
+    },
+    {
+      "id": "pulser",
+      "name": "Pulser / Pick-up Coil",
+      "description": "Pulser atau pick-up coil adalah komponen sensor pada sistem pengapian elektronik yang berfungsi mendeteksi posisi dan kecepatan putaran poros engkol (crankshaft). Komponen ini biasanya terpasang berdekatan dengan flywheel dan bekerja berdasarkan prinsip induksi elektromagnetik. Ketika tonjolan (trigger) pada flywheel melewati pulser, terjadi perubahan medan magnet yang menghasilkan sinyal listrik kecil. Sinyal ini kemudian dikirim ke CDI atau ECU sebagai referensi waktu pengapian.",
+      "function": "Mengirimkan sinyal waktu (trigger signal) ke CDI atau ECU untuk menentukan kapan arus primer koil harus diputus sehingga percikan bunga api terjadi pada saat yang tepat sesuai posisi piston.",
+      "image": "/images/XRDCTSM-012/pulser.png",
+      "modelType": "box"
+    },
+    {
+      "id": "magnet_flywheel",
+      "name": "Magnet / Flywheel",
+      "description": "Magnet atau flywheel adalah komponen yang terpasang pada ujung poros engkol dan berfungsi sebagai pembangkit arus listrik melalui kerja sama dengan spul (stator). Flywheel memiliki magnet permanen yang menghasilkan medan magnet saat berputar. Selain sebagai pembangkit listrik untuk sistem pengapian dan kelistrikan, flywheel juga berfungsi menstabilkan putaran mesin agar lebih halus dan tidak bergetar. Pada sistem pengapian elektronik, flywheel biasanya dilengkapi tonjolan khusus sebagai pemicu sinyal untuk pulser.",
+      "function": "Menghasilkan arus listrik melalui induksi elektromagnetik pada spul, membantu menjaga kestabilan putaran mesin, serta menyediakan sinyal pemicu bagi pulser untuk menentukan waktu pengapian.",
+      "image": "/images/XRDCTSM-012/magnet.png",
+      "modelType": "box"
+    },
+    {
+      "id": "kabel_tegangan_tinggi",
+      "name": "Kabel Tegangan Tinggi",
+      "description": "Kabel tegangan tinggi adalah penghantar khusus yang menyalurkan listrik bertegangan tinggi dari koil pengapian ke busi. Kabel ini dilapisi isolator tebal untuk mencegah kebocoran arus listrik dan gangguan elektromagnetik. Pada ujung kabel biasanya terdapat spark plug cap yang dilengkapi resistor untuk meredam interferensi gelombang radio. Kondisi kabel sangat mempengaruhi kualitas percikan api, karena kebocoran atau hambatan berlebih dapat menyebabkan percikan api melemah.",
+      "function": "Menyalurkan tegangan tinggi dari koil pengapian ke busi secara aman dan stabil tanpa kehilangan energi listrik, sehingga percikan bunga api tetap kuat dan konsisten.",
+      "image": "/images/XRDCTSM-012/kabel.png",
+      "modelType": "box"
+    }
+  ]
 }

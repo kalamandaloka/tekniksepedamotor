@@ -1,5 +1,154 @@
 {
-  "title": "Teori Modul",
-  "content": "",
-  "pages": []
+  "title": "Sistem Starter",
+  "content": "Sistem starter merupakan bagian dari sistem kelistrikan sepeda motor yang berfungsi untuk memulai putaran awal mesin sehingga terjadi proses pembakaran di dalam ruang bakar. Sistem ini bekerja dengan mengubah energi listrik dari aki menjadi energi mekanik berupa putaran melalui motor starter. Kompetensi memahami sistem starter termasuk dalam elemen Capaian Pembelajaran (CP) Sistem Kelistrikan Sepeda Motor dan selaras dengan unit kompetensi SKKNI tentang pemeliharaan serta perbaikan sistem kelistrikan sepeda motor. Peserta didik diharapkan mampu memahami konsep, prinsip kerja, komponen, serta melakukan diagnosis gangguan sesuai prosedur K3 dan SOP bengkel.",
+  "pages": [
+    {
+      "title": "Konsep Dasar Sistem Starter",
+      "contentL1": "Pada mesin pembakaran dalam (internal combustion engine), diperlukan putaran awal untuk memulai siklus kerja mesin yang terdiri dari langkah hisap, kompresi, usaha, dan buang. Putaran awal tersebut tidak dapat terjadi secara otomatis tanpa bantuan sistem eksternal. Sistem starter berperan untuk memberikan putaran awal pada poros engkol (crankshaft) hingga tercapai kecepatan minimum yang memungkinkan terjadinya proses pembakaran campuran udara dan bahan bakar.\n\nPada sepeda motor modern, sistem starter umumnya menggunakan sistem starter elektrik. Sistem ini memanfaatkan arus listrik dari aki yang dialirkan ke motor starter melalui relay starter. Motor starter kemudian memutar poros engkol melalui mekanisme kopling satu arah (one way clutch). Setelah mesin hidup, kopling starter akan melepaskan hubungan agar motor starter tidak ikut berputar.\n\nBeberapa sepeda motor juga dilengkapi dengan sistem starter mekanik (kick starter) sebagai cadangan apabila sistem elektrik mengalami gangguan.",
+      "subSections": [
+        {
+          "title2": "Pengertian Sistem Starter",
+          "content2": "Sistem starter adalah rangkaian komponen kelistrikan dan mekanik yang berfungsi untuk mengubah energi listrik menjadi energi gerak (mekanik) guna memutar poros engkol mesin pada saat awal penghidupan mesin.\n\nSecara sistem, starter terdiri dari beberapa komponen utama, yaitu:\n1. Aki (Battery) sebagai sumber energi listrik.\n2. Saklar starter sebagai penghubung arus kendali.\n3. Relay starter (magnetic switch) sebagai saklar elektromagnetik arus besar.\n4. Motor starter sebagai pengubah energi listrik menjadi energi putar.\n5. Kopling satu arah (one way clutch) untuk meneruskan dan melepas putaran.\n6. Kabel dan sekring sebagai pengaman serta penghantar arus.\n\nSecara prinsip elektromagnetik, motor starter bekerja berdasarkan hukum gaya Lorentz, di mana arus listrik yang mengalir pada kumparan dalam medan magnet akan menghasilkan gaya putar. Putaran ini diteruskan ke poros engkol mesin.\n\nDalam konteks pembelajaran SMK Teknik Sepeda Motor, pemahaman sistem starter tidak hanya mencakup teori, tetapi juga kemampuan:\n- Mengidentifikasi komponen secara visual.\n- Membaca dan menganalisis wiring diagram.\n- Mengukur tegangan dan hambatan menggunakan multimeter.\n- Mendiagnosis gangguan berdasarkan gejala.\n- Melakukan perbaikan sesuai prosedur K3 dan standar SKKNI.\n\nDengan penguasaan kompetensi ini, peserta didik diharapkan mampu bekerja secara profesional di bengkel sesuai standar industri otomotif."
+        },
+        {
+          "title2": "Fungsi Utama Sistem Starter",
+          "content2": "1. Memutar poros engkol saat awal penghidupan mesin.\n2. Membantu terjadinya proses hisap dan kompresi pertama.\n3. Memungkinkan sistem pengapian menghasilkan percikan api.\n4. Mengaktifkan siklus kerja mesin hingga mesin hidup stabil."
+        },
+        {
+          "title2": "Prinsip Kerja Sistem Starter",
+          "content2": "Prinsip kerja sistem starter adalah mengubah energi listrik dari aki menjadi energi mekanik berupa putaran untuk memutar poros engkol (crankshaft) hingga mesin mencapai kecepatan awal (starting speed) yang cukup untuk terjadi proses pembakaran.\n\nKetika kunci kontak berada pada posisi ON dan tombol starter ditekan, arus listrik kecil (arus kontrol) mengalir menuju kumparan relay starter. Relay starter bekerja berdasarkan prinsip elektromagnetik, di mana arus yang mengalir pada kumparan akan menimbulkan medan magnet yang menarik kontak utama sehingga arus besar dari aki dapat mengalir ke motor starter.\n\nMotor starter bekerja berdasarkan hukum gaya Lorentz. Arus listrik yang mengalir melalui kumparan armature di dalam medan magnet akan menghasilkan gaya putar (torsi). Torsi ini memutar armature, kemudian diteruskan melalui mekanisme gigi reduksi untuk memperbesar momen puntir sehingga mampu melawan tahanan kompresi mesin.\n\nPutaran dari motor starter diteruskan ke poros engkol melalui kopling satu arah (one way clutch). Kopling ini memungkinkan putaran hanya diteruskan dari motor starter ke mesin, dan akan otomatis melepaskan hubungan ketika mesin sudah hidup agar motor starter tidak ikut berputar.\n\nSecara berurutan, alur kerja sistem starter adalah:\n1. Kunci kontak ON.\n2. Tombol starter ditekan.\n3. Arus kecil mengaktifkan relay starter.\n4. Relay menghubungkan arus besar dari aki ke motor starter.\n5. Motor starter berputar menghasilkan torsi.\n6. Putaran diteruskan ke poros engkol.\n7. Terjadi pembakaran dan mesin hidup.\n8. Kopling satu arah melepaskan hubungan.\n\nBesarnya torsi starter dipengaruhi oleh kondisi tegangan aki, kebersihan sikat (brush), kondisi komutator, serta hambatan mekanis mesin. Jika salah satu komponen tidak bekerja optimal, maka starter akan berputar lemah atau tidak berfungsi sama sekali.\n\nPemahaman prinsip kerja ini menjadi dasar kompetensi peserta didik dalam menganalisis gangguan sistem starter sesuai Capaian Pembelajaran Sistem Kelistrikan Sepeda Motor dan unit kompetensi SKKNI pemeliharaan serta perbaikan sistem starter."
+        },
+        {
+          "title2": "Jenis-Jenis Sistem Starter",
+          "content2": "Berdasarkan cara kerja dan sumber energinya, sistem starter pada sepeda motor dibedakan menjadi dua jenis utama, yaitu starter elektrik dan starter mekanik (kick starter). Kedua sistem ini memiliki tujuan yang sama, yaitu memberikan putaran awal pada poros engkol agar mesin dapat memulai proses pembakaran. Perbedaan utama terletak pada sumber energi, mekanisme kerja, serta tingkat kepraktisannya.",
+          "items": [
+            {
+              "title3": "Starter Elektrik",
+              "content3": "Starter elektrik adalah sistem starter yang menggunakan energi listrik dari aki untuk menggerakkan motor starter. Ketika tombol starter ditekan, arus kecil mengaktifkan relay starter, kemudian arus besar mengalir ke motor starter sehingga menghasilkan torsi untuk memutar poros engkol.\n\nKomponen utama starter elektrik meliputi:\n- Aki (battery) sebagai sumber energi listrik.\n- Saklar starter sebagai pengendali arus kontrol.\n- Relay starter (magnetic switch) sebagai saklar arus besar.\n- Motor starter sebagai pengubah energi listrik menjadi energi mekanik.\n- Kopling satu arah (one way clutch) untuk meneruskan dan melepas putaran.\n\nKeunggulan starter elektrik:\n- Praktis dan mudah digunakan.\n- Tidak memerlukan tenaga fisik besar.\n- Lebih nyaman dan efisien.\n\nKekurangan starter elektrik:\n- Bergantung pada kondisi aki.\n- Sistem lebih kompleks.\n- Memerlukan perawatan kelistrikan secara berkala.\n\nDalam pembelajaran SMK TSM, peserta didik harus mampu memahami rangkaian kontrol dan rangkaian utama (main circuit), melakukan pengukuran tegangan, serta mendiagnosis gangguan sesuai standar SKKNI."
+            },
+            {
+              "title3": "Starter Mekanik (Kick Starter)",
+              "content3": "Starter mekanik atau kick starter adalah sistem starter yang menggunakan tenaga manusia melalui tuas (kick lever) untuk memutar poros engkol secara langsung melalui mekanisme roda gigi.\n\nKetika tuas kick ditekan, putaran diteruskan melalui poros dan roda gigi penggerak menuju poros engkol sehingga terjadi langkah kompresi dan pembakaran awal.\n\nKomponen utama starter mekanik meliputi:\n- Tuas kick starter.\n- Poros kick starter.\n- Roda gigi penghubung.\n- Pegas pengembali (return spring).\n\nKeunggulan starter mekanik:\n- Tidak bergantung pada aki.\n- Sistem sederhana dan relatif tahan lama.\n- Dapat digunakan saat aki lemah atau habis.\n\nKekurangan starter mekanik:\n- Membutuhkan tenaga fisik.\n- Kurang praktis dibanding starter elektrik.\n\nDalam konteks kompetensi SMK, peserta didik harus mampu menjelaskan mekanisme kerja roda gigi dan pegas pengembali serta melakukan pemeriksaan keausan komponen secara visual dan mekanis."
+            }
+          ]
+        },
+        {
+          "title2": "Perbedaan Starter Elektrik dan Mekanik",
+          "content2": "Starter elektrik dan starter mekanik (kick starter) memiliki fungsi yang sama, yaitu memberikan putaran awal pada poros engkol agar mesin dapat memulai proses pembakaran. Namun, kedua sistem ini memiliki perbedaan mendasar dari sisi sumber energi, prinsip kerja, komponen, kenyamanan penggunaan, serta prosedur perawatan dan diagnosis gangguan.\n\n1. Perbedaan Sumber Energi\nStarter elektrik menggunakan energi listrik dari aki untuk menggerakkan motor starter. Sedangkan starter mekanik menggunakan tenaga manusia yang disalurkan melalui tuas kick starter.\n\n2. Perbedaan Prinsip Kerja\nStarter elektrik bekerja berdasarkan prinsip elektromagnetik. Arus listrik yang mengalir pada kumparan motor starter menghasilkan medan magnet yang menciptakan gaya putar (torsi). Starter mekanik bekerja secara mekanis melalui sistem roda gigi yang langsung memutar poros engkol saat tuas diinjak.\n\n3. Perbedaan Komponen\nStarter elektrik terdiri dari aki, saklar starter, relay starter (magnetic switch), motor starter, kopling satu arah, kabel, dan sekring. Starter mekanik terdiri dari tuas kick starter, poros kick starter, roda gigi penggerak, dan pegas pengembali.\n\n4. Perbedaan Tingkat Kepraktisan\nStarter elektrik lebih praktis karena cukup menekan tombol tanpa tenaga besar. Starter mekanik membutuhkan tenaga fisik dan teknik injakan yang tepat.\n\n5. Perbedaan Perawatan dan Gangguan\nStarter elektrik memerlukan pemeriksaan sistem kelistrikan seperti tegangan aki, kondisi relay, serta sikat motor starter. Gangguan yang sering terjadi antara lain starter lemah atau tidak berputar akibat aki soak. Starter mekanik lebih sederhana, gangguan biasanya berupa keausan roda gigi atau pegas pengembali lemah.\n\nDalam konteks pembelajaran SMK Teknik Sepeda Motor, peserta didik harus mampu membedakan kedua sistem ini secara teori dan praktik, mengidentifikasi jenis starter pada unit sepeda motor tertentu, serta melakukan pemeriksaan sesuai prosedur K3 dan standar SKKNI. Pemahaman perbedaan ini menjadi dasar dalam melakukan troubleshooting sistem starter secara profesional."
+        }
+      ]
+    },
+    {
+      "title": "Komponen Sistem Starter",
+      "contentL1": "Komponen sistem starter terdiri dari beberapa bagian utama yang bekerja dalam rangkaian kontrol (control circuit) dan rangkaian utama (main circuit). Rangkaian kontrol menggunakan arus kecil untuk mengaktifkan relay, sedangkan rangkaian utama mengalirkan arus besar dari aki ke motor starter. Setiap komponen memiliki peran penting dalam memastikan proses starting berlangsung efektif dan aman sesuai prosedur K3 dan standar SKKNI.",
+      "subSections": [
+        {
+          "title2": "Aki (Battery)",
+          "content2": "![Aki (Battery)](images/XRDCTSM-015/aki.png)Aki adalah sumber energi listrik utama pada sistem starter elektrik. Aki menyimpan energi dalam bentuk kimia dan mengubahnya menjadi energi listrik untuk mensuplai arus ke motor starter.\n\nTegangan nominal aki sepeda motor adalah 12 Volt. Saat starter bekerja, aki harus mampu menyediakan arus besar (sekitar 50–100 Ampere tergantung tipe motor) dalam waktu singkat. Tegangan saat beban tidak boleh turun di bawah 9–10 Volt.\n\nFungsi Aki:\n1. Menyuplai arus ke rangkaian kontrol (relay starter).\n2. Menyuplai arus besar ke motor starter.\n3. Menstabilkan sistem kelistrikan saat starting.\n\nJenis Aki:\n- Aki Basah (Lead Acid).\n- Aki Maintenance Free (MF).\n- Aki Gel.\n\nGangguan Umum:\n- Tegangan lemah (soak).\n- Terminal berkarat atau kendor.\n- Sel aki rusak.\n\nPemeriksaan dilakukan dengan multimeter (pengukuran tanpa beban dan saat starter ditekan)."
+        },
+        {
+          "title2": "Motor Starter",
+          "content2": "![Motor Starter](images/XRDCTSM-015/motorStarter.png)Motor starter adalah komponen yang mengubah energi listrik menjadi energi mekanik berupa putaran. Motor ini bekerja berdasarkan prinsip elektromagnetik (gaya Lorentz), di mana arus listrik dalam medan magnet menghasilkan gaya putar.\n\nMotor starter harus menghasilkan torsi besar untuk melawan tekanan kompresi mesin. Oleh karena itu digunakan sistem gigi reduksi untuk memperbesar momen puntir.\n\nBagian-Bagian Motor Starter:\n1. Armature (jangkar).\n2. Kumparan medan atau magnet permanen.\n3. Komutator.\n4. Sikat arang (brush).\n5. Rumah motor (housing).\n6. Gigi reduksi.\n\nFungsi Motor Starter:\n- Menghasilkan putaran awal mesin.\n- Mengubah energi listrik menjadi energi mekanik.\n\nGangguan Umum:\n- Brush aus.\n- Komutator kotor.\n- Kumparan terbakar.\n- Putaran lemah akibat hambatan tinggi.\n\nDiagnosis dilakukan dengan pemeriksaan visual dan pengukuran hambatan kumparan."
+        },
+        {
+          "title2": "Relay / Magnetic Switch Starter",
+          "content2": "![Relay / Magnetic Switch Starter](images/XRDCTSM-015/relay.png)Relay starter (magnetic switch) adalah saklar elektromagnetik yang menghubungkan arus besar dari aki ke motor starter. Tombol starter hanya mengalirkan arus kecil untuk mengaktifkan kumparan relay.\n\nSaat tombol ditekan, kumparan relay menghasilkan medan magnet yang menarik kontak utama sehingga arus besar dapat mengalir ke motor starter.\n\nFungsi Relay Starter:\n1. Menghubungkan dan memutus arus besar.\n2. Melindungi saklar starter dari arus tinggi.\n3. Mengontrol rangkaian utama melalui rangkaian kontrol.\n\nBagian Relay:\n- Kumparan elektromagnet.\n- Kontak utama.\n- Terminal input-output.\n- Rumah relay.\n\nGangguan Umum:\n- Kontak terbakar.\n- Kumparan putus.\n- Hanya terdengar bunyi 'klik' tanpa putaran.\n\nPemeriksaan dilakukan dengan uji kontinuitas dan pengukuran tegangan saat relay aktif."
+        },
+        {
+          "title2": "Saklar Starter",
+          "content2": "![Saklar Starter](images/XRDCTSM-015/saklarStarter.png)Saklar starter adalah tombol atau switch yang digunakan untuk mengaktifkan sistem starter. Saklar ini biasanya terletak pada handle sebelah kanan sepeda motor.\n\nSaklar starter bekerja pada rangkaian kontrol (arus kecil). Ketika tombol ditekan, arus mengalir menuju kumparan relay starter sehingga relay dapat menghubungkan arus utama ke motor starter.\n\nFungsi Saklar Starter:\n1. Mengaktifkan rangkaian kontrol sistem starter.\n2. Menghubungkan arus kecil ke relay starter.\n3. Memberikan perintah awal untuk proses starting.\n\nGangguan Umum:\n- Kontak saklar kotor atau aus.\n- Kabel putus.\n- Tidak ada arus menuju relay.\n\nPemeriksaan dilakukan dengan uji kontinuitas menggunakan multimeter."
+        },
+        {
+          "title2": "Sekring (Fuse)",
+          "content2": "![Sekring (Fuse)](images/XRDCTSM-015/sekring.png)Sekring (fuse) adalah komponen pengaman yang berfungsi melindungi rangkaian kelistrikan dari arus berlebih (overcurrent) atau hubungan singkat (short circuit).\n\nSekring akan putus jika terjadi arus melebihi kapasitas yang ditentukan, sehingga mencegah kerusakan pada komponen seperti relay dan motor starter.\n\nFungsi Sekring:\n1. Melindungi sistem dari korsleting.\n2. Mencegah kerusakan komponen akibat arus berlebih.\n3. Menjaga keamanan sistem kelistrikan.\n\nGangguan Umum:\n- Sekring putus akibat short circuit.\n- Nilai ampere tidak sesuai spesifikasi.\n\nPemeriksaan dilakukan secara visual dan dengan uji kontinuitas."
+        },
+        {
+          "title2": "Kabel dan Wiring Harness",
+          "content2": "![Kabel dan Wiring Harness](images/XRDCTSM-015/kabel.png)Kabel dan wiring harness merupakan penghantar arus listrik yang menghubungkan seluruh komponen sistem starter. Kabel pada rangkaian utama biasanya berukuran lebih besar karena membawa arus tinggi, sedangkan kabel kontrol lebih kecil karena hanya membawa arus rendah.\n\nFungsi Kabel dan Wiring Harness:\n1. Mengalirkan arus listrik antar komponen.\n2. Mengorganisir jalur kelistrikan agar rapi dan aman.\n3. Mengurangi risiko korsleting.\n\nGangguan Umum:\n- Kabel putus atau terkelupas.\n- Konektor longgar.\n- Korosi pada terminal.\n\nPemeriksaan dilakukan dengan inspeksi visual dan pengukuran kontinuitas."
+        },
+        {
+          "title2": "Rangkaian Sistem Starter",
+          "content2": "Rangkaian sistem starter terdiri dari dua bagian utama, yaitu rangkaian kontrol dan rangkaian utama.\n\n1. Rangkaian Kontrol (Control Circuit):\nArus kecil mengalir dari aki → kunci kontak → saklar starter → kumparan relay → massa.\n\n2. Rangkaian Utama (Main Circuit):\nArus besar mengalir dari aki → kontak utama relay → motor starter → massa.\n\nSaat tombol starter ditekan, rangkaian kontrol mengaktifkan relay sehingga rangkaian utama dapat mengalirkan arus besar ke motor starter. Sistem ini dirancang agar saklar tidak langsung menerima arus besar, sehingga lebih aman dan tahan lama.\n\nPemahaman rangkaian ini sangat penting dalam proses diagnosis gangguan, seperti starter tidak berfungsi, hanya terdengar bunyi klik, atau putaran lemah. Kompetensi membaca dan menganalisis rangkaian termasuk dalam elemen Capaian Pembelajaran Sistem Kelistrikan dan unit kompetensi SKKNI pemeliharaan sistem starter."
+        }
+      ]
+    },
+    {
+      "title": "Wiring Diagram dan Analisis Rangkaian",
+      "contentL1": "Wiring diagram merupakan representasi gambar rangkaian kelistrikan yang menunjukkan hubungan antar komponen dalam suatu sistem. Dalam sistem starter, kemampuan membaca dan menganalisis wiring diagram menjadi kompetensi penting bagi peserta didik SMK Teknik Sepeda Motor karena berkaitan langsung dengan proses diagnosis gangguan sesuai standar industri dan SKKNI.",
+      "subSections": [
+        {
+          "title2": "Simbol Kelistrikan pada Wiring Diagram",
+          "content2": "Wiring diagram menggunakan simbol-simbol standar untuk mewakili komponen kelistrikan. Pemahaman simbol ini sangat penting sebelum melakukan analisis rangkaian.\n\nSimbol yang umum digunakan pada sistem starter:\n1. Aki (Battery) → Digambarkan dengan dua garis sejajar berbeda panjang.\n2. Saklar (Switch) → Digambarkan dengan garis terputus yang dapat membuka dan menutup rangkaian.\n3. Relay → Digambarkan dengan kumparan dan kontak saklar.\n4. Motor Starter → Simbol motor listrik (lingkaran dengan huruf M).\n5. Sekring (Fuse) → Digambarkan sebagai kotak kecil di jalur rangkaian.\n6. Ground/Massa → Simbol garis bercabang ke bawah.\n\nPeserta didik harus mampu mengidentifikasi setiap simbol dan memahami fungsi masing-masing dalam rangkaian."
+        },
+        {
+          "title2": "Membaca Wiring Diagram Sistem Starter",
+          "content2": "Membaca wiring diagram dilakukan dengan mengikuti alur arus listrik dari sumber (aki) menuju beban (motor starter) dan kembali ke massa.\n\nLangkah membaca wiring diagram:\n1. Identifikasi sumber tegangan (aki).\n2. Ikuti jalur rangkaian kontrol melalui kunci kontak dan saklar starter.\n3. Identifikasi kumparan relay starter.\n4. Ikuti jalur rangkaian utama menuju motor starter.\n5. Pastikan jalur kembali ke massa (ground).\n\nPemahaman warna kabel dan kode terminal juga penting dalam interpretasi wiring diagram. Kemampuan ini menjadi bagian dari kompetensi membaca dan memahami dokumen teknis otomotif."
+        },
+        {
+          "title2": "Analisis Alur Arus Sistem Starter",
+          "content2": "Analisis alur arus dilakukan untuk memahami bagaimana listrik mengalir saat proses starting berlangsung.\n\nSaat starter ditekan:\n- Arus kecil mengalir dari aki → kunci kontak → saklar starter → kumparan relay → massa.\n- Relay aktif dan menutup kontak utama.\n- Arus besar mengalir dari aki → kontak relay → motor starter → massa.\n\nAnalisis ini membantu dalam menentukan letak gangguan. Contoh:\n- Jika relay tidak berbunyi klik → kemungkinan rangkaian kontrol bermasalah.\n- Jika relay klik tetapi motor tidak berputar → kemungkinan rangkaian utama bermasalah.\n- Jika putaran lemah → kemungkinan tegangan drop pada aki atau kabel.\n\nKemampuan analisis ini merupakan bagian dari elemen CP sistem kelistrikan dan unit kompetensi SKKNI diagnosis gangguan starter."
+        },
+        {
+          "title2": "Identifikasi Titik Pengukuran",
+          "content2": "Identifikasi titik pengukuran bertujuan untuk menentukan lokasi pemeriksaan menggunakan multimeter.\n\nTitik pengukuran penting pada sistem starter:\n1. Tegangan aki (tanpa beban dan saat beban).\n2. Tegangan pada terminal input relay.\n3. Tegangan pada terminal output relay saat aktif.\n4. Tegangan pada terminal motor starter.\n5. Kontinuitas kabel dan saklar starter.\n\nProsedur umum pengukuran:\n- Gunakan multimeter pada skala DC Volt untuk pengukuran tegangan.\n- Gunakan skala Ohm untuk uji kontinuitas.\n- Pastikan prosedur K3 diterapkan sebelum pengukuran.\n\nKemampuan menentukan titik pengukuran yang tepat sangat penting untuk mempercepat proses troubleshooting dan menghindari kesalahan diagnosis."
+        }
+      ]
+    },
+    {
+      "title": "Pemeriksaan dan Pengujian Sistem Starter",
+      "contentL1": "Pemeriksaan dan pengujian sistem starter bertujuan untuk memastikan setiap komponen bekerja sesuai spesifikasi. Proses ini dilakukan secara sistematis mulai dari pemeriksaan sumber energi, rangkaian kontrol, hingga motor starter. Kompetensi ini selaras dengan Capaian Pembelajaran Sistem Kelistrikan Sepeda Motor serta unit kompetensi SKKNI tentang diagnosis dan perbaikan sistem starter.",
+      "subSections": [
+        {
+          "title2": "Prosedur K3 pada Pekerjaan Sistem Starter",
+          "content2": "Keselamatan dan Kesehatan Kerja (K3) wajib diterapkan sebelum melakukan pemeriksaan.\n\nLangkah K3:\n1. Gunakan APD (sarung tangan, kacamata kerja, wearpack).\n2. Pastikan sepeda motor dalam posisi standar tengah.\n3. Matikan kunci kontak sebelum membongkar komponen.\n4. Lepaskan terminal negatif aki saat melakukan pembongkaran.\n5. Hindari hubungan singkat (short circuit).\n6. Gunakan alat ukur sesuai standar.\n\nPenerapan K3 mencegah risiko sengatan listrik dan kerusakan komponen."
+        },
+        {
+          "title2": "Pemeriksaan Kondisi Aki",
+          "content2": "Pemeriksaan aki dilakukan untuk memastikan tegangan dan kapasitas dalam kondisi baik.\n\nLangkah pemeriksaan:\n1. Ukur tegangan tanpa beban (open circuit voltage) → Normal: ±12,4–12,8 Volt.\n2. Ukur tegangan saat starter ditekan → Tidak boleh turun di bawah 9–10 Volt.\n3. Periksa kondisi terminal dari korosi atau kekendoran.\n4. Periksa fisik aki (retak atau kebocoran).\n\nJika tegangan drop berlebihan, kemungkinan aki soak atau kapasitas menurun."
+        },
+        {
+          "title2": "Pengujian Tegangan Menggunakan Multimeter",
+          "content2": "Multimeter digunakan untuk mengukur tegangan DC dan kontinuitas.\n\nLangkah pengujian tegangan:\n1. Atur multimeter pada skala DC Volt (20V).\n2. Hubungkan probe merah ke terminal positif dan hitam ke negatif.\n3. Catat hasil pengukuran.\n4. Lakukan pengukuran saat starter ditekan.\n\nUntuk uji kontinuitas:\n- Gunakan skala Ohm.\n- Periksa kabel, saklar, dan sekring.\n\nPenggunaan multimeter yang tepat merupakan kompetensi wajib dalam diagnosis kelistrikan."
+        },
+        {
+          "title2": "Pemeriksaan Relay Starter",
+          "content2": "Relay diperiksa untuk memastikan kumparan dan kontak utama bekerja.\n\nLangkah pemeriksaan:\n1. Dengarkan bunyi 'klik' saat tombol starter ditekan.\n2. Ukur tegangan pada terminal input dan output relay.\n3. Uji kontinuitas kumparan relay.\n4. Periksa kondisi terminal dari karat.\n\nJika relay berbunyi klik tetapi tidak ada tegangan keluar, kemungkinan kontak utama rusak."
+        },
+        {
+          "title2": "Pemeriksaan Motor Starter",
+          "content2": "Motor starter diperiksa jika arus sudah sampai namun tidak terjadi putaran.\n\nLangkah pemeriksaan:\n1. Periksa tegangan masuk ke motor starter.\n2. Lakukan uji langsung (direct test) dengan hati-hati.\n3. Periksa kondisi brush dan komutator.\n4. Ukur hambatan kumparan.\n\nJika motor tidak berputar meskipun tegangan normal, kemungkinan brush aus atau kumparan rusak."
+        },
+        {
+          "title2": "5.6 Analisis Gejala Kerusakan",
+          "content2": "Analisis dilakukan berdasarkan gejala yang muncul:\n\n1. Tidak ada respon sama sekali → Periksa aki, sekring, dan saklar starter.\n2. Hanya terdengar bunyi klik → Periksa relay atau kabel utama.\n3. Starter berputar lemah → Periksa tegangan drop pada aki.\n4. Motor starter berputar tetapi mesin tidak hidup → Periksa kopling satu arah.\n\nAnalisis sistematis ini membantu menentukan titik kerusakan secara cepat dan akurat sesuai standar troubleshooting industri."
+        }
+      ]
+    },
+    {
+      "title": "Perawatan dan Perbaikan Sistem Starter",
+      "contentL1": "Perawatan dan perbaikan sistem starter dilakukan untuk menjaga kinerja optimal serta mencegah kerusakan yang lebih serius. Prosedur ini harus dilakukan secara sistematis sesuai standar operasional bengkel (SOP), menerapkan prinsip K3, serta mengacu pada unit kompetensi SKKNI pemeliharaan dan perbaikan sistem kelistrikan sepeda motor.",
+      "subSections": [
+        {
+          "title2": "Perawatan Berkala Sistem Starter",
+          "content2": "Perawatan berkala bertujuan untuk memastikan sistem starter selalu dalam kondisi siap pakai.\n\nLangkah perawatan:\n1. Periksa tegangan aki secara rutin.\n2. Bersihkan terminal aki dari karat.\n3. Periksa kekencangan kabel utama starter.\n4. Periksa kondisi sekring.\n5. Dengarkan suara starter saat digunakan.\n6. Periksa kebersihan motor starter dari kotoran dan oli.\n\nPerawatan berkala dapat mencegah terjadinya tegangan drop dan gangguan saat starting."
+        },
+        {
+          "title2": "Pembongkaran dan Pemasangan Motor Starter",
+          "content2": "Pembongkaran dilakukan jika motor starter mengalami gangguan seperti putaran lemah atau tidak berfungsi.\n\nProsedur pembongkaran:\n1. Lepaskan terminal negatif aki.\n2. Lepaskan kabel utama pada motor starter.\n3. Buka baut pengikat motor starter.\n4. Keluarkan motor starter secara hati-hati.\n5. Bongkar bagian dalam untuk memeriksa brush, komutator, dan armature.\n\nProsedur pemasangan:\n1. Pasang kembali komponen sesuai urutan.\n2. Pastikan brush dan pegas dalam kondisi baik.\n3. Kencangkan baut sesuai spesifikasi.\n4. Hubungkan kembali kabel dan terminal aki.\n\nPastikan semua komponen terpasang dengan benar untuk mencegah korsleting."
+        },
+        {
+          "title2": "Penggantian Relay Starter",
+          "content2": "Relay diganti jika tidak mampu mengalirkan arus besar meskipun kumparan masih bekerja.\n\nLangkah penggantian:\n1. Matikan kunci kontak.\n2. Lepaskan terminal negatif aki.\n3. Lepaskan konektor dan kabel utama relay.\n4. Pasang relay baru sesuai spesifikasi arus.\n5. Hubungkan kembali kabel dan periksa kekencangan terminal.\n\nGunakan relay dengan kapasitas ampere sesuai standar pabrikan untuk mencegah kerusakan sistem."
+        },
+        {
+          "title2": "Troubleshooting Sistem Starter Tidak Berfungsi",
+          "content2": "Troubleshooting dilakukan secara sistematis mulai dari komponen paling sederhana.\n\nLangkah analisis:\n1. Periksa kondisi aki.\n2. Periksa sekring.\n3. Periksa saklar starter.\n4. Periksa relay starter.\n5. Periksa motor starter.\n6. Periksa kopling satu arah jika motor berputar tetapi mesin tidak ikut berputar.\n\nPendekatan sistematis ini membantu menemukan penyebab kerusakan secara cepat dan akurat."
+        },
+        {
+          "title2": "Uji Fungsi Setelah Perbaikan",
+          "content2": "Setelah perbaikan dilakukan, wajib dilakukan uji fungsi untuk memastikan sistem bekerja normal.\n\nLangkah uji fungsi:\n1. Pastikan semua komponen terpasang dengan benar.\n2. Hubungkan kembali terminal aki.\n3. Nyalakan kunci kontak.\n4. Tekan tombol starter dan amati respons.\n5. Periksa suara dan kecepatan putaran starter.\n6. Pastikan mesin hidup dengan normal.\n\nJika starter bekerja lancar tanpa tegangan drop berlebihan dan tanpa suara abnormal, maka sistem dinyatakan normal.\n\nProses uji fungsi merupakan bagian penting dalam standar kerja industri dan menjadi indikator keberhasilan perbaikan sesuai kompetensi SKKNI."
+        }
+      ]
+    }
+  ]
 }

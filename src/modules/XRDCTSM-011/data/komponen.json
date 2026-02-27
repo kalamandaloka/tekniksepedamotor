@@ -1,4 +1,101 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Bahan Bakar Injeksi (EFI)",
+  "items": [
+    {
+      "id": "fuel_tank",
+      "name": "Fuel Tank",
+      "description": "Fuel tank (tangki bahan bakar) merupakan komponen yang berfungsi sebagai tempat penyimpanan bahan bakar sebelum disalurkan ke sistem injeksi. Pada sepeda motor sistem EFI modern, tangki biasanya dirancang tertutup rapat untuk mencegah penguapan berlebih dan kontaminasi dari luar. Di dalam tangki sering terdapat modul fuel pump yang terintegrasi dengan fuel filter dan fuel level sensor. Desain tangki juga mempertimbangkan keamanan, ketahanan terhadap tekanan, serta posisi agar suplai bahan bakar tetap stabil meskipun kendaraan dalam kondisi miring atau bergetar.",
+      "function": "Menyimpan bahan bakar dan memastikan suplai bahan bakar tersedia secara stabil untuk dipompa menuju sistem injeksi. Fuel tank juga mendukung sistem dengan menjaga bahan bakar tetap bersih dan aman dari kontaminasi.",
+      "image": "/images/XRDCTSM-011/fuelTank.png",
+      "modelType": "box"
+    },
+    {
+      "id": "fuel_pump",
+      "name": "Fuel Pump",
+      "description": "Fuel pump adalah pompa bahan bakar elektrik yang bertugas mengalirkan bahan bakar dari tangki menuju fuel injector dengan tekanan tertentu sesuai spesifikasi pabrikan. Pada sistem EFI sepeda motor, fuel pump umumnya bertipe in-tank (terendam dalam tangki) untuk membantu pendinginan dan meredam suara. Pompa ini bekerja saat kunci kontak dalam posisi ON dan dikontrol oleh ECU. Tekanan bahan bakar yang dihasilkan harus stabil agar proses penyemprotan oleh injector berlangsung presisi. Jika tekanan tidak sesuai, mesin dapat mengalami gejala seperti sulit hidup, tenaga menurun, atau brebet.",
+      "function": "Memompa dan menyalurkan bahan bakar dari tangki ke sistem injeksi dengan tekanan yang stabil sehingga injektor dapat menyemprotkan bahan bakar sesuai kebutuhan mesin.",
+      "image": "/images/XRDCTSM-011/fuelPump.png",
+      "modelType": "box"
+    },
+    {
+      "id": "fuel_filter",
+      "name": "Fuel Filter",
+      "description": "Fuel filter (saringan bahan bakar) adalah komponen yang berfungsi menyaring kotoran, karat, dan partikel asing dari bahan bakar sebelum mencapai injector. Pada sistem EFI, fuel filter memiliki tingkat penyaringan yang lebih halus dibandingkan sistem karburator karena injector memiliki lubang nozzle yang sangat kecil dan sensitif terhadap kotoran. Fuel filter biasanya terletak dalam modul pompa di dalam tangki atau pada jalur bahan bakar. Jika filter tersumbat, tekanan bahan bakar akan menurun dan dapat menyebabkan gangguan performa mesin.",
+      "function": "Menyaring kotoran dari bahan bakar untuk melindungi fuel pump dan injector serta menjaga kualitas penyemprotan bahan bakar agar pembakaran tetap optimal.",
+      "image": "/images/XRDCTSM-011/fuelFilter.png",
+      "modelType": "box"
+    },
+    {
+      "id": "fuel_injector",
+      "name": "Fuel Injector",
+      "description": "Fuel injector adalah komponen utama dalam sistem EFI yang berfungsi menyemprotkan bahan bakar ke intake manifold atau langsung ke ruang bakar dalam bentuk kabut halus (atomisasi). Injector dikendalikan secara elektronik oleh ECU melalui sinyal listrik yang mengatur waktu buka-tutup katup solenoid di dalamnya. Durasi pembukaan injector disebut pulse width, yang menentukan banyaknya bahan bakar yang disemprotkan. Desain nozzle injector dibuat sangat presisi agar pola semprotan merata sehingga proses pencampuran dengan udara berlangsung optimal. Injector sangat sensitif terhadap kotoran dan endapan karbon, sehingga kebersihan bahan bakar dan perawatan berkala sangat penting untuk menjaga kinerjanya.",
+      "function": "Menyemprotkan bahan bakar sesuai perintah ECU dengan jumlah dan waktu yang tepat agar tercapai campuran udara dan bahan bakar yang ideal untuk pembakaran yang efisien dan bertenaga.",
+      "image": "/images/XRDCTSM-011/fuelInjector.png",
+      "modelType": "box"
+    },
+    {
+      "id": "fuel_pressure_regulator",
+      "name": "Fuel Pressure Regulator",
+      "description": "Fuel pressure regulator adalah komponen yang berfungsi menjaga tekanan bahan bakar dalam sistem tetap stabil sesuai spesifikasi pabrikan. Regulator bekerja dengan cara mengatur aliran bahan bakar berlebih agar tekanan pada jalur injeksi tidak terlalu tinggi atau terlalu rendah. Pada beberapa sepeda motor EFI modern, regulator tekanan sudah terintegrasi dalam modul fuel pump di dalam tangki. Tekanan bahan bakar yang stabil sangat penting karena jumlah bahan bakar yang disemprotkan injector sangat dipengaruhi oleh tekanan sistem. Jika tekanan terlalu rendah, campuran menjadi miskin (lean), sedangkan jika terlalu tinggi, campuran menjadi terlalu kaya (rich).",
+      "function": "Mengatur dan menstabilkan tekanan bahan bakar dalam sistem EFI agar injektor dapat bekerja secara presisi dan pembakaran tetap optimal pada berbagai kondisi kerja mesin.",
+      "image": "/images/XRDCTSM-011/fuelPressureRegulator.png",
+      "modelType": "box"
+    },
+    {
+      "id": "ecu_ecm",
+      "name": "ECU / ECM (Electronic Control Unit / Engine Control Module)",
+      "description": "ECU atau ECM adalah pusat pengendali seluruh sistem Electronic Fuel Injection (EFI). Komponen ini berupa modul elektronik yang berisi rangkaian mikroprosesor dan memori yang telah diprogram dengan peta injeksi (fuel map) dari pabrikan. ECU menerima sinyal dari berbagai sensor seperti TPS, MAP, IAT, ECT, O2 sensor, dan CKP, kemudian mengolah data tersebut untuk menentukan jumlah serta waktu penyemprotan bahan bakar. Selain mengontrol injeksi, ECU juga dapat mengatur sistem pengapian, idle speed control, dan menyimpan kode kerusakan (Diagnostic Trouble Code/DTC) ketika terjadi gangguan pada sistem.",
+      "function": "Mengolah data dari sensor dan mengontrol kerja injector serta sistem pendukung lainnya agar mesin bekerja secara efisien, stabil, dan sesuai standar performa serta emisi.",
+      "image": "/images/XRDCTSM-011/ecu.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sensor_tps",
+      "name": "Sensor TPS (Throttle Position Sensor)",
+      "description": "Throttle Position Sensor (TPS) adalah sensor yang terpasang pada throttle body dan berfungsi mendeteksi sudut bukaan throttle valve. Sensor ini mengubah pergerakan mekanis throttle menjadi sinyal tegangan yang dikirim ke ECU. Tegangan yang dihasilkan akan meningkat seiring bertambahnya bukaan throttle. Informasi ini sangat penting untuk menentukan kondisi akselerasi, deselerasi, serta beban mesin. TPS yang tidak akurat dapat menyebabkan gejala seperti mesin brebet, akselerasi tersendat, atau konsumsi bahan bakar tidak normal.",
+      "function": "Memberikan informasi kepada ECU mengenai posisi bukaan throttle sehingga ECU dapat menyesuaikan jumlah bahan bakar yang disemprotkan sesuai permintaan tenaga dari pengendara.",
+      "image": "/images/XRDCTSM-011/tps.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sensor_map",
+      "name": "Sensor MAP (Manifold Absolute Pressure)",
+      "description": "Manifold Absolute Pressure (MAP) sensor berfungsi mengukur tekanan udara di dalam intake manifold. Sensor ini membantu ECU menentukan jumlah udara yang masuk ke mesin sehingga dapat menghitung kebutuhan bahan bakar yang tepat. MAP sensor bekerja dengan mendeteksi perubahan tekanan akibat bukaan throttle dan beban mesin. Data tekanan ini sangat penting dalam proses perhitungan beban mesin (engine load) dan penentuan durasi penyemprotan injector. Kerusakan pada MAP sensor dapat menyebabkan mesin sulit hidup, idle tidak stabil, atau konsumsi bahan bakar boros.",
+      "function": "Mengirimkan data tekanan udara intake ke ECU sebagai dasar perhitungan beban mesin dan penentuan jumlah bahan bakar yang akan disemprotkan.",
+      "image": "/images/XRDCTSM-011/map.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sensor_iat",
+      "name": "Sensor IAT (Intake Air Temperature)",
+      "description": "Intake Air Temperature (IAT) sensor adalah sensor yang berfungsi mendeteksi suhu udara yang masuk ke dalam intake manifold. Sensor ini biasanya menggunakan tipe thermistor yang nilai hambatannya berubah sesuai suhu. Informasi suhu udara sangat penting karena kerapatan udara dipengaruhi oleh temperatur. Udara dingin lebih padat dibandingkan udara panas, sehingga mengandung lebih banyak oksigen. ECU menggunakan data dari sensor IAT untuk menyesuaikan jumlah bahan bakar agar campuran tetap ideal dalam berbagai kondisi lingkungan.",
+      "function": "Memberikan informasi suhu udara masuk kepada ECU sehingga jumlah bahan bakar yang disemprotkan dapat disesuaikan dengan kerapatan udara untuk menjaga rasio campuran tetap optimal.",
+      "image": "/images/XRDCTSM-011/iat.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sensor_ect",
+      "name": "Sensor ECT (Engine Coolant Temperature)",
+      "description": "Engine Coolant Temperature (ECT) sensor berfungsi mendeteksi suhu mesin melalui cairan pendingin atau suhu blok mesin. Sensor ini juga umumnya bertipe thermistor yang mengubah nilai hambatan sesuai perubahan suhu. Saat mesin dalam kondisi dingin, ECU akan memperkaya campuran bahan bakar untuk membantu proses starting dan pemanasan. Setelah suhu kerja tercapai, ECU akan menyesuaikan campuran menjadi lebih ideal untuk efisiensi dan pengendalian emisi.",
+      "function": "Mengirimkan data suhu mesin ke ECU sebagai dasar penyesuaian campuran bahan bakar, terutama saat starting dingin dan proses pemanasan mesin.",
+      "image": "/images/XRDCTSM-011/ect.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sensor_o2",
+      "name": "Sensor O2 (Oxygen Sensor)",
+      "description": "Oxygen sensor (O2 sensor) dipasang pada saluran gas buang dan berfungsi mendeteksi kadar oksigen sisa hasil pembakaran. Sensor ini berperan dalam sistem closed loop dengan memberikan umpan balik kepada ECU mengenai kondisi campuran udara dan bahan bakar. Jika kandungan oksigen tinggi (campuran miskin), ECU akan menambah bahan bakar. Sebaliknya, jika kandungan oksigen rendah (campuran kaya), ECU akan mengurangi suplai bahan bakar. Sensor ini sangat penting dalam menjaga Air Fuel Ratio (AFR) mendekati rasio ideal serta mengontrol emisi gas buang.",
+      "function": "Memberikan umpan balik kepada ECU untuk melakukan koreksi campuran udara dan bahan bakar agar pembakaran tetap efisien dan emisi gas buang sesuai standar.",
+      "image": "/images/XRDCTSM-011/o2.png",
+      "modelType": "box"
+    },
+    {
+      "id": "sensor_ckp",
+      "name": "Sensor CKP (Crankshaft Position Sensor)",
+      "description": "Crankshaft Position Sensor (CKP) adalah sensor yang mendeteksi posisi dan kecepatan putaran poros engkol (crankshaft). Sensor ini membaca sinyal dari tonjolan atau reluctor pada poros engkol dan mengirimkan sinyal berupa pulsa listrik ke ECU. Informasi ini digunakan untuk menentukan waktu penyemprotan bahan bakar dan waktu pengapian yang tepat. Tanpa sinyal CKP, ECU tidak dapat mengetahui posisi piston sehingga mesin tidak dapat hidup.",
+      "function": "Memberikan informasi posisi dan kecepatan putaran poros engkol kepada ECU untuk mengatur waktu injeksi dan pengapian secara presisi.",
+      "image": "/images/XRDCTSM-011/ckp.png",
+      "modelType": "box"
+    }
+  ]
 }

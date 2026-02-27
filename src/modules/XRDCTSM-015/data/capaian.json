@@ -1,7 +1,31 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Starter",
+  "description": "Modul ini membahas konsep, prinsip kerja, komponen, rangkaian kelistrikan, serta prosedur pemeriksaan dan perbaikan sistem starter pada sepeda motor sesuai dengan standar Kurikulum Merdeka (CP & ATP) dan SKKNI Teknik Sepeda Motor. Peserta didik akan mempelajari sistem starter elektrik dan mekanik serta melakukan praktik diagnosis gangguan secara prosedural dan sesuai K3.",
+  "image": "/images/XRDCTSM-015/sistem-starter.png",
+  "skkni": [
+    "Menerapkan prosedur Keselamatan dan Kesehatan Kerja (K3) di bengkel otomotif",
+    "Memelihara dan memperbaiki sistem kelistrikan sepeda motor",
+    "Memeriksa dan memperbaiki sistem starter sepeda motor",
+    "Menggunakan alat ukur kelistrikan (multimeter) sesuai prosedur",
+    "Membaca dan memahami wiring diagram sistem starter"
+  ],
+  "kurikulum": [
+    "Capaian Pembelajaran (CP): Peserta didik mampu memahami, menerapkan, dan menganalisis sistem kelistrikan sepeda motor, termasuk sistem starter, serta melakukan perawatan dan perbaikan sesuai prosedur kerja dan standar K3.",
+    "Elemen CP: Pemahaman sistem kelistrikan body dan engine, diagnosis gangguan, penggunaan alat ukur, serta penerapan prosedur kerja bengkel.",
+    "Alur Tujuan Pembelajaran (ATP):",
+    "1. Menjelaskan fungsi dan prinsip kerja sistem starter pada sepeda motor.",
+    "2. Mengidentifikasi komponen sistem starter (aki, relay starter, motor starter, saklar starter, sekring, kabel).",
+    "3. Membaca dan menganalisis wiring diagram sistem starter.",
+    "4. Menggunakan multimeter untuk mengukur tegangan dan hambatan pada rangkaian starter.",
+    "5. Melakukan pemeriksaan dan diagnosis gangguan sistem starter.",
+    "6. Melakukan perbaikan atau penggantian komponen sistem starter sesuai SOP."
+  ],
+  "tujuan": [
+    "Peserta didik dapat menjelaskan fungsi dan prinsip kerja sistem starter dengan benar.",
+    "Peserta didik dapat menyebutkan dan mengidentifikasi komponen sistem starter.",
+    "Peserta didik mampu membaca wiring diagram sistem starter dengan tepat.",
+    "Peserta didik mampu menggunakan multimeter untuk pengujian sistem starter.",
+    "Peserta didik mampu mendiagnosis kerusakan sistem starter berdasarkan gejala.",
+    "Peserta didik mampu melakukan perawatan dan perbaikan sistem starter sesuai standar K3 dan prosedur bengkel."
+  ]
 }
