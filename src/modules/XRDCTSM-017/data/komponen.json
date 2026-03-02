@@ -1,4 +1,85 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Pengisian (Charging)",
+  "items": [
+    {
+      "id": "alternator_spul",
+      "name": "Alternator / Spul",
+      "description": "Alternator atau spul merupakan komponen pembangkit energi listrik pada sepeda motor yang bekerja berdasarkan prinsip induksi elektromagnetik. Rotor (magnet permanen) berputar mengikuti poros engkol dan menghasilkan perubahan medan magnet pada stator (kumparan), sehingga menghasilkan arus listrik bolak-balik (AC). Tegangan yang dihasilkan dipengaruhi oleh putaran mesin (RPM). Semakin tinggi RPM, semakin besar tegangan yang dihasilkan. Kerusakan dapat berupa kumparan putus, short antar lilitan, atau magnet melemah.",
+      "function": "1. Menghasilkan arus listrik AC sebagai sumber utama sistem pengisian.\n2. Menyuplai energi ke regulator/rectifier.\n3. Mendukung kebutuhan listrik saat mesin hidup.\n4. Menjadi sumber energi sebelum disimpan dalam aki.",
+      "image": "/images/XRDCTSM-016/spul.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "regulator_rectifier",
+      "name": "Regulator / Rectifier (kiprok)",
+      "description": "Regulator/rectifier berfungsi menyearahkan arus AC dari spul menjadi arus DC serta menstabilkan tegangan pengisian pada kisaran ±13,5–14,5 volt untuk sistem 12 volt. Komponen ini mencegah overcharging dan undercharging yang dapat merusak aki maupun komponen elektronik lainnya.",
+      "function": "1. Mengubah arus AC menjadi DC.\n2. Menstabilkan tegangan pengisian.\n3. Mencegah overcharge dan undercharge.\n4. Melindungi komponen kelistrikan.",
+      "image": "/images/XRDCTSM-016/regulator.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "battery_aki",
+      "name": "Aki (battery)",
+      "description": "Aki merupakan penyimpan energi listrik dalam bentuk arus DC. Energi hasil pengisian disimpan melalui reaksi kimia dan digunakan saat mesin mati atau saat kebutuhan listrik meningkat. Aki juga berfungsi menstabilkan tegangan sistem kelistrikan.",
+      "function": "1. Menyimpan energi listrik.\n2. Menyuplai arus saat mesin mati.\n3. Mendukung sistem starter.\n4. Menstabilkan tegangan sistem.",
+      "image": "/images/XRDCTSM-016/aki.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "fuse_sekring",
+      "name": "Sekring (fuse)",
+      "description": "Sekring adalah komponen pengaman yang memutus arus ketika terjadi arus berlebih atau korsleting. Sekring melindungi regulator, aki, dan rangkaian utama sistem pengisian dari kerusakan.",
+      "function": "1. Melindungi rangkaian dari arus berlebih.\n2. Mencegah kerusakan komponen.\n3. Memutus arus saat terjadi korsleting.",
+      "image": "/images/XRDCTSM-016/sekring.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "wiring_harness",
+      "name": "Kabel dan konektor",
+      "description": "Kabel dan konektor menghubungkan seluruh komponen sistem pengisian. Kabel menghantarkan arus listrik dari spul ke regulator dan ke aki. Kondisi kabel dan konektor yang baik sangat penting untuk menjaga efisiensi pengisian.",
+      "function": "1. Menghantarkan arus listrik antar komponen.\n2. Menjaga kestabilan distribusi tegangan.\n3. Menghubungkan sistem pengisian secara aman.",
+      "image": "/images/XRDCTSM-016/kabel.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "lampu_sein",
+      "name": "Lampu Sein (Turn Signal)",
+      "description": "Lampu sein merupakan komponen sistem sinyal yang berfungsi memberikan tanda arah saat sepeda motor akan berbelok ke kiri atau ke kanan. Lampu ini bekerja dengan sistem kedipan yang diatur oleh flasher relay sehingga mudah terlihat oleh pengguna jalan lain.\n\nLampu sein biasanya terpasang di bagian depan dan belakang kendaraan. Sistemnya menggunakan arus DC dari aki dan dirangkai secara paralel antara sisi kiri dan kanan. Kerusakan dapat berupa bohlam putus, LED rusak, massa kurang baik, atau kabel terputus.",
+      "function": "1. Memberikan isyarat arah belok.\n2. Meningkatkan keselamatan berkendara.\n3. Memberikan komunikasi visual kepada pengguna jalan lain.\n4. Bekerja bersama flasher untuk menghasilkan kedipan stabil.",
+      "image": "/images/XRDCTSM-017/lampu-sein.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "flasher_relay",
+      "name": "Flasher Relay",
+      "description": "Flasher relay adalah komponen elektronik yang berfungsi mengatur arus listrik sehingga lampu sein dapat berkedip secara periodik. Flasher bekerja dengan cara memutus dan menghubungkan arus dalam interval waktu tertentu.\n\nTerdapat flasher tipe mekanis dan tipe elektronik. Flasher elektronik lebih stabil terhadap perubahan beban, terutama pada penggunaan lampu LED. Kerusakan flasher biasanya ditandai dengan lampu sein menyala terus atau tidak berkedip.",
+      "function": "1. Mengatur interval kedipan lampu sein.\n2. Menstabilkan kerja sistem sein.\n3. Mengontrol arus menuju lampu sein.\n4. Menyesuaikan kedipan sesuai beban rangkaian.",
+      "image": "/images/XRDCTSM-017/flasher.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "klakson",
+      "name": "Klakson",
+      "description": "Klakson merupakan komponen sistem sinyal berbentuk perangkat elektromagnetik yang mengubah energi listrik menjadi energi suara. Saat tombol klakson ditekan, arus listrik mengalir ke unit klakson dan menggerakkan diafragma sehingga menghasilkan bunyi.\n\nKlakson bekerja menggunakan arus DC dari aki dan dilengkapi dengan saklar pada handlebar. Gangguan dapat disebabkan oleh tegangan aki lemah, saklar rusak, kabel putus, atau unit klakson aus.",
+      "function": "1. Memberikan peringatan suara kepada pengguna jalan lain.\n2. Meningkatkan keselamatan dalam kondisi darurat.\n3. Mendukung sistem komunikasi non-verbal saat berkendara.\n4. Bekerja melalui saklar dan jalur massa yang baik.",
+      "image": "/images/XRDCTSM-017/klakson.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "saklar_kombinasi",
+      "name": "Saklar Kombinasi",
+      "description": "Saklar kombinasi adalah unit saklar yang terletak pada handlebar dan mengintegrasikan beberapa fungsi seperti saklar sein, saklar lampu, dan tombol klakson dalam satu modul. Saklar ini mengontrol distribusi arus listrik menuju sistem sinyal dan penerangan.\n\nKontak di dalam saklar dapat mengalami keausan atau kotor akibat debu dan kelembapan sehingga menyebabkan gangguan fungsi. Pemeriksaan dilakukan dengan uji kontinuitas menggunakan multimeter.",
+      "function": "1. Mengontrol kerja lampu sein.\n2. Mengaktifkan klakson.\n3. Mengatur fungsi lampu tertentu.\n4. Menghubungkan dan memutus arus sesuai kebutuhan pengendara.",
+      "image": "/images/XRDCTSM-017/saklar-kombinasi.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "indikator_sein_panel",
+      "name": "Indikator Sein pada Panel",
+      "description": "Indikator sein pada panel merupakan lampu kecil yang terletak di speedometer atau panel instrumen. Indikator ini menyala berkedip bersamaan dengan lampu sein sebagai tanda bahwa sistem sein sedang aktif.\n\nIndikator bekerja secara paralel dengan lampu sein utama. Jika indikator tidak menyala tetapi lampu sein aktif, kemungkinan terjadi kerusakan pada bohlam indikator atau jalur kabel menuju panel.",
+      "function": "1. Memberikan informasi visual kepada pengendara bahwa sein aktif.\n2. Membantu pengendara menghindari lupa mematikan sein.\n3. Mendukung keselamatan dan komunikasi berkendara.",
+      "image": "/images/XRDCTSM-017/indikator-sein.jpg",
+      "modelType": "box"
+    }
+  ]
 }

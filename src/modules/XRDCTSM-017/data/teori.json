@@ -1,5 +1,170 @@
 {
-  "title": "Teori Modul",
-  "content": "",
-  "pages": []
+  "title": "Sistem Penerangan & Sinyal",
+  "content": "Materi ini membahas dasar-dasar sistem penerangan dan sinyal pada sepeda motor yang meliputi pengertian, prinsip kerja, serta fungsi utamanya dalam menunjang keselamatan dan kenyamanan berkendara sesuai standar industri dan SKKNI Teknik dan Bisnis Sepeda Motor.",
+  "pages": [
+    {
+      "title": "Dasar-dasar sistem penerangan & sinyal",
+      "contentL1": "Sistem penerangan dan sinyal merupakan bagian penting dari sistem kelistrikan sepeda motor yang berfungsi untuk menunjang keselamatan, komunikasi antar pengguna jalan, serta kenyamanan berkendara terutama pada kondisi malam hari atau cuaca buruk.",
+      "subSections": [
+        {
+          "title2": "Pengertian sistem penerangan",
+          "content2": "Sistem penerangan adalah sistem kelistrikan pada sepeda motor yang berfungsi menghasilkan cahaya untuk menerangi jalan dan memberikan visibilitas bagi pengendara maupun pengguna jalan lainnya. Sistem ini bekerja dengan memanfaatkan sumber listrik dari aki atau spul/alternator yang dialirkan melalui rangkaian kabel, sekring, dan saklar menuju lampu.\n\nKomponen utama sistem penerangan meliputi:\n- Lampu utama (headlamp)\n- Lampu belakang (tail lamp)\n- Lampu rem (brake lamp)\n- Lampu panel (instrument light)\n\nSistem penerangan umumnya menggunakan rangkaian paralel agar apabila satu lampu mati, lampu lainnya tetap berfungsi. Sistem ini harus memenuhi standar keselamatan berkendara dan peraturan lalu lintas."
+        },
+        {
+          "title2": "Pengertian sistem sinyal",
+          "content2": "Sistem sinyal adalah sistem kelistrikan yang berfungsi sebagai alat komunikasi visual maupun audio antara pengendara dengan pengguna jalan lainnya. Sistem ini memberikan tanda atau isyarat saat pengendara akan berbelok, berhenti, atau memberikan peringatan.\n\nKomponen utama sistem sinyal meliputi:\n- Lampu sein (turn signal)\n- Flasher relay\n- Klakson\n- Saklar kombinasi\n- Indikator sein pada panel\n\nSistem sinyal bekerja dengan prinsip pengaliran arus listrik yang dikontrol oleh saklar dan relay. Pada lampu sein, flasher berfungsi memutus dan menghubungkan arus secara berkala sehingga lampu berkedip."
+        },
+        {
+          "title2": "Fungsi sistem penerangan dan sinyal",
+          "content2": "Sistem penerangan dan sinyal memiliki fungsi utama sebagai berikut:\n\n- Meningkatkan keselamatan berkendara.\n- Memberikan penerangan jalan pada malam hari atau kondisi minim cahaya.\n- Memberikan tanda saat pengereman.\n- Memberikan isyarat arah belok melalui lampu sein.\n- Memberikan peringatan suara melalui klakson.\n- Membantu pengendara lain memahami kondisi dan tindakan pengemudi.\n\nApabila sistem penerangan dan sinyal tidak berfungsi dengan baik, risiko kecelakaan dapat meningkat. Oleh karena itu, pemeriksaan dan perawatan sistem ini harus dilakukan secara berkala sesuai prosedur standar bengkel dan prinsip K3."
+        },
+        {
+          "title2": "Prinsip dasar kelistrikan (tegangan, arus, hambatan)",
+          "content2": "Dalam sistem kelistrikan sepeda motor terdapat tiga besaran utama yaitu tegangan, arus, dan hambatan.\n\nTegangan (volt) adalah tekanan listrik yang mendorong arus mengalir dalam suatu rangkaian. Pada sepeda motor umumnya menggunakan sistem 12 volt.\n\nArus (ampere) adalah aliran elektron yang mengalir melalui kabel dan komponen listrik ketika rangkaian tertutup.\n\nHambatan (ohm) adalah tahanan yang menghambat aliran arus listrik dalam suatu rangkaian. Semakin besar hambatan, semakin kecil arus yang mengalir.\n\nHubungan ketiganya dijelaskan dalam hukum ohm, yaitu V = I × R, di mana tegangan sama dengan arus dikalikan hambatan.\n\nPemahaman hukum ohm sangat penting dalam proses diagnosis gangguan kelistrikan menggunakan multimeter."
+        },
+        {
+          "title2": "Rangkaian seri dan paralel pada sistem lampu",
+          "content2": "Rangkaian seri adalah rangkaian yang disusun berurutan dalam satu jalur arus. Jika salah satu komponen terputus, seluruh rangkaian akan mati. Rangkaian ini jarang digunakan pada sistem lampu utama sepeda motor.\n\nRangkaian paralel adalah rangkaian yang memiliki lebih dari satu jalur arus. Setiap beban mendapatkan tegangan yang sama. Jika satu lampu mati, lampu lainnya tetap menyala.\n\nSistem penerangan sepeda motor umumnya menggunakan rangkaian paralel agar lebih aman dan andal dalam penggunaan di jalan."
+        },
+        {
+          "title2": "Standar keselamatan kerja (k3) pada sistem kelistrikan",
+          "content2": "Keselamatan dan kesehatan kerja harus diterapkan dalam setiap pekerjaan sistem kelistrikan sepeda motor untuk mencegah risiko korsleting, percikan api, atau cedera.\n\nLangkah-langkah keselamatan kerja meliputi:\n- Menggunakan alat pelindung diri seperti sarung tangan dan kacamata kerja.\n- Memastikan kunci kontak dalam posisi off sebelum bekerja.\n- Melepas terminal negatif aki sebelum melakukan pembongkaran.\n- Menggunakan alat ukur sesuai prosedur.\n- Tidak menyentuh kabel terbuka yang masih bertegangan.\n\nPenerapan k3 merupakan bagian dari standar kompetensi kerja industri dan menjadi salah satu aspek penting dalam penilaian praktik sesuai skkni teknik dan bisnis sepeda motor."
+        }
+      ]
+    },
+    {
+      "title": "Komponen sistem penerangan",
+      "contentL1": "Sistem penerangan pada sepeda motor terdiri dari beberapa komponen utama yang saling terhubung dalam rangkaian kelistrikan. Setiap komponen memiliki fungsi spesifik untuk mendukung visibilitas dan keselamatan pengendara.",
+      "subSections": [
+        {
+          "title2": "Headlamp (lampu utama)",
+          "content2": "![Headlamp (lampu utama)](images/XRDCTSM-017/headLamp.png)Headlamp atau lampu utama berfungsi untuk menerangi jalan di depan kendaraan, terutama saat berkendara pada malam hari atau kondisi minim cahaya.\n\nHeadlamp biasanya memiliki dua mode pencahayaan, yaitu lampu dekat dan lampu jauh. Lampu dekat digunakan untuk penerangan normal tanpa menyilaukan pengendara lain, sedangkan lampu jauh digunakan untuk jarak pandang yang lebih panjang.\n\nKomponen headlamp meliputi bohlam atau LED, reflektor, lensa, serta soket dan kabel penghubung. Kerusakan pada headlamp dapat disebabkan oleh bohlam putus, sekring putus, saklar rusak, atau gangguan pada sistem pengisian."
+        },
+        {
+          "title2": "Tail lamp (lampu belakang)",
+          "content2": "![Tail lamp (lampu belakang)](images/XRDCTSM-017/tailLamp.png)Tail lamp atau lampu belakang berfungsi sebagai penanda posisi kendaraan dari arah belakang. Lampu ini menyala bersamaan dengan lampu utama.\n\nTail lamp membantu pengendara lain mengetahui keberadaan kendaraan, terutama pada malam hari atau saat cuaca buruk. Sistem ini umumnya menggunakan rangkaian paralel sehingga tetap stabil saat digunakan bersamaan dengan lampu lainnya.\n\nKerusakan tail lamp biasanya disebabkan oleh bohlam putus, kabel terputus, atau soket yang kotor dan berkarat."
+        },
+        {
+          "title2": "Brake lamp (lampu rem)",
+          "content2": "![Brake lamp (lampu rem)](images/XRDCTSM-017/brakeLamp.png)Brake lamp atau lampu rem berfungsi memberikan tanda kepada pengendara di belakang saat kendaraan melakukan pengereman.\n\nLampu rem akan menyala lebih terang dibandingkan tail lamp ketika tuas atau pedal rem ditekan. Sistem ini bekerja melalui brake switch yang terhubung ke tuas rem depan maupun belakang.\n\nJika brake lamp tidak berfungsi, penyebabnya dapat berupa saklar rem rusak, kabel putus, bohlam mati, atau gangguan pada sistem kelistrikan. Pemeriksaan rutin sangat penting karena lampu rem berkaitan langsung dengan keselamatan berkendara."
+        },
+        {
+          "title2": "Lampu panel / speedometer",
+          "content2": "![Lampu panel / speedometer](images/XRDCTSM-017/lampuPanel.png)Lampu panel atau lampu speedometer berfungsi menerangi bagian panel instrumen agar informasi seperti kecepatan, indikator bahan bakar, dan lampu indikator dapat terlihat jelas terutama pada malam hari.\n\nLampu panel biasanya menyala bersamaan dengan lampu utama. Jenis lampu yang digunakan dapat berupa bohlam kecil atau LED. Jika lampu panel mati, penyebabnya bisa berasal dari bohlam putus, jalur kabel terputus, atau gangguan pada sekring."
+        },
+        {
+          "title2": "Sekring (fuse)",
+          "content2": "![Sekring (fuse)](images/XRDCTSM-017/sekring.png)Sekring atau fuse berfungsi sebagai pengaman rangkaian kelistrikan dari arus berlebih atau korsleting. Sekring akan putus secara otomatis jika terjadi lonjakan arus yang melebihi kapasitasnya.\n\nSetiap sekring memiliki nilai ampere tertentu sesuai kebutuhan rangkaian. Penggantian sekring harus menggunakan kapasitas yang sama untuk menghindari kerusakan komponen lain. Sekring yang sering putus menandakan adanya masalah pada sistem kelistrikan yang harus segera diperiksa."
+        },
+        {
+          "title2": "Saklar lampu",
+          "content2": "![Saklar lampu](images/XRDCTSM-017/saklarLampu.png)Saklar lampu berfungsi untuk menghubungkan dan memutus arus listrik menuju lampu utama maupun lampu lainnya. Saklar biasanya terletak pada handlebar sebelah kiri dan terintegrasi dengan saklar sein serta klakson.\n\nKerusakan saklar dapat menyebabkan lampu tidak menyala atau berkedip tidak normal. Perawatan saklar meliputi pembersihan kontak dan pemeriksaan kontinuitas menggunakan multimeter."
+        },
+        {
+          "title2": "Kabel dan konektor",
+          "content2": "![Kabel dan konektor](images/XRDCTSM-017/kabelKonektor.png)Kabel berfungsi sebagai penghantar arus listrik dari sumber listrik menuju komponen penerangan. Konektor digunakan untuk menghubungkan antar kabel atau komponen agar mudah dilepas dan dipasang.\n\nKabel harus memiliki isolasi yang baik untuk mencegah korsleting. Konektor yang kotor, longgar, atau berkarat dapat menyebabkan hambatan tinggi dan gangguan pada sistem penerangan. Pemeriksaan visual dan pengujian kontinuitas sangat penting untuk memastikan jalur arus bekerja dengan baik."
+        }
+      ]
+    },
+    {
+      "title": "Komponen sistem sinyal",
+      "contentL1": "Sistem sinyal pada sepeda motor digunakan untuk memberikan tanda atau peringatan kepada pengguna jalan lain. Komponen dalam sistem ini saling terhubung melalui rangkaian kelistrikan dan dikendalikan oleh saklar serta relay.",
+      "subSections": [
+        {
+          "title2": "Lampu sein (turn signal)",
+          "content2": "![Lampu sein (turn signal)](images/XRDCTSM-017/lampuSein.png)Lampu sein berfungsi sebagai penunjuk arah saat kendaraan akan berbelok ke kiri atau ke kanan. Lampu ini menyala secara berkedip untuk memberikan tanda yang jelas kepada pengendara lain.\n\nLampu sein biasanya terpasang di bagian depan dan belakang sepeda motor. Sistemnya bekerja melalui saklar sein dan flasher relay yang mengatur kedipan lampu.\n\nKerusakan lampu sein dapat disebabkan oleh bohlam putus, flasher rusak, kabel terputus, atau massa yang kurang baik."
+        },
+        {
+          "title2": "Flasher relay",
+          "content2": "![Flasher relay](images/XRDCTSM-017/flasherRelay.png)Flasher relay adalah komponen yang berfungsi mengatur arus listrik agar lampu sein dapat berkedip secara teratur. Flasher bekerja dengan cara memutus dan menghubungkan arus listrik dalam interval waktu tertentu.\n\nTerdapat dua jenis flasher yang umum digunakan yaitu flasher tipe mekanis dan flasher tipe elektronik. Jika lampu sein menyala terus tanpa berkedip atau tidak menyala sama sekali, kemungkinan terjadi kerusakan pada flasher relay."
+        },
+        {
+          "title2": "Klakson",
+          "content2": "![Klakson](images/XRDCTSM-017/klakson.png)Klakson berfungsi sebagai alat peringatan suara untuk memberi tanda kepada pengguna jalan lain. Klakson bekerja dengan mengubah energi listrik menjadi energi suara melalui getaran diafragma.\n\nKlakson diaktifkan melalui saklar yang terdapat pada handlebar. Gangguan pada klakson dapat disebabkan oleh kabel putus, saklar rusak, tegangan aki lemah, atau unit klakson yang sudah tidak berfungsi."
+        },
+        {
+          "title2": "Saklar kombinasi",
+          "content2": "![Saklar kombinasi](images/XRDCTSM-017/saklarKombinasi.png)Saklar kombinasi adalah saklar yang terletak pada handlebar dan menggabungkan beberapa fungsi seperti saklar sein, saklar lampu, dan tombol klakson.\n\nSaklar ini berperan penting dalam mengontrol sistem sinyal. Kontak saklar yang kotor atau aus dapat menyebabkan sistem sinyal tidak bekerja dengan normal. Pemeriksaan dilakukan dengan pengujian kontinuitas menggunakan multimeter."
+        },
+        {
+          "title2": "Indikator sein pada panel",
+          "content2": "![Indikator sein pada panel](images/XRDCTSM-017/indikatorSein.png)Indikator sein pada panel berfungsi sebagai penanda bahwa lampu sein sedang aktif. Lampu indikator ini terletak pada panel instrumen atau speedometer.\n\nIndikator bekerja secara paralel dengan lampu sein. Jika indikator tidak menyala tetapi lampu sein berfungsi, kemungkinan terjadi gangguan pada bohlam indikator atau jalur kabel menuju panel."
+        }
+      ]
+    },
+    {
+      "title": "Wiring diagram sistem penerangan & sinyal",
+      "contentL1": "Wiring diagram adalah gambar rangkaian kelistrikan yang menunjukkan hubungan antar komponen menggunakan simbol-simbol standar. Pemahaman wiring diagram sangat penting dalam pekerjaan servis dan troubleshooting sistem kelistrikan.",
+      "subSections": [
+        {
+          "title2": "Simbol-simbol kelistrikan",
+          "content2": "Dalam wiring diagram, setiap komponen digambarkan menggunakan simbol tertentu agar mudah dipahami secara teknis.\n\nBeberapa simbol yang umum digunakan antara lain:\n- Simbol aki atau baterai\n- Simbol lampu\n- Simbol saklar\n- Simbol sekring\n- Simbol massa (ground)\n- Simbol relay\n\nPemahaman simbol kelistrikan memudahkan teknisi dalam menelusuri jalur arus dan menemukan letak gangguan pada rangkaian."
+        },
+        {
+          "title2": "Cara membaca wiring diagram",
+          "content2": "Membaca wiring diagram dimulai dari sumber arus yaitu aki, kemudian mengikuti jalur kabel menuju sekring, saklar, dan komponen beban seperti lampu atau klakson.\n\nLangkah membaca wiring diagram meliputi:\n- Mengidentifikasi sumber tegangan.\n- Menentukan jalur arus menuju beban.\n- Memahami posisi saklar dalam kondisi on atau off.\n- Menelusuri jalur massa sebagai pengembalian arus.\n\nDengan membaca diagram secara sistematis, teknisi dapat mengetahui hubungan antar komponen dan cara kerja rangkaian."
+        },
+        {
+          "title2": "Analisis jalur arus sistem lampu",
+          "content2": "Pada sistem lampu, arus listrik mengalir dari aki menuju sekring, kemudian ke saklar lampu, dan diteruskan ke lampu utama atau lampu lainnya. Setelah melewati beban, arus kembali ke aki melalui jalur massa.\n\nJika lampu tidak menyala, analisis dilakukan dengan memeriksa apakah tegangan tersedia di setiap titik rangkaian menggunakan multimeter. Gangguan dapat terjadi pada sekring, saklar, kabel, atau massa."
+        },
+        {
+          "title2": "Analisis jalur arus sistem sein dan klakson",
+          "content2": "Pada sistem sein, arus mengalir dari aki menuju sekring, kemudian ke saklar sein, diteruskan ke flasher relay, lalu menuju lampu sein kiri atau kanan. Arus kembali melalui jalur massa.\n\nPada sistem klakson, arus mengalir dari aki ke sekring, menuju saklar klakson, kemudian ke unit klakson sebelum kembali ke massa.\n\nAnalisis jalur arus dilakukan dengan memeriksa kontinuitas kabel, kondisi relay, serta tegangan kerja pada masing-masing komponen untuk memastikan sistem bekerja normal."
+        }
+      ]
+    },
+    {
+      "title": "Pemeriksaan dan pengukuran",
+      "contentL1": "Pemeriksaan dan pengukuran dilakukan secara sistematis untuk mengetahui kondisi komponen dan memastikan sistem penerangan serta sinyal bekerja dengan baik. Proses ini harus dilakukan sesuai prosedur keselamatan kerja.",
+      "subSections": [
+        {
+          "title2": "Prosedur pemeriksaan visual",
+          "content2": "Pemeriksaan visual merupakan langkah awal sebelum menggunakan alat ukur. Pemeriksaan dilakukan dengan mengamati kondisi fisik komponen.\n\nLangkah pemeriksaan visual meliputi:\n- Memeriksa kondisi bohlam apakah putus atau menghitam.\n- Memeriksa kondisi kabel apakah terkelupas atau terputus.\n- Memeriksa konektor apakah longgar atau berkarat.\n- Memeriksa dudukan lampu dan saklar.\n\nPemeriksaan visual dapat membantu menemukan kerusakan sederhana tanpa perlu pembongkaran yang rumit."
+        },
+        {
+          "title2": "Pemeriksaan sekring",
+          "content2": "Sekring diperiksa untuk memastikan tidak terjadi pemutusan akibat arus berlebih.\n\nLangkah pemeriksaan sekring:\n- Matikan kunci kontak.\n- Lepaskan sekring dari dudukannya.\n- Periksa secara visual apakah kawat penghubung di dalamnya putus.\n- Gunakan multimeter pada posisi ohm untuk memastikan kontinuitas.\n\nJika sekring putus, gantilah dengan kapasitas ampere yang sama sesuai spesifikasi."
+        },
+        {
+          "title2": "Pengukuran tegangan dengan multimeter",
+          "content2": "Pengukuran tegangan dilakukan untuk mengetahui apakah arus listrik sampai ke komponen.\n\nLangkah pengukuran:\n- Atur multimeter pada skala volt DC.\n- Hubungkan probe merah ke jalur positif dan probe hitam ke massa.\n- Nyalakan kunci kontak.\n- Baca nilai tegangan pada layar multimeter.\n\nPada sepeda motor sistem 12 volt, tegangan normal berkisar sekitar 12 volt saat mesin mati dan dapat meningkat saat mesin hidup."
+        },
+        {
+          "title2": "Pemeriksaan kontinuitas kabel",
+          "content2": "Pemeriksaan kontinuitas bertujuan untuk memastikan kabel tidak terputus.\n\nLangkah pemeriksaan:\n- Matikan sumber listrik.\n- Atur multimeter pada skala ohm atau buzzer.\n- Hubungkan probe pada kedua ujung kabel.\n- Jika terdengar bunyi atau nilai hambatan mendekati nol, kabel dalam kondisi baik.\n\nJika tidak ada bunyi atau nilai hambatan sangat besar, kemungkinan kabel terputus."
+        },
+        {
+          "title2": "Pengujian flasher dan saklar",
+          "content2": "Flasher diuji dengan memastikan lampu sein berkedip secara normal. Jika lampu menyala terus atau tidak menyala, periksa tegangan masuk dan keluar flasher.\n\nSaklar diuji dengan pemeriksaan kontinuitas pada posisi on dan off. Pada posisi on harus terdapat hubungan arus, sedangkan pada posisi off tidak boleh ada hubungan.\n\nPengujian dilakukan menggunakan multimeter sesuai prosedur keselamatan kerja."
+        }
+      ]
+    },
+    {
+      "title": "Diagnosis dan perbaikan",
+      "contentL1": "Diagnosis dilakukan untuk menemukan penyebab kerusakan berdasarkan gejala yang muncul. Proses ini harus dilakukan secara bertahap dan sistematis agar perbaikan tepat sasaran dan tidak menimbulkan kerusakan tambahan.",
+      "subSections": [
+        {
+          "title2": "Gejala dan penyebab kerusakan",
+          "content2": "Setiap gangguan pada sistem penerangan dan sinyal memiliki gejala tertentu.\n\nContoh gejala dan kemungkinan penyebabnya:\n- Lampu tidak menyala: bohlam putus, sekring putus, saklar rusak, kabel terputus.\n- Lampu redup: tegangan aki lemah, massa kurang baik, konektor kotor.\n- Lampu sein tidak berkedip: flasher rusak, salah satu bohlam putus.\n- Klakson tidak berbunyi: saklar rusak, kabel terputus, unit klakson rusak.\n\nIdentifikasi gejala dengan tepat akan mempercepat proses diagnosis."
+        },
+        {
+          "title2": "Langkah troubleshooting sistem lampu mati",
+          "content2": "Langkah pemeriksaan dilakukan secara berurutan sebagai berikut:\n- Periksa kondisi bohlam.\n- Periksa sekring.\n- Ukur tegangan pada soket lampu.\n- Periksa saklar lampu.\n- Periksa kontinuitas kabel dan massa.\n\nJika tegangan tidak sampai ke lampu, telusuri jalur arus berdasarkan wiring diagram hingga ditemukan titik gangguan."
+        },
+        {
+          "title2": "Troubleshooting lampu sein tidak berkedip",
+          "content2": "Jika lampu sein menyala tetapi tidak berkedip, kemungkinan flasher relay rusak.\n\nLangkah pemeriksaan:\n- Periksa kondisi bohlam sein.\n- Periksa tegangan masuk ke flasher.\n- Periksa tegangan keluar dari flasher.\n- Ganti flasher jika tidak bekerja normal.\n\nJika lampu sein tidak menyala sama sekali, periksa saklar sein dan jalur kabel."
+        },
+        {
+          "title2": "Troubleshooting klakson tidak berbunyi",
+          "content2": "Jika klakson tidak berbunyi, lakukan pemeriksaan sebagai berikut:\n- Periksa kondisi aki dan tegangan.\n- Periksa sekring.\n- Periksa saklar klakson.\n- Periksa kontinuitas kabel menuju klakson.\n- Uji langsung unit klakson dengan sumber tegangan.\n\nJika klakson tetap tidak berbunyi saat diuji langsung, unit klakson perlu diganti."
+        },
+        {
+          "title2": "Perbaikan dan penggantian komponen",
+          "content2": "Perbaikan dilakukan setelah penyebab kerusakan ditemukan. Komponen yang rusak harus diganti sesuai spesifikasi pabrikan.\n\nPrinsip perbaikan meliputi:\n- Menggunakan suku cadang dengan spesifikasi yang sesuai.\n- Memastikan koneksi kabel terpasang dengan kuat.\n- Mengganti sekring dengan kapasitas ampere yang sama.\n- Menguji kembali sistem setelah perbaikan dilakukan.\n\nSetelah proses perbaikan selesai, lakukan pemeriksaan akhir untuk memastikan sistem penerangan dan sinyal bekerja normal."
+        }
+      ]
+    }
+  ]
 }

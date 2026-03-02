@@ -1,5 +1,120 @@
 {
-  "title": "Teori Modul",
-  "content": "",
-  "pages": []
+  "title": "Sistem Pengisian (Charging)",
+  "content": "Sistem pengisian (charging system) pada sepeda motor merupakan bagian dari sistem kelistrikan yang berfungsi untuk menghasilkan dan mengatur suplai energi listrik guna mengisi ulang aki serta menyuplai kebutuhan listrik kendaraan selama mesin hidup. Sistem ini bekerja dengan memanfaatkan putaran mesin untuk menghasilkan arus listrik melalui alternator (spul), kemudian arus tersebut disearahkan dan distabilkan oleh regulator/rectifier sebelum disimpan ke dalam aki.",
+  "pages": [
+    {
+      "title": "Dasar Sistem Pengisian",
+      "contentL1": "Pada sepeda motor modern, sistem pengisian memiliki peran vital dalam menjaga kestabilan kelistrikan kendaraan. Tanpa sistem pengisian yang baik, aki akan cepat habis dan komponen seperti sistem starter, lampu, klakson, sistem injeksi (EFI), dan panel instrumen tidak dapat bekerja secara optimal.\n\nSecara umum, sistem pengisian terdiri dari beberapa komponen utama yaitu:\n1. Alternator/Spul → Menghasilkan arus listrik AC dari putaran mesin.\n2. Regulator/Rectifier (Kiprok) → Menyearahkan arus AC menjadi DC dan mengatur tegangan agar stabil.\n3. Aki (Battery) → Menyimpan energi listrik dan menyuplai arus saat dibutuhkan.\n4. Kabel dan Sekring → Menyalurkan dan melindungi rangkaian listrik.\n\nPrinsip kerjanya adalah energi mekanik dari putaran mesin diubah menjadi energi listrik melalui proses induksi elektromagnetik. Arus yang dihasilkan kemudian diatur agar sesuai dengan kebutuhan sistem kelistrikan sepeda motor.",
+      "subSections": [
+        {
+          "title2": "Pengertian dan Fungsi Sistem Pengisian",
+          "content2": "Pengertian Sistem Pengisian:\nSistem pengisian adalah rangkaian kelistrikan pada sepeda motor yang berfungsi untuk menghasilkan, mengatur, dan menyimpan energi listrik guna menjaga kestabilan tegangan aki dan mendukung seluruh sistem kelistrikan kendaraan.\n\nFungsi Sistem Pengisian:\n1. Mengisi ulang aki saat mesin hidup.\n2. Menyediakan suplai listrik untuk sistem pengapian dan sistem starter.\n3. Menyuplai energi listrik untuk lampu penerangan, klakson, dan panel instrumen.\n4. Menjaga kestabilan tegangan agar tidak terjadi overcharge (tegangan berlebih) atau undercharge (tegangan kurang).\n5. Mendukung sistem injeksi elektronik (EFI) pada sepeda motor modern.\n\nStandar Tegangan Normal:\n- Tegangan aki saat mesin mati: ±12,4 – 12,8 Volt.\n- Tegangan pengisian saat mesin hidup: ±13,5 – 14,5 Volt.\n\nApabila tegangan pengisian melebihi standar, dapat menyebabkan aki cepat rusak (overcharge). Sebaliknya, jika tegangan kurang dari standar, aki tidak terisi optimal (undercharge) sehingga sepeda motor sulit distarter dan sistem kelistrikan menjadi lemah."
+        },
+        {
+          "title2": "Prinsip Kerja Sistem Pengisian",
+          "content2": "Secara sistematis, prinsip kerja sistem pengisian adalah sebagai berikut:\n\n1. Mesin Hidup dan Rotor Berputar\n   Putaran mesin memutar rotor (magnet permanen) yang berada di dalam alternator.\n\n2. Terjadi Induksi Elektromagnetik\n   Perubahan medan magnet pada stator menghasilkan arus listrik AC (Alternating Current).\n\n3. Penyearahan Arus (Rectifier)\n   Arus AC dari stator masuk ke regulator/rectifier (kiprok) untuk diubah menjadi arus DC (Direct Current).\n\n4. Pengaturan Tegangan (Regulator)\n   Regulator menjaga tegangan tetap stabil pada kisaran ±13,5 – 14,5 Volt agar tidak merusak aki.\n\n5. Pengisian Aki dan Suplai Beban\n   Arus DC yang telah stabil digunakan untuk mengisi aki dan menyuplai komponen kelistrikan seperti lampu, klakson, sistem starter, dan sistem injeksi.\n\nKesimpulan:\nSistem pengisian bekerja berdasarkan hukum induksi elektromagnetik, di mana energi mekanik diubah menjadi energi listrik, kemudian diolah agar sesuai dengan kebutuhan sistem kelistrikan sepeda motor. Jika salah satu komponen (spul, regulator, atau aki) mengalami kerusakan, maka proses pengisian tidak akan berjalan optimal."
+        },
+        {
+          "title2": "Jenis Sistem Pengisian Sepeda Motor",
+          "content2": "Perbedaan utama antara sistem pengisian AC dan DC terletak pada jalur distribusi arus listrik ke beban serta proses penyearahan arusnya. Pemahaman jenis sistem ini penting untuk proses diagnosis dan perbaikan gangguan kelistrikan sepeda motor.",
+          "items":[
+            {
+              "title3": "Sistem Pengisian AC",
+              "content3": "Pengertian:\nSistem pengisian AC adalah sistem di mana sebagian beban kelistrikan (terutama lampu utama) menggunakan arus bolak-balik (AC) langsung dari spul tanpa melalui aki.\n\nCiri-ciri Sistem AC:\n1. Lampu utama lebih terang saat putaran mesin tinggi.\n2. Lampu redup saat langsam (idle).\n3. Sebagian rangkaian tidak tergantung penuh pada aki.\n\nPrinsip Kerja:\n- Spul menghasilkan arus AC.\n- Sebagian arus langsung menuju beban (lampu).\n- Sebagian lainnya disearahkan oleh rectifier untuk mengisi aki.\n\nKelebihan:\n- Rangkaian lebih sederhana.\n- Biaya produksi lebih murah.\n\nKekurangan:\n- Tegangan tidak stabil pada putaran rendah.\n- Intensitas cahaya tergantung RPM mesin."
+            },
+            {
+              "title3": "Sistem Pengisian DC",
+              "content3": "Pengertian:\nSistem pengisian DC adalah sistem di mana seluruh beban kelistrikan menggunakan arus searah (DC) yang telah disearahkan oleh regulator/rectifier dan disuplai melalui aki.\n\nCiri-ciri Sistem DC:\n1. Semua lampu dan beban listrik mendapatkan suplai dari aki.\n2. Intensitas cahaya lampu stabil meskipun RPM berubah.\n3. Digunakan pada sepeda motor modern (terutama sistem EFI).\n\nPrinsip Kerja:\n- Spul menghasilkan arus AC.\n- Arus AC disearahkan menjadi DC oleh rectifier.\n- Regulator menjaga kestabilan tegangan.\n- Aki menyimpan dan mendistribusikan arus ke seluruh sistem.\n\nKelebihan:\n- Tegangan stabil.\n- Mendukung sistem elektronik modern.\n\nKekurangan:\n- Ketergantungan tinggi pada kondisi aki.\n- Rangkaian lebih kompleks dibanding sistem AC."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Komponen Sistem Pengisian",
+      "contentL1": "Alternator atau spul merupakan komponen utama dalam sistem pengisian yang berfungsi sebagai pembangkit listrik pada sepeda motor. Komponen ini bekerja berdasarkan prinsip induksi elektromagnetik, yaitu perubahan medan magnet yang menghasilkan arus listrik saat rotor berputar.",
+      "subSections": [
+        {
+          "title2": "Alternator / Spul",
+          "content2": "![Alternator / Spul](images/XRDCTSM-016/spul.jpg)Pengertian:\nAlternator (spul) adalah komponen sistem pengisian yang berfungsi menghasilkan arus listrik AC (alternating current) dari putaran mesin.\n\nBagian-bagian alternator:\n1. Rotor (magnet permanen) → berputar mengikuti putaran poros engkol.\n2. Stator (kumparan/spul) → tempat terjadinya induksi elektromagnetik.\n3. Rumah alternator → pelindung dan dudukan komponen.\n\nPrinsip kerja:\nSaat mesin hidup, rotor berputar mengelilingi stator. Perubahan medan magnet pada kumparan stator menghasilkan arus listrik AC yang kemudian dialirkan ke regulator/rectifier untuk disearahkan menjadi arus DC.\n\nFungsi alternator:\n1. Menghasilkan energi listrik untuk pengisian aki.\n2. Menyediakan sumber listrik bagi sistem kelistrikan saat mesin hidup.\n3. Menyuplai arus untuk sistem penerangan dan pengapian.\n\nCiri kerusakan alternator:\n- Tegangan pengisian di bawah standar (kurang dari ±13 volt saat mesin hidup).\n- Aki cepat habis.\n- Lampu redup atau tidak stabil.\n- Kumparan terbakar atau berbau hangus.\n\nPemeriksaan alternator:\n1. Periksa kondisi fisik dan konektor.\n2. Ukur tahanan kumparan menggunakan multimeter.\n3. Ukur tegangan output AC saat mesin hidup.\n4. Bandingkan hasil pengukuran dengan standar pabrikan.\n\nKesimpulan:\nAlternator merupakan sumber utama pembangkit listrik pada sepeda motor. Kerusakan pada komponen ini akan menyebabkan sistem pengisian tidak bekerja optimal dan mengganggu seluruh sistem kelistrikan kendaraan."
+        },
+        {
+          "title2": "Regulator / Rectifier (Kiprok)",
+          "content2": "![Regulator / Rectifier (Kiprok)](images/XRDCTSM-016/regulator.jpg)Pengertian:\nRegulator/rectifier (kiprok) adalah komponen sistem pengisian yang berfungsi menyearahkan arus AC menjadi DC dan mengatur tegangan agar tetap stabil sesuai standar pengisian.\n\nFungsi utama:\n1. Menyearahkan arus AC dari spul menjadi arus DC (rectifier).\n2. Menstabilkan tegangan pengisian pada kisaran ±13,5 – 14,5 volt (regulator).\n3. Mencegah overcharge (tegangan berlebih).\n4. Melindungi aki dan komponen elektronik dari kerusakan.\n\nPrinsip kerja:\nArus AC dari alternator masuk ke rangkaian dioda pada rectifier untuk diubah menjadi arus DC. Selanjutnya, regulator mengontrol besar tegangan dengan membuang kelebihan arus ke massa (ground) sehingga tegangan tetap stabil.\n\nCiri kerusakan kiprok:\n- Tegangan pengisian terlalu tinggi (di atas 15 volt).\n- Tegangan pengisian terlalu rendah (di bawah 13 volt saat mesin hidup).\n- Aki cepat rusak atau menggelembung.\n- Lampu sering putus.\n\nPemeriksaan kiprok:\n1. Ukur tegangan aki saat mesin mati dan saat mesin hidup.\n2. Pastikan tegangan pengisian berada pada kisaran standar.\n3. Periksa konektor dan kondisi fisik kiprok.\n4. Gunakan multimeter untuk mengecek fungsi dioda (jika diperlukan).\n\nKesimpulan:\nRegulator/rectifier merupakan komponen vital dalam sistem pengisian karena memastikan arus yang masuk ke aki telah sesuai dan stabil. Kerusakan pada kiprok dapat menyebabkan gangguan serius pada sistem kelistrikan sepeda motor."
+        },
+        {
+          "title2": "Aki (Battery)",
+          "content2": "![Aki (Battery)](images/XRDCTSM-016/aki.jpg)Pengertian:\nAki adalah alat penyimpan energi listrik dalam bentuk energi kimia yang dapat diubah kembali menjadi energi listrik saat dibutuhkan.\n\nFungsi aki:\n1. Menyimpan energi listrik hasil pengisian.\n2. Menyuplai arus untuk sistem starter elektrik.\n3. Menstabilkan tegangan sistem kelistrikan.\n4. Menyediakan arus saat beban listrik meningkat.\n\nJenis aki sepeda motor:\n1. Aki basah (conventional battery) → menggunakan cairan elektrolit dan memerlukan perawatan berkala.\n2. Aki MF (maintenance free) → tidak memerlukan penambahan air aki dan lebih praktis.\n\nSpesifikasi umum:\n- Tegangan standar: 12 volt.\n- Tegangan normal saat mesin mati: ±12,4 – 12,8 volt.\n- Tegangan pengisian saat mesin hidup: ±13,5 – 14,5 volt.\n\nCiri aki lemah atau rusak:\n- Starter elektrik lemah atau tidak berfungsi.\n- Lampu redup.\n- Tegangan di bawah 12 volt saat mesin mati.\n- Fisik aki menggelembung atau bocor.\n\nPerawatan aki:\n1. Periksa tegangan secara berkala.\n2. Pastikan terminal bersih dan tidak berkarat.\n3. Periksa ketinggian air aki (untuk tipe basah).\n4. Hindari overcharge dan undercharge.\n\nKesimpulan:\nAki merupakan pusat penyimpanan energi dalam sistem pengisian. Kondisi aki yang baik sangat menentukan kestabilan sistem kelistrikan sepeda motor secara keseluruhan."
+        },
+        {
+          "title2": "Sekring (Fuse)",
+          "content2": "![Sekring (Fuse)](images/XRDCTSM-016/sekring.jpg)Pengertian:\nSekring adalah alat pengaman listrik yang berfungsi memutus aliran arus secara otomatis ketika terjadi arus berlebih atau korsleting.\n\nFungsi sekring:\n1. Melindungi aki dari kerusakan akibat short circuit.\n2. Melindungi regulator/rectifier dan komponen kelistrikan lainnya.\n3. Mencegah terjadinya kebakaran akibat arus berlebih.\n\nJenis sekring pada sepeda motor:\n1. Sekring tabung (glass fuse).\n2. Sekring blade (pipih) yang umum digunakan pada motor modern.\n\nCiri sekring putus:\n- Sistem kelistrikan mati total.\n- Tidak ada aliran listrik ke komponen tertentu.\n- Kawat di dalam sekring terlihat putus.\n\nPemeriksaan sekring:\n1. Periksa kondisi fisik sekring.\n2. Gunakan multimeter pada mode continuity untuk memastikan arus masih dapat mengalir.\n3. Ganti dengan sekring yang memiliki kapasitas ampere sesuai standar (misalnya 10A, 15A, atau 20A).\n\nCatatan penting:\nJangan mengganti sekring dengan kapasitas lebih besar dari standar karena dapat menyebabkan kerusakan serius pada sistem kelistrikan.\n\nKesimpulan:\nSekring merupakan komponen pengaman penting dalam sistem pengisian. Walaupun sederhana, fungsinya sangat vital untuk melindungi seluruh rangkaian kelistrikan sepeda motor dari kerusakan akibat arus berlebih."
+        },
+        {
+          "title2": "Kabel dan Konektor",
+          "content2": "![Kabel dan Konektor](images/XRDCTSM-016/kabel.jpg)Pengertian:\nKabel adalah penghantar arus listrik yang terbuat dari inti tembaga yang dilapisi isolator, sedangkan konektor adalah penghubung antar kabel atau antar komponen dalam sistem kelistrikan.\n\nFungsi kabel dan konektor:\n1. Menyalurkan arus listrik dari alternator ke regulator.\n2. Menyalurkan arus dari regulator ke aki.\n3. Menghubungkan sistem pengisian dengan beban kelistrikan.\n4. Mempermudah proses perawatan dan perbaikan.\n\nCiri kabel atau konektor bermasalah:\n- Kabel terkelupas atau putus.\n- Konektor longgar.\n- Terdapat karat atau korosi pada terminal.\n- Tegangan pengisian tidak stabil.\n\nPemeriksaan kabel dan konektor:\n1. Lakukan pemeriksaan visual terhadap kondisi fisik.\n2. Pastikan tidak ada kabel yang terjepit atau meleleh.\n3. Bersihkan konektor dari karat atau kotoran.\n4. Gunakan multimeter untuk mengecek kontinuitas kabel.\n\nKesimpulan:\nKabel dan konektor yang baik akan memastikan aliran listrik dalam sistem pengisian berjalan lancar dan stabil. Kerusakan kecil pada bagian ini dapat menyebabkan gangguan besar pada sistem kelistrikan sepeda motor."
+        },
+        {
+          "title2": "Wiring Diagram Sistem Pengisian",
+          "content2": "![Wiring Diagram Sistem Pengisian](images/XRDCTSM-016/wiring.jpg)Pengertian:\nWiring diagram adalah gambar skema yang menunjukkan hubungan kabel, komponen, serta arah aliran arus listrik dalam suatu sistem kelistrikan.\n\nFungsi wiring diagram:\n1. Membantu memahami alur kerja sistem pengisian.\n2. Mempermudah proses diagnosis kerusakan.\n3. Menjadi panduan saat melakukan perbaikan atau pemasangan komponen.\n4. Mengidentifikasi warna kabel dan posisi konektor.\n\nKomponen yang biasanya terdapat pada wiring diagram sistem pengisian:\n- Alternator / spul\n- Regulator / rectifier\n- Aki (battery)\n- Sekring utama\n- Kunci kontak\n- Beban kelistrikan\n\nSimbol umum pada wiring diagram:\n- Garis lurus → kabel penghantar\n- Simbol kumparan → spul/stator\n- Simbol dioda → rectifier\n- Simbol baterai → aki\n- Simbol ground → massa\n\nCara membaca wiring diagram:\n1. Identifikasi sumber arus (alternator).\n2. Ikuti jalur kabel menuju regulator.\n3. Perhatikan jalur menuju aki dan sekring.\n4. Periksa hubungan ke beban dan ground.\n\nKesimpulan:\nWiring diagram merupakan alat bantu penting dalam memahami dan menganalisis sistem pengisian. Kemampuan membaca diagram kelistrikan merupakan kompetensi dasar yang harus dimiliki oleh siswa SMK teknik sepeda motor sesuai standar industri."
+        }
+      ]
+    },
+    {
+      "title": "Prosedur Pemeriksaan dan Pengujian",
+      "contentL1": "Langkah pemeriksaan sistem pengisian dimulai dari pengecekan keselamatan kerja, pemeriksaan visual, hingga pengukuran menggunakan multimeter. Hasil pengukuran kemudian dianalisis untuk menentukan kondisi komponen.",
+      "subSections": [
+        {
+          "title2": "Penerapan Keselamatan dan Kesehatan Kerja (K3)",
+          "content2": "1. Gunakan APD (wearpack, sarung tangan, dan kacamata kerja).\n2. Pastikan sepeda motor dalam posisi standar tengah.\n3. Matikan mesin sebelum melepas konektor.\n4. Lepaskan terminal negatif aki sebelum pembongkaran.\n5. Hindari hubungan singkat (short circuit).\n6. Gunakan alat ukur sesuai prosedur."
+        },
+        {
+          "title2": "Pemeriksaan Visual Sistem Pengisian",
+          "content2": "1. Periksa kondisi kabel dan konektor.\n2. Pastikan tidak ada kabel terkelupas atau terbakar.\n3. Periksa kondisi fisik aki (tidak bocor atau menggelembung).\n4. Periksa kondisi sekring utama.\n5. Pastikan konektor regulator terpasang dengan baik."
+        },
+        {
+          "title2": "Pengukuran Tegangan Aki",
+          "content2": "Langkah-langkah:\n1. Set multimeter pada skala DC volt.\n2. Hubungkan probe merah ke terminal positif dan probe hitam ke terminal negatif.\n3. Baca hasil pengukuran.\n\nStandar normal:\n- Mesin mati: ±12,4 – 12,8 volt.\nJika di bawah 12 volt, aki dalam kondisi lemah."
+        },
+        {
+          "title2": "Pengukuran Tegangan Pengisian Saat Mesin Hidup",
+          "content2": "Langkah-langkah:\n1. Hidupkan mesin.\n2. Ukur tegangan pada terminal aki.\n3. Naikkan putaran mesin hingga ±3000 rpm.\n\nStandar normal:\n- ±13,5 – 14,5 volt.\nJika di bawah 13 volt → sistem kurang mengisi.\nJika di atas 15 volt → regulator bermasalah (overcharge)."
+        },
+        {
+          "title2": "Pengujian Tahanan Spul",
+          "content2": "Langkah-langkah:\n1. Matikan mesin dan lepaskan konektor spul.\n2. Set multimeter pada skala ohm (Ω).\n3. Ukur tahanan antar kabel spul.\n4. Bandingkan dengan spesifikasi pabrikan.\n\nJika tahanan terlalu besar atau tidak terbaca, spul kemungkinan putus.\nJika nol (0 Ω), kemungkinan terjadi hubungan singkat."
+        },
+        {
+          "title2": "Pengujian Regulator / Rectifier",
+          "content2": "Langkah-langkah:\n1. Ukur tegangan pengisian saat mesin hidup.\n2. Gunakan mode diode test pada multimeter untuk memeriksa dioda rectifier.\n3. Pastikan tidak terjadi kebocoran arus.\n\nJika tegangan tidak stabil atau terlalu tinggi, regulator perlu diganti."
+        },
+        {
+          "title2": "Analisis Hasil Pengukuran",
+          "content2": "1. Bandingkan semua hasil pengukuran dengan standar.\n2. Tentukan komponen yang mengalami gangguan.\n3. Jika tegangan aki normal tetapi pengisian rendah → periksa spul.\n4. Jika tegangan terlalu tinggi → regulator bermasalah.\n5. Jika semua normal tetapi aki cepat habis → kemungkinan aki rusak.\n\nKesimpulan:\nPemeriksaan sistem pengisian harus dilakukan secara berurutan dan sistematis agar diagnosis kerusakan akurat serta sesuai standar industri otomotif."
+        }
+      ]
+    },
+    {
+      "title": "Troubleshooting Sistem Pengisian",
+      "contentL1": "Gangguan pada sistem pengisian dapat menyebabkan aki cepat habis, motor sulit distarter, hingga kerusakan komponen elektronik. Oleh karena itu, diperlukan langkah diagnosis yang runtut dan berbasis hasil pengukuran.",
+      "subSections": [
+        {
+          "title2": "Gejala Kerusakan Sistem Pengisian",
+          "content2": "Beberapa gejala umum kerusakan sistem pengisian antara lain:\n1. Starter elektrik lemah atau tidak berfungsi.\n2. Lampu redup saat mesin langsam.\n3. Aki cepat tekor meskipun baru diganti.\n4. Lampu sering putus.\n5. Tegangan pengisian di bawah 13 volt atau di atas 15 volt.\n6. Indikator aki menyala (pada motor tertentu).\n\nGejala tersebut dapat disebabkan oleh spul rusak, regulator bermasalah, kabel putus, atau aki soak."
+        },
+        {
+          "title2": "Langkah Diagnosa Sistematis",
+          "content2": "Langkah troubleshooting yang benar:\n1. Lakukan pemeriksaan visual terlebih dahulu.\n2. Ukur tegangan aki saat mesin mati.\n3. Ukur tegangan pengisian saat mesin hidup.\n4. Jika tegangan rendah → periksa output spul.\n5. Jika tegangan terlalu tinggi → periksa regulator.\n6. Periksa kontinuitas kabel dan kondisi sekring.\n7. Bandingkan hasil pengukuran dengan standar pabrikan.\n\nDiagnosis harus berdasarkan data pengukuran, bukan hanya perkiraan."
+        },
+        {
+          "title2": "Studi Kasus Kerusakan Sistem Pengisian",
+          "content2": "Kasus:\nMotor sulit distarter dan lampu redup.\n\nHasil pemeriksaan:\n- Tegangan aki saat mesin mati: 11,8 volt.\n- Tegangan saat mesin hidup: 12,2 volt.\n\nAnalisis:\nTegangan pengisian tidak mencapai 13,5 volt, berarti sistem tidak mengisi dengan baik.\nLangkah lanjutan:\n- Periksa output AC spul.\n- Jika output normal → regulator kemungkinan rusak.\n- Jika output rendah → spul bermasalah.\n\nKesimpulan kasus:\nKerusakan dapat ditentukan setelah dilakukan pengujian lanjutan pada spul dan regulator."
+        },
+        {
+          "title2": "Tindakan Perbaikan dan Penggantian Komponen",
+          "content2": "1. Ganti aki jika tegangan tidak dapat menyimpan daya meskipun pengisian normal.\n2. Ganti regulator jika terjadi overcharge atau tegangan tidak stabil.\n3. Ganti spul jika tahanan tidak sesuai spesifikasi atau terjadi short.\n4. Perbaiki atau ganti kabel yang putus atau terbakar.\n5. Ganti sekring dengan kapasitas sesuai standar.\n\nSetelah perbaikan dilakukan, ulangi pengukuran untuk memastikan sistem pengisian telah bekerja normal pada kisaran ±13,5 – 14,5 volt.\n\nKesimpulan:\nTroubleshooting sistem pengisian harus dilakukan secara logis, bertahap, dan berbasis data pengukuran agar perbaikan tepat sasaran serta sesuai standar kompetensi teknisi sepeda motor."
+        }
+      ]
+    }
+  ]
 }

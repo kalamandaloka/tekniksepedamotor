@@ -1,4 +1,12 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Pengisian (Charging)",
+  "simulations": [
+    {
+  "id": "sim_pengukuran_tegangan_pengisian",
+  "title": "Simulasi Pengukuran Tegangan Pengisian Saat Mesin Hidup",
+  "description": "Gunakan alat pelindung diri (APD) berupa wearpack, sarung tangan kerja, dan kacamata pelindung sebelum memulai pekerjaan.\n\nPastikan sepeda motor berada pada standar tengah dan area kerja dalam kondisi aman serta memiliki ventilasi yang baik.\n\nSiapkan multimeter digital dan pastikan dalam kondisi baik.\n\nAtur multimeter pada skala DC Volt (20V).\n\nPastikan kunci kontak dalam posisi OFF.\n\nHubungkan probe merah multimeter ke terminal positif (+) aki.\nHubungkan probe hitam ke terminal negatif (-) aki.\n\nUkur dan catat tegangan aki saat mesin mati.\nPastikan hasil pengukuran berada pada kisaran 12,4 – 12,8 Volt.\n\nHidupkan mesin sepeda motor.\n\nUkur dan catat tegangan aki saat mesin dalam kondisi idle (langsam).\n\nNaikkan putaran mesin hingga ±3000 rpm.\n\nAmati dan catat tegangan pengisian.\nPastikan tegangan berada pada kisaran 13,5 – 14,5 Volt.\n\nBandingkan hasil pengukuran dengan standar spesifikasi.\n\nTentukan kondisi sistem pengisian:\n- Nyatakan undercharge jika tegangan di bawah 13 Volt saat rpm naik.\n- Nyatakan overcharge jika tegangan melebihi 15 Volt.\n- Nyatakan normal jika tegangan berada pada kisaran standar.\n\nTuliskan seluruh hasil pengukuran, analisis, dan kesimpulan pada lembar kerja praktik sesuai format yang telah disediakan.",
+  "image": "/images/XRDCTSM-017/simulasi1.png",
+  "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

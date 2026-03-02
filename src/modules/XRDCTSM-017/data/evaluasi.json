@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama sistem pengisian pada sepeda motor adalah ...",
+        "options": [
+          "Mendinginkan mesin",
+          "Menghasilkan percikan api pada busi",
+          "Mengisi ulang aki dan menyuplai kebutuhan listrik",
+          "Mengatur campuran bahan bakar"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 2,
+        "question": "Komponen yang berfungsi menghasilkan arus listrik AC adalah ...",
+        "options": [
+          "Aki",
+          "Alternator / spul",
+          "Regulator",
+          "Sekring"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 3,
+        "question": "Arus yang dihasilkan oleh spul berbentuk ...",
+        "options": [
+          "DC",
+          "AC",
+          "Statis",
+          "Konstan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "Komponen yang mengubah arus AC menjadi DC adalah ...",
+        "options": [
+          "Rotor",
+          "Stator",
+          "Regulator / rectifier",
+          "Flasher"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 5,
+        "question": "Tegangan pengisian normal pada sistem 12 volt saat mesin hidup adalah ...",
+        "options": [
+          "10 – 11 volt",
+          "11 – 12 volt",
+          "13,5 – 14,5 volt",
+          "15 – 16 volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "Jika tegangan pengisian melebihi 15 volt, kondisi tersebut disebut ...",
+        "options": [
+          "Normal",
+          "Undercharge",
+          "Overcharge",
+          "Stabil"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 7,
+        "question": "Komponen penyimpan energi listrik pada sepeda motor adalah ...",
+        "options": [
+          "Spul",
+          "Aki",
+          "Sekring",
+          "Flasher"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Sekring berfungsi untuk ...",
+        "options": [
+          "Menambah tegangan",
+          "Melindungi rangkaian dari arus berlebih",
+          "Menghasilkan arus",
+          "Mengatur rpm mesin"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 9,
+        "question": "Hukum Ohm dirumuskan sebagai ...",
+        "options": [
+          "V = I × R",
+          "I = V + R",
+          "R = V + I",
+          "V = I / R"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 10,
+        "question": "Alat ukur untuk mengukur tegangan adalah ...",
+        "options": [
+          "Obeng tes",
+          "Multimeter",
+          "Tang",
+          "Feeler gauge"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 11,
+        "question": "Tegangan aki normal saat mesin mati adalah sekitar ...",
+        "options": [
+          "9 volt",
+          "10 volt",
+          "12,4 – 12,8 volt",
+          "15 volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Jika tegangan pengisian di bawah 13 volt saat rpm naik, kondisi disebut ...",
+        "options": [
+          "Normal",
+          "Overcharge",
+          "Undercharge",
+          "Stabil"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 13,
+        "question": "Komponen yang berputar mengikuti poros engkol adalah ...",
+        "options": [
+          "Stator",
+          "Rotor",
+          "Sekring",
+          "Relay"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Regulator berfungsi untuk ...",
+        "options": [
+          "Mengatur bahan bakar",
+          "Menstabilkan tegangan",
+          "Mendinginkan mesin",
+          "Menggerakkan piston"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "Pemeriksaan kabel putus dilakukan dengan pengukuran ...",
+        "options": [
+          "RPM",
+          "Tegangan",
+          "Kontinuitas",
+          "Tekanan"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 16,
+        "question": "Jika sekring sering putus, kemungkinan terjadi ...",
+        "options": [
+          "Tegangan stabil",
+          "Korsleting",
+          "Aki penuh",
+          "RPM rendah"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Flasher relay berfungsi untuk ...",
+        "options": [
+          "Mengatur kedipan lampu sein",
+          "Mengisi aki",
+          "Menambah arus",
+          "Mengatur pengapian"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 18,
+        "question": "Lampu rem menyala saat ...",
+        "options": [
+          "Kunci OFF",
+          "Mesin mati",
+          "Tuas atau pedal rem ditekan",
+          "Lampu utama mati"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 19,
+        "question": "Rangkaian yang tetap menyala meskipun salah satu lampu mati adalah ...",
+        "options": [
+          "Seri",
+          "Paralel",
+          "Terbuka",
+          "Pendek"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Klakson mengubah energi listrik menjadi ...",
+        "options": [
+          "Panas",
+          "Cahaya",
+          "Suara",
+          "Gerak"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 21,
+        "question": "Jalur pengembalian arus listrik disebut ...",
+        "options": [
+          "Positif",
+          "Massa (ground)",
+          "Sekring",
+          "Relay"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "Saklar kombinasi biasanya terletak pada ...",
+        "options": [
+          "Mesin",
+          "Tangki",
+          "Handlebar",
+          "Rangka"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 23,
+        "question": "Jika lampu redup saat mesin hidup, kemungkinan penyebabnya adalah ...",
+        "options": [
+          "Aki lemah",
+          "Ban kempes",
+          "Oli kurang",
+          "Kampas rem aus"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 24,
+        "question": "Jenis flasher yang lebih stabil untuk lampu LED adalah ...",
+        "options": [
+          "Mekanis",
+          "Elektronik",
+          "Manual",
+          "Analog"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 25,
+        "question": "Pemeriksaan awal sebelum menggunakan alat ukur adalah ...",
+        "options": [
+          "Membongkar mesin",
+          "Pemeriksaan visual",
+          "Mengganti aki",
+          "Mengganti spul"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Spul bekerja berdasarkan prinsip ...",
+        "options": [
+          "Pembakaran",
+          "Induksi elektromagnetik",
+          "Tekanan udara",
+          "Gesekan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Jika klakson tidak berbunyi, langkah pertama adalah ...",
+        "options": [
+          "Mengganti spul",
+          "Memeriksa aki dan sekring",
+          "Membongkar mesin",
+          "Mengganti lampu"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "Fungsi utama regulator adalah ...",
+        "options": [
+          "Menambah arus",
+          "Menstabilkan tegangan",
+          "Menyimpan listrik",
+          "Mengatur bahan bakar"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Semakin besar hambatan, arus yang mengalir akan ...",
+        "options": [
+          "Semakin besar",
+          "Semakin kecil",
+          "Tetap",
+          "Tidak terukur"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Komponen yang mengatur distribusi arus ke lampu sein adalah ...",
+        "options": [
+          "Spul",
+          "Saklar kombinasi",
+          "Aki",
+          "Stator"
+        ],
+        "correctAnswer": 2
+      }
+    ]
   }
 }

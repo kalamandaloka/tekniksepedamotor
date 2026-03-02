@@ -1,9 +1,337 @@
 {
   "title": "Evaluasi",
   "teori": {
-    "questions": []
-  },
-  "praktek": {
-    "tasks": []
+    "questions": [
+      {
+        "id": 1,
+        "question": "Fungsi utama sistem pengisian pada sepeda motor adalah ...",
+        "options": [
+          "Mendinginkan mesin",
+          "Menghasilkan percikan api pada busi",
+          "Mengisi ulang aki dan menyuplai kebutuhan listrik",
+          "Mengatur campuran bahan bakar"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 2,
+        "question": "Komponen yang berfungsi menghasilkan arus listrik AC adalah ...",
+        "options": [
+          "Aki",
+          "Sekring",
+          "Alternator / Spul",
+          "Relay starter"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 3,
+        "question": "Arus listrik yang dihasilkan oleh spul sebelum disearahkan adalah ...",
+        "options": [
+          "DC",
+          "AC",
+          "Pulsa",
+          "Statis"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "Komponen yang mengubah arus AC menjadi DC adalah ...",
+        "options": [
+          "Rotor",
+          "Rectifier",
+          "Sekring",
+          "Kunci kontak"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 5,
+        "question": "Tegangan pengisian normal saat mesin hidup adalah ...",
+        "options": [
+          "9 – 10 Volt",
+          "11 – 12 Volt",
+          "12 – 13 Volt",
+          "13,5 – 14,5 Volt"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 6,
+        "question": "Jika tegangan pengisian mencapai 16 Volt, maka kemungkinan terjadi ...",
+        "options": [
+          "Undercharge",
+          "Overcharge",
+          "Spul putus",
+          "Aki normal"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "Fungsi regulator dalam sistem pengisian adalah ...",
+        "options": [
+          "Memperbesar arus",
+          "Menstabilkan tegangan",
+          "Menyimpan arus",
+          "Memutus arus saat starter"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 8,
+        "question": "Alat ukur yang digunakan untuk mengukur tegangan aki adalah ...",
+        "options": [
+          "Amperemeter",
+          "Hidrometer",
+          "Multimeter",
+          "Feeler gauge"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Tegangan aki normal saat mesin mati adalah ...",
+        "options": [
+          "10 – 11 Volt",
+          "11 – 12 Volt",
+          "12,4 – 12,8 Volt",
+          "14 – 15 Volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 10,
+        "question": "Sekring berfungsi untuk ...",
+        "options": [
+          "Menyearahkan arus",
+          "Menghasilkan arus",
+          "Melindungi dari arus berlebih",
+          "Mengisi aki"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 11,
+        "question": "Jika tahanan spul tidak terbaca saat diukur, kemungkinan terjadi ...",
+        "options": [
+          "Normal",
+          "Hubungan singkat",
+          "Kumparan putus",
+          "Overcharge"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Sistem pengisian bekerja berdasarkan prinsip ...",
+        "options": [
+          "Gesekan",
+          "Induksi elektromagnetik",
+          "Tekanan udara",
+          "Pemanasan"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 13,
+        "question": "Komponen yang menyimpan energi listrik adalah ...",
+        "options": [
+          "Rotor",
+          "Aki",
+          "Spul",
+          "Regulator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 14,
+        "question": "Jika tegangan pengisian di bawah 13 Volt saat mesin hidup, maka sistem mengalami ...",
+        "options": [
+          "Overcharge",
+          "Normal",
+          "Kurang mengisi (undercharge)",
+          "Hubungan singkat"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 15,
+        "question": "Bagian alternator yang diam disebut ...",
+        "options": [
+          "Rotor",
+          "Stator",
+          "Dioda",
+          "Armature"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Bagian alternator yang berputar mengikuti poros engkol adalah ...",
+        "options": [
+          "Stator",
+          "Rotor",
+          "Sekring",
+          "Relay"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 17,
+        "question": "Kiprok memiliki sirip pendingin karena ...",
+        "options": [
+          "Menghasilkan getaran",
+          "Menghasilkan panas",
+          "Menghasilkan suara",
+          "Menghasilkan cahaya"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 18,
+        "question": "Jika lampu sering putus akibat tegangan tinggi, komponen yang perlu diperiksa adalah ...",
+        "options": [
+          "Aki",
+          "Spul",
+          "Regulator",
+          "Sekring"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 19,
+        "question": "Hubungan singkat dalam rangkaian listrik disebut ...",
+        "options": [
+          "Grounding",
+          "Short circuit",
+          "Overheat",
+          "Undercharge"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Wiring diagram berfungsi untuk ...",
+        "options": [
+          "Menghias rangkaian",
+          "Menunjukkan jalur kelistrikan",
+          "Mengukur tegangan",
+          "Menyimpan arus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 21,
+        "question": "Mode multimeter untuk menguji dioda regulator adalah ...",
+        "options": [
+          "AC Volt",
+          "DC Volt",
+          "Ohm",
+          "Diode test"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "id": 22,
+        "question": "Ground dalam sistem kelistrikan berarti ...",
+        "options": [
+          "Kabel positif",
+          "Kabel netral",
+          "Massa atau negatif",
+          "Arus AC"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 23,
+        "question": "Jika aki cepat habis meskipun pengisian normal, kemungkinan ...",
+        "options": [
+          "Spul normal",
+          "Regulator normal",
+          "Aki rusak",
+          "Sekring putus"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 24,
+        "question": "Arus DC digunakan pada sepeda motor untuk ...",
+        "options": [
+          "Disimpan dalam aki",
+          "Langsung ke spul",
+          "Menggerakkan rotor",
+          "Menghasilkan magnet"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 25,
+        "question": "Komponen yang pertama kali diperiksa saat sistem mati total adalah ...",
+        "options": [
+          "Spul",
+          "Sekring utama",
+          "Rotor",
+          "Stator"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "Semakin tinggi RPM mesin, maka output tegangan spul akan ...",
+        "options": [
+          "Menurun",
+          "Tetap",
+          "Meningkat",
+          "Hilang"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 27,
+        "question": "Kisaran tegangan aki yang menunjukkan kondisi lemah adalah ...",
+        "options": [
+          "12,6 Volt",
+          "12,4 Volt",
+          "11,5 Volt",
+          "13,8 Volt"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "Jika tahanan spul 0 Ω, kemungkinan terjadi ...",
+        "options": [
+          "Putus",
+          "Short circuit",
+          "Normal",
+          "Overcharge"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "Fungsi utama aki saat proses starter adalah ...",
+        "options": [
+          "Mengisi spul",
+          "Menyuplai arus besar",
+          "Menyearahkan arus",
+          "Menstabilkan rotor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "Salah satu penyebab sistem pengisian tidak bekerja optimal adalah ...",
+        "options": [
+          "Ban kurang angin",
+          "Oli kotor",
+          "Konektor longgar",
+          "Rantai kendor"
+        ],
+        "correctAnswer": 3
+      }
+    ]
   }
 }

@@ -1,7 +1,39 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Penerangan & Sinyal",
+  "description": "Modul ini membahas prinsip kerja, komponen, rangkaian, pemeriksaan, perawatan, dan perbaikan sistem penerangan dan sinyal pada sepeda motor sesuai standar Kurikulum Merdeka dan SKKNI bidang Teknik dan Bisnis Sepeda Motor.",
+  "image": "/images/XRDCTSM-017/sistemPenerangan&Sinyal.png",
+  "skkni": [
+    "Melakukan perawatan dan perbaikan sistem kelistrikan sepeda motor",
+    "Mendiagnosis gangguan sistem penerangan dan sinyal sepeda motor",
+    "Menggunakan alat ukur kelistrikan (multimeter) sesuai prosedur",
+    "Menerapkan prosedur K3 dalam pekerjaan sistem kelistrikan sepeda motor"
+  ],
+  "kurikulum": {
+    "capaian_pembelajaran": [
+      "Peserta didik mampu memahami prinsip kerja sistem penerangan dan sinyal sepeda motor.",
+      "Peserta didik mampu mengidentifikasi komponen sistem penerangan dan sinyal sesuai wiring diagram.",
+      "Peserta didik mampu melakukan pemeriksaan, perawatan, dan perbaikan sistem penerangan dan sinyal sesuai SOP.",
+      "Peserta didik mampu menggunakan alat ukur kelistrikan untuk mendiagnosis gangguan secara mandiri.",
+      "Peserta didik mampu menerapkan budaya kerja industri dan K3 dalam pekerjaan sistem kelistrikan sepeda motor."
+    ],
+    "alur_tujuan_pembelajaran": [
+      "Menjelaskan fungsi sistem penerangan dan sinyal pada sepeda motor.",
+      "Mengidentifikasi komponen sistem penerangan (headlamp, tail lamp, lampu rem, lampu panel).",
+      "Mengidentifikasi komponen sistem sinyal (sein, flasher, klakson).",
+      "Membaca dan memahami wiring diagram sistem penerangan dan sinyal.",
+      "Menjelaskan prinsip kerja rangkaian seri dan paralel pada sistem lampu.",
+      "Melakukan pemeriksaan kondisi lampu, saklar, sekring, dan kabel.",
+      "Mengukur tegangan dan kontinuitas menggunakan multimeter.",
+      "Mendiagnosis kerusakan berdasarkan gejala yang muncul.",
+      "Melakukan perbaikan sederhana sesuai prosedur standar bengkel.",
+      "Menyusun laporan hasil pemeriksaan dan perbaikan sesuai format industri."
+    ]
+  },
+  "tujuan": [
+    "Setelah mempelajari modul ini, peserta didik mampu menjelaskan prinsip kerja sistem penerangan dan sinyal sepeda motor dengan benar.",
+    "Peserta didik mampu mengidentifikasi dan menyebutkan fungsi setiap komponen sistem penerangan dan sinyal.",
+    "Peserta didik mampu membaca wiring diagram sistem penerangan dan sinyal dengan tepat.",
+    "Peserta didik mampu melakukan pemeriksaan dan pengukuran komponen menggunakan multimeter sesuai SOP.",
+    "Peserta didik mampu mendiagnosis dan memperbaiki gangguan sistem penerangan dan sinyal secara mandiri sesuai standar industri."
+  ]
 }

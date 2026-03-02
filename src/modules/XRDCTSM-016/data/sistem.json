@@ -1,4 +1,19 @@
 {
-  "title": "Sistem dan Simulasi",
-  "simulations": []
+  "title": "Sistem Pengisian (Charging)",
+  "simulations": [
+    {
+  "id": "sim_pengukuran_tegangan_pengisian",
+  "title": "Simulasi Pengukuran Tegangan Pengisian Saat Mesin Hidup",
+  "description": "Gunakan alat pelindung diri (APD) berupa wearpack, sarung tangan kerja, dan kacamata pelindung sebelum memulai pekerjaan.\n\nPastikan sepeda motor berada pada standar tengah dan area kerja dalam kondisi aman serta memiliki ventilasi yang baik.\n\nSiapkan multimeter digital dan pastikan dalam kondisi baik.\n\nAtur multimeter pada skala DC Volt (20V).\n\nPastikan kunci kontak dalam posisi OFF.\n\nHubungkan probe merah multimeter ke terminal positif (+) aki.\nHubungkan probe hitam ke terminal negatif (-) aki.\n\nUkur dan catat tegangan aki saat mesin mati.\nPastikan hasil pengukuran berada pada kisaran 12,4 – 12,8 Volt.\n\nHidupkan mesin sepeda motor.\n\nUkur dan catat tegangan aki saat mesin dalam kondisi idle (langsam).\n\nNaikkan putaran mesin hingga ±3000 rpm.\n\nAmati dan catat tegangan pengisian.\nPastikan tegangan berada pada kisaran 13,5 – 14,5 Volt.\n\nBandingkan hasil pengukuran dengan standar spesifikasi.\n\nTentukan kondisi sistem pengisian:\n- Nyatakan undercharge jika tegangan di bawah 13 Volt saat rpm naik.\n- Nyatakan overcharge jika tegangan melebihi 15 Volt.\n- Nyatakan normal jika tegangan berada pada kisaran standar.\n\nTuliskan seluruh hasil pengukuran, analisis, dan kesimpulan pada lembar kerja praktik sesuai format yang telah disediakan.",
+  "image": "/images/XRDCTSM-016/simulasi1.png",
+  "panelTitle": "Informasi Simulasi"
+    },
+    {
+      "id": "sim_pengujian_spul_regulator",
+      "title": "Simulasi Pengujian Spul dan Regulator/Rectifier",
+      "description": "Gunakan alat pelindung diri (APD) sebelum memulai pekerjaan.\n\nPastikan mesin dalam kondisi mati dan kunci kontak pada posisi OFF.\n\nSiapkan multimeter digital.\n\nLangkah pengujian spul:\n1. Lepaskan konektor spul dari regulator/rectifier.\n2. Atur multimeter pada skala Ohm (Ω).\n3. Ukur tahanan antar kabel spul.\n4. Catat hasil pengukuran dan bandingkan dengan spesifikasi pabrikan.\n5. Nyalakan mesin dan ukur tegangan output AC dari spul.\n6. Catat hasil tegangan AC yang diperoleh.\n\nLangkah pengujian regulator/rectifier:\n7. Matikan mesin kembali.\n8. Atur multimeter pada mode diode test.\n9. Uji masing-masing terminal regulator sesuai wiring diagram.\n10. Pastikan arus hanya mengalir satu arah pada pengujian dioda.\n\nLangkah verifikasi akhir:\n11. Pasang kembali seluruh konektor dengan benar.\n12. Hidupkan mesin dan ukur tegangan pengisian pada terminal aki.\n13. Pastikan tegangan berada pada kisaran 13,5 – 14,5 Volt.\n14. Tentukan komponen yang mengalami kerusakan berdasarkan hasil pengukuran.\n\nTuliskan hasil pengujian dan simpulkan tindakan perbaikan yang harus dilakukan.",
+      "image": "/images/XRDCTSM-016/simulasi-uji-spul-regulator.png",
+      "panelTitle": "Informasi Simulasi"
+    }
+  ]
 }

@@ -1,4 +1,45 @@
 {
-  "title": "Komponen",
-  "items": []
+  "title": "Sistem Pengisian (Charging)",
+  "items": [
+    {
+      "id": "alternator_spul",
+      "name": "Alternator / Spul",
+      "description": "Alternator atau spul merupakan komponen utama pembangkit listrik pada sepeda motor yang bekerja berdasarkan prinsip induksi elektromagnetik. Rotor (magnet permanen) berputar mengikuti poros engkol dan menghasilkan perubahan medan magnet pada stator (kumparan), sehingga menghasilkan arus listrik bolak-balik (AC). Besarnya tegangan yang dihasilkan dipengaruhi oleh putaran mesin (RPM).",
+      "function": "1. Menghasilkan arus listrik AC sebagai sumber utama sistem pengisian.\n2. Menyuplai energi ke regulator/rectifier untuk diproses.\n3. Mendukung kebutuhan listrik saat mesin hidup.\n4. Menjadi sumber energi sebelum disimpan dalam aki.",
+      "image": "/images/XRDCTSM-016/spul.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "regulator_rectifier",
+      "name": "Regulator / Rectifier (Kiprok)",
+      "description": "Regulator/rectifier adalah komponen elektronik yang mengubah arus AC dari alternator menjadi arus DC serta mengatur kestabilan tegangan agar tidak melebihi batas aman. Komponen ini biasanya memiliki sirip pendingin untuk membuang panas.",
+      "function": "1. Menyearahkan arus AC menjadi DC.\n2. Menstabilkan tegangan pada kisaran ±13,5 – 14,5 volt.\n3. Mencegah overcharge dan kerusakan aki.\n4. Melindungi komponen elektronik dari lonjakan tegangan.",
+      "image": "/images/XRDCTSM-016/regulator.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "aki_battery",
+      "name": "Aki (Battery)",
+      "description": "Aki adalah penyimpan energi listrik dalam bentuk energi kimia yang dapat diubah kembali menjadi energi listrik 12 volt. Aki berfungsi sebagai stabilizer tegangan dan sumber arus saat mesin belum hidup.",
+      "function": "1. Menyimpan energi hasil pengisian.\n2. Menyuplai arus besar untuk starter.\n3. Menstabilkan sistem kelistrikan.\n4. Menjadi cadangan energi saat beban meningkat.",
+      "image": "/images/XRDCTSM-016/aki.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "sekring_fuse",
+      "name": "Sekring (Fuse)",
+      "description": "Sekring adalah komponen pengaman listrik yang dirancang untuk memutus arus secara otomatis saat terjadi arus berlebih atau korsleting. Sekring utama biasanya terletak dekat aki.",
+      "function": "1. Melindungi sistem dari short circuit.\n2. Mencegah kerusakan komponen akibat arus berlebih.\n3. Mengurangi risiko kebakaran akibat gangguan listrik.",
+      "image": "/images/XRDCTSM-016/sekring.jpg",
+      "modelType": "box"
+    },
+    {
+      "id": "kabel_konektor",
+      "name": "Kabel dan Konektor",
+      "description": "Kabel dan konektor merupakan penghantar dan penghubung arus listrik antar komponen dalam sistem pengisian. Kualitas sambungan sangat mempengaruhi kestabilan tegangan.",
+      "function": "1. Menyalurkan arus dari alternator ke regulator.\n2. Menghubungkan regulator dengan aki.\n3. Menjaga koneksi tetap stabil dan aman.",
+      "image": "/images/XRDCTSM-016/kabel.jpg",
+      "modelType": "box"
+    }
+  ]
 }

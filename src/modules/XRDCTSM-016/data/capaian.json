@@ -1,7 +1,38 @@
 {
-  "title": "Capaian Pembelajaran",
-  "description": "Deskripsi umum capaian pembelajaran modul ini. Silakan sesuaikan dengan kompetensi spesifik.",
-  "skkni": [],
-  "kurikulum": [],
-  "tujuan": []
+  "title": "Sistem Pengisian (Charging)",
+  "description": "Modul ini membahas konsep, komponen, prinsip kerja, pemeriksaan, perawatan, dan perbaikan sistem pengisian sepeda motor. Peserta didik akan memahami fungsi alternator/spul, regulator/rectifier, aki, serta prosedur pengujian menggunakan multimeter sesuai standar K3 dan SOP bengkel.",
+  "image": "/images/XRDCTSM-016/sistemPengisian.png",
+  "skkni": [
+    "Menerapkan prosedur Keselamatan dan Kesehatan Kerja (K3) di tempat kerja",
+    "Memelihara sistem kelistrikan sepeda motor",
+    "Memeriksa dan memperbaiki sistem pengisian sepeda motor",
+    "Menggunakan alat ukur kelistrikan (multimeter) sesuai prosedur",
+    "Membaca dan memahami wiring diagram sepeda motor"
+  ],
+  "kurikulum": {
+    "capaian_pembelajaran": [
+      "Peserta didik mampu memahami prinsip kerja sistem pengisian sepeda motor.",
+      "Peserta didik mampu mengidentifikasi komponen sistem pengisian (spul/alternator, regulator-rectifier, aki, kabel dan konektor).",
+      "Peserta didik mampu melakukan pemeriksaan tegangan dan arus pengisian menggunakan multimeter sesuai SOP.",
+      "Peserta didik mampu menganalisis gangguan pada sistem pengisian berdasarkan hasil pengukuran.",
+      "Peserta didik mampu melakukan perawatan dan perbaikan sistem pengisian sesuai standar industri."
+    ],
+    "alur_tujuan_pembelajaran": [
+      "Menjelaskan fungsi dan prinsip kerja sistem pengisian sepeda motor.",
+      "Mengidentifikasi dan menjelaskan fungsi masing-masing komponen sistem pengisian.",
+      "Membaca dan memahami wiring diagram sistem pengisian.",
+      "Melakukan pengujian tegangan aki dan tegangan pengisian saat mesin hidup.",
+      "Melakukan pengujian tahanan spul dan regulator menggunakan multimeter.",
+      "Menganalisis hasil pengukuran untuk menentukan kerusakan.",
+      "Melakukan tindakan perbaikan atau penggantian komponen yang rusak.",
+      "Menyusun laporan hasil pemeriksaan dan perbaikan sistem pengisian."
+    ]
+  },
+  "tujuan": [
+    "Siswa mampu menjelaskan prinsip kerja sistem pengisian sepeda motor secara teori.",
+    "Siswa mampu menggunakan multimeter untuk mengukur tegangan dan tahanan sistem pengisian.",
+    "Siswa mampu mendiagnosis kerusakan pada sistem pengisian secara sistematis.",
+    "Siswa mampu melakukan perbaikan sesuai standar operasional prosedur (SOP).",
+    "Siswa mampu menerapkan K3 dalam setiap kegiatan praktik sistem pengisian."
+  ]
 }
